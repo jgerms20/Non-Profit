@@ -1,0 +1,329 @@
+{
+  "senderDefaults": {
+    "senderName": "",
+    "senderTitle": "Founder",
+    "organizationName": "Southern AI Literacy Initiative"
+  },
+  "templates": [
+    {
+      "id": "intro-email",
+      "name": "Introduction Email",
+      "icon": "Mail",
+      "description": "A warm first introduction explaining who you are and what you're building. Best for first contact with a potential partner, supporter, or ally.",
+      "subject": "Connecting on AI Literacy in Rural SC — {{senderName}} from {{organizationName}}",
+      "body": "Hi {{contactName}},\n\nI hope this note finds you well. My name is {{senderName}}, and I'm the {{senderTitle}} of {{organizationName}} — a new nonprofit focused on increasing AI literacy in rural South Carolina communities.\n\n{{customParagraph}}\n\nI've been following the work {{contactOrganization}} is doing, and I think there's a genuine connection between what you're building and what we're trying to do. {{goalStatement}}\n\nI know your time is valuable, so I'll keep this brief — I'd love to find 20 minutes to introduce myself and share what we're working on. Would you be open to a quick conversation sometime in the next few weeks?\n\nThank you for your time.\n\nWarm regards,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "fields": [
+        {
+          "id": "contactName",
+          "label": "Contact's First Name",
+          "type": "text",
+          "autoFillFromContact": "name",
+          "placeholder": "e.g. Kim",
+          "required": true
+        },
+        {
+          "id": "contactOrganization",
+          "label": "Their Organization",
+          "type": "text",
+          "autoFillFromContact": "organization",
+          "placeholder": "e.g. SC Rural Innovation Network",
+          "required": true
+        },
+        {
+          "id": "senderName",
+          "label": "Your Name",
+          "type": "text",
+          "autoFillFromSender": "senderName",
+          "default": "",
+          "placeholder": "e.g. Joshua",
+          "required": true
+        },
+        {
+          "id": "senderTitle",
+          "label": "Your Title",
+          "type": "text",
+          "autoFillFromSender": "senderTitle",
+          "default": "Founder",
+          "placeholder": "e.g. Founder",
+          "required": true
+        },
+        {
+          "id": "organizationName",
+          "label": "Your Organization",
+          "type": "text",
+          "autoFillFromSender": "organizationName",
+          "default": "Southern AI Literacy Initiative",
+          "required": true
+        },
+        {
+          "id": "customParagraph",
+          "label": "Why you're reaching out (1-2 sentences)",
+          "type": "textarea",
+          "default": "",
+          "placeholder": "e.g. I've been thinking about the gap between how fast AI is changing the job market and how little access most rural SC communities have to even basic AI education. That gap is what pushed me to start this organization.",
+          "required": false
+        },
+        {
+          "id": "goalStatement",
+          "label": "What you're hoping for from this connection",
+          "type": "textarea",
+          "default": "I'd love to explore whether there's an opportunity to collaborate — whether that's sharing resources, co-hosting a program, or simply learning from each other.",
+          "placeholder": "e.g. I'd love to explore whether there's a way to bring AI literacy programming into the communities you're already serving.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "meeting-request",
+      "name": "Meeting Request",
+      "icon": "Calendar",
+      "description": "A direct ask for a specific meeting. Use this when you've already had an introduction or when someone has expressed interest. More specific than the intro email — you're asking for a concrete time.",
+      "subject": "{{meetingLength}} Meeting Request — {{senderName}}, {{organizationName}}",
+      "body": "Hi {{contactName}},\n\nThank you for {{connectionContext}} — I've been looking forward to following up.\n\nI'm reaching out to see if you'd be open to a {{meetingLength}} {{meetingType}} to discuss {{meetingPurpose}}.\n\n{{proposedDates}}\n\nI'm happy to work around your schedule — if none of those work, just let me know what does and I'll make it happen.\n\nA little more context on what I'd love to cover:\n{{agendaPoints}}\n\nLooking forward to connecting.\n\nBest,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "fields": [
+        {
+          "id": "contactName",
+          "label": "Contact's First Name",
+          "type": "text",
+          "autoFillFromContact": "name",
+          "placeholder": "e.g. Kim",
+          "required": true
+        },
+        {
+          "id": "senderName",
+          "label": "Your Name",
+          "type": "text",
+          "autoFillFromSender": "senderName",
+          "default": "",
+          "placeholder": "e.g. Joshua",
+          "required": true
+        },
+        {
+          "id": "senderTitle",
+          "label": "Your Title",
+          "type": "text",
+          "autoFillFromSender": "senderTitle",
+          "default": "Founder",
+          "required": true
+        },
+        {
+          "id": "organizationName",
+          "label": "Your Organization",
+          "type": "text",
+          "autoFillFromSender": "organizationName",
+          "default": "Southern AI Literacy Initiative",
+          "required": true
+        },
+        {
+          "id": "connectionContext",
+          "label": "How you're connected (prior interaction)",
+          "type": "text",
+          "default": "your time in connecting with us",
+          "placeholder": "e.g. your note back last week / connecting at the SCRIN event / our brief conversation at the incubator",
+          "required": false
+        },
+        {
+          "id": "meetingLength",
+          "label": "Meeting Length",
+          "type": "select",
+          "options": [
+            { "value": "15-minute", "label": "15 minutes" },
+            { "value": "30-minute", "label": "30 minutes" },
+            { "value": "1-hour", "label": "1 hour" }
+          ],
+          "default": "30-minute",
+          "required": true
+        },
+        {
+          "id": "meetingType",
+          "label": "Meeting Format",
+          "type": "select",
+          "options": [
+            { "value": "phone call", "label": "Phone call" },
+            { "value": "video call", "label": "Video call (Zoom/Meet)" },
+            { "value": "in-person meeting", "label": "In person" },
+            { "value": "coffee meeting", "label": "Coffee" }
+          ],
+          "default": "video call",
+          "required": true
+        },
+        {
+          "id": "meetingPurpose",
+          "label": "What the meeting is about (brief)",
+          "type": "text",
+          "default": "our work in AI literacy and potential partnership opportunities",
+          "placeholder": "e.g. how we might bring AI education programming to communities you serve",
+          "required": true
+        },
+        {
+          "id": "proposedDates",
+          "label": "Proposed Dates and Times",
+          "type": "textarea",
+          "default": "I'm generally available:\n- Tuesdays and Thursdays after 2pm ET\n- Friday mornings\n- Or anytime that works best for you",
+          "placeholder": "List 2-3 specific options, or describe your general availability",
+          "required": true
+        },
+        {
+          "id": "agendaPoints",
+          "label": "Quick agenda (2-3 bullet points)",
+          "type": "textarea",
+          "default": "- Brief intro to the Southern AI Literacy Initiative and our 3-phase vision\n- Learn more about your current programs and the communities you serve\n- Explore whether there's a natural fit for collaboration",
+          "placeholder": "What you want to talk about — keep it to 2-3 items",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "follow-up",
+      "name": "Follow Up",
+      "icon": "RefreshCw",
+      "description": "For when you've sent an initial message and haven't heard back. Gentle, brief, and respectful. People are busy — a thoughtful follow-up is expected, not pushy.",
+      "subject": "Re: {{originalSubject}}",
+      "body": "Hi {{contactName}},\n\nI wanted to follow up on my note from {{timeElapsed}} ago about {{originalTopic}}.\n\nI know your inbox is probably as full as mine — I just wanted to make sure my message didn't slip through the cracks. {{followUpContext}}\n\nIf this isn't the right time or {{organizationName}} isn't a fit for {{contactOrganization}}, no worries at all — I'd rather know than wonder.\n\nBut if you are open to connecting, I'm still very interested and happy to work around your schedule.\n\nThank you,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "fields": [
+        {
+          "id": "contactName",
+          "label": "Contact's First Name",
+          "type": "text",
+          "autoFillFromContact": "name",
+          "placeholder": "e.g. Kim",
+          "required": true
+        },
+        {
+          "id": "contactOrganization",
+          "label": "Their Organization",
+          "type": "text",
+          "autoFillFromContact": "organization",
+          "placeholder": "e.g. SC Rural Innovation Network",
+          "required": true
+        },
+        {
+          "id": "senderName",
+          "label": "Your Name",
+          "type": "text",
+          "autoFillFromSender": "senderName",
+          "default": "",
+          "required": true
+        },
+        {
+          "id": "senderTitle",
+          "label": "Your Title",
+          "type": "text",
+          "autoFillFromSender": "senderTitle",
+          "default": "Founder",
+          "required": true
+        },
+        {
+          "id": "organizationName",
+          "label": "Your Organization",
+          "type": "text",
+          "autoFillFromSender": "organizationName",
+          "default": "Southern AI Literacy Initiative",
+          "required": true
+        },
+        {
+          "id": "originalSubject",
+          "label": "Subject line of your original message",
+          "type": "text",
+          "default": "",
+          "placeholder": "e.g. Connecting on AI Literacy in Rural SC",
+          "required": true
+        },
+        {
+          "id": "originalTopic",
+          "label": "What your original message was about",
+          "type": "text",
+          "default": "our work in AI literacy and a potential conversation",
+          "placeholder": "e.g. exploring a partnership to bring AI education to rural SC communities",
+          "required": true
+        },
+        {
+          "id": "timeElapsed",
+          "label": "How long ago you sent the first message",
+          "type": "select",
+          "options": [
+            { "value": "about a week", "label": "About 1 week" },
+            { "value": "a couple of weeks", "label": "About 2 weeks" },
+            { "value": "about a month", "label": "About 1 month" }
+          ],
+          "default": "a couple of weeks",
+          "required": true
+        },
+        {
+          "id": "followUpContext",
+          "label": "Anything new to add since your last message (optional)",
+          "type": "textarea",
+          "default": "",
+          "placeholder": "e.g. Since I wrote, we've confirmed our first pilot location in Beaufort County — which makes the timing feel even more relevant.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "partnership-proposal",
+      "name": "Partnership Proposal",
+      "icon": "Handshake",
+      "description": "A more formal proposal for collaboration. Use this after you've had an initial conversation and there's mutual interest. Lays out specifically what you're proposing and what you're asking for.",
+      "subject": "Partnership Proposal — {{organizationName}} x {{contactOrganization}}",
+      "body": "Hi {{contactName}},\n\nThank you for taking the time to connect — I've been thinking about our conversation, and I wanted to put something more concrete on paper.\n\n{{organizationName}} is building AI literacy programs for rural South Carolina communities — people who are already feeling the effects of an AI-driven economy but have had very little access to education, training, or tools to navigate it. Our approach is grounded in where people actually are: practical, jargon-free, and built around real work and real lives.\n\nI believe a partnership with {{contactOrganization}} could be genuinely powerful for both of us. Here's why:\n\n{{partnershipBenefits}}\n\nWhat I'm specifically hoping to explore:\n\n{{specificAsk}}\n\nI want to be direct: I'm not asking for money. I'm asking for a relationship. The organizations I most want to partner with are the ones already doing good work in these communities — like {{contactOrganization}}. A formal partnership could mean something as simple as co-hosting an event, sharing each other's networks, or building a program together. Whatever makes sense for where you are.\n\nI've attached a one-page overview of {{organizationName}} for context. I'd welcome any questions, pushback, or ideas you have — and I'm happy to revise this based on what would actually be useful to {{contactOrganization}}.\n\nThank you for considering this.\n\nWith appreciation,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "fields": [
+        {
+          "id": "contactName",
+          "label": "Contact's First Name",
+          "type": "text",
+          "autoFillFromContact": "name",
+          "placeholder": "e.g. Kim",
+          "required": true
+        },
+        {
+          "id": "contactOrganization",
+          "label": "Their Organization",
+          "type": "text",
+          "autoFillFromContact": "organization",
+          "placeholder": "e.g. SC Rural Innovation Network",
+          "required": true
+        },
+        {
+          "id": "senderName",
+          "label": "Your Name",
+          "type": "text",
+          "autoFillFromSender": "senderName",
+          "default": "",
+          "required": true
+        },
+        {
+          "id": "senderTitle",
+          "label": "Your Title",
+          "type": "text",
+          "autoFillFromSender": "senderTitle",
+          "default": "Founder",
+          "required": true
+        },
+        {
+          "id": "organizationName",
+          "label": "Your Organization",
+          "type": "text",
+          "autoFillFromSender": "organizationName",
+          "default": "Southern AI Literacy Initiative",
+          "required": true
+        },
+        {
+          "id": "partnershipBenefits",
+          "label": "Why this partnership benefits both sides (2-4 bullet points)",
+          "type": "textarea",
+          "default": "- You reach communities that need what you offer, and we reach communities that need what we offer — together, we double our reach\n- Your organization's trust and community presence combined with our AI education content creates something neither of us could build alone\n- A documented partnership strengthens both our organizations' stories for grant applications\n- We can co-design programming that reflects your deep knowledge of the communities we're both trying to serve",
+          "placeholder": "Be specific about what THEY get, not just what you need from them",
+          "required": true
+        },
+        {
+          "id": "specificAsk",
+          "label": "Exactly what you're proposing (be concrete)",
+          "type": "textarea",
+          "default": "- A formal Memorandum of Understanding (MOU) establishing us as organizational partners\n- Co-hosting 2-3 AI literacy workshops at locations your organization already serves in Year 1\n- Mutual promotion through our respective communications channels\n- Exploring joint grant applications where our missions align",
+          "placeholder": "List your specific asks. Concrete is better than vague — it shows you've thought this through.",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

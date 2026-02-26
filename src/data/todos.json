@@ -1,0 +1,425 @@
+{
+  "timeframes": [
+    {
+      "id": "this-week",
+      "label": "This Week",
+      "simpleExplanation": "Do these right now — they're the most urgent and set everything else in motion.",
+      "icon": "Zap"
+    },
+    {
+      "id": "this-month",
+      "label": "This Month",
+      "simpleExplanation": "These are your big moves for the month. Each one gets you closer to having a real, official nonprofit.",
+      "icon": "Calendar"
+    },
+    {
+      "id": "next-3-months",
+      "label": "Next 3 Months",
+      "simpleExplanation": "These are the medium-term goals. By the time you finish these, your nonprofit will be running programs and applying for serious funding.",
+      "icon": "Target"
+    },
+    {
+      "id": "six-plus-months",
+      "label": "6+ Months",
+      "simpleExplanation": "These are the bigger vision items. They'll happen naturally as Phase 1 gets rolling.",
+      "icon": "Rocket"
+    }
+  ],
+  "todos": [
+    {
+      "id": "t1",
+      "title": "Search for Nonprofit Name",
+      "description": "Go to businessfilings.sc.gov and search for name availability. Try: Southern AI Literacy Initiative, Palmetto AI Project, Roots & Algorithms, The Digital Harvest Initiative.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-01",
+      "subtasks": [
+        { "id": "t1-s1", "title": "Brainstorm 5 name options", "completed": false },
+        { "id": "t1-s2", "title": "Search each on SC business filings", "completed": false },
+        { "id": "t1-s3", "title": "Check domain availability for top 3 names", "completed": false },
+        { "id": "t1-s4", "title": "Reserve top choice name ($10)", "completed": false }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Identify 2-3 Potential Board Members",
+      "description": "Reach out informally to people who can fill three roles: nonprofit governance experience, tech/AI knowledge, and deep community ties. You don't need all three in one person — spread it across your board.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-01",
+      "subtasks": [
+        { "id": "t2-s1", "title": "List 6-8 candidates from your network", "completed": false },
+        { "id": "t2-s2", "title": "Identify which gap each candidate fills", "completed": false },
+        { "id": "t2-s3", "title": "Send casual 'I'm building something' message to top 3", "completed": false }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Draft 1-Page Concept Overview",
+      "description": "Write a one-pager that you can hand to potential partners, board members, and funders. Include: mission statement, the 3-phase vision, what communities you serve, and what you're looking for (partners, board members, early supporters).",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-01",
+      "subtasks": [
+        { "id": "t3-s1", "title": "Write mission statement (1-2 sentences)", "completed": false },
+        { "id": "t3-s2", "title": "Summarize 3-phase vision in plain language", "completed": false },
+        { "id": "t3-s3", "title": "Describe target communities and problem being solved", "completed": false },
+        { "id": "t3-s4", "title": "Add a clear call to action (what you need)", "completed": false },
+        { "id": "t3-s5", "title": "Design a clean, shareable PDF version", "completed": false }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "Reach Out to Kim Bowman (SCRIN)",
+      "description": "Kim Bowman at the SC Rural Innovation Network is the most important early connection you can make. SCRIN already has trust in rural communities across SC — a relationship here opens doors to pilot sites, credibility, and rural-specific funding. Find her on LinkedIn or through the SC Office of Rural Health.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-01",
+      "subtasks": [
+        { "id": "t4-s1", "title": "Find Kim Bowman on LinkedIn or SCRIN website", "completed": false },
+        { "id": "t4-s2", "title": "Draft personalized intro message", "completed": false },
+        { "id": "t4-s3", "title": "Send message or email", "completed": false }
+      ]
+    },
+    {
+      "id": "t5",
+      "title": "Contact UofSC Office of Innovation",
+      "description": "Leverage your alumni status to open doors at USC. The Office of Innovation connects alumni entrepreneurs with university resources, incubator space, and faculty experts. Ask specifically about the Technology Incubator and any AI or civic tech programs.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-02",
+      "subtasks": [
+        { "id": "t5-s1", "title": "Find contact info for UofSC Office of Innovation", "completed": false },
+        { "id": "t5-s2", "title": "Draft email mentioning alumni status and nonprofit focus", "completed": false },
+        { "id": "t5-s3", "title": "Ask about incubator access and faculty partnerships", "completed": false }
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "Visit USC/Columbia Technology Incubator",
+      "description": "Go see the space in person. Walking in as an alumni founder creates a very different impression than an email. Meet current founders in the building, get a feel for the ecosystem, and ask about what it takes to get space there.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-05",
+      "subtasks": [
+        { "id": "t6-s1", "title": "Look up address and visiting hours", "completed": false },
+        { "id": "t6-s2", "title": "Prepare 60-second intro of your project", "completed": false },
+        { "id": "t6-s3", "title": "Visit, introduce yourself, and take notes on what you learn", "completed": false }
+      ]
+    },
+    {
+      "id": "t7",
+      "title": "Reach Out to Rep. Jeff Bradley's Office",
+      "description": "Rep. Jeff Bradley (SC House) represents Beaufort and is reachable as a constituent. Ask for a brief constituent meeting or send an intro email about your AI literacy work. Elected officials love being early supporters of community-benefit tech initiatives — this could lead to introductions, advocacy, and eventual public funding.",
+      "timeframe": "this-week",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-05",
+      "subtasks": [
+        { "id": "t7-s1", "title": "Find contact info for Rep. Bradley's district office", "completed": false },
+        { "id": "t7-s2", "title": "Draft constituent intro email about the project", "completed": false },
+        { "id": "t7-s3", "title": "Send email and request a brief meeting", "completed": false }
+      ]
+    },
+    {
+      "id": "t8",
+      "title": "File Articles of Incorporation",
+      "description": "Go to sos.sc.gov and file your Articles of Incorporation online. This is the document that officially creates your nonprofit as a legal entity in South Carolina. Filing fee is $32.50. You'll need your name (once confirmed available), registered agent, and board member info.",
+      "timeframe": "this-month",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-10",
+      "subtasks": [
+        { "id": "t8-s1", "title": "Confirm nonprofit name is available and reserved", "completed": false },
+        { "id": "t8-s2", "title": "Identify registered agent (can be yourself)", "completed": false },
+        { "id": "t8-s3", "title": "Gather board member names and addresses", "completed": false },
+        { "id": "t8-s4", "title": "Complete and submit Articles of Incorporation at sos.sc.gov ($32.50)", "completed": false },
+        { "id": "t8-s5", "title": "Save confirmation and certificate of incorporation", "completed": false }
+      ]
+    },
+    {
+      "id": "t9",
+      "title": "Get EIN from IRS",
+      "description": "Apply for your Employer Identification Number (EIN) at IRS.gov. It's free and takes about 10 minutes online. You'll receive it instantly. You cannot open a bank account, apply for tax exemption, or accept most grants without an EIN.",
+      "timeframe": "this-month",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-12",
+      "subtasks": [
+        { "id": "t9-s1", "title": "Have Articles of Incorporation ready before applying", "completed": false },
+        { "id": "t9-s2", "title": "Go to IRS.gov EIN online application", "completed": false },
+        { "id": "t9-s3", "title": "Complete application (select 'Other nonprofit/tax-exempt organizations')", "completed": false },
+        { "id": "t9-s4", "title": "Save EIN confirmation letter (CP 575)", "completed": false }
+      ]
+    },
+    {
+      "id": "t10",
+      "title": "Hold Organizational Board Meeting",
+      "description": "Once you have your board members identified, hold your first official meeting. Virtual is fine. You need to formally approve your bylaws, elect officers (President, Secretary, Treasurer at minimum), and document it in meeting minutes. This is a legal requirement before filing for 501(c)(3) status.",
+      "timeframe": "this-month",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-20",
+      "subtasks": [
+        { "id": "t10-s1", "title": "Finalize board member commitments", "completed": false },
+        { "id": "t10-s2", "title": "Draft or adapt nonprofit bylaws template", "completed": false },
+        { "id": "t10-s3", "title": "Schedule meeting (Zoom or in-person)", "completed": false },
+        { "id": "t10-s4", "title": "Conduct meeting: approve bylaws, elect officers", "completed": false },
+        { "id": "t10-s5", "title": "Document meeting minutes and have board sign", "completed": false }
+      ]
+    },
+    {
+      "id": "t11",
+      "title": "File Form 1023-EZ for 501(c)(3) Status",
+      "description": "This is the most consequential filing you'll make. Form 1023-EZ is the streamlined version of the federal tax-exempt application, available for organizations expecting under $50K/year in revenue initially. Filing fee is $275. Once approved, donations to your organization are tax-deductible and you can apply for foundation and government grants. File at pay.gov.",
+      "timeframe": "this-month",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-28",
+      "subtasks": [
+        { "id": "t11-s1", "title": "Confirm eligibility for 1023-EZ (under $50K projected revenue)", "completed": false },
+        { "id": "t11-s2", "title": "Gather required docs: EIN, Articles, Bylaws, board member info", "completed": false },
+        { "id": "t11-s3", "title": "Complete Form 1023-EZ at pay.gov", "completed": false },
+        { "id": "t11-s4", "title": "Pay $275 filing fee", "completed": false },
+        { "id": "t11-s5", "title": "Save IRS determination letter when received (typically 2-4 weeks)", "completed": false }
+      ]
+    },
+    {
+      "id": "t12",
+      "title": "Set Up Website and Social Channels",
+      "description": "Use your design and dev skills here — this is your chance to make the organization look credible from day one. A clean website with your mission, team, and a way to contact you does more than any pitch deck. Also set up LinkedIn (most important for this work), Twitter/X, and Instagram.",
+      "timeframe": "this-month",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-25",
+      "subtasks": [
+        { "id": "t12-s1", "title": "Register domain name", "completed": false },
+        { "id": "t12-s2", "title": "Build or deploy basic website (mission, team, contact)", "completed": false },
+        { "id": "t12-s3", "title": "Create LinkedIn organization page", "completed": false },
+        { "id": "t12-s4", "title": "Create Instagram and Twitter/X accounts", "completed": false },
+        { "id": "t12-s5", "title": "Post first piece of content on each platform", "completed": false }
+      ]
+    },
+    {
+      "id": "t13",
+      "title": "Begin Drafting First Grant Application",
+      "description": "Target the OpenAI People-First AI Fund as your first major grant attempt. Start drafting even before you have your 501(c)(3) determination — the writing process will sharpen your mission and make every future application faster. Focus on your story, the problem in rural SC, and your specific approach.",
+      "timeframe": "this-month",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-03-31",
+      "subtasks": [
+        { "id": "t13-s1", "title": "Research OpenAI People-First AI Fund eligibility and requirements", "completed": false },
+        { "id": "t13-s2", "title": "Outline grant narrative (problem, solution, approach, impact)", "completed": false },
+        { "id": "t13-s3", "title": "Draft budget for proposed program activities", "completed": false },
+        { "id": "t13-s4", "title": "Write first full draft of application", "completed": false }
+      ]
+    },
+    {
+      "id": "t14",
+      "title": "Pilot First AI Literacy Workshop",
+      "description": "Partner with SCRIN or a local library to run your first real workshop. Keep it small — 10 to 20 people is a great first run. Focus on something practical: what AI tools exist, how to use them safely, what they mean for jobs in their community. Document everything for grant applications.",
+      "timeframe": "next-3-months",
+      "priority": "high",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-05-15",
+      "subtasks": [
+        { "id": "t14-s1", "title": "Confirm venue partner (SCRIN, library, or community center)", "completed": false },
+        { "id": "t14-s2", "title": "Design workshop curriculum (2-3 hours, hands-on)", "completed": false },
+        { "id": "t14-s3", "title": "Promote event to target community", "completed": false },
+        { "id": "t14-s4", "title": "Run workshop", "completed": false },
+        { "id": "t14-s5", "title": "Collect participant feedback forms", "completed": false },
+        { "id": "t14-s6", "title": "Write post-event summary with photos and metrics", "completed": false }
+      ]
+    },
+    {
+      "id": "t15",
+      "title": "Apply for USDA Rural Business Development Grant",
+      "description": "The USDA Rural Business Development Grant (RBDG) funds technical assistance and training projects that benefit rural small businesses and communities. Grants range from $10K to $500K. This is a natural fit for an AI literacy and workforce development program in rural SC.",
+      "timeframe": "next-3-months",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-05-30",
+      "subtasks": [
+        { "id": "t15-s1", "title": "Research current USDA RBDG application window at rd.usda.gov", "completed": false },
+        { "id": "t15-s2", "title": "Contact local USDA Rural Development office in SC", "completed": false },
+        { "id": "t15-s3", "title": "Prepare application with program narrative and budget", "completed": false },
+        { "id": "t15-s4", "title": "Submit application before deadline", "completed": false }
+      ]
+    },
+    {
+      "id": "t16",
+      "title": "Apply for Google for Nonprofits",
+      "description": "Google for Nonprofits gives qualified 501(c)(3) organizations free Google Workspace (email, Drive, Meet) and up to $10,000/month in free Google Ads through the Ad Grants program. You need your IRS determination letter first. Apply at google.com/nonprofits.",
+      "timeframe": "next-3-months",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-05-01",
+      "subtasks": [
+        { "id": "t16-s1", "title": "Wait for IRS 501(c)(3) determination letter", "completed": false },
+        { "id": "t16-s2", "title": "Register with TechSoup (required intermediary)", "completed": false },
+        { "id": "t16-s3", "title": "Apply at google.com/nonprofits", "completed": false },
+        { "id": "t16-s4", "title": "Set up Google Workspace for organization", "completed": false },
+        { "id": "t16-s5", "title": "Activate and configure Google Ad Grants account", "completed": false }
+      ]
+    },
+    {
+      "id": "t17",
+      "title": "Build Relationships with aiEDU, CORI, and 4-H",
+      "description": "These three organizations are natural curriculum and partnership allies. aiEDU builds AI literacy curriculum you can use or adapt. CORI (Center on Rural Innovation) focuses on rural tech ecosystems. 4-H has deep rural community trust and infrastructure across SC. Start with warm intro messages to each.",
+      "timeframe": "next-3-months",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-05-15",
+      "subtasks": [
+        { "id": "t17-s1", "title": "Research each org's mission, current programs, and key contacts", "completed": false },
+        { "id": "t17-s2", "title": "Send intro email to aiEDU", "completed": false },
+        { "id": "t17-s3", "title": "Send intro email to CORI", "completed": false },
+        { "id": "t17-s4", "title": "Contact SC 4-H state office about collaboration", "completed": false },
+        { "id": "t17-s5", "title": "Schedule follow-up calls with interested contacts", "completed": false }
+      ]
+    },
+    {
+      "id": "t18",
+      "title": "Document Everything",
+      "description": "Start building your evidence base now. Every workshop, every meeting, every email from a community member about impact — save it. Photos, testimonials, attendance numbers, pre/post surveys. This is what turns a grant application from 'promising idea' to 'proven approach.' Create a simple shared folder system.",
+      "timeframe": "next-3-months",
+      "priority": "medium",
+      "phase": "phase-1",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-06-30",
+      "subtasks": [
+        { "id": "t18-s1", "title": "Create Google Drive folder structure for program documentation", "completed": false },
+        { "id": "t18-s2", "title": "Design a simple participant feedback form", "completed": false },
+        { "id": "t18-s3", "title": "Take photos at every event (with permission)", "completed": false },
+        { "id": "t18-s4", "title": "Collect 3-5 written testimonials after first workshop", "completed": false },
+        { "id": "t18-s5", "title": "Write a monthly impact summary starting Month 1", "completed": false }
+      ]
+    },
+    {
+      "id": "t19",
+      "title": "Apply for OpenAI People-First AI Fund",
+      "description": "The OpenAI People-First AI Fund is one of the most relevant grants for this work — it specifically supports organizations helping communities navigate AI's impact on work and society. Monitor openai.com/foundation for the next application window. By this point you'll have your 501(c)(3) status and a pilot workshop to point to.",
+      "timeframe": "six-plus-months",
+      "priority": "high",
+      "phase": "phase-2",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-09-30",
+      "subtasks": [
+        { "id": "t19-s1", "title": "Monitor openai.com/foundation for next application window", "completed": false },
+        { "id": "t19-s2", "title": "Refine grant narrative using pilot workshop data", "completed": false },
+        { "id": "t19-s3", "title": "Submit application with full documentation package", "completed": false }
+      ]
+    },
+    {
+      "id": "t20",
+      "title": "Establish Corporate Sponsorships",
+      "description": "Tech companies increasingly need ESG (Environmental, Social, Governance) and CSR (Corporate Social Responsibility) visibility. An AI literacy nonprofit in a rural Southern state is a compelling, differentiated story for a tech company's impact report. Target Salesforce, Microsoft, IBM, and regional tech employers in SC.",
+      "timeframe": "six-plus-months",
+      "priority": "medium",
+      "phase": "phase-2",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-11-30",
+      "subtasks": [
+        { "id": "t20-s1", "title": "Build a corporate sponsorship deck (1-2 pages)", "completed": false },
+        { "id": "t20-s2", "title": "Create tiered sponsorship levels with clear benefits", "completed": false },
+        { "id": "t20-s3", "title": "Identify and research 10 target companies", "completed": false },
+        { "id": "t20-s4", "title": "Make first outreach to 3-5 companies", "completed": false }
+      ]
+    },
+    {
+      "id": "t21",
+      "title": "Design Incubator Curriculum",
+      "description": "Phase 2 is the AI-native business incubator for rural SC entrepreneurs. Start designing the curriculum: what does someone need to know to build a business using AI tools in 2026? Focus on practical tools (not theory), real business use cases, and the specific challenges of rural markets.",
+      "timeframe": "six-plus-months",
+      "priority": "medium",
+      "phase": "phase-2",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-10-31",
+      "subtasks": [
+        { "id": "t21-s1", "title": "Research existing business incubator curriculum models", "completed": false },
+        { "id": "t21-s2", "title": "Interview 5-10 rural entrepreneurs about their AI knowledge gaps", "completed": false },
+        { "id": "t21-s3", "title": "Draft 6-week curriculum outline", "completed": false },
+        { "id": "t21-s4", "title": "Test key modules in Phase 1 workshops", "completed": false }
+      ]
+    },
+    {
+      "id": "t22",
+      "title": "Plan First Hackathon Event",
+      "description": "A community hackathon is a high-visibility event that attracts press, sponsors, and talent. Themed around 'AI solutions for rural SC problems' — farming, healthcare access, economic development. Plan for 50-100 participants, a day-long format, and small cash prizes funded by sponsors.",
+      "timeframe": "six-plus-months",
+      "priority": "low",
+      "phase": "phase-2",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2026-12-31",
+      "subtasks": [
+        { "id": "t22-s1", "title": "Choose format, date, and venue", "completed": false },
+        { "id": "t22-s2", "title": "Recruit sponsors for prizes and catering", "completed": false },
+        { "id": "t22-s3", "title": "Build registration and marketing plan", "completed": false },
+        { "id": "t22-s4", "title": "Recruit judges and mentors", "completed": false }
+      ]
+    },
+    {
+      "id": "t23",
+      "title": "Research SEC Requirements for Phase 3",
+      "description": "Phase 3 involves a community angel fund and potentially a hedge fund structure for AI-driven rural investment. Before you get there, you need to understand SEC regulations for investment vehicles, accredited investor rules, and how a nonprofit can legally operate alongside or spin off a for-profit investment entity. Get an attorney involved.",
+      "timeframe": "six-plus-months",
+      "priority": "low",
+      "phase": "phase-3",
+      "assignee": "Joshua",
+      "status": "not-started",
+      "dueDate": "2027-03-31",
+      "subtasks": [
+        { "id": "t23-s1", "title": "Consult with a securities attorney about fund structures", "completed": false },
+        { "id": "t23-s2", "title": "Research accredited investor rules and Reg CF crowdfunding", "completed": false },
+        { "id": "t23-s3", "title": "Explore CDFIs (Community Development Financial Institutions) as a model", "completed": false },
+        { "id": "t23-s4", "title": "Draft a preliminary Phase 3 legal structure memo", "completed": false }
+      ]
+    }
+  ]
+}

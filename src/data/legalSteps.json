@@ -1,0 +1,521 @@
+{
+  "sections": [
+    {
+      "id": "pre-formation",
+      "title": "Pre-Formation",
+      "simpleExplanation": "These are the things you do BEFORE officially creating your nonprofit. Think of it like gathering all your supplies and writing your plans before you start building a house. You can't start building until you know what you're building, who's helping you, and what address it's going to have!",
+      "order": 1
+    },
+    {
+      "id": "formation",
+      "title": "Formation",
+      "simpleExplanation": "This is when you officially create your nonprofit with the state and federal government. It's like getting your organization's birth certificate. After these steps, your nonprofit is a real legal thing that exists in the eyes of the law!",
+      "order": 2
+    },
+    {
+      "id": "tax-exempt",
+      "title": "Tax-Exempt Status",
+      "simpleExplanation": "This is how you tell the government, 'Hey, we're doing good work for the community, so we shouldn't have to pay taxes on the money people give us.' It's a special permission called 501(c)(3). Once you have it, people who donate to you can deduct it from their own taxes — which means MORE people will want to give you money!",
+      "order": 3
+    },
+    {
+      "id": "launch-ops",
+      "title": "Launch Operations",
+      "simpleExplanation": "Now that your nonprofit officially exists, it's time to set up everything you need to actually start doing the work — like getting a bank account, building a website, and finding money to fund your programs. This is the exciting part where things start feeling REAL!",
+      "order": 4
+    }
+  ],
+  "steps": [
+    {
+      "id": "ls-1",
+      "section": "pre-formation",
+      "title": "Choose Your Nonprofit Name",
+      "order": 1,
+      "simpleExplanation": "Just like naming a pet or a new baby, your nonprofit needs a name! You go to a special SC government website, type in names you like, and see if anyone else already took them. If your name is available, you can 'hold' it for 4 months by paying just $10 — kind of like calling dibs so nobody else can grab it while you're getting everything else ready. Pick a name that tells people what you do. 'Southern AI Literacy Initiative' is great because it tells you WHERE (Southern), WHAT (AI), and WHY (Literacy) all at once.",
+      "detailedSteps": [
+        "Go to businessfilings.sc.gov",
+        "Click on 'Business Name Search' to see if your name is available",
+        "Try several variations until you find one that's available and that you love",
+        "If available, file a name reservation ($10 fee) to hold it for 120 days",
+        "Also check if the .org domain is available at a site like Namecheap.com — buy it if it is (about $15/year)"
+      ],
+      "estimatedCost": { "min": 0, "max": 10 },
+      "estimatedTime": "1 day",
+      "status": "not-started",
+      "resources": [
+        { "title": "SC Business Filing Portal — Name Search", "url": "https://businessfilings.sc.gov", "type": "tool" },
+        { "title": "Namecheap — Domain Search", "url": "https://www.namecheap.com", "type": "tool" }
+      ],
+      "tips": [
+        "Pick a name that clearly describes what you do — future donors and grant reviewers will see it immediately",
+        "Check if the website domain (.org is ideal for nonprofits) is available too — grab it when you find a name you love",
+        "Consider whether the initials spell something memorable — an acronym like SALI could be great for marketing",
+        "Avoid names too similar to existing SC nonprofits — the SOS will reject confusingly similar names",
+        "Google the name to make sure there's no controversy or unrelated business with that name"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-2",
+      "section": "pre-formation",
+      "title": "Identify 3 Board Members",
+      "order": 2,
+      "simpleExplanation": "A nonprofit isn't run by one person — it's run by a group called a Board of Directors. Think of them like the team captains of your organization. South Carolina law says you need at LEAST 3 people to start, and they can't all be from the same family. These are people who believe in your mission and will help make big decisions, open doors to funding, and keep the organization honest and on track. Your board members are like the dream team that makes your nonprofit credible and powerful!",
+      "detailedSteps": [
+        "Identify at least 3 individuals willing to serve as directors",
+        "Directors cannot all be related by blood or marriage (you need at least some unrelated members)",
+        "Confirm each person's willingness to serve in writing — an email confirmation is fine",
+        "Gather full legal names and addresses for each director (needed for Articles of Incorporation)",
+        "Consider what skills each person brings: legal/financial expertise, community connections, or technology experience",
+        "Discuss board expectations upfront: meeting frequency, committee roles, and any fundraising expectations"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "1-2 weeks",
+      "status": "not-started",
+      "resources": [
+        { "title": "BoardSource — Finding Board Members Guide", "url": "https://boardsource.org/resources/finding-board-members/", "type": "guide" },
+        { "title": "SC Nonprofit Association", "url": "https://www.scnonprofits.org", "type": "organization" }
+      ],
+      "tips": [
+        "Choose board members who bring skills you don't have — legal expertise, accounting, community relationships, or fundraising experience",
+        "Look for people with credibility in rural SC communities — their names on your letterhead will open doors",
+        "Consider asking Kim Bowman (SCRIN) or someone from the UofSC network to serve",
+        "Board members can also be donors but cannot be paid employees — keep this distinction clear",
+        "Aim for a board that reflects the communities you serve — diversity in background and perspective strengthens everything"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-3",
+      "section": "pre-formation",
+      "title": "Choose a Registered Agent",
+      "order": 3,
+      "simpleExplanation": "Your nonprofit needs a 'home address' in South Carolina where the government can send official legal mail. This person or company is called a Registered Agent. It's like having a reliable friend who agrees to be the one who receives important mail for your organization. They have to be available at their address during regular business hours. You can be your own registered agent if you have a SC address, but many nonprofits pay a company about $100-200 a year to do this professionally and keep their home address private.",
+      "detailedSteps": [
+        "Option A — DIY: You or a board member with a South Carolina physical address serves as registered agent at no extra cost",
+        "Option B — Paid Service: Hire a registered agent service like Northwest Registered Agent or Registered Agents Inc. for about $100-200/year",
+        "Registered agent must have a physical SC address (no P.O. boxes allowed)",
+        "They must be available during regular business hours (9am-5pm) to receive legal documents",
+        "Include the registered agent's name and full physical address in your Articles of Incorporation"
+      ],
+      "estimatedCost": { "min": 0, "max": 200 },
+      "estimatedTime": "1 day",
+      "status": "not-started",
+      "resources": [
+        { "title": "Northwest Registered Agent — SC", "url": "https://www.northwestregisteredagent.com/registered-agent/south-carolina", "type": "service" },
+        { "title": "SC Secretary of State — Registered Agent Info", "url": "https://sos.sc.gov/business/registered-agent", "type": "guide" }
+      ],
+      "tips": [
+        "If you're running this organization remotely, hiring a registered agent service ($100-200/year) is the easiest option — they handle all legal mail forwarding",
+        "Northwest Registered Agent is highly rated and affordable for small nonprofits",
+        "Make sure whichever address you use is reliably monitored — missing a legal notice can cause serious problems",
+        "The registered agent address becomes public record, so many people prefer a service over listing their home address"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-4",
+      "section": "pre-formation",
+      "title": "Draft Your Mission Statement",
+      "order": 4,
+      "simpleExplanation": "Your mission statement is like your organization's north star — it tells everyone, in one or two sentences, WHY you exist and WHO you help. This goes right into your official legal documents (the Articles of Incorporation), so it needs to be clear and powerful. A great mission statement is short enough to memorize but specific enough to tell people exactly what you do. Think about it like a superhero's origin story: What problem are you fighting? Who are you protecting? How do you do it?",
+      "detailedSteps": [
+        "Brainstorm answers to three questions: Who do you serve? What do you do for them? Why does it matter?",
+        "Draft 3-5 different versions of your mission statement and compare them",
+        "Test each version by reading it to someone unfamiliar with your work — do they immediately understand what you do?",
+        "Keep it to 1-3 sentences maximum — shorter is usually better",
+        "Avoid jargon and tech buzzwords that regular people might not understand",
+        "Get board member feedback and reach consensus on the final version",
+        "This statement will appear in your Articles, grant applications, website, and all fundraising materials — make it count"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "2-3 days",
+      "status": "not-started",
+      "resources": [
+        { "title": "Bridgespan — How to Write a Nonprofit Mission Statement", "url": "https://www.bridgespan.org/insights/library/nonprofit-management/how-to-write-a-nonprofit-mission-statement", "type": "guide" }
+      ],
+      "tips": [
+        "Your mission statement should make someone want to donate or volunteer just by reading it",
+        "Include the geographic area (rural South Carolina or the rural South) — this specificity is powerful for grants",
+        "The IRS reviews your mission statement during 501(c)(3) review — make sure it clearly describes charitable, educational, or scientific purposes",
+        "Avoid being too broad ('we help people') or too narrow ('we teach ChatGPT to 45-65 year-olds in Orangeburg County')",
+        "Use active verbs: advance, empower, bridge, equip, transform"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-5",
+      "section": "formation",
+      "title": "File Articles of Incorporation",
+      "order": 5,
+      "simpleExplanation": "This is the official document that tells South Carolina, 'We exist!' You fill out a special government form called Form NP (NP stands for Non-Profit) and send it to the SC Secretary of State with $32.50. Within a day or two, you'll get back an official certificate that proves your nonprofit is a real legal organization. It's like getting your organization's birth certificate from the government. Once you have this document in hand, everything else opens up — including your bank account and EIN!",
+      "detailedSteps": [
+        "Download Form NP from the SC Secretary of State website at sos.sc.gov",
+        "Fill in: nonprofit name (exactly as reserved), registered agent name and address, charitable purpose statement (your mission), initial board member names and addresses",
+        "IMPORTANT: Your purpose clause must include 'organized exclusively for charitable, educational, or scientific purposes' — this exact IRS language is required for later 501(c)(3) approval",
+        "IMPORTANT: Include a dissolution clause stating 'Upon dissolution, remaining assets will be distributed to one or more 501(c)(3) organizations' — the IRS requires this",
+        "Pay the $32.50 filing fee online by credit card at businessfilings.sc.gov",
+        "File online for fastest processing — typically 1-2 business days",
+        "Download and permanently save your official Certificate of Incorporation when received"
+      ],
+      "estimatedCost": { "min": 32, "max": 33 },
+      "estimatedTime": "1-2 business days (processing)",
+      "status": "not-started",
+      "resources": [
+        { "title": "SC Secretary of State — Nonprofit Formation", "url": "https://sos.sc.gov/business/nonprofit-organizations", "type": "tool" },
+        { "title": "SC Business Filing Portal", "url": "https://businessfilings.sc.gov", "type": "tool" }
+      ],
+      "tips": [
+        "File online — it's faster and you get an immediate confirmation and tracking number",
+        "Make sure your purpose clause includes 'charitable, educational, or scientific purposes' — the IRS will reject your 501(c)(3) application without this language",
+        "Include the dissolution clause — the IRS requires it for tax-exempt status",
+        "Save your Certificate of Incorporation forever in multiple places — you'll need it for bank accounts, grants, and more",
+        "Order a few certified copies ($10 each) — banks, grant funders, and partners often request one"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-6",
+      "section": "formation",
+      "title": "Get Your EIN from the IRS",
+      "order": 6,
+      "simpleExplanation": "An EIN (Employer Identification Number) is basically a Social Security Number for your nonprofit. Just like people use their Social Security Number to open bank accounts or file taxes, your nonprofit uses its EIN for everything official. The amazing part? You apply on the IRS website and it's completely FREE — and they give it to you RIGHT AWAY, instantly! It takes about 15 minutes. Copy it down and save it somewhere safe because you'll use it on every single grant application for the rest of your organization's life.",
+      "detailedSteps": [
+        "Go to IRS.gov and search for 'EIN application' — use the direct online application, not a third-party site",
+        "Select 'Apply Online Now' (available Monday-Friday 7am-10pm Eastern Time)",
+        "Choose 'View Additional Types, Including Tax-Exempt and Governmental Organizations'",
+        "Then select 'Other Nonprofit/Tax-Exempt Organizations'",
+        "Enter your nonprofit name exactly as it appears in your Articles of Incorporation",
+        "Complete the application — it takes about 15 minutes",
+        "Your EIN is assigned immediately at the end — print or screenshot the confirmation page right away",
+        "You'll also receive a CP575 confirmation letter by mail in 4-5 weeks — keep this letter in a permanent file"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "15 minutes (instant online)",
+      "status": "not-started",
+      "resources": [
+        { "title": "IRS EIN Online Application", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online", "type": "tool" }
+      ],
+      "tips": [
+        "Apply online only — never pay a third-party service to get an EIN for you (it is always free, they are always scams)",
+        "The IRS online system is only available Monday-Friday 7am-10pm Eastern — plan accordingly",
+        "Have your Articles of Incorporation handy so you can match the organization name exactly",
+        "Screenshot or print the EIN confirmation page immediately — you cannot retrieve it again from the same session",
+        "Save the CP575 letter when it arrives in the mail — this is your official EIN documentation for grant applications"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-7",
+      "section": "formation",
+      "title": "File Initial Report with SC Secretary of State",
+      "order": 7,
+      "simpleExplanation": "After you create your nonprofit, South Carolina wants you to officially check in and let the state know you're up and running. It's like registering for a new school — you have to give them your information so they have a current record of who you are and where you are. This filing is free and keeps your nonprofit in 'good standing' with the state, which is important for grants that check your SC status.",
+      "detailedSteps": [
+        "After receiving your Certificate of Incorporation, log back into businessfilings.sc.gov",
+        "File the Initial Annual Report for your nonprofit corporation",
+        "Report includes: registered agent info (confirm or update), principal office address, names and addresses of current directors",
+        "Filing is free for nonprofits",
+        "File within 60 days of incorporation as best practice — required within the first year",
+        "Annual reports will be due each subsequent year to maintain good standing with the state"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "1 day",
+      "status": "not-started",
+      "resources": [
+        { "title": "SC Secretary of State — Annual Reports", "url": "https://sos.sc.gov/business/annual-reports", "type": "tool" },
+        { "title": "SC Business Filing Portal", "url": "https://businessfilings.sc.gov", "type": "tool" }
+      ],
+      "tips": [
+        "Set a calendar reminder to file annual reports each year — falling out of 'good standing' can affect grant eligibility",
+        "The annual report is simple — mostly just confirming your current registered agent and director names",
+        "Keep your nonprofit information updated with the SOS any time board members change or your address changes"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-8",
+      "section": "formation",
+      "title": "Draft Bylaws & Conflict of Interest Policy",
+      "order": 8,
+      "simpleExplanation": "Bylaws are like the rulebook for how your nonprofit operates — like the rules of a board game, but for your organization. They answer questions like: How often does the board meet? How do you vote on big decisions? What happens when someone leaves the board? The Conflict of Interest Policy is a special rule that says 'if you personally benefit from a decision, you have to tell everyone and let others decide without you.' The IRS REQUIRES both of these when you apply for 501(c)(3) status — they're non-negotiable. Think of them as the constitution of your organization.",
+      "detailedSteps": [
+        "Find a nonprofit bylaws template for South Carolina — the SC Bar Association or National Council of Nonprofits has free templates",
+        "Customize the template with: your nonprofit name, number of board members (3 minimum), meeting frequency (quarterly minimum recommended), quorum requirements (majority of board), officer titles and roles (President, Secretary, Treasurer at minimum)",
+        "Add fiscal year definition (January 1 - December 31 is standard for most nonprofits)",
+        "Add a clause allowing remote/virtual board meetings — essential for distributed organizations",
+        "Draft a separate Conflict of Interest Policy using the IRS sample (search 'IRS Form 1023 conflict of interest policy sample')",
+        "The conflict of interest policy must: require disclosure of potential conflicts, prohibit interested parties from voting on related matters, and require documenting the process in meeting minutes",
+        "Board reviews and votes to approve both documents at the Organizational Meeting"
+      ],
+      "estimatedCost": { "min": 0, "max": 500 },
+      "estimatedTime": "1-2 weeks",
+      "status": "not-started",
+      "resources": [
+        { "title": "IRS Sample Conflict of Interest Policy", "url": "https://www.irs.gov/charities-non-profits/sample-conflict-of-interest-policy", "type": "template" },
+        { "title": "SC Nonprofit Association — Resources", "url": "https://www.scnonprofits.org/resources", "type": "guide" },
+        { "title": "National Council of Nonprofits — Bylaws Guide", "url": "https://www.councilofnonprofits.org/running-nonprofit/governance-leadership/bylaws", "type": "guide" }
+      ],
+      "tips": [
+        "Use the IRS's own sample Conflict of Interest Policy — it is literally the template they want to see when reviewing your application",
+        "Keep bylaws relatively simple for a startup — you can amend them later as you grow",
+        "Make sure your bylaws explicitly allow remote board meetings (video calls) — essential for distributed leadership",
+        "Include an indemnification clause to protect board members from personal liability when acting in good faith",
+        "Many bar associations offer free nonprofit legal clinics — a one-hour review by an attorney is worth it"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-9",
+      "section": "formation",
+      "title": "Hold Organizational Board Meeting",
+      "order": 9,
+      "simpleExplanation": "This is the very FIRST official meeting of your board of directors — and it's kind of a huge deal! This is the moment when everything becomes real and official. In this meeting, the board votes to approve the bylaws (your rulebook), elects the officers (who's the President, Secretary, Treasurer), and authorizes someone to open a bank account. You must keep written notes of everything you decide — these notes are called 'meeting minutes.' Think of it like the founding meeting of a new country: every decision gets recorded for history.",
+      "detailedSteps": [
+        "Schedule the meeting with all initial board members — a Zoom or Google Meet call is perfectly fine",
+        "Prepare a written agenda in advance: call to order, roll call, review and adopt bylaws, elect officers (President, Vice President, Secretary, Treasurer), adopt conflict of interest policy, authorize bank account opening, set next meeting date, adjournment",
+        "Designate someone to take official meeting minutes (a written record of who attended and what was decided)",
+        "For each agenda item: someone makes a formal motion ('I move that we adopt the bylaws'), someone else seconds it, then everyone votes",
+        "Record motions, seconds, and votes (yes/no/abstain) for every item in the minutes",
+        "All board members present sign the minutes to make them official",
+        "Keep all meeting minutes in a permanent organizational records file — physical binder or secure digital folder"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "1-2 hours for the meeting",
+      "status": "not-started",
+      "resources": [
+        { "title": "Nonprofit Organizational Meeting Minutes Template", "url": "https://www.nonprofitready.org/board-meeting-minutes-template", "type": "template" }
+      ],
+      "tips": [
+        "Video call is perfectly fine — Zoom or Google Meet works great for this",
+        "Use a meeting minutes template — there are free ones online specifically for nonprofit organizational meetings",
+        "The bank account authorization resolution in the minutes needs specific language — include which officers can sign checks and any dollar thresholds",
+        "Scan and save all signed documents digitally — back them up in the cloud (Google Drive works great)",
+        "This meeting starts your permanent official governance record — every future board meeting should also have written minutes"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-10",
+      "section": "tax-exempt",
+      "title": "Apply for 501(c)(3) Tax-Exempt Status",
+      "order": 10,
+      "simpleExplanation": "This is THE big one — the step that officially transforms your organization into a real, recognized nonprofit in the eyes of the federal government. You fill out an IRS form called 1023 (or the shorter 1023-EZ if your organization is small) and explain exactly what your nonprofit does, who's in charge, and how you'll use money responsibly. Then you wait 3-6 months for the IRS to say yes. When they do, you get a 'determination letter' — possibly the most important document your nonprofit will ever have. Almost every major grant, corporate sponsor, and big donor requires it. This letter is your golden ticket.",
+      "detailedSteps": [
+        "Determine which form to use: Form 1023-EZ ($275, for organizations projecting under $50K gross receipts annually for the first 3 years — apply at pay.gov) OR Form 1023 ($600, full version for larger organizations — download from irs.gov)",
+        "For Form 1023-EZ: complete the application online at pay.gov — takes 1-2 hours, typically processes in 2-4 weeks",
+        "For the full Form 1023: much more detailed (describe programs, finances, governance in depth) — typically 3-6 month processing time",
+        "Required documents: Articles of Incorporation, bylaws, conflict of interest policy, EIN, description of programs, projected budget for current year and next 2 years",
+        "Pay the filing fee: $275 for 1023-EZ or $600 for full Form 1023",
+        "Submit and track status at the IRS Tax Exempt Organization Search tool (apps.irs.gov/app/eos)",
+        "When approved, you receive an IRS Determination Letter — scan it, save multiple copies, and store it somewhere you will never lose it"
+      ],
+      "estimatedCost": { "min": 275, "max": 600 },
+      "estimatedTime": "3-6 months for IRS review",
+      "status": "not-started",
+      "resources": [
+        { "title": "IRS Form 1023-EZ — Apply on Pay.gov", "url": "https://pay.gov/public/form/start/467895938", "type": "tool" },
+        { "title": "IRS Form 1023 — Full Application Info", "url": "https://www.irs.gov/forms-pubs/about-form-1023", "type": "tool" },
+        { "title": "IRS Tax Exempt Organization Search", "url": "https://apps.irs.gov/app/eos/", "type": "tool" },
+        { "title": "Foundation Group — 1023-EZ vs 1023 Comparison Guide", "url": "https://www.501c3.org/form-1023-ez-vs-form-1023/", "type": "guide" }
+      ],
+      "tips": [
+        "If you expect to stay under $50K in annual revenue for the first 3 years, use 1023-EZ — it's faster and cheaper",
+        "But if you're aggressively pursuing large grants (which you are!), some large funders prefer the full 1023 because it requires more documentation — consider it if you have the time",
+        "You can operate and even collect donations before receiving your determination letter, but most major grants require the letter before awarding funds",
+        "File as soon as you have Articles, bylaws, and EIN ready — don't wait until you have everything perfect",
+        "If approved within 27 months of incorporation, your tax-exempt status is retroactive to your incorporation date"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-11",
+      "section": "tax-exempt",
+      "title": "File for SC State Tax Exemptions",
+      "order": 11,
+      "simpleExplanation": "Once the IRS says you're tax-exempt, South Carolina wants to know about it too! You send SC a copy of your IRS determination letter along with a form called ST-387 to get exempted from South Carolina state taxes — including sales tax. So when you buy supplies for your AI literacy workshops — like printed handouts, projectors, or refreshments — you won't have to pay that extra state tax that regular shoppers pay. It's a nice, free benefit of being a nonprofit. This step is totally free and quick once you have your IRS letter.",
+      "detailedSteps": [
+        "Wait until you receive your IRS 501(c)(3) Determination Letter",
+        "Download Form ST-387 (Application for Exemption from Sales and Use Taxes) from dor.sc.gov",
+        "Complete the form with your nonprofit information and EIN",
+        "Attach a copy of your IRS Determination Letter",
+        "Also attach a copy of your Articles of Incorporation",
+        "Mail the package to: SC Department of Revenue, P.O. Box 125, Columbia, SC 29214-0120",
+        "Processing takes 1-2 weeks — you'll receive an official state exemption certificate in the mail"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "1-2 weeks for processing",
+      "status": "not-started",
+      "resources": [
+        { "title": "SC DOR — Form ST-387", "url": "https://dor.sc.gov/forms/Form_ST-387.pdf", "type": "form" },
+        { "title": "SC DOR — Nonprofit Tax Exemptions", "url": "https://dor.sc.gov/tax/sales/exemptions/nonprofit", "type": "guide" }
+      ],
+      "tips": [
+        "Keep multiple copies of your state exemption certificate — give one to every vendor you regularly work with",
+        "This exemption applies to most purchases for nonprofit purposes — supplies, equipment, printed materials",
+        "Some vendors will ask for your certificate number at the register — have it saved on your phone for easy access",
+        "Also apply for SC state income tax exemption through the SC DOR — ask them about Form CL-4 when you submit ST-387"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-12",
+      "section": "tax-exempt",
+      "title": "Register for SC Charitable Solicitation",
+      "order": 12,
+      "simpleExplanation": "In South Carolina, if you want to ask people to give money to your nonprofit — on your website, at events, through email, anywhere — you have to register with the state first. It's like getting a license that says 'we're a real, legitimate nonprofit that the government has checked out.' This costs $50 per year and you renew it every year. Without this registration, you can't legally fundraise from the public in South Carolina. It's also something many grant funders check when reviewing applications. It takes about a week and shows everyone you're doing things the right way.",
+      "detailedSteps": [
+        "Go to the SC Secretary of State website and find the Charities section at sos.sc.gov/nonprofits/charitable-organizations",
+        "Create an account in the SC charitable registration system",
+        "Complete the Charitable Organization Registration form",
+        "Attach: IRS Determination Letter (or proof of application if pending), Articles of Incorporation, most recent financial statements or initial projected budget",
+        "Pay the $50 registration fee (fee tier depends on revenue — $50 is the starting tier)",
+        "You'll receive a registration number and appear in the SC SOS Charity Search tool, which donors use to verify legitimate charities",
+        "Set a calendar reminder: registration must be renewed annually by April 15 each year"
+      ],
+      "estimatedCost": { "min": 50, "max": 50 },
+      "estimatedTime": "1-2 weeks for processing",
+      "status": "not-started",
+      "resources": [
+        { "title": "SC Secretary of State — Charities Registration", "url": "https://sos.sc.gov/nonprofits/charitable-organizations", "type": "tool" },
+        { "title": "SC Charity Search (verify registration)", "url": "https://apps2.sc.gov/SCRECY/CharitySearch.aspx", "type": "tool" }
+      ],
+      "tips": [
+        "You can apply for charitable solicitation registration before receiving your IRS determination letter — just submit proof that your application is pending",
+        "Set an annual calendar reminder for April 15 renewal — late or missed registration means you cannot legally fundraise",
+        "This registration is often required by online fundraising platforms like GoFundMe Charity and Network for Good",
+        "Being registered builds donor trust — you'll appear in the official SC charity database that donors check"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-13",
+      "section": "launch-ops",
+      "title": "Open a Nonprofit Bank Account",
+      "order": 13,
+      "simpleExplanation": "Your nonprofit needs its very own bank account — completely separate from your personal money. This is a HUGE deal: mixing personal and nonprofit money is one of the most serious mistakes a nonprofit can make and can get your tax-exempt status taken away! Think of it like keeping your lunch money separate from your allowance — they are for totally different things. You'll bring your EIN letter, your Articles of Incorporation, and the official board meeting minutes to the bank. Many banks offer free or low-fee accounts specifically for nonprofits — call around and ask!",
+      "detailedSteps": [
+        "Gather all required documents: EIN letter (or the EIN number), Articles of Incorporation (certified copy), board meeting minutes with the bank authorization resolution, government-issued ID for all authorized signers",
+        "Research banks with nonprofit-friendly accounts: local credit unions often have free checking accounts, major banks like Wells Fargo and Bank of America have nonprofit programs, and community banks are often flexible with new organizations",
+        "Call ahead to confirm exactly which documents they require — requirements vary by bank",
+        "Open the account with at least 2 authorized signers — typically the President and Treasurer",
+        "Set up online banking and mobile access immediately",
+        "Consider opening two accounts: one for general operating expenses and one designated for grant funds — this makes grant reporting much cleaner",
+        "Set up accounting software right away: QuickBooks Nonprofit (discounted through TechSoup), Wave (completely free), or Aplos (nonprofit-specific)"
+      ],
+      "estimatedCost": { "min": 0, "max": 25 },
+      "estimatedTime": "1 day",
+      "status": "not-started",
+      "resources": [
+        { "title": "TechSoup — Discounted QuickBooks for Nonprofits", "url": "https://www.techsoup.org/quickbooks", "type": "service" },
+        { "title": "Wave Accounting — Free for Small Nonprofits", "url": "https://www.waveapps.com", "type": "tool" }
+      ],
+      "tips": [
+        "NEVER mix personal and nonprofit funds — not even temporarily, not even once. This is the most common mistake that can end a nonprofit.",
+        "Local credit unions and community banks often offer truly free nonprofit accounts and are more willing to work with brand-new organizations",
+        "Get a debit card for the account for everyday expenses, but set a written policy about who can authorize purchases above certain dollar amounts",
+        "Set up your accounting software on day one — tracking every single dollar from the start is essential for grant reporting",
+        "Get TechSoup.org access first — they offer major discounts on QuickBooks and dozens of other tools for nonprofits"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-14",
+      "section": "launch-ops",
+      "title": "Set Up Website, Email & Social Media",
+      "order": 14,
+      "simpleExplanation": "Before you can tell the world about your amazing work — and before grant funders will take you seriously — you need a professional presence online. That means a website (even a simple one!), a professional email address with your nonprofit's own domain name (like info@southernailiteracy.org instead of a Gmail account), and active pages on LinkedIn and Facebook. The good news? With the tech skills you have, you can build something beautiful for almost nothing. Here is the reality: grant program officers WILL Google you before making any funding decision — make sure they find something impressive!",
+      "detailedSteps": [
+        "Register your domain name (yourorganization.org) at Namecheap or GoDaddy — about $15 per year for a .org domain",
+        "Build your website — options range from Squarespace/Wix (easy, about $15/month) to WordPress (free software, need hosting at about $5/month) to GitHub Pages (completely free if you can code it yourself)",
+        "Website must include at minimum: mission statement, About page with board member bios, programs or services description, contact information, and a donation button",
+        "Set up professional email using your domain — Google Workspace is free for nonprofits (apply through Google for Nonprofits in the next step)",
+        "Create a LinkedIn page for the organization — this is where donors, partners, and grant officers look first",
+        "Create a Facebook page for community outreach and event promotion",
+        "Consider Instagram for visual storytelling about your workshops and community impact"
+      ],
+      "estimatedCost": { "min": 0, "max": 100 },
+      "estimatedTime": "1-2 weeks",
+      "status": "not-started",
+      "resources": [
+        { "title": "Google for Nonprofits — Free Workspace Email", "url": "https://www.google.com/nonprofits/", "type": "service" },
+        { "title": "Namecheap — Domain Registration", "url": "https://www.namecheap.com", "type": "tool" },
+        { "title": "Canva for Nonprofits — Free Design Tools", "url": "https://www.canva.com/canva-for-nonprofits/", "type": "tool" }
+      ],
+      "tips": [
+        "Apply for Google for Nonprofits (next step) — it gives you free professional Gmail with your own domain",
+        "Canva for Nonprofits is completely free and has excellent templates for logos, social media graphics, and presentation slides",
+        "Your website does not need to be perfect — it needs to be professional, clear, and accurate. Launch simple, improve over time.",
+        "Make sure your website has an SSL certificate (the lock icon and https://) — most hosts provide this free now and it builds donor trust",
+        "LinkedIn is surprisingly important — grant program officers and corporate sponsors are active there"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-15",
+      "section": "launch-ops",
+      "title": "Apply for Google for Nonprofits",
+      "order": 15,
+      "simpleExplanation": "Google has a special program just for nonprofits that gives you an incredible bundle of FREE tools. We're talking: free professional email addresses for your whole team using your own domain (Google Workspace), $10,000 every single MONTH in free Google advertising so people find you when they search online, free YouTube nonprofit features, and more. You need your 501(c)(3) determination letter to apply, but you can start the process early and submit the letter when it arrives. This program alone could be worth $120,000 per year in advertising value — and it's completely free. It is absolutely worth your time.",
+      "detailedSteps": [
+        "Go to google.com/nonprofits and click 'Get Started'",
+        "Create a Google account for your organization if you do not have one yet",
+        "Your eligibility will be verified through TechSoup — create a TechSoup account at techsoup.org first",
+        "Submit your TechSoup validation request — this typically takes 2-5 business days",
+        "Once validated, return to google.com/nonprofits and complete the Google for Nonprofits application",
+        "Upon approval: activate Google Workspace for Nonprofits — provides free professional email for up to 2,000 users",
+        "Then apply for Google Ad Grants at google.com/grants — this provides up to $10,000 per month in free Google search advertising",
+        "Set up Google Analytics on your website (free) to track visitors and measure your reach"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "1-2 weeks for approval",
+      "status": "not-started",
+      "resources": [
+        { "title": "Google for Nonprofits", "url": "https://www.google.com/nonprofits/", "type": "service" },
+        { "title": "TechSoup — Nonprofit Technology Verification", "url": "https://www.techsoup.org", "type": "service" },
+        { "title": "Google Ad Grants", "url": "https://www.google.com/grants/", "type": "service" }
+      ],
+      "tips": [
+        "Apply as soon as you have your EIN and Articles of Incorporation — do not wait for the 501(c)(3) letter to start the TechSoup verification process",
+        "The TechSoup verification is a one-time process that also unlocks discounts at Microsoft, Adobe, and dozens of other vendors — it is worth doing thoroughly",
+        "The $10K/month Google Ad Grants is genuinely powerful — use it to drive people to your website and recruit workshop participants",
+        "Google Workspace gives everyone a professional yourname@yourorg.org email — this is far more credible for grant applications than using a personal Gmail",
+        "Also explore: Microsoft for Nonprofits (free or discounted Office 365) and AWS Nonprofits (free cloud computing credits)"
+      ],
+      "phase": "phase-1"
+    },
+    {
+      "id": "ls-16",
+      "section": "launch-ops",
+      "title": "Begin Grant Applications",
+      "order": 16,
+      "simpleExplanation": "Now the work that funds everything else begins! A grant is basically a gift of money from a foundation or government agency that you apply for by writing about your organization, your programs, and your plans. The most important thing to know is this: grants take time. You write the application, wait weeks or sometimes months, and then (if your application is strong) you get a 'yes' along with a check. Start with the OpenAI People-First AI Fund because they are literally looking for organizations exactly like yours. The best grant applications tell a clear, compelling story: here is the problem, here is our solution, here is how we will spend your money wisely, and here is how we will prove it worked.",
+      "detailedSteps": [
+        "Start with the OpenAI People-First AI Fund application at openai.com/foundation — this is your #1 priority grant",
+        "Prepare a standard grant application packet you can reuse and customize for each funder: organization description, mission statement, program description, target population, budget, board of directors list, EIN, Articles of Incorporation copy, 501(c)(3) determination letter",
+        "Write a compelling narrative for each application: What specific problem are you solving? Who exactly are you helping? What will you do with the money? How will you measure whether it worked? Why is your team uniquely qualified?",
+        "Have at least one board member review and edit every narrative before submission",
+        "Submit applications at least 3-5 days before the deadline — never wait until the last day",
+        "Create a grant tracking spreadsheet: funder name, amount requested, deadline, submission date, status, follow-up date, outcome",
+        "Follow up with funders 30 days after submission if you have not heard anything — a brief, polite email is appropriate"
+      ],
+      "estimatedCost": { "min": 0, "max": 0 },
+      "estimatedTime": "2-4 weeks per application",
+      "status": "not-started",
+      "resources": [
+        { "title": "OpenAI Foundation — People-First AI Fund", "url": "https://openai.com/foundation", "type": "grant" },
+        { "title": "Candid Foundation Directory (formerly GuideStar)", "url": "https://candid.org", "type": "tool" },
+        { "title": "GrantStation — Grant Search and Tracking", "url": "https://grantstation.com", "type": "tool" }
+      ],
+      "tips": [
+        "Treat each grant application like a job application — tailor your narrative to THEIR stated priorities, not just your own",
+        "Use the funder's own language from their website and guidelines — if they say 'digital equity,' use that phrase in your application",
+        "Always request the full amount you actually need — funders expect you to ask for what you need, not a cautiously low number",
+        "Build a grant calendar tracking every deadline — missing a grant deadline is the most preventable mistake in fundraising",
+        "If possible, call or email the program officer before submitting — a brief introductory conversation can be worth more than a perfect application",
+        "Save every application you write in a master file — about 70% of each application can be reused for the next funder"
+      ],
+      "phase": "phase-1"
+    }
+  ]
+}

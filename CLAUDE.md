@@ -1,0 +1,87 @@
+# Southern AI Literacy Initiative — Project Operating Manual
+
+## What Is This?
+
+This is the command center for building a nonprofit that teaches AI literacy in rural South Carolina, eventually growing into an incubator and investment fund. Three pillars, one mission: build wealth and knowledge in communities that get overlooked.
+
+## The Three Pillars
+
+### 1. The Site (React Dashboard)
+- **Location:** GitHub Pages at `jgerms20.github.io/Non-Profit`
+- **Stack:** Vite + React + Tailwind CSS v4
+- **Purpose:** Visual tracker for every step — phases, contacts, legal, grants, timeline, calendar, todos
+- **Data:** localStorage for live edits, JSON defaults in `src/data/`
+
+### 2. Notion Workspace
+- **Purpose:** On-the-go action hub, especially for things only Joshua can do in person (meetings, calls, signatures)
+- **Key Databases:** Action Items, Contacts CRM, Legal Checklist, Grant Tracker, Meeting Notes, Weekly Review
+
+### 3. This Workspace (The Engine Room)
+- **Purpose:** Where agents execute, skills get built, and the flywheel turns
+- **Branch:** `claude/nonprofit-project-setup-ZzKM3`
+
+## The Three-Phase Flywheel
+
+**Phase 1: AI Literacy Nonprofit (501(c)(3))** — Teach communities about AI. Build trust. Generate grant revenue.
+**Phase 2: Community Innovation Incubator** — Turn educated community members into founders. Run hackathons, cohorts, demo days.
+**Phase 3: Investment Fund / Angel Network** — Fund the strongest companies from the incubator. Generate returns. Reinvest in Phase 1.
+
+## Agent Deployment Guidelines
+
+| Model | Use For | Examples |
+|-------|---------|---------|
+| **Opus** | Strategy, architecture, complex decisions | Planning, reviewing, complex integrations |
+| **Sonnet** | Execution, feature building, content generation | Writing components, creating data files, building pages |
+| **Haiku** | Volume, simple tasks, parallel work | Utility files, simple components, formatting, quick edits |
+
+- Deploy Haiku liberally (up to 20 agents)
+- Sonnet: up to 5 parallel agents
+- Opus: 1-2 for orchestration and strategic thinking
+
+## Skills (Available via slash commands)
+
+| Skill | Command | Description |
+|-------|---------|-------------|
+| Skill Scout | `/skill-scout` | Identifies repetitive tasks and proposes new skills |
+| Agent Cost Tracker | `/cost-report` | Breaks down agent usage and estimated costs |
+| Skill Recommender | `/recommend-skills` | Suggests skills to build or that should have been used |
+| Proactive Thinker | `/think-bigger` | Strategic thought partner — pushes bigger thinking |
+| Notion Sync | `/sync-notion` | Pushes updates to Notion workspace |
+| GitHub Pusher | `/ship` | Smart commit + push with meaningful messages |
+
+## Project Structure
+
+```
+src/
+  components/
+    layout/     - AppLayout, Sidebar, TopBar
+    ui/         - Reusable: Badge, Card, Checkbox, CopyButton, Modal, etc.
+    dashboard/  - Dashboard-specific components
+    timeline/   - Timeline and Gantt chart
+    calendar/   - Monthly calendar grid
+    contacts/   - Contact cards and filters
+    messages/   - Message template builder
+    legal/      - Legal step cards
+    grants/     - Grant tracking
+    todos/      - Todo items and timeframes
+  pages/        - Route-level page components
+  data/         - JSON data files (pre-populated from strategic playbook)
+  hooks/        - useLocalStorage, useFilterSort
+  utils/        - statusHelpers, phaseColors, dateUtils, clipboard
+  context/      - ThemeContext (dark mode)
+```
+
+## Key Commands
+
+```bash
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
+```
+
+## Current Priorities
+
+1. Complete site build and deploy to GitHub Pages
+2. Set up Notion workspace with all databases
+3. Build and install all 6 skills
+4. Begin Phase 1 action items (name search, board identification, outreach)

@@ -1,0 +1,266 @@
+{
+  "phases": [
+    {
+      "id": "phase-1",
+      "label": "AI Literacy Nonprofit",
+      "startDate": "2026-02-01",
+      "endDate": "2027-06-30",
+      "color": "phase-1",
+      "description": "Build the legal foundation, earn tax-exempt status, launch pilot workshops, and secure first-round grant funding. This phase is about proving the concept and establishing credibility."
+    },
+    {
+      "id": "phase-2",
+      "label": "Innovation Incubator",
+      "startDate": "2027-01-01",
+      "endDate": "2028-12-31",
+      "color": "phase-2",
+      "description": "Launch the incubator program supporting rural entrepreneurs building AI-powered businesses. Run cohorts, host demo days, and expand partnerships with universities and economic development organizations."
+    },
+    {
+      "id": "phase-3",
+      "label": "Investment Fund",
+      "startDate": "2028-06-01",
+      "endDate": "2030-12-31",
+      "color": "phase-3",
+      "description": "Establish a community investment fund to provide capital to rural AI startups. Leverage relationships built in Phases 1 and 2 to attract institutional investors and government backing."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m1",
+      "title": "Initiative Conceived",
+      "date": "2026-02-20",
+      "phase": "phase-1",
+      "description": "The idea takes shape — AI literacy for rural South Carolina. Vision crystallized for a three-phase initiative: nonprofit, incubator, and investment fund.",
+      "icon": "Lightbulb",
+      "completed": true
+    },
+    {
+      "id": "m2",
+      "title": "SC Trip & Networking",
+      "date": "2026-02-28",
+      "phase": "phase-1",
+      "description": "Travel to South Carolina. Meet Kim Bowman at SCRIN, visit UofSC Office of Innovation and Tech Incubator, connect with Rep. Bradley's office, and begin building the local partner network.",
+      "icon": "MapPin",
+      "completed": true
+    },
+    {
+      "id": "m3",
+      "title": "File Articles of Incorporation",
+      "date": "2026-03-15",
+      "phase": "phase-1",
+      "description": "Submit Form NP to the South Carolina Secretary of State. The official legal birth of the organization. Cost: $32.50. Expected processing: 1-2 business days.",
+      "icon": "FileText",
+      "completed": false
+    },
+    {
+      "id": "m4",
+      "title": "Get EIN from IRS",
+      "date": "2026-03-15",
+      "phase": "phase-1",
+      "description": "Apply for Employer Identification Number (EIN) on IRS.gov. Free and instant. The EIN is the nonprofit's tax ID — needed for bank accounts, grant applications, and everything else.",
+      "icon": "Hash",
+      "completed": false
+    },
+    {
+      "id": "m5",
+      "title": "Organizational Board Meeting",
+      "date": "2026-03-30",
+      "phase": "phase-1",
+      "description": "Hold the first official board meeting. Approve bylaws, elect directors, adopt conflict-of-interest policy, and authorize opening a bank account. This is the moment the organization truly comes alive.",
+      "icon": "Users",
+      "completed": false
+    },
+    {
+      "id": "m6",
+      "title": "501(c)(3) Application Filed",
+      "date": "2026-04-15",
+      "phase": "phase-1",
+      "description": "Submit IRS Form 1023-EZ (for organizations expecting under $50K/year) or Form 1023 (full version) for federal tax-exempt status. Cost: $275 (1023-EZ) or $600 (1023). Processing: 3-6 months.",
+      "icon": "Send",
+      "completed": false
+    },
+    {
+      "id": "m7",
+      "title": "Google for Nonprofits Application",
+      "date": "2026-04-30",
+      "phase": "phase-1",
+      "description": "Apply for Google for Nonprofits program. Unlocks free Google Workspace (email, Drive, Docs), $10,000/month in Google Ad Grants, YouTube Nonprofit Program access, and Google Maps Platform credits.",
+      "icon": "Globe",
+      "completed": false
+    },
+    {
+      "id": "m8",
+      "title": "First Grant Application Submitted",
+      "date": "2026-05-30",
+      "phase": "phase-1",
+      "description": "Submit the first major grant application — targeted at the OpenAI People-First AI Fund. This marks the transition from formation to active fundraising.",
+      "icon": "Send",
+      "completed": false
+    },
+    {
+      "id": "m9",
+      "title": "First AI Literacy Workshop Pilot",
+      "date": "2026-06-30",
+      "phase": "phase-1",
+      "description": "Host the first AI literacy workshop in a rural South Carolina community. This pilot validates the program model, generates impact data for grant applications, and begins building the community reputation.",
+      "icon": "BookOpen",
+      "completed": false
+    },
+    {
+      "id": "m10",
+      "title": "501(c)(3) Determination Received",
+      "date": "2026-09-01",
+      "phase": "phase-1",
+      "description": "Receive the IRS determination letter granting tax-exempt status under Section 501(c)(3). This unlocks: donor tax deductions, Google for Nonprofits, most major grants, and nonprofit bank rates. A major milestone.",
+      "icon": "Award",
+      "completed": false
+    },
+    {
+      "id": "m11",
+      "title": "First Major Grant Awarded",
+      "date": "2026-12-31",
+      "phase": "phase-1",
+      "description": "Receive the first major grant award (target: OpenAI People-First Fund or USDA Rural Business Development Grant). This validates the fundraising strategy and provides runway for Phase 2 planning.",
+      "icon": "DollarSign",
+      "completed": false
+    },
+    {
+      "id": "m12",
+      "title": "First Incubator Cohort Launch",
+      "date": "2027-01-15",
+      "phase": "phase-2",
+      "description": "Launch the inaugural cohort of the rural AI innovation incubator. Target 8-12 entrepreneurs from rural South Carolina communities. Provide mentorship, AI tools training, business development support, and connections to the broader innovation ecosystem.",
+      "icon": "Rocket",
+      "completed": false
+    },
+    {
+      "id": "m13",
+      "title": "First Demo Day",
+      "date": "2027-04-30",
+      "phase": "phase-2",
+      "description": "Host the first incubator Demo Day — a public showcase where cohort companies present to investors, press, partners, and community members. Modeled after Y Combinator Demo Day but rooted in rural South Carolina.",
+      "icon": "Star",
+      "completed": false
+    },
+    {
+      "id": "m14",
+      "title": "Fund Structure Established",
+      "date": "2028-06-01",
+      "phase": "phase-3",
+      "description": "Legal structure for the investment fund established. This may be a community development financial institution (CDFI), a donor-advised fund, or a separate LLC/LP structure. Legal counsel and financial advisors engaged.",
+      "icon": "Briefcase",
+      "completed": false
+    },
+    {
+      "id": "m15",
+      "title": "First Investment Made",
+      "date": "2028-12-31",
+      "phase": "phase-3",
+      "description": "Deploy the first capital investment into a rural South Carolina AI startup — ideally an alumnus of the incubator program. This completes the flywheel: literacy → incubation → investment → impact.",
+      "icon": "TrendingUp",
+      "completed": false
+    }
+  ],
+  "activities": [
+    {
+      "id": "a1",
+      "title": "Nonprofit Formation",
+      "startDate": "2026-03-01",
+      "endDate": "2026-04-30",
+      "phase": "phase-1",
+      "description": "All the legal paperwork to officially create the nonprofit: name reservation, Articles of Incorporation, EIN, initial report to SC DOR, bylaws drafting, and organizational board meeting.",
+      "milestones": ["m3", "m4", "m5"]
+    },
+    {
+      "id": "a2",
+      "title": "Tax-Exempt Application",
+      "startDate": "2026-04-01",
+      "endDate": "2026-09-30",
+      "phase": "phase-1",
+      "description": "File IRS Form 1023-EZ or 1023 for 501(c)(3) status, then file SC state tax exemptions and charitable solicitation registration upon receiving determination letter. The process takes 3-6 months.",
+      "milestones": ["m6", "m10"]
+    },
+    {
+      "id": "a3",
+      "title": "Infrastructure Setup",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-31",
+      "phase": "phase-1",
+      "description": "Set up the operational infrastructure: nonprofit bank account, website, email domain, social media accounts, Google for Nonprofits application, project management tools, and financial tracking system.",
+      "milestones": ["m7"]
+    },
+    {
+      "id": "a4",
+      "title": "Grant Applications Round 1",
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-31",
+      "phase": "phase-1",
+      "description": "Submit Tier 1 grant applications: OpenAI People-First AI Fund, Google.org/aiEDU Rural Catalyst, and Microsoft/OpenAI Societal Resilience Fund. Each requires a tailored narrative, budget, and supporting documents.",
+      "milestones": ["m8"]
+    },
+    {
+      "id": "a5",
+      "title": "Workshop Pilot Program",
+      "startDate": "2026-06-01",
+      "endDate": "2026-09-30",
+      "phase": "phase-1",
+      "description": "Design and deliver the first series of AI literacy workshops in rural South Carolina communities. Start with 2-3 pilot workshops, gather participant feedback, refine curriculum, and document impact metrics for grant applications.",
+      "milestones": ["m9"]
+    },
+    {
+      "id": "a6",
+      "title": "Partnership Building",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "phase": "phase-1",
+      "description": "Develop formal partnerships with SCRIN, SC Nexus, UofSC, HBCUs, 4-H chapters, local libraries, school districts, and Rep. Bradley's office. Partnerships unlock grants, provide credibility, and build the community network.",
+      "milestones": ["m2"]
+    },
+    {
+      "id": "a7",
+      "title": "Incubator Design",
+      "startDate": "2026-10-01",
+      "endDate": "2027-01-31",
+      "phase": "phase-1",
+      "description": "Design the innovation incubator program structure: cohort size, curriculum, mentor network, application process, graduation criteria, and funding model. Research best practices from successful rural incubators.",
+      "milestones": ["m12"]
+    },
+    {
+      "id": "a8",
+      "title": "First Incubator Cohort",
+      "startDate": "2027-01-15",
+      "endDate": "2027-04-30",
+      "phase": "phase-2",
+      "description": "Run the inaugural incubator cohort from launch through Demo Day. Weekly programming, mentor sessions, pitch practice, and culminating public showcase. Target: 8-12 rural SC entrepreneurs.",
+      "milestones": ["m12", "m13"]
+    },
+    {
+      "id": "a9",
+      "title": "Grant Applications Round 2",
+      "startDate": "2027-01-01",
+      "endDate": "2027-06-30",
+      "phase": "phase-2",
+      "description": "Submit Tier 2 grant applications with the enhanced credibility of completed workshops and the incubator launch: NSF BPC, EDA Tech Hub via SC Nexus, USDA RBDG, and SC Commission for Minority Affairs.",
+      "milestones": []
+    },
+    {
+      "id": "a10",
+      "title": "Fund Research & Planning",
+      "startDate": "2027-06-01",
+      "endDate": "2028-06-30",
+      "phase": "phase-2",
+      "description": "Research legal structures for the investment fund, engage financial and legal advisors, study successful rural investment fund models (e.g., Runway, Opportunity Alabama), and develop the fund thesis and investor pitch.",
+      "milestones": ["m14"]
+    },
+    {
+      "id": "a11",
+      "title": "Fund Launch",
+      "startDate": "2028-06-01",
+      "endDate": "2028-12-31",
+      "phase": "phase-3",
+      "description": "Establish the legal structure, raise initial capital commitments, develop deal flow pipeline from incubator alumni, and make the first investment into a rural SC AI startup.",
+      "milestones": ["m14", "m15"]
+    }
+  ]
+}

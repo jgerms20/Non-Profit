@@ -1,0 +1,617 @@
+[
+  {
+    "id": "phase-1",
+    "number": 1,
+    "title": "AI Literacy Nonprofit",
+    "subtitle": "501(c)(3) Formation & Launch",
+    "description": "Build a nonprofit that teaches people in rural South Carolina about AI — what it is, how to use it, and why it matters for their communities.",
+    "color": "phase-1",
+    "icon": "BookOpen",
+    "status": "in-progress",
+    "targetDate": "2027-06-30",
+    "keyMetrics": {
+      "totalSteps": 16,
+      "completedSteps": 0,
+      "estimatedTotalCost": { "min": 470, "max": 2570 },
+      "targetLaunchDate": "2026-06-01"
+    },
+    "steps": [
+      {
+        "id": "p1-s1",
+        "title": "Choose Your Nonprofit Name",
+        "description": "Search for availability at businessfilings.sc.gov. Reserve the name for 120 days for $10.",
+        "simpleExplanation": "Pick a name for your organization! Go to the SC business website and check if anyone else already took the name you want. If it's free, you can hold it for about 4 months for just $10. Try to think of a few different name ideas just in case your first choice is taken.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 10 },
+        "resources": [
+          { "title": "SC Business Name Search", "url": "https://businessfilings.sc.gov", "type": "tool" }
+        ],
+        "substeps": [
+          "Brainstorm 3-5 name options",
+          "Search each name on SC business filings website",
+          "Check domain availability for top choices",
+          "Reserve your top choice ($10)"
+        ]
+      },
+      {
+        "id": "p1-s2",
+        "title": "Identify 3 Board Members",
+        "description": "Recruit 3 unrelated directors covering nonprofit governance, tech/AI expertise, and community ties.",
+        "simpleExplanation": "You need 3 people (not family members!) to be on your board — kind of like a team of helpers who make big decisions with you. Try to find one person who knows how nonprofits work, one person who knows about computers and AI, and one person who knows and is trusted by your community.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [],
+        "substeps": [
+          "Identify candidate with nonprofit governance experience",
+          "Identify candidate with tech/AI background",
+          "Identify candidate with deep community ties in rural SC",
+          "Have informal conversations with each candidate",
+          "Confirm commitment from all 3 board members"
+        ]
+      },
+      {
+        "id": "p1-s3",
+        "title": "Choose a Registered Agent",
+        "description": "Designate a person or service that will receive official legal documents on behalf of your organization. Typically costs $100–$200 per year.",
+        "simpleExplanation": "A registered agent is like your organization's official mail person for important legal letters. It can be you, someone you trust, or a company that does it for a fee. They make sure you never miss anything important from the government.",
+        "status": "not-started",
+        "estimatedCost": { "min": 100, "max": 200 },
+        "resources": [
+          { "title": "SC Secretary of State - Registered Agent Info", "url": "https://businessfilings.sc.gov", "type": "tool" }
+        ],
+        "substeps": [
+          "Decide between self, individual, or registered agent service",
+          "If using a service, compare options (Northwest, Registered Agents Inc, etc.)",
+          "Confirm agent has a physical SC address",
+          "Document the agent's name and address for incorporation forms"
+        ]
+      },
+      {
+        "id": "p1-s4",
+        "title": "Draft Your Mission Statement",
+        "description": "Write the mission statement required for Articles of Incorporation. Suggested: 'To increase AI literacy, foster innovation, and build economic opportunity in underserved and rural communities across the American South.'",
+        "simpleExplanation": "A mission statement is one or two sentences that explain why your organization exists and what you're trying to do. Think of it like telling someone 'here's what we're all about' in just a few words. You'll need this when you officially sign up your nonprofit with the state.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [],
+        "substeps": [
+          "Draft 2-3 variations of the mission statement",
+          "Share with board members for feedback",
+          "Finalize language that is clear, specific, and inspiring",
+          "Confirm it accurately reflects 501(c)(3) educational/charitable purpose"
+        ]
+      },
+      {
+        "id": "p1-s5",
+        "title": "File Articles of Incorporation",
+        "description": "Submit Form NP to the SC Secretary of State. Filing fee is $32.50 online; processing takes 1–2 business days.",
+        "simpleExplanation": "This is the official paperwork that makes your nonprofit real in the eyes of South Carolina! You fill out a form online, pay about $33, and in a day or two the state says 'yes, you're a real organization now.' It's like getting a birth certificate for your nonprofit.",
+        "status": "not-started",
+        "estimatedCost": { "min": 32, "max": 33 },
+        "resources": [
+          { "title": "SC SOS - Nonprofit Incorporation (Form NP)", "url": "https://businessfilings.sc.gov", "type": "tool" }
+        ],
+        "substeps": [
+          "Gather required info: name, registered agent, purpose, directors",
+          "Complete Form NP on SC Secretary of State website",
+          "Pay $32.50 filing fee",
+          "Save confirmation and filed documents"
+        ]
+      },
+      {
+        "id": "p1-s6",
+        "title": "Get Your EIN",
+        "description": "Apply for an Employer Identification Number (EIN) at IRS.gov. It's free and issued instantly online.",
+        "simpleExplanation": "An EIN is like a Social Security number, but for your organization instead of a person. The IRS gives it to you for free in just a few minutes online. You'll need it to open a bank account, apply for grants, and do just about everything official.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [
+          { "title": "IRS EIN Online Application", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online", "type": "tool" }
+        ],
+        "substeps": [
+          "Go to IRS.gov EIN application page",
+          "Select 'View Additional Types, Including Tax-Exempt and Governmental Organizations'",
+          "Complete the online form (takes about 15 minutes)",
+          "Save and print the EIN confirmation letter immediately"
+        ]
+      },
+      {
+        "id": "p1-s7",
+        "title": "File Initial Report with SC DOR",
+        "description": "Submit the required initial report to the SC Department of Revenue after incorporation. There is no filing fee.",
+        "simpleExplanation": "After you become an official nonprofit, South Carolina asks you to check in and let them know you exist. It's a free report you send to the state tax office. Think of it as saying 'Hey SC, we just got started and here's some basic info about us!'",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [
+          { "title": "SC Department of Revenue", "url": "https://dor.sc.gov", "type": "tool" }
+        ],
+        "substeps": [
+          "Locate the Initial Report requirement on SC DOR website",
+          "Complete and submit the report",
+          "Keep a copy of the filed report for your records"
+        ]
+      },
+      {
+        "id": "p1-s8",
+        "title": "Draft Bylaws & Conflict of Interest Policy",
+        "description": "Create your organizational bylaws and a conflict of interest policy. Both are required before applying for 501(c)(3) status.",
+        "simpleExplanation": "Bylaws are like the rulebook for how your organization runs — things like how often you meet, how decisions are made, and what happens if someone needs to leave the board. The conflict of interest policy makes sure board members don't use the nonprofit to benefit themselves. The IRS wants to see both before they approve you.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 500 },
+        "resources": [
+          { "title": "IRS Sample Conflict of Interest Policy", "url": "https://www.irs.gov/pub/irs-pdf/p4221pc.pdf", "type": "document" },
+          { "title": "Harbor Compliance Bylaws Template", "url": "https://www.harborcompliance.com", "type": "tool" }
+        ],
+        "substeps": [
+          "Research nonprofit bylaws templates for SC",
+          "Draft bylaws covering: purpose, membership, board structure, meetings, officers, amendments",
+          "Draft conflict of interest policy",
+          "Have board review and approve both documents",
+          "Have an attorney review (optional but recommended)"
+        ]
+      },
+      {
+        "id": "p1-s9",
+        "title": "Hold Organizational Meeting",
+        "description": "Convene the board to formally approve bylaws, elect directors, appoint officers, and authorize opening a bank account. Document everything with meeting minutes.",
+        "simpleExplanation": "This is your first official team meeting! You and your board members get together and vote on the rules you wrote, officially decide who's in charge of what, and give permission to open a bank account. You need to write down what happened in the meeting — those notes are called 'minutes' and they're important to keep.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [],
+        "substeps": [
+          "Schedule meeting with all board members",
+          "Prepare meeting agenda",
+          "Formally vote to adopt bylaws",
+          "Elect board officers (President, Secretary, Treasurer)",
+          "Pass resolution to open bank account",
+          "Record detailed meeting minutes",
+          "Have all directors sign the minutes"
+        ]
+      },
+      {
+        "id": "p1-s10",
+        "title": "Apply for 501(c)(3) Status",
+        "description": "File Form 1023-EZ ($275) for organizations expecting under $50K/year in revenue, or Form 1023 ($600) for larger organizations. IRS processing takes 3–6 months.",
+        "simpleExplanation": "This is the big one — you're asking the federal government to officially recognize you as a nonprofit. When they say yes, you get a special tax-exempt status, which means donors can write off their gifts on their taxes. There are two forms: a shorter one for smaller groups ($275) and a longer one for bigger groups ($600). It takes a few months for the IRS to respond.",
+        "status": "not-started",
+        "estimatedCost": { "min": 275, "max": 600 },
+        "resources": [
+          { "title": "IRS Form 1023-EZ", "url": "https://www.pay.gov/public/form/start/467879996", "type": "tool" },
+          { "title": "IRS Form 1023", "url": "https://www.irs.gov/forms-pubs/about-form-1023", "type": "tool" },
+          { "title": "IRS Tax Exempt Organization Search", "url": "https://apps.irs.gov/app/eos/", "type": "tool" }
+        ],
+        "substeps": [
+          "Determine eligibility for Form 1023-EZ (projected revenue under $50K/year)",
+          "Gather required documents: Articles of Incorporation, bylaws, EIN",
+          "Complete the chosen form on Pay.gov",
+          "Pay filing fee ($275 for EZ, $600 for full 1023)",
+          "Track application status through IRS",
+          "Respond promptly to any IRS questions or requests"
+        ]
+      },
+      {
+        "id": "p1-s11",
+        "title": "File for SC State Tax Exemptions",
+        "description": "Mail the IRS determination letter to the SC Department of Revenue along with Form ST-387 to receive state income and sales tax exemptions.",
+        "simpleExplanation": "Once the IRS approves you as a nonprofit, you need to tell South Carolina about it so you don't have to pay state taxes either. You mail them a copy of your IRS approval letter along with a form. It's like showing South Carolina your federal badge so they can give you their state badge too.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [
+          { "title": "SC DOR Form ST-387", "url": "https://dor.sc.gov/tax/sales/exemptions", "type": "document" }
+        ],
+        "substeps": [
+          "Wait for IRS determination letter (approval of 501(c)(3) status)",
+          "Download Form ST-387 from SC DOR website",
+          "Complete Form ST-387",
+          "Mail form + copy of IRS determination letter to SC DOR",
+          "Keep copies of all filed documents"
+        ]
+      },
+      {
+        "id": "p1-s12",
+        "title": "Register for Charitable Solicitation",
+        "description": "File a Registration Statement with the SC Secretary of State to legally solicit charitable donations. Fee is $50, renewed annually.",
+        "simpleExplanation": "Before you can ask people or businesses for donations in South Carolina, you have to register with the state. It's like getting a license that says 'yes, this is a real charity and it's okay to give them money.' It costs $50 and you have to renew it every year.",
+        "status": "not-started",
+        "estimatedCost": { "min": 50, "max": 50 },
+        "resources": [
+          { "title": "SC SOS - Charitable Organization Registration", "url": "https://sos.sc.gov/charities", "type": "tool" }
+        ],
+        "substeps": [
+          "Download charitable solicitation registration form from SC SOS",
+          "Gather required docs: IRS determination letter, Articles, bylaws, financial info",
+          "Complete and submit Registration Statement",
+          "Pay $50 filing fee",
+          "Set calendar reminder for annual renewal"
+        ]
+      },
+      {
+        "id": "p1-s13",
+        "title": "Open Nonprofit Bank Account",
+        "description": "Open a dedicated bank account for the organization. You will need your EIN, Articles of Incorporation, and a board resolution authorizing the account.",
+        "simpleExplanation": "Your nonprofit needs its own bank account so that money coming in (donations, grants) and money going out (expenses) is totally separate from your personal finances. You'll need your EIN number, your official nonprofit paperwork, and the note from your board meeting saying it's okay to open the account.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 100 },
+        "resources": [],
+        "substeps": [
+          "Research banks with good nonprofit account options (no/low fees)",
+          "Gather required documents: EIN, Articles of Incorporation, board resolution, bylaws",
+          "Visit bank with all board members or authorized signers",
+          "Open checking account and optional savings account",
+          "Set up online banking access for authorized officers"
+        ]
+      },
+      {
+        "id": "p1-s14",
+        "title": "Set Up Infrastructure",
+        "description": "Build your digital presence: launch a website, set up professional email addresses, and create social media profiles.",
+        "simpleExplanation": "Now it's time to build your home on the internet! This means setting up a website so people can learn about you, creating professional email addresses (like yourname@yourorg.org), and making profiles on social media so you can reach people where they already spend time online.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 200 },
+        "resources": [
+          { "title": "Google for Nonprofits", "url": "https://www.google.com/nonprofits/", "type": "tool" },
+          { "title": "Wix for Nonprofits", "url": "https://www.wix.com", "type": "tool" }
+        ],
+        "substeps": [
+          "Register domain name for your organization",
+          "Choose and set up website platform (Wix, Squarespace, or WordPress)",
+          "Build basic website: home, about, mission, contact pages",
+          "Set up professional email (via Google Workspace or similar)",
+          "Create Facebook, LinkedIn, and Instagram profiles",
+          "Add consistent branding (logo, colors, mission statement) across all platforms"
+        ]
+      },
+      {
+        "id": "p1-s15",
+        "title": "Apply for Google for Nonprofits",
+        "description": "Apply for Google for Nonprofits to receive free Google Workspace (email, docs, drive) and up to $10,000/month in Google Ads credits through the Ad Grants program.",
+        "simpleExplanation": "Google has a special program just for nonprofits that gives you free versions of their tools like Gmail, Google Docs, and Google Drive. They also give you up to $10,000 every month to advertise on Google for free! All you have to do is apply and show them you're a real approved nonprofit.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [
+          { "title": "Google for Nonprofits Application", "url": "https://www.google.com/nonprofits/", "type": "tool" },
+          { "title": "TechSoup Verification", "url": "https://www.techsoup.org", "type": "tool" }
+        ],
+        "substeps": [
+          "Verify nonprofit status through TechSoup (required by Google)",
+          "Apply at google.com/nonprofits with 501(c)(3) documentation",
+          "Set up Google Workspace for Nonprofits (free email and collaboration tools)",
+          "Apply separately for Google Ad Grants ($10K/month in search ads)",
+          "Set up Google Ad Grants account and create first campaigns"
+        ]
+      },
+      {
+        "id": "p1-s16",
+        "title": "Begin Grant Applications",
+        "description": "Start pursuing grant funding. Target the OpenAI People-First AI Fund as the first priority, followed by other AI education and rural development funders.",
+        "simpleExplanation": "Grants are like free money that organizations give you to do good work — you don't have to pay it back! You write an application explaining what you want to do and why it matters, and if they like it, they send you the money. Start with the OpenAI People-First AI Fund because it's a perfect match for what you're doing.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 0 },
+        "resources": [
+          { "title": "OpenAI People-First AI Fund", "url": "https://openai.com/social-impact", "type": "tool" },
+          { "title": "Candid Foundation Directory", "url": "https://candid.org", "type": "tool" },
+          { "title": "Grants.gov", "url": "https://www.grants.gov", "type": "tool" }
+        ],
+        "substeps": [
+          "Research OpenAI People-First AI Fund requirements and deadlines",
+          "Draft compelling narrative: problem, solution, community impact",
+          "Identify 5-10 additional funders aligned with AI education and rural development",
+          "Create a grant calendar tracking deadlines and requirements",
+          "Submit OpenAI fund application",
+          "Begin applications to SC Humanities Council and other state funders"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-2",
+    "number": 2,
+    "title": "AI Startup Incubator",
+    "subtitle": "Rural Founder Acceleration Program",
+    "description": "Launch an AI-native startup incubator that helps rural South Carolina entrepreneurs build businesses using AI tools — from idea to investor-ready pitch.",
+    "color": "phase-2",
+    "icon": "Rocket",
+    "status": "not-started",
+    "targetDate": "2028-12-31",
+    "keyMetrics": {
+      "totalSteps": 7,
+      "completedSteps": 0,
+      "estimatedTotalCost": { "min": 5000, "max": 50000 },
+      "targetLaunchDate": "2027-09-01"
+    },
+    "steps": [
+      {
+        "id": "p2-s1",
+        "title": "Design Incubator Curriculum",
+        "description": "Build an AI-native curriculum focused on problem identification, prototyping with AI tools, and building fundable businesses. Program should run 8–12 weeks.",
+        "simpleExplanation": "You need to create a class or program that teaches local entrepreneurs how to build a business using AI. Think of it like a bootcamp — over a couple of months, you teach people how to find a real problem in their community, use AI tools to build a solution, and then show that solution to investors. You're creating the whole lesson plan from scratch.",
+        "status": "not-started",
+        "estimatedCost": { "min": 1000, "max": 10000 },
+        "resources": [
+          { "title": "YCombinator Startup School", "url": "https://www.startupschool.org", "type": "tool" },
+          { "title": "CORI Rural Tech Playbook", "url": "https://www.cori.org", "type": "document" }
+        ],
+        "substeps": [
+          "Research existing incubator curricula (YC, SBDC, SCORE models)",
+          "Define learning outcomes for each week of the program",
+          "Identify AI tools appropriate for rural business contexts (no-code, low-code)",
+          "Develop modules: problem identification, market research, AI prototyping, financial modeling, pitching",
+          "Create application and selection criteria for cohort participants",
+          "Build assessment and mentor feedback framework"
+        ]
+      },
+      {
+        "id": "p2-s2",
+        "title": "Secure Physical or Virtual Space",
+        "description": "Partner with an existing tech hub for incubator space. Top targets: USC Columbia Tech Incubator, SOCO (Columbia), or Beaufort Digital Corridor.",
+        "simpleExplanation": "Your incubator needs a home — a place where people can come to work, learn, and get help building their businesses. Instead of renting a whole building (which costs a lot!), you can partner with organizations that already have the space and just share it with them. It saves money and helps you make great connections at the same time.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 15000 },
+        "resources": [
+          { "title": "USC Columbia Technology Incubator", "url": "https://sc.edu/about/offices_and_divisions/technology_commercialization/entrepreneurship/incubator/", "type": "tool" },
+          { "title": "Beaufort Digital Corridor", "url": "https://beaufortdigitalcorridor.com", "type": "tool" }
+        ],
+        "substeps": [
+          "Contact USC Columbia Tech Incubator about partnership or residency",
+          "Contact SOCO Columbia about co-working and programming space",
+          "Contact Beaufort Digital Corridor for Lowcountry presence",
+          "Evaluate virtual-first model for reaching rural participants without driving",
+          "Negotiate space agreement (in-kind partnership or cost-sharing)",
+          "Set up hybrid model: virtual weekly sessions + in-person monthly cohort days"
+        ]
+      },
+      {
+        "id": "p2-s3",
+        "title": "Build Mentor Network",
+        "description": "Recruit experienced mentors from SCRA portfolio companies, VentureSouth investor network, and NextGEN SC entrepreneurship ecosystem.",
+        "simpleExplanation": "Mentors are successful business people and investors who volunteer their time to help your incubator founders with advice and connections. Think of them like coaches who've already done what your founders are trying to do. You want to find people from across South Carolina who are excited about helping new entrepreneurs succeed.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 2000 },
+        "resources": [
+          { "title": "VentureSouth", "url": "https://venturesouth.us", "type": "tool" },
+          { "title": "SC Research Authority", "url": "https://scra.org", "type": "tool" },
+          { "title": "NextGEN SC", "url": "https://nextgensc.org", "type": "tool" }
+        ],
+        "substeps": [
+          "Identify 15-20 potential mentors across industries (tech, agriculture, healthcare, retail)",
+          "Reach out to VentureSouth members for investor-mentors",
+          "Contact SCRA for connections to portfolio company founders",
+          "Reach out through NextGEN SC network",
+          "Define mentor commitment (hours per month, session format)",
+          "Onboard and train mentors on program expectations",
+          "Create mentor matching system for cohort participants"
+        ]
+      },
+      {
+        "id": "p2-s4",
+        "title": "Plan Demo Day / Pitch Event",
+        "description": "Design and host a Demo Day where cohort graduates pitch their AI startups to investors. Target investors from VentureSouth, Upstate Carolina Angel Network, and Palmetto Angel Fund.",
+        "simpleExplanation": "Demo Day is the big finale — like a school science fair but for startups! Founders get to stand up and pitch their business idea to real investors who might give them money to grow. Your job is to plan this event, invite the right investors, and make sure your founders are ready to shine.",
+        "status": "not-started",
+        "estimatedCost": { "min": 500, "max": 5000 },
+        "resources": [
+          { "title": "VentureSouth Demo Days", "url": "https://venturesouth.us", "type": "tool" },
+          { "title": "Upstate Carolina Angel Network", "url": "https://upstatecarolinaangel.com", "type": "tool" },
+          { "title": "Palmetto Angel Fund", "url": "https://palmettoangelsfund.com", "type": "tool" }
+        ],
+        "substeps": [
+          "Define Demo Day format: pitches, Q&A, networking",
+          "Set date and secure venue (USC incubator, hotel ballroom, or virtual)",
+          "Invite VentureSouth, Upstate Carolina Angel Network, Palmetto Angel Fund",
+          "Prep founders with pitch coaching and practice sessions",
+          "Create pitch deck template and evaluation criteria",
+          "Send invitations to press, community leaders, and potential partners",
+          "Host event and facilitate investor introductions after pitches"
+        ]
+      },
+      {
+        "id": "p2-s5",
+        "title": "Establish Legal Support Pipeline",
+        "description": "Partner with law firms to provide pro bono or reduced-cost startup legal services to incubator participants. Target firms: Dority & Manning, Gallivan White & Boyd.",
+        "simpleExplanation": "Starting a company requires legal help — like setting up the business structure properly and protecting your ideas. But lawyers can be really expensive for new founders. You can partner with law firms who agree to help your founders for free or at a big discount. This is a huge gift to your founders and builds goodwill with the law firms too.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 1000 },
+        "resources": [
+          { "title": "Dority & Manning", "url": "https://dority-manning.com", "type": "tool" },
+          { "title": "Gallivan White & Boyd", "url": "https://www.gallivan-white.com", "type": "tool" },
+          { "title": "SC Bar Pro Bono Program", "url": "https://www.scbar.org/lawyers/programs-services/pro-bono/", "type": "tool" }
+        ],
+        "substeps": [
+          "Identify 2-3 law firms with startup/IP practice areas in SC",
+          "Contact Dority & Manning about pro bono incubator partnership",
+          "Contact Gallivan White & Boyd about startup legal support program",
+          "Explore SC Bar Association's pro bono resources",
+          "Define scope of legal services offered (entity formation, IP basics, contracts)",
+          "Create referral system and intake process for founders needing legal help"
+        ]
+      },
+      {
+        "id": "p2-s6",
+        "title": "Define Revenue Model",
+        "description": "Establish a sustainable financial model combining grants (SBA, EDA), equity stakes in startups (2–5%), corporate sponsorships, and program fees.",
+        "simpleExplanation": "Your incubator needs money to keep running. The good news is there are several ways to bring in revenue: government grants (the SBA and EDA give money to programs like yours), a small ownership share in the companies you help (if they succeed, you share in that success), corporate sponsors who want to support innovation, and fees from participants who can afford to pay.",
+        "status": "not-started",
+        "estimatedCost": { "min": 500, "max": 2000 },
+        "resources": [
+          { "title": "SBA Grants for Nonprofits", "url": "https://www.sba.gov/funding-programs/grants", "type": "tool" },
+          { "title": "EDA Grants", "url": "https://www.eda.gov/grants", "type": "tool" }
+        ],
+        "substeps": [
+          "Model out annual operating costs for running the incubator",
+          "Research SBA and EDA grant programs for rural innovation/entrepreneurship",
+          "Draft equity agreement template (2-5% stake for incubator participation)",
+          "Identify potential corporate sponsors (tech companies, banks, utilities with CRA obligations)",
+          "Create tiered sponsorship packages with benefits",
+          "Set participant fee structure with sliding scale for lower-income founders",
+          "Build 3-year financial model showing path to sustainability"
+        ]
+      },
+      {
+        "id": "p2-s7",
+        "title": "Launch First Cohort",
+        "description": "Run your first 8–12 week cohort of 5–10 rural founders building AI-native businesses. Document everything to improve future cohorts.",
+        "simpleExplanation": "This is the moment everything has been building toward — you actually run your first group of founders through the program! You'll probably start with around 5-10 people, teach them for a couple of months, support them along the way, and then watch them pitch their ideas at Demo Day. Make sure to write down everything that went well and what you'd do differently next time.",
+        "status": "not-started",
+        "estimatedCost": { "min": 2000, "max": 15000 },
+        "resources": [],
+        "substeps": [
+          "Open applications and market to rural SC communities",
+          "Review applications and select 5-10 founding cohort participants",
+          "Kick off program with orientation week",
+          "Run weekly sessions over 8-12 weeks",
+          "Facilitate mentor matching and check-in meetings",
+          "Prepare founders for Demo Day",
+          "Host Demo Day",
+          "Conduct post-program surveys and retrospective",
+          "Document learnings and improvements for Cohort 2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-3",
+    "number": 3,
+    "title": "Rural AI Investment Fund",
+    "subtitle": "Angel Syndicate or Registered Fund",
+    "description": "Build an investment vehicle to fund the most promising AI startups emerging from the incubator and broader rural South Carolina ecosystem.",
+    "color": "phase-3",
+    "icon": "TrendingUp",
+    "status": "not-started",
+    "targetDate": "2030-12-31",
+    "keyMetrics": {
+      "totalSteps": 6,
+      "completedSteps": 0,
+      "estimatedTotalCost": { "min": 10000, "max": 100000 },
+      "targetLaunchDate": "2029-01-01"
+    },
+    "steps": [
+      {
+        "id": "p3-s1",
+        "title": "Study VentureSouth Model",
+        "description": "Deeply research how VentureSouth operates as an angel syndicate across the Southeast — deal flow, investor relations, due diligence process, and fund administration.",
+        "simpleExplanation": "Before you build your own investment fund, you should study how other successful funds in your region actually work. VentureSouth is one of the most active angel investor groups in the Southeast, and they've been doing this for a long time. It's like studying the best playbook before writing your own — learn from people who already figured out a lot of the hard stuff.",
+        "status": "not-started",
+        "estimatedCost": { "min": 0, "max": 500 },
+        "resources": [
+          { "title": "VentureSouth", "url": "https://venturesouth.us", "type": "tool" },
+          { "title": "Angel Capital Association", "url": "https://www.angelcapitalassociation.org", "type": "tool" },
+          { "title": "NVCA Startup Investment Resources", "url": "https://nvca.org", "type": "tool" }
+        ],
+        "substeps": [
+          "Request an informational meeting with VentureSouth leadership",
+          "Study their deal screening and due diligence process",
+          "Understand how they structure investments (instruments, terms, equity amounts)",
+          "Learn how they manage investor relations and LP communications",
+          "Research Upstate Carolina Angel Network and Palmetto Angel Fund as comparisons",
+          "Identify what gaps a rural-focused fund would fill that existing groups don't cover"
+        ]
+      },
+      {
+        "id": "p3-s2",
+        "title": "Choose Fund Structure",
+        "description": "Decide between an Angel Syndicate (easier to start, deal-by-deal) and a Registered Investment Fund (more complex, larger scale). Each has different SEC requirements and operational demands.",
+        "simpleExplanation": "You have two main options for how to set up your investment fund. An angel syndicate is simpler — investors decide on each deal one at a time, like a group of friends each putting money into specific startups they like. A registered fund is more like a traditional investment fund where investors give money upfront and you invest it over time. The syndicate is much easier to start; the registered fund can handle more money.",
+        "status": "not-started",
+        "estimatedCost": { "min": 2000, "max": 15000 },
+        "resources": [
+          { "title": "AngelList Syndicates Guide", "url": "https://venture.angellist.com/syndicates", "type": "tool" },
+          { "title": "SEC Investment Adviser Resources", "url": "https://www.sec.gov/investment/investment-advisers", "type": "tool" }
+        ],
+        "substeps": [
+          "Consult with a securities attorney on both structures",
+          "Model out the operational requirements for each approach",
+          "Assess your investor network's preference (deal-by-deal vs. committed fund)",
+          "Evaluate AngelList syndicate platform for lower-overhead launch",
+          "Determine minimum fund size needed to be viable",
+          "Make final structure decision with legal counsel"
+        ]
+      },
+      {
+        "id": "p3-s3",
+        "title": "SEC Compliance Research",
+        "description": "Research federal securities regulations governing your fund structure. Key areas: Regulation D (Rule 506(b) and 506(c)), accredited investor verification requirements, and investment adviser registration thresholds.",
+        "simpleExplanation": "The federal government has very specific rules about how you can raise and invest money — especially from other people. You need to understand these rules before doing anything else, or you could accidentally break the law. The main rules are called 'Regulation D' and they cover who can invest, how you can advertise for investors, and how you have to handle their money.",
+        "status": "not-started",
+        "estimatedCost": { "min": 3000, "max": 20000 },
+        "resources": [
+          { "title": "SEC Regulation D Overview", "url": "https://www.sec.gov/smallbusiness/exemptofferings/regd", "type": "document" },
+          { "title": "SEC Accredited Investor Definition", "url": "https://www.sec.gov/education/capitalraising/building-blocks/accredited-investor", "type": "document" },
+          { "title": "FINRA BrokerCheck", "url": "https://brokercheck.finra.org", "type": "tool" }
+        ],
+        "substeps": [
+          "Engage a securities attorney specializing in fund formation",
+          "Study Regulation D exemptions (506(b) vs 506(c) differences)",
+          "Understand accredited investor verification requirements",
+          "Research investment adviser registration thresholds (state vs. SEC registered)",
+          "Understand Form D filing requirements",
+          "Develop compliance framework and investor qualification process"
+        ]
+      },
+      {
+        "id": "p3-s4",
+        "title": "Build Investor Network",
+        "description": "Cultivate relationships with accredited investors focused on the Southeast and rural markets. Primary targets: VentureSouth members, Upstate Carolina Angel Network, and mission-aligned impact investors.",
+        "simpleExplanation": "To run an investment fund, you need investors — people with money who believe in what you're doing and want to invest in rural startups with you. This step is about building real relationships with those people over time. You're not asking for money right away; you're getting to know them, sharing your vision, and earning their trust so that when the fund is ready to launch, they're excited to join.",
+        "status": "not-started",
+        "estimatedCost": { "min": 1000, "max": 5000 },
+        "resources": [
+          { "title": "VentureSouth", "url": "https://venturesouth.us", "type": "tool" },
+          { "title": "Upstate Carolina Angel Network", "url": "https://upstatecarolinaangel.com", "type": "tool" },
+          { "title": "Palmetto Angel Fund", "url": "https://palmettoangelsfund.com", "type": "tool" }
+        ],
+        "substeps": [
+          "Attend VentureSouth meetings and events as a guest",
+          "Attend Upstate Carolina Angel Network events",
+          "Connect with impact investors through SOCAP and related networks",
+          "Build a CRM/contact list of 50+ potential investors",
+          "Create investor update newsletter sharing incubator progress and deal flow",
+          "Host investor events in Columbia and Greenville to build community",
+          "Identify 10-15 lead investors committed to the fund concept"
+        ]
+      },
+      {
+        "id": "p3-s5",
+        "title": "Establish Fund Operations",
+        "description": "Build the operational infrastructure for the fund: engage a fund administrator, retain legal counsel, set up compliance systems, and create investor reporting processes.",
+        "simpleExplanation": "Running an investment fund isn't just about picking companies to invest in — there's a lot of behind-the-scenes work too. You need people and systems to keep track of all the money, make sure you're following the law, and keep investors informed about how their money is doing. Think of it like building the engine that keeps the fund running smoothly so you can focus on finding great companies.",
+        "status": "not-started",
+        "estimatedCost": { "min": 5000, "max": 30000 },
+        "resources": [
+          { "title": "Carta Fund Administration", "url": "https://carta.com/fund-administration/", "type": "tool" },
+          { "title": "Assure Syndicates", "url": "https://assure.co", "type": "tool" }
+        ],
+        "substeps": [
+          "Select and engage a fund administrator (Carta, Assure, or similar)",
+          "Retain securities attorney for ongoing legal counsel",
+          "Set up fund entity (LP, LLC, or SPV structure)",
+          "Create investor portal for reporting and communications",
+          "Build deal flow tracking and due diligence pipeline",
+          "Establish investment committee and decision-making process",
+          "Create investor reporting templates (quarterly updates, annual reports)"
+        ]
+      },
+      {
+        "id": "p3-s6",
+        "title": "Make First Investment",
+        "description": "Deploy capital into the first portfolio company — ideally a graduate of your incubator program with strong market fit and a working AI-powered product.",
+        "simpleExplanation": "This is the moment where the fund goes from being an idea to being real — you write your first check to a startup! The best candidates will probably come from your own incubator because you already know them well and have watched them work. Look for founders with a clear problem they're solving, real customers, and a product that actually uses AI in a meaningful way.",
+        "status": "not-started",
+        "estimatedCost": { "min": 25000, "max": 250000 },
+        "resources": [
+          { "title": "SAFE Note Template (YC)", "url": "https://www.ycombinator.com/documents", "type": "document" },
+          { "title": "500 Global Term Sheet Guide", "url": "https://500.co/thefuture", "type": "document" }
+        ],
+        "substeps": [
+          "Review incubator graduates for investment readiness",
+          "Conduct formal due diligence on top candidates",
+          "Present investment opportunity to investment committee",
+          "Negotiate investment terms (SAFE note, equity, convertible note)",
+          "Execute investment documents with legal review",
+          "Wire first investment",
+          "Announce first portfolio company",
+          "Set up ongoing founder support and board observer process"
+        ]
+      }
+    ]
+  }
+]

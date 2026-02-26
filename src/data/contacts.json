@@ -1,0 +1,190 @@
+{
+  "categories": [
+    { "id": "key-people", "label": "Key People", "icon": "Users" },
+    { "id": "organizations", "label": "Organizations", "icon": "Building2" },
+    { "id": "government", "label": "Government", "icon": "Landmark" },
+    { "id": "academic", "label": "Academic", "icon": "GraduationCap" }
+  ],
+  "contacts": [
+    {
+      "id": "kim-bowman",
+      "name": "Kim Bowman",
+      "category": "key-people",
+      "organization": "SCRIN",
+      "role": "Founder & CEO",
+      "email": "",
+      "phone": "",
+      "website": "https://scrin.org",
+      "whyTheyMatter": "Kim Bowman founded SCRIN (Southern Community Resilience & Innovation Network), which operates at the exact intersection of rural Southern communities and emerging technology. Her network spans dozens of rural nonprofits and she has direct relationships with community leaders who are already asking for AI literacy resources. A partnership with her could open doors to immediate programming sites and co-grant applications.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "high",
+      "outreachMessages": {
+        "intro": "Hi Kim,\n\nI came across SCRIN's work and was immediately struck by the alignment with what I'm building — the Southern AI Literacy Initiative. We're developing accessible AI education programming specifically for rural Southern communities, and your network represents exactly the kind of grounded, trust-based infrastructure we need to make this real.\n\nI'd love to share what we're working on and explore whether there's a natural fit for collaboration. Would you be open to a brief call?\n\nWarm regards,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Hi Kim,\n\nThank you for your time — I'd love to set up a 30-minute call to discuss potential collaboration between SCRIN and the Southern AI Literacy Initiative.\n\nI'm particularly interested in learning more about your community partnerships and exploring how our AI literacy curriculum could complement your existing programs.\n\nI'm flexible on timing — would any of the following work for you?\n• [Date/Time Option 1]\n• [Date/Time Option 2]\n• [Date/Time Option 3]\n\nLooking forward to connecting,\n[Your Name]",
+        "followUp": "Hi Kim,\n\nI wanted to follow up on my previous message about the Southern AI Literacy Initiative. I know your schedule is busy, so I'll keep this brief.\n\nWe're moving forward with our first pilot programs and I believe SCRIN's community relationships could be genuinely transformative for this work. Even a 20-minute conversation would be valuable.\n\nIf now isn't the right time, I completely understand — I'd just appreciate knowing so I can plan accordingly.\n\nBest,\n[Your Name]",
+        "partnershipProposal": "Hi Kim,\n\nFollowing our conversation, I wanted to formally propose a partnership framework between SCRIN and the Southern AI Literacy Initiative.\n\nWhat I envision: SALI provides curriculum, facilitation training, and technology resources; SCRIN provides community access, trusted relationships, and local context. Together we pursue joint grant funding from sources like the Lumina Foundation and Knight Foundation.\n\nI've drafted a brief MOU outline I'd love to share. Would you be open to reviewing it and scheduling a working session?\n\nExcited about the possibility,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "dr-james-carter",
+      "name": "Dr. James Carter",
+      "category": "key-people",
+      "organization": "Tuskegee University",
+      "role": "Director of Technology Innovation",
+      "email": "",
+      "phone": "",
+      "website": "https://tuskegee.edu",
+      "whyTheyMatter": "Dr. Carter leads technology initiatives at Tuskegee University, one of the most historically significant HBCUs in the country. His position gives him influence over curriculum development, community outreach programs, and external partnerships. Tuskegee's deep roots in rural Alabama and its reputation for practical, community-facing research make it an ideal academic anchor for the Southern AI Literacy Initiative.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "high",
+      "outreachMessages": {
+        "intro": "Dear Dr. Carter,\n\nI'm reaching out because Tuskegee's legacy of applied, community-centered innovation is precisely the kind of institutional DNA the Southern AI Literacy Initiative needs as a partner.\n\nWe're building an AI literacy program for rural Southern communities and are looking for an academic anchor that brings both credibility and genuine community trust. Tuskegee University uniquely holds both.\n\nWould you have 30 minutes to discuss potential academic collaboration?\n\nRespectfully,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear Dr. Carter,\n\nI'd like to formally request a meeting to discuss how the Southern AI Literacy Initiative might collaborate with Tuskegee's technology programs.\n\nSpecifically, I'm interested in exploring: curriculum co-development, student practicum opportunities, and joint research on AI literacy outcomes in rural communities.\n\nI'm available at your convenience and happy to come to campus.\n\nBest regards,\n[Your Name]",
+        "followUp": "Dear Dr. Carter,\n\nI'm following up on my earlier outreach regarding the Southern AI Literacy Initiative. I understand you receive many collaboration requests, and I want to be respectful of your time.\n\nIf there's a better person on your team to speak with initially, I'm happy to start there. Or if the timing isn't right, I'd appreciate knowing so I can follow up at a better moment.\n\nThank you for your consideration,\n[Your Name]",
+        "partnershipProposal": "Dear Dr. Carter,\n\nBuilding on our discussions, I'd like to propose a formal academic partnership between Tuskegee University and the Southern AI Literacy Initiative.\n\nProposed framework: Tuskegee faculty serve as curriculum advisors and co-investigators on research grants; SALI provides field implementation and community partnerships; both organizations co-author publications on AI literacy outcomes in underserved communities.\n\nThis partnership could position Tuskegee as a national leader in community-centered AI education research. I've prepared a brief partnership prospectus — may I share it with you?\n\nWith great respect,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "maya-johnson",
+      "name": "Maya Johnson",
+      "category": "key-people",
+      "organization": "Digital Equity Alliance",
+      "role": "Executive Director",
+      "email": "",
+      "phone": "",
+      "website": "",
+      "whyTheyMatter": "Maya Johnson has spent a decade building one of the most effective digital equity organizations in the Southeast. Her organization has successfully run technology access programs in 12 rural counties, and she has existing relationships with funders who care specifically about digital literacy in underserved communities. Her endorsement or partnership would significantly strengthen grant applications.",
+      "status": "reached-out",
+      "notes": "",
+      "priority": "high",
+      "outreachMessages": {
+        "intro": "Hi Maya,\n\nYour work with the Digital Equity Alliance has been on my radar for a while — what you've built across those 12 rural counties is exactly the kind of sustained, trust-based work that makes a real difference.\n\nI'm launching the Southern AI Literacy Initiative, focused on making AI education accessible to rural Southern communities. I'd love to learn from your experience and explore whether our work might complement each other.\n\nWould you have time for a call?\n\nWarm regards,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Hi Maya,\n\nI'd love to schedule a call to learn more about Digital Equity Alliance's approach and share what we're building with the Southern AI Literacy Initiative.\n\nI'm particularly interested in your experience with sustained community engagement and what's worked in rural county programming.\n\nAre you available any of these times?\n• [Option 1]\n• [Option 2]\n\nThanks,\n[Your Name]",
+        "followUp": "Hi Maya,\n\nJust circling back on my earlier note. No pressure at all — I know how full executive calendars get.\n\nIf there's a better time or a better way to connect, I'm flexible. Even a brief email exchange would be helpful.\n\nBest,\n[Your Name]",
+        "partnershipProposal": "Hi Maya,\n\nAfter our conversations, I'd like to propose a more formal collaboration between the Digital Equity Alliance and the Southern AI Literacy Initiative.\n\nI see real complementarity: your infrastructure and community relationships, our AI-specific curriculum and programming. Together we could pursue Knight Foundation funding for a multi-county AI literacy pilot.\n\nWould you be interested in co-developing a grant proposal? I'm happy to lead the writing.\n\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "alabama-rural-electric",
+      "name": "Alabama Rural Electric Cooperative",
+      "category": "organizations",
+      "organization": "Alabama Rural Electric Cooperative",
+      "role": "Community Partner",
+      "email": "",
+      "phone": "",
+      "website": "https://areapower.com",
+      "whyTheyMatter": "Rural electric cooperatives across the South already have deep community trust, existing communication channels into rural homes, and in many cases, broadband infrastructure. The Alabama Rural Electric Cooperative reaches tens of thousands of rural households and has a mandate to serve their communities beyond just electricity. They've funded community programs before and could be both a distribution channel and a funding source.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "medium",
+      "outreachMessages": {
+        "intro": "Dear [Contact Name],\n\nI'm reaching out about a community initiative that may align well with your cooperative's mission of serving rural Alabama families.\n\nThe Southern AI Literacy Initiative is developing AI education programs specifically designed for rural communities — practical, accessible content that helps people understand and benefit from AI technology that's increasingly affecting their jobs, healthcare, and daily lives.\n\nGiven your reach into rural homes across Alabama, I'd love to explore whether there's a partnership opportunity — whether through community programming, co-sponsorship, or other collaboration.\n\nWould someone on your team be available for a brief conversation?\n\nBest regards,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Contact Name],\n\nFollowing up on my recent outreach — I'd love to schedule a brief meeting to share more about the Southern AI Literacy Initiative and explore how we might work together.\n\nRural electric cooperatives have a unique position of trust in their communities, and I believe we could create real value for your members through collaborative AI literacy programming.\n\nI'm happy to present to your community relations team at your convenience.\n\nThank you,\n[Your Name]",
+        "followUp": "Dear [Contact Name],\n\nI wanted to follow up on my earlier message about the Southern AI Literacy Initiative. We're in the early stages of building community partnerships and your cooperative's reach and community trust would be incredibly valuable.\n\nIf this isn't the right time or the right fit, I completely understand. But if there's any interest, I'd welcome even a 15-minute exploratory call.\n\nBest,\n[Your Name]",
+        "partnershipProposal": "Dear [Contact Name],\n\nThank you for your interest in the Southern AI Literacy Initiative. Based on our discussions, I'd like to propose a community partnership.\n\nProposed collaboration: SALI provides AI literacy workshops that your cooperative can offer as a member benefit; your cooperative provides venue access, marketing through your existing channels, and potentially modest co-sponsorship. Both organizations share credit for bringing this education to rural members.\n\nThis positions your cooperative as a forward-thinking community resource in the AI era. I've prepared a brief partnership one-pager — may I share it?\n\nWarm regards,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "hope-credit-union",
+      "name": "Hope Credit Union",
+      "category": "organizations",
+      "organization": "Hope Credit Union",
+      "role": "Community Development Partner",
+      "email": "",
+      "phone": "",
+      "website": "https://hopecu.org",
+      "whyTheyMatter": "Hope Credit Union is one of the most respected community development financial institutions (CDFIs) in the Deep South, with a specific mission to serve communities underserved by traditional banking. They have deep relationships with rural Black communities in particular, strong national funding connections, and experience co-funding community education programs. An endorsement from Hope CU carries significant weight with foundations.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "medium",
+      "outreachMessages": {
+        "intro": "Dear [Contact Name],\n\nHope Credit Union's commitment to economic empowerment in the Deep South is one of the most inspiring examples of mission-driven finance I've encountered. Your work in communities that have been systematically excluded from mainstream financial systems is exactly the kind of foundation that the Southern AI Literacy Initiative wants to build on.\n\nWe're developing AI literacy programs for rural Southern communities — with a particular focus on economic opportunity and workforce readiness. I believe there's real alignment between our missions.\n\nWould you be open to a conversation?\n\nWith respect,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Contact Name],\n\nI'd like to request a meeting to explore potential collaboration between Hope Credit Union and the Southern AI Literacy Initiative.\n\nSpecifically, I'm interested in discussing joint programming around AI and financial technology literacy for your members, and potential co-funding for rural community education initiatives.\n\nI'm available at your convenience.\n\nThank you,\n[Your Name]",
+        "followUp": "Dear [Contact Name],\n\nI'm following up on my previous outreach regarding a potential partnership with the Southern AI Literacy Initiative.\n\nI realize your team receives many partnership inquiries. If there's a better process for initiating this conversation, I'm happy to follow it.\n\nThank you for your consideration,\n[Your Name]",
+        "partnershipProposal": "Dear [Contact Name],\n\nI'd like to formally propose a partnership between Hope Credit Union and the Southern AI Literacy Initiative that could serve your members and advance both our missions.\n\nProposed framework: SALI develops AI and fintech literacy modules tailored to your member communities; Hope CU integrates these into financial wellness programming and co-applies for CDFI-eligible grants. Both organizations expand their community impact.\n\nI believe this could attract significant foundation support. May I share a brief partnership prospectus?\n\nWith appreciation for your work,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "senator-office-rural-dev",
+      "name": "Office of Rural Development",
+      "category": "government",
+      "organization": "USDA Rural Development - Alabama",
+      "role": "State Director's Office",
+      "email": "",
+      "phone": "",
+      "website": "https://rd.usda.gov/al",
+      "whyTheyMatter": "USDA Rural Development administers billions in funding for rural communities, including workforce development and technology programs. The Alabama state office has discretion over some grant programs and strong relationships with rural community leaders. Building a relationship here could lead to direct funding opportunities, program co-sponsorship, and credibility with rural community leaders who trust federal agricultural programs.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "medium",
+      "outreachMessages": {
+        "intro": "Dear [State Director],\n\nI'm reaching out as the founder of the Southern AI Literacy Initiative, a nonprofit focused on bringing accessible AI education to rural Southern communities.\n\nGiven USDA Rural Development's commitment to building strong rural economies, I believe our work is closely aligned with your office's mission. AI literacy is increasingly a workforce issue — rural communities that lack access to this knowledge will face growing economic disadvantage.\n\nI'd welcome the opportunity to brief your office on our initiative and learn more about relevant programs and funding opportunities.\n\nRespectfully,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Staff Contact],\n\nThank you for your time — I'd like to formally request a briefing meeting with your office regarding the Southern AI Literacy Initiative.\n\nI believe our work aligns with USDA RD's rural workforce and technology programs, and I'd like to discuss both programmatic collaboration and any applicable grant opportunities.\n\nI'm happy to come to your office at your convenience.\n\nThank you,\n[Your Name]",
+        "followUp": "Dear [Contact Name],\n\nFollowing up on my earlier outreach regarding the Southern AI Literacy Initiative. I understand government offices receive many inquiries, and I want to be respectful of your process.\n\nIf there's a formal intake process or a better contact for partnership inquiries, please let me know.\n\nThank you for your public service,\n[Your Name]",
+        "partnershipProposal": "Dear [Contact Name],\n\nBuilding on our conversations, I'd like to propose a formal collaboration between the Southern AI Literacy Initiative and USDA Rural Development - Alabama.\n\nPossible areas of collaboration: SALI programming as a component of USDA workforce development grants; joint outreach through your rural networks; USDA endorsement for foundation grant applications that benefit rural Alabama communities.\n\nI've prepared a brief program overview — may I share it with your office?\n\nWith respect,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "congressman-rural-caucus",
+      "name": "Rural Caucus Office",
+      "category": "government",
+      "organization": "U.S. House Rural Caucus",
+      "role": "Legislative Staff",
+      "email": "",
+      "phone": "",
+      "website": "https://ruralcaucus.house.gov",
+      "whyTheyMatter": "Congressional Rural Caucus members and their staff are actively looking for constituents doing innovative work in rural communities. A relationship here can lead to congressional letters of support for grant applications (which significantly improve success rates), invitations to testify or brief staff, and connections to federal program officers who administer rural development funding. Congressional staff are often more accessible than their superiors.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "low",
+      "outreachMessages": {
+        "intro": "Dear [Staff Member],\n\nI'm a constituent and founder of the Southern AI Literacy Initiative, writing to introduce our work and explore whether it might be of interest to the Caucus.\n\nWe're building AI literacy programs for rural Southern communities — addressing a real and growing gap in workforce preparedness and economic opportunity. This is the kind of constituent-led rural innovation that I believe the Caucus exists to support and amplify.\n\nI'd welcome the opportunity for a brief meeting or call.\n\nWith respect,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Staff Member],\n\nI'd like to request a brief meeting with [Representative]'s office to share information about the Southern AI Literacy Initiative and its impact on rural constituents.\n\nI'm available for an in-person meeting in Washington or a phone/video call at your convenience.\n\nThank you for your time,\n[Your Name]",
+        "followUp": "Dear [Staff Member],\n\nFollowing up on my earlier outreach. I understand the demands on congressional offices and want to be respectful of your time.\n\nIf a meeting isn't feasible, I'd be grateful for any guidance on the best way to share information about our initiative with the office.\n\nThank you,\n[Your Name]",
+        "partnershipProposal": "Dear [Staff Member],\n\nThank you for your interest in the Southern AI Literacy Initiative. I'd like to formally request the Congressman's support as we pursue federal and foundation funding.\n\nSpecifically, a letter of congressional support would significantly strengthen our grant applications to NSF, IMLS, and relevant federal agencies. We would of course keep the office updated on our progress and impact in the district.\n\nWould the office be willing to consider a letter of support? I'm happy to provide any information needed.\n\nGratefully,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "auburn-extension",
+      "name": "Auburn University Extension",
+      "category": "academic",
+      "organization": "Auburn University",
+      "role": "Extension Services - Technology",
+      "email": "",
+      "phone": "",
+      "website": "https://aces.edu",
+      "whyTheyMatter": "Auburn University's Extension Service has an established presence in every Alabama county, with trusted community educators who already work with rural residents on practical skills. The Extension model — meeting people where they are, focusing on practical application — is exactly right for AI literacy. A partnership with Extension could provide immediate distribution infrastructure and a model for rural reach that would be prohibitively expensive to build from scratch.",
+      "status": "not-contacted",
+      "notes": "",
+      "priority": "high",
+      "outreachMessages": {
+        "intro": "Dear [Contact Name],\n\nAuburn Extension's county-by-county presence in Alabama communities represents something that takes decades to build: genuine trust. I'm writing because the Southern AI Literacy Initiative needs exactly that kind of infrastructure.\n\nWe're developing accessible AI education for rural Alabama residents — practical content about how AI affects jobs, healthcare decisions, and everyday life. The Extension model of practical, community-based education is the right model for this content.\n\nWould you be open to exploring a collaboration?\n\nWarm regards,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Contact Name],\n\nI'd like to schedule a meeting to discuss how the Southern AI Literacy Initiative might collaborate with Auburn Extension.\n\nI'm particularly interested in your experience integrating new technology topics into Extension programming and whether there's a pathway for AI literacy modules to become part of your existing offerings.\n\nI'm happy to come to Auburn at your convenience.\n\nBest,\n[Your Name]",
+        "followUp": "Dear [Contact Name],\n\nI wanted to follow up on my earlier message about the Southern AI Literacy Initiative. I realize Extension staff are incredibly busy serving communities across the state.\n\nIf there's a formal process for proposing curriculum partnerships, I'm happy to go through it. Or if another colleague would be a better initial contact, please point me in that direction.\n\nThank you,\n[Your Name]",
+        "partnershipProposal": "Dear [Contact Name],\n\nFollowing our conversations, I'd like to formally propose an Extension partnership for the Southern AI Literacy Initiative.\n\nProposed model: SALI develops AI literacy curriculum modules aligned with Extension's practical education philosophy; Extension agents deliver programming through existing county offices and community events; both organizations pursue USDA/NIFA funding for rural technology education.\n\nI believe this could be a model for rural AI literacy that other state extension systems would want to replicate nationally. May I share a program outline?\n\nWith enthusiasm,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    },
+    {
+      "id": "spelman-cds",
+      "name": "Spelman College Center for Digital Studies",
+      "category": "academic",
+      "organization": "Spelman College",
+      "role": "Research Partnership",
+      "email": "",
+      "phone": "",
+      "website": "https://spelman.edu",
+      "whyTheyMatter": "Spelman College's Center for Digital Studies conducts cutting-edge research on technology equity, with a specific focus on Black women and underserved communities. A research partnership would provide academic credibility for our outcomes data, access to graduate students as program evaluators and facilitators, and publication opportunities that raise the profile of both organizations. Spelman's network also connects to national conversations about equity in AI.",
+      "status": "meeting-scheduled",
+      "notes": "Initial call went very well. Dr. Williams expressed strong interest in a research collaboration. Follow up after the scheduled meeting on March 15.",
+      "priority": "high",
+      "outreachMessages": {
+        "intro": "Dear [Professor/Dr.],\n\nSpelman's work on technology equity is doing something rare: combining rigorous scholarship with a genuine commitment to the communities most affected by technological change. That's exactly the kind of academic partnership the Southern AI Literacy Initiative is looking for.\n\nWe're implementing AI literacy programs in rural Southern communities and would benefit enormously from a research partner who can help us measure impact, develop methodology, and contribute to the national conversation about equitable AI education.\n\nWould you have time to discuss a potential research collaboration?\n\nWith great respect for your work,\n[Your Name]\nFounder, Southern AI Literacy Initiative",
+        "meetingRequest": "Dear [Professor/Dr.],\n\nI'd like to formally request a meeting to discuss research collaboration between Spelman's Center for Digital Studies and the Southern AI Literacy Initiative.\n\nI'm interested in exploring: program evaluation frameworks, joint grant proposals (NSF, Spencer Foundation), student practicum opportunities, and co-authored research on AI literacy outcomes.\n\nI'm available at your convenience and happy to travel to Atlanta.\n\nBest regards,\n[Your Name]",
+        "followUp": "Dear [Professor/Dr.],\n\nI'm following up on my earlier message regarding the Southern AI Literacy Initiative. I know academic calendars are demanding, and I want to be respectful of your time.\n\nIf the timing isn't right or you'd like to connect me with a graduate student or colleague who handles partnership inquiries, I'm happy to start there.\n\nThank you for considering this,\n[Your Name]",
+        "partnershipProposal": "Dear [Professor/Dr.],\n\nBuilding on our productive conversations, I'd like to formalize a research partnership between Spelman's Center for Digital Studies and the Southern AI Literacy Initiative.\n\nProposed framework: Spelman serves as research evaluator and co-PI on grants; SALI provides program access and community relationships; we jointly publish findings on AI literacy intervention outcomes; graduate students participate as program evaluators and facilitators.\n\nI've drafted a partnership MOU and a joint Spencer Foundation proposal outline. Would you be willing to review them?\n\nWith great enthusiasm,\n[Your Name]\nFounder, Southern AI Literacy Initiative"
+      }
+    }
+  ]
+}
