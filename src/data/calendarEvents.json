@@ -9,203 +9,322 @@
   "events": [
     {
       "id": "e1",
-      "title": "SC Trip & Networking",
+      "title": "SC Trip — Networking Weekend",
       "date": "2026-02-28",
       "type": "meeting",
-      "description": "Travel to South Carolina. Meet Kim Bowman at SCRIN, visit UofSC Office of Innovation, connect with Rep. Bradley's office.",
-      "phase": "phase-1"
+      "description": "Travel to South Carolina. Meet Kim Bowman (SCRIN) to discuss partnership and USDA RBDG relationship. Visit UofSC Office of Innovation and Tech Incubator. Reach out to Rep. Bradley's office to introduce the initiative. Begin building the in-state partner network.",
+      "phase": "phase-1",
+      "relatedContacts": ["kim-bowman"],
+      "relatedSteps": ["ls-2"],
+      "completed": true
     },
     {
       "id": "e2",
-      "title": "Name Reservation Deadline",
-      "date": "2026-03-10",
+      "title": "Reserve Nonprofit Name",
+      "date": "2026-03-01",
       "type": "deadline",
-      "description": "Reserve chosen nonprofit name with SC Secretary of State before the 120-day window expires.",
-      "phase": "phase-1"
+      "description": "File name reservation with SC Secretary of State at businessfilings.sc.gov. Cost: $10. Reservation holds the name for 120 days while the rest of the formation paperwork is completed. Also purchase the .org domain at the same time.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-1"],
+      "completed": false
     },
     {
       "id": "e3",
-      "title": "File Articles of Incorporation",
-      "date": "2026-03-15",
-      "type": "milestone",
-      "description": "Submit Form NP to the SC Secretary of State to legally establish the nonprofit. Cost: $32.50.",
-      "phase": "phase-1"
+      "title": "Board Member Recruitment Deadline",
+      "date": "2026-03-07",
+      "type": "deadline",
+      "description": "Confirm all 3 initial board members by this date. Need full legal names, addresses, and written confirmation of willingness to serve. All board member info must be ready before filing Articles of Incorporation on March 15. Consider SC-based candidates with community ties or technology backgrounds.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-2"],
+      "completed": false
     },
     {
       "id": "e4",
-      "title": "Get EIN from IRS",
+      "title": "File Articles of Incorporation",
       "date": "2026-03-15",
-      "type": "milestone",
-      "description": "Apply for Employer Identification Number on IRS.gov. Free and instant online.",
-      "phase": "phase-1"
+      "type": "deadline",
+      "description": "Submit Form NP to the SC Secretary of State online at businessfilings.sc.gov. Cost: $32.50. Include charitable purpose clause with IRS-required language and dissolution clause. Processing takes 1-2 business days. This is the legal birth certificate of the nonprofit.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-5"],
+      "completed": false
     },
     {
       "id": "e5",
-      "title": "Board Member Recruitment",
-      "date": "2026-03-20",
-      "type": "reminder",
-      "description": "Follow up with potential board members. Need 3 confirmed before organizational meeting.",
-      "phase": "phase-1"
+      "title": "Get EIN from IRS",
+      "date": "2026-03-15",
+      "type": "deadline",
+      "description": "Apply for Employer Identification Number on IRS.gov. Free and instant — takes about 15 minutes online. Available Monday-Friday 7am-10pm Eastern Time. Screenshot the confirmation immediately. EIN is needed for the bank account, 501(c)(3) application, and every future grant application.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-6"],
+      "completed": false
     },
     {
       "id": "e6",
-      "title": "Organizational Board Meeting",
-      "date": "2026-03-30",
-      "type": "meeting",
-      "description": "First official board meeting. Approve bylaws, elect directors, adopt conflict-of-interest policy, authorize bank account.",
-      "phase": "phase-1"
+      "title": "Draft Bylaws Complete",
+      "date": "2026-03-22",
+      "type": "deadline",
+      "description": "Finalize bylaws and conflict of interest policy documents ready for board review and approval at the March 30 organizational meeting. Use the IRS sample conflict of interest policy. Circulate to all board members at least 5 days before the meeting so they can review in advance.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-8"],
+      "completed": false
     },
     {
       "id": "e7",
-      "title": "501(c)(3) Application Filed",
-      "date": "2026-04-15",
-      "type": "milestone",
-      "description": "Submit IRS Form 1023-EZ or 1023 for federal tax-exempt status. Cost: $275–$600.",
-      "phase": "phase-1"
+      "title": "Organizational Board Meeting",
+      "date": "2026-03-30",
+      "type": "meeting",
+      "description": "First official board meeting (Zoom is fine). Agenda: adopt bylaws, elect officers (President, Secretary, Treasurer), adopt conflict of interest policy, authorize opening a nonprofit bank account, set meeting schedule for the year. Record formal meeting minutes with all votes documented. Have all members sign the minutes.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-9"],
+      "completed": false
     },
     {
       "id": "e8",
-      "title": "Google for Nonprofits Apply",
-      "date": "2026-04-30",
-      "type": "deadline",
-      "description": "Apply for Google for Nonprofits. Unlocks free Google Workspace and $10K/month in Ad Grants.",
-      "phase": "phase-1"
+      "title": "OpenAI People-First AI Fund — Application Window Opens",
+      "date": "2026-04-01",
+      "endDate": "2026-06-30",
+      "type": "grant-window",
+      "description": "Priority Tier 1 grant. OpenAI Foundation's $9.5M second wave of the People-First AI Fund. Specifically prioritizes rural communities, AI literacy, and small nonprofits with budgets under $10M. Grants are unrestricted. This is the single highest-priority grant application — plan to submit by May 30.",
+      "phase": "phase-1",
+      "relatedGrants": ["openai-people-first"],
+      "completed": false
     },
     {
       "id": "e9",
-      "title": "OpenAI Fund Opens",
-      "date": "2026-05-01",
-      "type": "grant-window",
-      "description": "OpenAI People-First AI Fund application window opens. Priority Tier 1 grant — submit as soon as possible.",
-      "phase": "phase-1"
+      "title": "File 501(c)(3) Form 1023-EZ",
+      "date": "2026-04-15",
+      "type": "deadline",
+      "description": "Submit IRS Form 1023-EZ for federal tax-exempt status at pay.gov. Cost: $275. Requires Articles of Incorporation, bylaws, EIN, program description, and 3-year budget projection. Processing time: 2-6 weeks for 1023-EZ. Once approved, you receive the IRS Determination Letter — the most important document in your nonprofit's life.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-10"],
+      "completed": false
     },
     {
       "id": "e10",
-      "title": "First Grant Application",
-      "date": "2026-05-30",
+      "title": "Apply for Google for Nonprofits",
+      "date": "2026-04-30",
       "type": "deadline",
-      "description": "Submit first major grant application to the OpenAI People-First AI Fund.",
-      "phase": "phase-1"
+      "description": "Apply for Google for Nonprofits program at google.com/nonprofits. First register with TechSoup (techsoup.org) for verification — takes 2-5 business days. Upon approval: activate free Google Workspace (professional email with your domain) and Google Ad Grants ($10,000/month in free Google search advertising). Also explore Microsoft for Nonprofits and AWS Nonprofits at the same time.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-15"],
+      "completed": false
     },
     {
       "id": "e11",
-      "title": "Google.org/aiEDU Opens",
-      "date": "2026-06-01",
-      "type": "grant-window",
-      "description": "Google.org AI Education Rural Catalyst grant window opens. Submit application with pilot workshop evidence.",
-      "phase": "phase-1"
+      "title": "Website & Social Media Launch",
+      "date": "2026-05-01",
+      "type": "milestone",
+      "description": "Launch the organization's public-facing website, LinkedIn page, and Facebook page. Website must include mission statement, board bios, program description, contact info, and donation option. This is required before Google Ad Grants can be activated. Grant program officers will Google the organization — this needs to be live and professional before submitting any major applications.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-14"],
+      "completed": false
     },
     {
       "id": "e12",
-      "title": "First AI Literacy Workshop",
-      "date": "2026-06-30",
-      "type": "milestone",
-      "description": "Host the inaugural AI literacy workshop in a rural South Carolina community.",
-      "phase": "phase-1"
+      "title": "USDA Rural Development Grant Window Opens",
+      "date": "2026-05-15",
+      "endDate": "2026-06-15",
+      "type": "grant-window",
+      "description": "USDA Rural Business Development Grant (RBDG) application window. Grants of $10K-$500K for rural workforce and economic development. Key advantage: SCRIN is an existing USDA grantee — ask Kim Bowman for a letter of support and guidance on the SC USDA state office relationship before applying. Contact SC USDA Rural Development office in Columbia.",
+      "phase": "phase-1",
+      "relatedGrants": ["usda-rural-business"],
+      "completed": false
     },
     {
       "id": "e13",
-      "title": "501(c)(3) Follow-Up",
-      "date": "2026-07-15",
-      "type": "reminder",
-      "description": "Check IRS processing status of 501(c)(3) application. Expected 3-6 month processing time.",
-      "phase": "phase-1"
+      "title": "First Grant Application Submitted",
+      "date": "2026-05-30",
+      "type": "milestone",
+      "description": "Submit the first major grant application to the OpenAI People-First AI Fund. Prepare narrative, budget, and supporting documents. Have a board member review before submission. This is a major milestone — the first step in building a track record as an active grant-seeking organization.",
+      "phase": "phase-1",
+      "relatedGrants": ["openai-people-first"],
+      "relatedSteps": ["ls-16"],
+      "completed": false
     },
     {
       "id": "e14",
-      "title": "Microsoft/OpenAI Fund Deadline",
-      "date": "2026-07-31",
+      "title": "Pilot Workshop Planning Complete",
+      "date": "2026-06-15",
       "type": "deadline",
-      "description": "Deadline for Microsoft/OpenAI Societal Resilience Fund application. Requires workshop pilot data.",
-      "phase": "phase-1"
+      "description": "Complete all planning for the first AI literacy workshop pilot: venue confirmed, curriculum finalized, participant recruitment done, materials printed, facilitator(s) confirmed, logistics in place. The workshop must be ready to run on June 30. Start documenting everything for grant impact reports.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-16"],
+      "completed": false
     },
     {
       "id": "e15",
-      "title": "Workshop Series #2",
-      "date": "2026-08-15",
-      "type": "meeting",
-      "description": "Host second workshop in the pilot series. Gather feedback and document impact metrics.",
-      "phase": "phase-1"
+      "title": "First AI Literacy Workshop — Pilot",
+      "date": "2026-06-30",
+      "type": "milestone",
+      "description": "Host the inaugural AI literacy workshop in a rural South Carolina community. This pilot validates the program model, generates real impact data for grant applications (participant count, demographics, pre/post knowledge assessments, testimonials), and begins building credibility in the community. Photograph everything. Collect feedback forms from every participant.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-16"],
+      "completed": false
     },
     {
       "id": "e16",
-      "title": "501(c)(3) Determination Expected",
-      "date": "2026-09-01",
-      "type": "milestone",
-      "description": "Expected receipt of IRS determination letter granting 501(c)(3) status. Unlocks major grant eligibility.",
-      "phase": "phase-1"
+      "title": "Summer Workshop Series",
+      "date": "2026-07-01",
+      "endDate": "2026-08-31",
+      "type": "reminder",
+      "description": "Run the summer workshop series — target 3-5 additional workshops across different rural SC communities during July and August. Vary locations to demonstrate regional reach. Document all workshops with photos, attendance numbers, and feedback. This data will be essential for fall grant applications. Partner with local libraries and community centers as hosts.",
+      "phase": "phase-1",
+      "completed": false
     },
     {
       "id": "e17",
-      "title": "SC Tax Exemption Filing",
-      "date": "2026-09-15",
+      "title": "Microsoft/OpenAI Societal Resilience Fund Deadline",
+      "date": "2026-07-31",
       "type": "deadline",
-      "description": "File for SC state tax exemptions after receiving IRS determination letter. File Form ST-387 with SC DOR.",
-      "phase": "phase-1"
+      "description": "Application deadline for the Microsoft and OpenAI Societal Resilience Fund ($2M fund). By this point you should have completed at least 1-2 workshops with documented outcomes. Use workshop impact data — participant numbers, demographics, testimonials — to strengthen the application narrative about serving vulnerable communities.",
+      "phase": "phase-1",
+      "relatedGrants": ["microsoft-openai-resilience"],
+      "completed": false
     },
     {
       "id": "e18",
-      "title": "Charitable Solicitation Registration",
-      "date": "2026-09-30",
-      "type": "deadline",
-      "description": "File Registration Statement with SC Secretary of State to legally solicit charitable donations. Fee: $50.",
-      "phase": "phase-1"
+      "title": "Expected 501(c)(3) Determination Received",
+      "date": "2026-09-01",
+      "type": "milestone",
+      "description": "Expected date to receive the IRS 501(c)(3) Determination Letter (filed April 15, approximately 3-6 months processing). This letter is the golden key that unlocks: Google for Nonprofits full activation, SC state tax exemption, charitable solicitation registration, most major foundation grants, and corporate sponsorship conversations. Scan and store in multiple secure locations immediately upon receipt.",
+      "phase": "phase-1",
+      "relatedSteps": ["ls-10", "ls-11", "ls-12"],
+      "completed": false
     },
     {
       "id": "e19",
-      "title": "NSF BPC Grant Window",
+      "title": "Start Incubator Curriculum Design",
       "date": "2026-10-01",
-      "type": "grant-window",
-      "description": "NSF Broadening Participation in Computing grant cycle opens. Requires 501(c)(3) status.",
-      "phase": "phase-1"
+      "type": "reminder",
+      "description": "Begin designing the innovation incubator program structure: curriculum outline, mentor network recruitment, application process design, cohort selection criteria, graduation requirements, and budget. Research best practices from rural incubators (Appalachian Funders Network, Runway, Opportunity Alabama). Target: incubator design finalized by January 2027.",
+      "phase": "phase-1",
+      "completed": false
     },
     {
       "id": "e20",
-      "title": "Q4 Board Meeting",
-      "date": "2026-10-15",
-      "type": "meeting",
-      "description": "Quarterly board meeting. Review Q3 financials, grant pipeline, workshop outcomes, and Phase 2 planning.",
-      "phase": "phase-1"
+      "title": "NSF Broadening Participation in Computing — Application Deadline",
+      "date": "2026-11-01",
+      "type": "deadline",
+      "description": "NSF BPC grant application deadline. Requires 501(c)(3) status (received in September), evidence-based program approach, evaluation plan, and strong partnership with an academic institution. Pursue UofSC partnership before submitting — NSF strongly prefers university collaborators. This is a Tier 2 grant but prestigious and renewable. Grants of $50K-$300K.",
+      "phase": "phase-1",
+      "relatedGrants": ["nsf-bpc"],
+      "completed": false
     },
     {
       "id": "e21",
-      "title": "USDA RBDG Application",
+      "title": "USDA Rural Business Development Grant — Application Deadline",
       "date": "2026-11-30",
       "type": "deadline",
-      "description": "USDA Rural Business Development Grant application deadline. Submit with pilot program outcome data.",
-      "phase": "phase-1"
+      "description": "USDA Rural Business Development Grant final application deadline. By now you have workshop impact data and 501(c)(3) status. Get a letter of support from Kim Bowman at SCRIN before submitting — their existing USDA relationship is a major advantage. Contact the SC USDA Rural Development state office in Columbia to introduce yourself before the final submission.",
+      "phase": "phase-1",
+      "relatedGrants": ["usda-rural-business"],
+      "completed": false
     },
     {
       "id": "e22",
-      "title": "First Major Grant Decision",
-      "date": "2026-12-31",
-      "type": "milestone",
-      "description": "Expected receipt of first major grant award (OpenAI People-First Fund or USDA RBDG).",
-      "phase": "phase-1"
+      "title": "End of Year Fundraising Push",
+      "date": "2026-12-15",
+      "type": "reminder",
+      "description": "Launch end-of-year individual donor fundraising campaign. December 31 is the biggest giving day of the year for nonprofits — donors want tax deductions before year-end. Prepare an email campaign, social media posts, and a giving page on your website. Share workshop impact stories and photos. Set a modest but achievable fundraising goal (e.g., $5,000 from individual donors).",
+      "phase": "phase-1",
+      "completed": false
     },
     {
       "id": "e23",
-      "title": "Incubator Cohort 1 Launch",
-      "date": "2027-01-15",
+      "title": "First Major Grant Awarded — Target",
+      "date": "2026-12-31",
       "type": "milestone",
-      "description": "Launch inaugural cohort of the rural AI innovation incubator. Target: 8-12 rural SC entrepreneurs.",
-      "phase": "phase-2"
+      "description": "Target date to receive the first major grant award — ideally the OpenAI People-First AI Fund (submitted May 30, expected decision by year-end) or the Microsoft/OpenAI Societal Resilience Fund. This milestone validates the fundraising strategy, funds operations through Phase 2 planning, and dramatically increases credibility for all future grant applications.",
+      "phase": "phase-1",
+      "relatedGrants": ["openai-people-first", "microsoft-openai-resilience"],
+      "completed": false
     },
     {
       "id": "e24",
-      "title": "Incubator Applications Open",
-      "date": "2026-11-01",
-      "type": "reminder",
-      "description": "Open applications for the first incubator cohort. Market to rural SC communities and partner networks.",
-      "phase": "phase-2"
+      "title": "First Incubator Cohort Launch",
+      "date": "2027-01-15",
+      "type": "milestone",
+      "description": "Launch the inaugural cohort of the Rural AI Innovation Incubator. Target: 8-12 rural South Carolina entrepreneurs building AI-powered businesses. Provide weekly programming, mentor sessions, access to AI tools, business development workshops, and connections to the SC innovation ecosystem (VentureSouth, Nexus SC, SCRA). Cohort runs January through April.",
+      "phase": "phase-2",
+      "completed": false
     },
     {
       "id": "e25",
-      "title": "Demo Day — Cohort 1",
+      "title": "EDA Tech Hub Grant Application Window",
+      "date": "2027-03-01",
+      "endDate": "2027-09-30",
+      "type": "grant-window",
+      "description": "EDA Tech Hub sub-grant opportunity through SC Nexus. South Carolina is a federally designated Tech Hub — SC Nexus distributes sub-grants to aligned organizations for workforce development and technology adoption. AI literacy for rural communities is a direct fit. Build the SC Nexus relationship during the SC trip and throughout 2026 before submitting.",
+      "phase": "phase-2",
+      "relatedGrants": ["eda-tech-hub"],
+      "completed": false
+    },
+    {
+      "id": "e26",
+      "title": "First Incubator Demo Day",
       "date": "2027-04-30",
       "type": "milestone",
-      "description": "First incubator Demo Day. Founders pitch AI startups to investors from VentureSouth, UCAN, and Palmetto Angel Fund.",
-      "phase": "phase-2"
+      "description": "Host the inaugural incubator Demo Day — a public showcase where cohort founders present their AI startups to investors, press, partners, and community members. Invite VentureSouth, UCAN, Palmetto Angel Fund, and corporate sponsors. This event generates earned media, builds funder relationships, and demonstrates the full pipeline from literacy to entrepreneurship.",
+      "phase": "phase-2",
+      "completed": false
+    },
+    {
+      "id": "e27",
+      "title": "Grant Applications Round 2 — Tier 2 Push",
+      "date": "2027-01-01",
+      "endDate": "2027-06-30",
+      "type": "grant-window",
+      "description": "Submit Tier 2 grant applications with the enhanced credibility of completed workshops, 501(c)(3) status, and the incubator launch: NSF BPC renewal, EDA Tech Hub via SC Nexus, and SC Commission for Minority Affairs. Also approach Google.org/aiEDU if not yet funded. Each application should leverage the growing body of impact evidence from Phase 1.",
+      "phase": "phase-2",
+      "relatedGrants": ["nsf-bpc", "eda-tech-hub", "sc-minority-affairs", "google-aiedu-rural"],
+      "completed": false
+    },
+    {
+      "id": "e28",
+      "title": "Corporate Sponsorship Outreach Begins",
+      "date": "2027-02-01",
+      "type": "reminder",
+      "description": "Begin formal corporate sponsorship outreach to Google, Microsoft, Amazon Web Services, and Meta. By this point you have 501(c)(3) status, completed workshops, an active incubator, and compelling impact data. Each corporation has CSR budgets for AI education and digital equity. Prepare a professional sponsorship deck with different tiers ($5K, $10K, $25K) and corresponding recognition benefits.",
+      "phase": "phase-2",
+      "relatedGrants": ["corporate-sponsorships"],
+      "completed": false
+    },
+    {
+      "id": "e29",
+      "title": "Fee-for-Service Curriculum Sales Begin",
+      "date": "2027-09-01",
+      "type": "reminder",
+      "description": "Approach school districts for the 2027-2028 school year Title I spending plans. Libraries and community colleges are also strong targets. By September 2027 you have a proven curriculum with documented outcomes — now it is a product you can sell. Target $500-$2,500 per workshop session. This earned revenue diversifies funding and builds long-term sustainability.",
+      "phase": "phase-2",
+      "relatedGrants": ["fee-for-service"],
+      "completed": false
+    },
+    {
+      "id": "e30",
+      "title": "Investment Fund Research Begins",
+      "date": "2027-06-01",
+      "type": "reminder",
+      "description": "Begin researching legal structures and models for a rural AI investment fund. Engage a financial attorney and CPA to explore options: CDFI (Community Development Financial Institution), donor-advised fund, LLC/LP structure, or a program-related investment (PRI) vehicle. Study successful models: Runway, Opportunity Alabama, and rural CDFI funds. Target: fund structure decided by June 2028.",
+      "phase": "phase-2",
+      "completed": false
+    },
+    {
+      "id": "e31",
+      "title": "Fund Structure Established",
+      "date": "2028-06-01",
+      "type": "milestone",
+      "description": "Legal structure for the investment fund established. All legal and financial advisory work complete. Fund thesis documented. Initial capital commitments secured from lead investors. Deal flow pipeline identified from incubator alumni. Fund ready to make its first investment.",
+      "phase": "phase-3",
+      "completed": false
+    },
+    {
+      "id": "e32",
+      "title": "First Investment Made",
+      "date": "2028-12-31",
+      "type": "milestone",
+      "description": "Deploy the first capital investment into a rural South Carolina AI startup — ideally an alumnus of the incubator program. This completes the full flywheel: AI literacy education → business incubation → capital investment → economic impact. A landmark moment for the Southern AI Literacy Initiative and for rural South Carolina.",
+      "phase": "phase-3",
+      "completed": false
     }
   ]
 }
