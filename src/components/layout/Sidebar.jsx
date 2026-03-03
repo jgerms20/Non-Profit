@@ -18,6 +18,7 @@ import {
   X,
   Layers,
   Radar,
+  GraduationCap,
 } from 'lucide-react'
 
 const navSections = [
@@ -52,6 +53,7 @@ const navSections = [
     items: [
       { to: '/grants', icon: DollarSign, label: 'Grants & Funding' },
       { to: '/market', icon: Radar, label: 'Market Intel' },
+      { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/naming', icon: Sparkles, label: 'Naming Workshop' },
     ],

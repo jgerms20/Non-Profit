@@ -1,0 +1,496 @@
+{
+  "scailCourses": [
+    {
+      "id": "sc-1",
+      "title": "AI 101: What Is AI and Why Should I Care?",
+      "description": "A plain-language introduction to artificial intelligence designed for community members with zero prior experience. This session demystifies AI using everyday examples and ends with a hands-on ChatGPT demo.",
+      "level": "beginner",
+      "format": "in-person",
+      "duration": "90 min",
+      "audience": "Community members with zero AI experience, all ages",
+      "modules": [
+        "Module 1: What AI actually is (in plain language)",
+        "Module 2: AI you already use (Siri, Netflix, Google Maps)",
+        "Module 3: Hands-on demo with ChatGPT",
+        "Module 4: What AI can't do",
+        "Module 5: Q&A"
+      ],
+      "outcomes": [
+        "Explain AI to a friend",
+        "Use ChatGPT for a real task",
+        "Identify 3 AI tools in daily life"
+      ],
+      "materials": "Projector, printed handouts, community center space",
+      "phase": 1
+    },
+    {
+      "id": "sc-2",
+      "title": "AI for Your Job: Practical Skills Workshop",
+      "description": "A half-day hands-on workshop helping working adults and job seekers apply AI tools to real workplace tasks — from writing professional emails to improving resumes and finding job opportunities.",
+      "level": "beginner",
+      "format": "in-person",
+      "duration": "half-day",
+      "audience": "Working adults, job seekers",
+      "modules": [
+        "Module 1: AI tools for common jobs (admin, healthcare, agriculture, retail)",
+        "Module 2: Resume building with AI",
+        "Module 3: Email writing with AI",
+        "Module 4: Using AI for job searches",
+        "Module 5: Hands-on practice"
+      ],
+      "outcomes": [
+        "Use AI to write a professional email",
+        "Improve a resume using AI",
+        "Identify AI tools for their specific job"
+      ],
+      "materials": "Laptops or tablets (provided), Wi-Fi, printed exercise sheets",
+      "phase": 1
+    },
+    {
+      "id": "sc-3",
+      "title": "AI for Small Business Owners",
+      "description": "A four-week hybrid course that walks local business owners and entrepreneurs through practical AI adoption — covering marketing, operations, customer service, and long-term AI strategy.",
+      "level": "beginner",
+      "format": "hybrid",
+      "duration": "4 weeks",
+      "audience": "Local business owners, entrepreneurs",
+      "modules": [
+        "Week 1: AI for marketing (social media, ads)",
+        "Week 2: AI for operations (inventory, scheduling)",
+        "Week 3: AI for customer service (chatbots, email)",
+        "Week 4: Building your AI strategy"
+      ],
+      "outcomes": [
+        "Implement at least 2 AI tools in their business",
+        "Create an AI adoption plan"
+      ],
+      "materials": "Laptops or tablets, Wi-Fi, workbook with weekly exercises",
+      "phase": 1
+    },
+    {
+      "id": "sc-4",
+      "title": "AI for Farmers and Agriculture",
+      "description": "A half-day workshop tailored to South Carolina's agricultural community, covering precision agriculture tools, crop monitoring, livestock management, and how to find grants and subsidies using AI.",
+      "level": "beginner",
+      "format": "in-person",
+      "duration": "half-day",
+      "audience": "Farmers, agricultural workers, rural land owners",
+      "modules": [
+        "Module 1: AI in precision agriculture",
+        "Module 2: Weather prediction tools",
+        "Module 3: Crop monitoring AI",
+        "Module 4: Livestock management tools",
+        "Module 5: Grant/subsidy finding with AI",
+        "Module 6: Hands-on demos"
+      ],
+      "outcomes": [
+        "Use at least 1 agricultural AI tool",
+        "Understand how AI can reduce costs"
+      ],
+      "materials": "Projector, printed reference sheets, demo devices",
+      "phase": 1
+    },
+    {
+      "id": "sc-5",
+      "title": "AI Safety and Digital Literacy",
+      "description": "A two-hour community safety workshop focused on helping all residents — especially seniors — recognize AI-generated scams, protect their personal data, and understand the limits of AI trust.",
+      "level": "beginner",
+      "format": "in-person",
+      "duration": "2 hours",
+      "audience": "All community members, especially seniors",
+      "modules": [
+        "Module 1: Recognizing AI-generated scams",
+        "Module 2: Deepfakes and misinformation",
+        "Module 3: Protecting personal data",
+        "Module 4: Safe AI tool usage",
+        "Module 5: When NOT to trust AI"
+      ],
+      "outcomes": [
+        "Identify AI-generated content",
+        "Set up basic digital safety practices"
+      ],
+      "materials": "Projector, printed safety checklist handouts, example screenshots of scams",
+      "phase": 1
+    },
+    {
+      "id": "sc-6",
+      "title": "Youth AI Lab: Build Your First AI Project",
+      "description": "A six-week in-person program for young people ages 14-22 that takes them from AI basics through ethics, prompt engineering, no-code tools, and culminates in a live demo day showcasing their own AI-powered project.",
+      "level": "beginner",
+      "format": "in-person",
+      "duration": "6 weeks",
+      "audience": "Ages 14-22",
+      "modules": [
+        "Week 1: AI basics & ethics",
+        "Week 2: Prompt engineering",
+        "Week 3: No-code AI tools",
+        "Week 4: Building with AI (chatbots)",
+        "Week 5: AI for creative projects",
+        "Week 6: Demo day presentations"
+      ],
+      "outcomes": [
+        "Build and present an AI-powered project",
+        "Portfolio piece for college applications"
+      ],
+      "materials": "Laptops (provided), Wi-Fi, no-code platform accounts, project workbooks",
+      "phase": 1
+    },
+    {
+      "id": "sc-7",
+      "title": "AI Leadership Academy",
+      "description": "An eight-week hybrid program for community leaders, aspiring entrepreneurs, and nonprofit staff who want to lead AI adoption in their organizations. Culminates in a capstone project and pitch deck.",
+      "level": "intermediate",
+      "format": "hybrid",
+      "duration": "8 weeks",
+      "audience": "Community leaders, aspiring entrepreneurs, nonprofit staff",
+      "modules": [
+        "Module 1: AI strategy and planning",
+        "Module 2: Leading AI transformation",
+        "Module 3: Building AI-powered organizations",
+        "Module 4: Fundraising with AI",
+        "Module 5: AI ethics and governance",
+        "Module 6: Capstone project"
+      ],
+      "outcomes": [
+        "Create an AI implementation plan for their organization",
+        "Pitch deck for an AI-enabled venture"
+      ],
+      "materials": "Laptops, workbook, access to premium AI tools (trial accounts), guest speaker sessions",
+      "phase": 1
+    },
+    {
+      "id": "sc-8",
+      "title": "Train the Trainer: AI Education Certification",
+      "description": "A 12-week hybrid certification program that equips teachers, librarians, and community educators to independently deliver SCAiL workshops. Graduates earn the SCAiL-certified AI Educator credential.",
+      "level": "intermediate",
+      "format": "hybrid",
+      "duration": "12 weeks",
+      "audience": "Teachers, librarians, community educators",
+      "modules": [
+        "Module 1: AI fundamentals deep dive",
+        "Module 2: Teaching AI to non-technical audiences",
+        "Module 3: Curriculum design",
+        "Module 4: Facilitation techniques",
+        "Module 5: Assessment methods",
+        "Module 6: Practicum (teach a real workshop)",
+        "Module 7: Certification exam"
+      ],
+      "outcomes": [
+        "SCAiL-certified AI Educator credential",
+        "Ability to deliver SCAiL workshops independently"
+      ],
+      "materials": "Full facilitator guide, slide decks, handout templates, certification assessment, access to SCAiL trainer portal",
+      "phase": 1
+    }
+  ],
+  "externalCourses": [
+    {
+      "id": "ext-1",
+      "title": "AI for Everyone",
+      "provider": "Andrew Ng",
+      "platform": "Coursera",
+      "url": "https://www.coursera.org/learn/ai-for-everyone",
+      "cost": "Free audit / $49 cert",
+      "level": "beginner",
+      "duration": "6 hours",
+      "nonTechnical": true,
+      "description": "A non-technical course by Andrew Ng covering what AI can and cannot do, how to build AI projects, and how to work with an AI team. One of the most widely recommended AI introductions available.",
+      "whyIncluded": "The gold standard intro to AI for non-technical audiences",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-2",
+      "title": "Generative AI for Everyone",
+      "provider": "Andrew Ng",
+      "platform": "Coursera",
+      "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+      "cost": "Free audit / $49 cert",
+      "level": "beginner",
+      "duration": "5 hours",
+      "nonTechnical": true,
+      "description": "A follow-up to AI for Everyone, focused specifically on generative AI — how it works, how to use it, and how to think about its impact on work and society.",
+      "whyIncluded": "Focused on GenAI specifically",
+      "category": "generative-ai"
+    },
+    {
+      "id": "ext-3",
+      "title": "Elements of AI",
+      "provider": "University of Helsinki",
+      "platform": "elementsofai.com",
+      "url": "https://www.elementsofai.com",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Self-paced (approx. 30 hours)",
+      "nonTechnical": true,
+      "description": "A free online course created by the University of Helsinki and Reaktor, designed to demystify AI for everyone. No math or programming required. Has reached over 2 million students worldwide.",
+      "whyIncluded": "2M+ students, no math/code, model for SCAiL curriculum",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-4",
+      "title": "Crash Course AI",
+      "provider": "PBS/CrashCourse",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "20 episodes (~10-15 min each)",
+      "nonTechnical": true,
+      "description": "A 20-episode YouTube series from CrashCourse covering AI topics in a fun, visual, and accessible format. Covers machine learning, neural networks, natural language processing, and more.",
+      "whyIncluded": "20 episodes, fun visual format",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-5",
+      "title": "Google AI Professional Certificate",
+      "provider": "Google",
+      "platform": "Coursera",
+      "url": "https://www.coursera.org/professional-certificates/google-ai-essentials",
+      "cost": "~$49/mo",
+      "level": "beginner",
+      "duration": "3 months at 10 hrs/week",
+      "nonTechnical": true,
+      "description": "A professional certificate program from Google covering AI fundamentals, machine learning, and practical AI tools within the Google ecosystem. Designed for working professionals.",
+      "whyIncluded": "Practical AI using Google tools",
+      "category": "business"
+    },
+    {
+      "id": "ext-6",
+      "title": "Google AI Essentials",
+      "provider": "Google",
+      "platform": "Coursera",
+      "url": "https://www.coursera.org/learn/google-ai-essentials",
+      "cost": "~$49/mo",
+      "level": "beginner",
+      "duration": "10 hours",
+      "nonTechnical": true,
+      "description": "A short, practical course from Google on using AI tools for everyday work tasks — writing, research, data analysis, and problem-solving. Designed for non-technical professionals.",
+      "whyIncluded": "Using AI for daily tasks",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-7",
+      "title": "Google Skillshop AI Courses",
+      "provider": "Google",
+      "platform": "skillshop.google.com",
+      "url": "https://skillshop.google.com",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Varies by course (1-8 hours each)",
+      "nonTechnical": true,
+      "description": "A collection of 14 free AI courses from Google's official learning platform, covering Google AI tools, responsible AI, and practical applications. All courses include free certificates upon completion.",
+      "whyIncluded": "14 free courses with certificates",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-8",
+      "title": "OpenAI Academy",
+      "provider": "OpenAI",
+      "platform": "academy.openai.com",
+      "url": "https://academy.openai.com",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Self-paced",
+      "nonTechnical": true,
+      "description": "OpenAI's official free learning platform offering hands-on training in using ChatGPT and other OpenAI tools. Includes educator-focused content and certifications expected in 2026.",
+      "whyIncluded": "Free hands-on training, educator focus, certifications coming 2026",
+      "category": "generative-ai"
+    },
+    {
+      "id": "ext-9",
+      "title": "Career Essentials in Generative AI",
+      "provider": "Microsoft + LinkedIn",
+      "platform": "LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "4 hours",
+      "nonTechnical": true,
+      "description": "A free professional certificate jointly offered by Microsoft and LinkedIn covering generative AI concepts, responsible AI use, and practical applications for career growth.",
+      "whyIncluded": "Free professional certificate",
+      "category": "generative-ai"
+    },
+    {
+      "id": "ext-10",
+      "title": "IBM AI Foundations for Everyone",
+      "provider": "IBM",
+      "platform": "Coursera",
+      "url": "https://www.coursera.org/specializations/ai-foundations-for-everyone",
+      "cost": "Free audit",
+      "level": "beginner",
+      "duration": "3-4 months at 2-5 hrs/week",
+      "nonTechnical": true,
+      "description": "A specialization from IBM covering AI concepts, machine learning, and natural language processing without requiring programming knowledge. Includes a hands-on project to build a chatbot without code.",
+      "whyIncluded": "Build a chatbot without code",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-11",
+      "title": "IBM AI Fundamentals",
+      "provider": "IBM",
+      "platform": "IBM SkillsBuild",
+      "url": "https://skillsbuild.org",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "12 hours",
+      "nonTechnical": true,
+      "description": "A free AI fundamentals course from IBM's SkillsBuild platform covering AI concepts, applications, ethics, and career pathways. Earners receive a free digital credential upon completion.",
+      "whyIncluded": "Free credential, broad AI coverage",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-12",
+      "title": "No-Code ML and GenAI on AWS",
+      "provider": "Amazon",
+      "platform": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Self-paced (varies)",
+      "nonTechnical": true,
+      "description": "A collection of free courses from Amazon Web Services focused on building machine learning models and generative AI applications without writing code, using AWS tools like SageMaker Canvas.",
+      "whyIncluded": "Build ML models without coding",
+      "category": "no-code"
+    },
+    {
+      "id": "ext-13",
+      "title": "3Blue1Brown Neural Networks",
+      "provider": "3Blue1Brown",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "cost": "Free",
+      "level": "intermediate",
+      "duration": "8 episodes (~15-30 min each)",
+      "nonTechnical": false,
+      "description": "A beautifully animated YouTube series by Grant Sanderson (3Blue1Brown) explaining how neural networks work at an intuitive mathematical level. The clearest visual explanation of deep learning fundamentals available.",
+      "whyIncluded": "Best visual explanation of how AI works",
+      "category": "technical"
+    },
+    {
+      "id": "ext-14",
+      "title": "IBM Technology AI Playlist",
+      "provider": "IBM",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@IBMTechnology",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Ongoing playlist (5-15 min per video)",
+      "nonTechnical": true,
+      "description": "IBM Technology's YouTube channel features a curated playlist of AI explainer videos covering everything from AI basics to specific tools and enterprise use cases. Absolute beginner friendly.",
+      "whyIncluded": "Absolute beginner friendly",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-15",
+      "title": "AI Academy Piloting AI",
+      "provider": "SmarterX",
+      "platform": "academy.smarterx.ai",
+      "url": "https://academy.smarterx.ai",
+      "cost": "$999/yr individual / nonprofit discount available",
+      "level": "beginner",
+      "duration": "18 courses, self-paced",
+      "nonTechnical": true,
+      "description": "SmarterX AI Academy offers 18 structured courses covering AI literacy, practical AI tools, and professional application. Includes professional certificates and an explicit nonprofit partnership program with discounted pricing.",
+      "whyIncluded": "18 courses, professional certificates, explicit nonprofit partnership program",
+      "category": "business"
+    },
+    {
+      "id": "ext-16",
+      "title": "SmarterX Intro to AI",
+      "provider": "SmarterX",
+      "platform": "academy.smarterx.ai",
+      "url": "https://academy.smarterx.ai",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "~2 hours (live monthly)",
+      "nonTechnical": true,
+      "description": "A free monthly live introductory AI class from SmarterX open to anyone. Has attracted over 40,000 registrants, making it one of the most popular free AI literacy events available.",
+      "whyIncluded": "Free monthly live class, 40K+ registrants",
+      "category": "foundations"
+    },
+    {
+      "id": "ext-17",
+      "title": "Khan Academy AI for Education",
+      "provider": "Khan Academy",
+      "platform": "khanacademy.org",
+      "url": "https://www.khanacademy.org/khan-labs",
+      "cost": "Free",
+      "level": "beginner",
+      "duration": "Self-paced",
+      "nonTechnical": true,
+      "description": "Khan Academy offers free AI literacy lesson plans and resources for K-12 students and teachers, including teacher certification programs for using AI responsibly in the classroom.",
+      "whyIncluded": "K-12 lesson plans and teacher certification",
+      "category": "educator"
+    },
+    {
+      "id": "ext-18",
+      "title": "fast.ai Practical Deep Learning",
+      "provider": "fast.ai",
+      "platform": "course.fast.ai",
+      "url": "https://course.fast.ai",
+      "cost": "Free",
+      "level": "intermediate",
+      "duration": "~30 hours",
+      "nonTechnical": false,
+      "description": "A free, code-first deep learning course from Jeremy Howard and fast.ai. Teaches practical deep learning using Python and PyTorch. Recommended for Phase 2 incubator participants who want to build AI-powered products.",
+      "whyIncluded": "For Phase 2 incubator participants who want to build",
+      "category": "technical"
+    }
+  ],
+  "partnerships": [
+    {
+      "id": "p-1",
+      "organization": "SmarterX",
+      "type": "content-partner",
+      "description": "SmarterX offers an explicit nonprofit pricing model (50% off first license, $299/user for groups) through their AI Literacy Project, which aligns directly with SCAiL's mission to bring AI education to underserved communities.",
+      "url": "https://smarterx.ai/contact-ai-literacy",
+      "status": "prospect",
+      "notes": "Explicit nonprofit pricing (50% off first license, $299/user for groups). AI Literacy Project aligns with SCAiL mission. Contact: smarterx.ai/contact-ai-literacy"
+    },
+    {
+      "id": "p-2",
+      "organization": "OpenAI Academy",
+      "type": "curriculum-partner",
+      "description": "OpenAI Academy offers free content, in-person workshop partnership programs, and dedicated teacher programs backed by a $10M investment in AI teacher education. A potential anchor curriculum partner for SCAiL.",
+      "url": "https://academy.openai.com",
+      "status": "prospect",
+      "notes": "Free content, in-person workshop partnerships, teacher programs, $10M teacher investment"
+    },
+    {
+      "id": "p-3",
+      "organization": "aiEDU",
+      "type": "curriculum-partner",
+      "description": "aiEDU is an AI education nonprofit focused on equitable access to AI literacy. Potential for curriculum sharing, co-development, and mission alignment as SCAiL scales its educator training programs.",
+      "url": "https://www.aiedu.org",
+      "status": "prospect",
+      "notes": "AI education nonprofit, potential curriculum sharing"
+    },
+    {
+      "id": "p-4",
+      "organization": "Khan Academy",
+      "type": "content-partner",
+      "description": "Khan Academy provides free AI literacy lesson plans for K-12 and a teacher certification program. A natural partner for SCAiL's youth programs and Train the Trainer certification pathway.",
+      "url": "https://www.khanacademy.org",
+      "status": "prospect",
+      "notes": "Free AI literacy lesson plans for K-12, teacher certification program"
+    },
+    {
+      "id": "p-5",
+      "organization": "Google",
+      "type": "certification-partner",
+      "description": "Google for Nonprofits provides technology grants and partnerships, while the Google AI Professional Certificate and free Skillshop courses offer credentialing pathways. Google's small business AI programs align with SCAiL's entrepreneur track.",
+      "url": "https://www.google.com/nonprofits",
+      "status": "prospect",
+      "notes": "Google for Nonprofits, AI Professional Certificate, free for small businesses"
+    },
+    {
+      "id": "p-6",
+      "organization": "IBM SkillsBuild",
+      "type": "certification-partner",
+      "description": "IBM SkillsBuild offers free AI credentials for adult learners and job seekers, making it an ideal partner for SCAiL's workforce development programs targeting underemployed community members in rural South Carolina.",
+      "url": "https://skillsbuild.org",
+      "status": "prospect",
+      "notes": "Free AI credentials for adult learners and job seekers"
+    }
+  ]
+}

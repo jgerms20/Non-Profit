@@ -1,6 +1,7 @@
 # SCAiL Mission Statements — Draft Versions
 
-**Organization:** SCAiL (Southern Carolina AI Literacy)
+**Organization:** SCAiL (South Carolina AI Literacy)
+**Also considered:** Southern Corridor AI Literacy Program
 **Date:** 2026-03-03
 **Status:** Draft — for review and selection
 
