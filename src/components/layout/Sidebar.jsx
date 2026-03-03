@@ -19,6 +19,9 @@ import {
   Layers,
   Radar,
   GraduationCap,
+  Globe,
+  Info,
+  UsersRound,
 } from 'lucide-react'
 
 const navSections = [
@@ -56,6 +59,16 @@ const navSections = [
       { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/naming', icon: Sparkles, label: 'Naming Workshop' },
+      { to: '/docs', icon: BookOpen, label: 'Docs' },
+    ],
+  },
+  {
+    title: 'Public Site',
+    items: [
+      { to: '/landing', icon: Globe, label: 'Landing Page' },
+      { to: '/about', icon: Info, label: 'About' },
+      { to: '/team', icon: UsersRound, label: 'Team' },
+      { to: '/programs', icon: GraduationCap, label: 'Programs' },
     ],
   },
 ]

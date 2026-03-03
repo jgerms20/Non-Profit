@@ -85,3 +85,9 @@ npm run preview  # Preview production build
 2. Set up Notion workspace with all databases
 3. Build and install all 6 skills
 4. Begin Phase 1 action items (name search, board identification, outreach)
+
+## Session Protocol
+
+At the end of every significant work session, always:
+1. Run `/session-wrap` or manually provide: cost report, skill recommendations, and next steps
+2. This ensures Joshua always has visibility into spend and knows what to do next

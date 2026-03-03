@@ -3,6 +3,10 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-brand-navy: #1B365D;
+  --color-brand-gold: #D4A843;
+  --color-brand-teal: #2EC4B6;
+
   --color-phase-1: #3b82f6;
   --color-phase-2: #22c55e;
   --color-phase-3: #f59e0b;
