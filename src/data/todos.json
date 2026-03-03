@@ -29,7 +29,7 @@
     {
       "id": "t1",
       "title": "Search for Nonprofit Name",
-      "description": "Go to businessfilings.sc.gov and search for name availability. Try: Southern AI Literacy Initiative, Palmetto AI Project, Roots & Algorithms, The Digital Harvest Initiative.",
+      "description": "Go to businessfilings.sc.gov and search for name availability. Try: SCAiL, Palmetto AI Project, Roots & Algorithms, The Digital Harvest Initiative.",
       "timeframe": "this-week",
       "priority": "high",
       "phase": "phase-1",

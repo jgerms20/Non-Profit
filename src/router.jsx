@@ -11,6 +11,8 @@ import TodoPage from './pages/TodoPage'
 import GrantsPage from './pages/GrantsPage'
 import ResourcesPage from './pages/ResourcesPage'
 import NamingPage from './pages/NamingPage'
+import NotionHubPage from './pages/NotionHubPage'
+import MarketIntelPage from './pages/MarketIntelPage'
 
 export const router = createHashRouter([
   {
@@ -28,6 +30,8 @@ export const router = createHashRouter([
       { path: 'grants', element: <GrantsPage /> },
       { path: 'resources', element: <ResourcesPage /> },
       { path: 'naming', element: <NamingPage /> },
+      { path: 'hub', element: <NotionHubPage /> },
+      { path: 'market', element: <MarketIntelPage /> },
     ],
   },
 ])

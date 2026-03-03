@@ -22,7 +22,7 @@ export default function TopBar({ onMenuClick }) {
   const location = useLocation()
   const { theme, toggleTheme } = useTheme()
 
-  const title = routeTitles[location.pathname] || 'Southern AI Literacy Initiative'
+  const title = routeTitles[location.pathname] || 'SCAiL'
 
   return (
     <header className="flex h-16 items-center justify-between border-b border-slate-200 dark:border-surface-border bg-white dark:bg-surface-secondary px-4 lg:px-6">

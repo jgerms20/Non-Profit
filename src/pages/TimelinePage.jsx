@@ -567,7 +567,7 @@ export default function TimelinePage() {
         <div>
           <h1 className="text-2xl font-bold text-slate-100">Project Timeline</h1>
           <p className="text-sm text-slate-400 mt-1">
-            Southern AI Literacy Initiative — Feb 2026 through Dec 2030
+            SCAiL — Feb 2026 through Dec 2030
           </p>
         </div>
         <div className="flex items-center gap-3">

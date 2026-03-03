@@ -1,0 +1,141 @@
+name: Market Intelligence Brief
+
+on:
+  schedule:
+    # Monday and Friday at 9am EST (14:00 UTC)
+    - cron: '0 14 * * 1,5'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  create-brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read grant deadlines
+        id: grants
+        run: |
+          DEADLINES=""
+          if [ -f src/data/grants.json ]; then
+            DEADLINES=$(node -e "
+              const grants = require('./src/data/grants.json');
+              const now = new Date();
+              const sixtyDays = new Date(now.getTime() + 60 * 24 * 60 * 60 * 1000);
+              const upcoming = grants.grants
+                .filter(g => g.deadline && new Date(g.deadline) >= now && new Date(g.deadline) <= sixtyDays)
+                .sort((a, b) => new Date(a.deadline) - new Date(b.deadline))
+                .map(g => '- **' + g.name + '** — Deadline: ' + g.deadline + ' (' + g.organization + ')')
+                .join('\n');
+              console.log(upcoming || '- No grant deadlines in the next 60 days');
+            ")
+          else
+            DEADLINES="- Could not read grants.json"
+          fi
+          echo "deadlines<<EOF" >> $GITHUB_OUTPUT
+          echo "$DEADLINES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Read tracked competitors
+        id: competitors
+        run: |
+          COMPETITORS=""
+          if [ -f src/data/marketIntel.json ]; then
+            COMPETITORS=$(node -e "
+              const intel = require('./src/data/marketIntel.json');
+              const list = intel.competitors
+                .filter(c => c.threatLevel === 'high' || c.threatLevel === 'medium')
+                .map(c => '- **' + c.name + '** (' + c.category + ', ' + c.threatLevel + ' threat) — ' + c.url)
+                .join('\n');
+              console.log(list || '- No high/medium threat competitors tracked');
+            ")
+          else
+            COMPETITORS="- Could not read marketIntel.json"
+          fi
+          echo "competitors<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMPETITORS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Market Intel Brief issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const date = '${{ steps.date.outputs.date }}';
+            const deadlines = `${{ steps.grants.outputs.deadlines }}`;
+            const competitors = `${{ steps.competitors.outputs.competitors }}`;
+
+            const body = `# Market Intel Brief — ${date}
+
+            > This is a bi-weekly market intelligence prompt. Review each section and fill in updates.
+            > Delete the placeholder text and replace with actual intel.
+
+            ## Competitor Updates
+            **What competitors shipped, announced, or changed this week:**
+
+            **Tracked orgs to review:**
+            ${competitors}
+
+            - [ ] Check aiEDU blog and social media for new program announcements
+            - [ ] Check CORI for new rural tech reports or partnerships
+            - [ ] Check AI4ALL for new university partnerships or curriculum releases
+            - [ ] Check Code.org for AI curriculum updates
+            - [ ] Search Google News for "AI literacy nonprofit" and "rural AI education"
+            - [ ] Search Google News for "South Carolina AI" and "SC tech workforce"
+
+            **Updates found:**
+            <!-- Replace with actual updates -->
+            _No updates reviewed yet — fill in above checklist items._
+
+            ## Industry News
+            **Relevant AI education, rural tech, and digital equity news:**
+
+            - [ ] Search for new federal/state funding announcements for AI education
+            - [ ] Check for new AI literacy frameworks or standards
+            - [ ] Monitor rural broadband expansion news in SC
+            - [ ] Check for AI workforce displacement reports (validates SCAiL's mission)
+
+            **Key articles/announcements:**
+            <!-- Replace with links and summaries -->
+            _No articles reviewed yet._
+
+            ## Grant Deadlines (Next 60 Days)
+            ${deadlines}
+
+            **Action needed:**
+            - [ ] Review each upcoming deadline
+            - [ ] Confirm application status for each
+            - [ ] Identify any NEW grant opportunities discovered this week
+
+            ## Strategic Implications
+            **What should SCAiL consider doing in response?**
+
+            <!-- Fill in based on the intel gathered above -->
+            - [ ] Any positioning changes needed?
+            - [ ] Any partnership opportunities to pursue?
+            - [ ] Any threats to address?
+            - [ ] Any content or programming ideas inspired by competitor activity?
+
+            ## Action Items
+            **Specific next steps from this brief:**
+
+            <!-- Convert insights into concrete actions -->
+            1. _TBD — fill in after reviewing above sections_
+
+            ---
+            _Generated automatically on ${date}. Last market intel data update: check \`src/data/marketIntel.json\` for \`lastUpdated\` field._
+            _Tip: Use Claude or another AI assistant to help research and fill in the sections above._`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Market Intel Brief — ${date}`,
+              body: body,
+              labels: ['market-intel']
+            });

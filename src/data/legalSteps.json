@@ -31,7 +31,7 @@
       "section": "pre-formation",
       "title": "Choose Your Nonprofit Name",
       "order": 1,
-      "simpleExplanation": "Just like naming a pet or a new baby, your nonprofit needs a name! You go to a special SC government website, type in names you like, and see if anyone else already took them. If your name is available, you can 'hold' it for 4 months by paying just $10 — kind of like calling dibs so nobody else can grab it while you're getting everything else ready. Pick a name that tells people what you do. 'Southern AI Literacy Initiative' is great because it tells you WHERE (Southern), WHAT (AI), and WHY (Literacy) all at once.",
+      "simpleExplanation": "Just like naming a pet or a new baby, your nonprofit needs a name! You go to a special SC government website, type in names you like, and see if anyone else already took them. If your name is available, you can 'hold' it for 4 months by paying just $10 — kind of like calling dibs so nobody else can grab it while you're getting everything else ready. Pick a name that tells people what you do. 'SCAiL' is great because it tells you WHERE (SC), WHAT (Ai), and WHY (L for Literacy) all at once.",
       "detailedSteps": [
         "Go to businessfilings.sc.gov",
         "Click on 'Business Name Search' to see if your name is available",
@@ -49,7 +49,7 @@
       "tips": [
         "Pick a name that clearly describes what you do — future donors and grant reviewers will see it immediately",
         "Check if the website domain (.org is ideal for nonprofits) is available too — grab it when you find a name you love",
-        "Consider whether the initials spell something memorable — an acronym like SALI could be great for marketing",
+        "Consider whether the initials spell something memorable — an acronym like SCAiL could be great for marketing",
         "Avoid names too similar to existing SC nonprofits — the SOS will reject confusingly similar names",
         "Google the name to make sure there's no controversy or unrelated business with that name"
       ],
@@ -424,7 +424,7 @@
       "section": "launch-ops",
       "title": "Set Up Website, Email & Social Media",
       "order": 14,
-      "simpleExplanation": "Before you can tell the world about your amazing work — and before grant funders will take you seriously — you need a professional presence online. That means a website (even a simple one!), a professional email address with your nonprofit's own domain name (like info@southernailiteracy.org instead of a Gmail account), and active pages on LinkedIn and Facebook. The good news? With the tech skills you have, you can build something beautiful for almost nothing. Here is the reality: grant program officers WILL Google you before making any funding decision — make sure they find something impressive!",
+      "simpleExplanation": "Before you can tell the world about your amazing work — and before grant funders will take you seriously — you need a professional presence online. That means a website (even a simple one!), a professional email address with your nonprofit's own domain name (like info@scail.org instead of a Gmail account), and active pages on LinkedIn and Facebook. The good news? With the tech skills you have, you can build something beautiful for almost nothing. Here is the reality: grant program officers WILL Google you before making any funding decision — make sure they find something impressive!",
       "detailedSteps": [
         "Register your domain name (yourorganization.org) at Namecheap or GoDaddy — about $15 per year for a .org domain",
         "Build your website — options range from Squarespace/Wix (easy, about $15/month) to WordPress (free software, need hosting at about $5/month) to GitHub Pages (completely free if you can code it yourself)",

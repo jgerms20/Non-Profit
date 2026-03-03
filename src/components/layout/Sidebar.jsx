@@ -16,6 +16,8 @@ import {
   ChevronLeft,
   ChevronRight,
   X,
+  Layers,
+  Radar,
 } from 'lucide-react'
 
 const navSections = [
@@ -23,6 +25,7 @@ const navSections = [
     title: 'Overview',
     items: [
       { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+      { to: '/hub', icon: Layers, label: 'Hub' },
     ],
   },
   {
@@ -48,6 +51,7 @@ const navSections = [
     title: 'Reference',
     items: [
       { to: '/grants', icon: DollarSign, label: 'Grants & Funding' },
+      { to: '/market', icon: Radar, label: 'Market Intel' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/naming', icon: Sparkles, label: 'Naming Workshop' },
     ],
@@ -72,7 +76,7 @@ export default function Sidebar({ collapsed, onToggle, onMobileClose }) {
               AI
             </div>
             <span className="font-semibold text-sm text-slate-900 dark:text-white truncate">
-              Southern AI Initiative
+              SCAiL
             </span>
           </div>
         )}

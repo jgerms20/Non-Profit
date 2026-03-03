@@ -2,7 +2,7 @@
   "senderDefaults": {
     "senderName": "",
     "senderTitle": "Founder",
-    "organizationName": "Southern AI Literacy Initiative"
+    "organizationName": "SCAiL"
   },
   "templates": [
     {
@@ -52,7 +52,7 @@
           "label": "Your Organization",
           "type": "text",
           "autoFillFromSender": "organizationName",
-          "default": "Southern AI Literacy Initiative",
+          "default": "SCAiL",
           "required": true
         },
         {
@@ -111,7 +111,7 @@
           "label": "Your Organization",
           "type": "text",
           "autoFillFromSender": "organizationName",
-          "default": "Southern AI Literacy Initiative",
+          "default": "SCAiL",
           "required": true
         },
         {
@@ -167,7 +167,7 @@
           "id": "agendaPoints",
           "label": "Quick agenda (2-3 bullet points)",
           "type": "textarea",
-          "default": "- Brief intro to the Southern AI Literacy Initiative and our 3-phase vision\n- Learn more about your current programs and the communities you serve\n- Explore whether there's a natural fit for collaboration",
+          "default": "- Brief intro to SCAiL and our 3-phase vision\n- Learn more about your current programs and the communities you serve\n- Explore whether there's a natural fit for collaboration",
           "placeholder": "What you want to talk about — keep it to 2-3 items",
           "required": false
         }
@@ -218,7 +218,7 @@
           "label": "Your Organization",
           "type": "text",
           "autoFillFromSender": "organizationName",
-          "default": "Southern AI Literacy Initiative",
+          "default": "SCAiL",
           "required": true
         },
         {
@@ -304,7 +304,7 @@
           "label": "Your Organization",
           "type": "text",
           "autoFillFromSender": "organizationName",
-          "default": "Southern AI Literacy Initiative",
+          "default": "SCAiL",
           "required": true
         },
         {

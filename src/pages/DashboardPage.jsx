@@ -21,6 +21,7 @@ import {
 
 import phasesData from '../data/phases.json'
 import todosData from '../data/todos.json'
+import legalData from '../data/legalSteps.json'
 import calendarEventsData from '../data/calendarEvents.json'
 
 import { useLocalStorage } from '../hooks/useLocalStorage'
@@ -268,6 +269,8 @@ function StatCard({ value, label, icon: Icon, accent }) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 export default function DashboardPage() {
   const [phaseStepsAll] = useLocalStorage('phase-steps', {})
+  const [todoStatuses] = useLocalStorage('todo-statuses', {})
+  const [legalStepStatuses] = useLocalStorage('legal-steps', {})
 
   // Build per-phase step state maps
   const phaseStepMaps = useMemo(() => {
@@ -291,7 +294,11 @@ export default function DashboardPage() {
     const sevenDaysOut = new Date(now)
     sevenDaysOut.setDate(now.getDate() + 7)
 
-    const remaining = allTodos.filter((t) => t.status !== 'completed').length
+    // Use live todoStatuses from localStorage — fall back to static status
+    const remaining = allTodos.filter((t) => {
+      const liveStatus = todoStatuses[t.id] ?? t.status ?? 'not-started'
+      return liveStatus !== 'completed'
+    }).length
 
     const upcomingCount = allEvents.filter((e) => {
       const d = new Date(e.date)
@@ -303,13 +310,14 @@ export default function DashboardPage() {
       allTodos.filter((t) => t.assignee).map((t) => t.assignee)
     )
 
-    // Legal steps completed (todos tagged phase-1 with legal keywords or status completed)
-    const legalDone = allTodos.filter(
-      (t) => t.phase === 'phase-1' && t.status === 'completed'
+    // Legal steps completed — read from legal-steps localStorage
+    const allLegalSteps = legalData.steps ?? []
+    const legalDone = allLegalSteps.filter(
+      (s) => legalStepStatuses[s.id] === 'completed'
     ).length
 
     return { remaining, upcomingCount, contacted: contactedSet.size, legalDone }
-  }, [])
+  }, [todoStatuses, legalStepStatuses])
 
   // Upcoming deadlines (next 7 events sorted by date)
   const upcomingDeadlines = useMemo(() => {
@@ -325,10 +333,13 @@ export default function DashboardPage() {
     const allTodos = todosData.todos ?? []
     const priorityRank = { high: 0, medium: 1, low: 2 }
     return allTodos
-      .filter((t) => t.status !== 'completed')
+      .filter((t) => {
+        const liveStatus = todoStatuses[t.id] ?? t.status ?? 'not-started'
+        return liveStatus !== 'completed'
+      })
       .sort((a, b) => (priorityRank[a.priority] ?? 2) - (priorityRank[b.priority] ?? 2))
       .slice(0, 5)
-  }, [])
+  }, [todoStatuses])
 
   return (
     <div className="p-6 space-y-8 max-w-7xl mx-auto">
@@ -344,7 +355,7 @@ export default function DashboardPage() {
           </h1>
         </div>
         <p className="text-sm text-slate-500 dark:text-slate-400 ml-11">
-          Southern AI Literacy Initiative — your hub for everything.
+          SCAiL — your hub for everything.
         </p>
       </div>
 

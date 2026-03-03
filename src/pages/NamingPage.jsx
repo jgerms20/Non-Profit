@@ -7,10 +7,10 @@ import Badge from '../components/ui/Badge'
 const DEFAULT_CANDIDATES = [
   {
     id: '1',
-    name: 'Southern AI Literacy Initiative',
-    acronym: 'SALI',
+    name: 'SCAiL',
+    acronym: 'SCAiL',
     pros: ['Clear and descriptive', 'Immediately communicates mission', 'Professional'],
-    cons: ['Long name', 'SALI acronym not very memorable'],
+    cons: ['Unique capitalization may need explanation'],
     favorite: false,
   },
   {
@@ -260,7 +260,7 @@ export default function NamingPage() {
                 type="text"
                 value={newName}
                 onChange={(e) => setNewName(e.target.value)}
-                placeholder="e.g., Southern AI Literacy Initiative"
+                placeholder="e.g., SCAiL"
                 className="w-full px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-phase-1 dark:focus:ring-phase-1"
               />
             </div>
@@ -272,7 +272,7 @@ export default function NamingPage() {
                 type="text"
                 value={newAcronym}
                 onChange={(e) => setNewAcronym(e.target.value)}
-                placeholder="e.g., SALI (optional)"
+                placeholder="e.g., SCAiL (optional)"
                 className="w-full px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-phase-1 dark:focus:ring-phase-1"
               />
             </div>
@@ -332,7 +332,7 @@ export default function NamingPage() {
               type="text"
               value={checkerInput}
               onChange={(e) => setCheckerInput(e.target.value)}
-              placeholder="e.g., Southern AI Literacy Initiative"
+              placeholder="e.g., SCAiL"
               className="w-full px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-phase-2 dark:focus:ring-phase-2"
             />
           </div>
