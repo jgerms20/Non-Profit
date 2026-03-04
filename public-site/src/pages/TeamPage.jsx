@@ -147,14 +147,24 @@ export default function TeamPage() {
                 <p className="text-base text-slate-500 dark:text-slate-400 font-medium mb-5">
                   Founder &amp; Executive Director
                 </p>
+                <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-base mb-4">
+                  Born and raised in Irmo, South Carolina, Joshua is a proud Dutch Fork High School
+                  graduate with deep roots in the Lowcountry — his family lineage traces back to
+                  Walterboro and Charleston. He studied journalism at the University of South Carolina's
+                  School of Journalism and Mass Communications and attended Midlands Technical College.
+                </p>
                 <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-base mb-6">
-                  Joshua founded SCAiL in 2026 after seeing firsthand how South Carolina communities were being left behind in the AI revolution. With a background in technology and a deep connection to South Carolina, he's building SCAiL to ensure AI doesn't just benefit major tech hubs — it reaches every community that needs it.
+                  Joshua built his career in advertising and marketing before founding SCAiL in 2026.
+                  After seeing firsthand how South Carolina communities were being left behind in the
+                  AI revolution, he's channeling his communications expertise into a new mission:
+                  ensuring AI doesn't just benefit major tech hubs — it reaches every community
+                  across the state that needs it.
                 </p>
 
                 {/* Social links */}
                 <div className="flex items-center gap-3 justify-center sm:justify-start">
                   <a
-                    href="https://www.linkedin.com/in/joshuagerman"
+                    href="https://www.linkedin.com/in/joshua-german/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"

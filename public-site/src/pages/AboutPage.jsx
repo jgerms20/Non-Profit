@@ -74,9 +74,16 @@ export default function AboutPage() {
               access.
             </p>
             <p>
-              Founded in 2026 by Joshua German, SCAiL exists to close that gap. We don't teach
-              theory or code. We teach everyday people how to use AI tools to find jobs, grow
-              businesses, protect their families from scams, and build better futures.
+              Founded in 2026 by Joshua German — born and raised in Irmo, SC, a Dutch Fork
+              High School graduate with family roots running deep through the Lowcountry towns of
+              Walterboro and Charleston — SCAiL is deeply personal. Joshua studied journalism at
+              the University of South Carolina and attended Midlands Technical College before
+              building a career in advertising and marketing. That communications background shapes
+              everything SCAiL does: making complex technology accessible and resonant to real people.
+            </p>
+            <p>
+              We don't teach theory or code. We teach everyday people how to use AI tools to find
+              jobs, grow businesses, protect their families from scams, and build better futures.
             </p>
             <p>
               We go where the need is. Our workshops happen in community centers, libraries,
