@@ -75,24 +75,24 @@ export default function ContactPage() {
       </section>
 
       {/* Ways to Get Involved */}
-      <section className="py-16">
+      <section className="py-16 dark:bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-10 text-center">Ways to Get Involved</h2>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-10 text-center">Ways to Get Involved</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {involvementCards.map(({ icon: Icon, title, description, email: cardEmail, emailLabel }) => (
               <div
                 key={title}
-                className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 flex flex-col gap-4"
+                className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 flex flex-col gap-4"
               >
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0 h-11 w-11 rounded-xl bg-brand-navy flex items-center justify-center">
                     <Icon className="h-5 w-5 text-brand-gold" />
                   </div>
-                  <h3 className="font-semibold text-slate-900 text-lg">{title}</h3>
+                  <h3 className="font-semibold text-slate-900 dark:text-white text-lg">{title}</h3>
                 </div>
-                <p className="text-slate-600 text-sm leading-relaxed">{description}</p>
-                <p className="text-sm text-slate-500 border-t border-slate-100 pt-3">
-                  <span className="font-medium text-slate-700">{emailLabel}: </span>
+                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">{description}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400 border-t border-slate-100 dark:border-slate-700 pt-3">
+                  <span className="font-medium text-slate-700 dark:text-slate-300">{emailLabel}: </span>
                   <a
                     href={`mailto:${cardEmail}`}
                     className="text-brand-teal hover:underline"
@@ -107,15 +107,15 @@ export default function ContactPage() {
       </section>
 
       {/* Donate / Support */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-16 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">Support Our Mission</h2>
-          <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8">
-            <p className="text-slate-700 leading-relaxed mb-4">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">Support Our Mission</h2>
+          <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-8">
+            <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
               SCAiL is applying for 501(c)(3) tax-exempt status. In the meantime, your support
-              helps us reach more communities across rural South Carolina.
+              helps us reach more communities across South Carolina.
             </p>
-            <p className="text-sm text-slate-500 mb-8 italic">
+            <p className="text-sm text-slate-500 dark:text-slate-400 mb-8 italic">
               Tax-exempt status pending. Donations will be tax-deductible once approved.
             </p>
             <a
@@ -129,27 +129,27 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Info */}
-      <section className="py-16">
+      <section className="py-16 dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Contact Info</h2>
-          <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8">
-            <ul className="space-y-4 text-slate-700">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8">Contact Info</h2>
+          <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-8">
+            <ul className="space-y-4 text-slate-700 dark:text-slate-300">
               <li className="flex gap-2">
-                <span className="font-medium text-slate-900 w-44 flex-shrink-0">General Inquiries:</span>
+                <span className="font-medium text-slate-900 dark:text-white w-44 flex-shrink-0">General Inquiries:</span>
                 <a href="mailto:info@scail.org" className="text-brand-teal hover:underline">
                   info@scail.org
                 </a>
               </li>
               <li className="flex gap-2">
-                <span className="font-medium text-slate-900 w-44 flex-shrink-0">Location:</span>
+                <span className="font-medium text-slate-900 dark:text-white w-44 flex-shrink-0">Location:</span>
                 <span>South Carolina, USA</span>
               </li>
               <li className="flex gap-2">
-                <span className="font-medium text-slate-900 w-44 flex-shrink-0">Follow us:</span>
-                <span className="text-slate-500">@SCAiLorg</span>
+                <span className="font-medium text-slate-900 dark:text-white w-44 flex-shrink-0">Follow us:</span>
+                <a href="https://x.com/SCAiLorg" target="_blank" rel="noopener noreferrer" className="text-brand-teal hover:underline">@SCAiLorg</a>
               </li>
             </ul>
-            <p className="mt-6 pt-6 border-t border-slate-100 text-sm text-slate-500">
+            <p className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-700 text-sm text-slate-500 dark:text-slate-400">
               We typically respond within 48 hours.
             </p>
           </div>
@@ -157,10 +157,10 @@ export default function ContactPage() {
       </section>
 
       {/* Newsletter Signup */}
-      <section className="py-16 bg-brand-navy text-white">
+      <section className="py-16 bg-brand-navy dark:bg-slate-950 text-white">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold mb-3">Stay Updated</h2>
-          <p className="text-slate-300 mb-8">
+          <p className="text-slate-300 dark:text-slate-400 mb-8">
             Get monthly updates on SCAiL workshops, programs, and community impact.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -173,12 +173,18 @@ export default function ContactPage() {
             />
             <button
               type="button"
+              onClick={() => {
+                if (email) {
+                  setEmail('')
+                  alert('Thanks for subscribing! We\'ll keep you updated on SCAiL workshops and programs.')
+                }
+              }}
               className="px-6 py-3 bg-brand-gold text-brand-navy font-semibold rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap"
             >
               Subscribe
             </button>
           </div>
-          <p className="mt-4 text-xs text-slate-500">
+          <p className="mt-4 text-xs text-slate-500 dark:text-slate-400">
             We respect your privacy. Unsubscribe anytime.
           </p>
         </div>

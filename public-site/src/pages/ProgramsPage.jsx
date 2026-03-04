@@ -71,7 +71,7 @@ const courses = [
     level: 'Beginner',
     format: 'In-person',
     duration: 'Half-day',
-    audience: 'Farmers, agricultural workers, rural landowners',
+    audience: 'Farmers, agricultural workers, landowners',
     description:
       'See how AI is transforming agriculture — from crop monitoring to weather prediction to finding grants. Hands-on demos with tools you can use on your farm today.',
     modules: [
@@ -181,8 +181,8 @@ function LevelBadge({ level }) {
     <span
       className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold border ${
         isIntermediate
-          ? 'bg-blue-50 text-blue-700 border-blue-200'
-          : 'bg-green-50 text-green-700 border-green-200'
+          ? 'bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-900/30 dark:text-blue-400 dark:border-blue-800'
+          : 'bg-green-50 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800'
       }`}
     >
       {level}
@@ -192,7 +192,7 @@ function LevelBadge({ level }) {
 
 function FormatBadge({ format }) {
   return (
-    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200">
+    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200 dark:bg-slate-700 dark:text-slate-400 dark:border-slate-700">
       <Monitor className="h-3 w-3" />
       {format}
     </span>
@@ -201,7 +201,7 @@ function FormatBadge({ format }) {
 
 function DurationBadge({ duration }) {
   return (
-    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200">
+    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200 dark:bg-slate-700 dark:text-slate-400 dark:border-slate-700">
       <Clock className="h-3 w-3" />
       {duration}
     </span>
@@ -212,11 +212,11 @@ function CourseCard({ course }) {
   const [expanded, setExpanded] = useState(false)
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-teal/40 transition-all duration-200 flex flex-col">
+    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-brand-teal/40 transition-all duration-200 flex flex-col">
       {/* Card body */}
       <div className="p-6 flex flex-col gap-4 flex-1">
         {/* Title */}
-        <h3 className="text-lg font-bold text-brand-navy leading-snug">
+        <h3 className="text-lg font-bold text-brand-navy dark:text-white leading-snug">
           {course.title}
         </h3>
 
@@ -228,21 +228,21 @@ function CourseCard({ course }) {
         </div>
 
         {/* Audience */}
-        <p className="flex items-start gap-2 text-sm text-slate-500">
+        <p className="flex items-start gap-2 text-sm text-slate-500 dark:text-slate-400">
           <Users className="h-4 w-4 text-brand-teal flex-shrink-0 mt-0.5" />
           <span>{course.audience}</span>
         </p>
 
         {/* Description */}
-        <p className="text-sm text-slate-700 leading-relaxed flex-1">
+        <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed flex-1">
           {course.description}
         </p>
 
         {/* Expandable curriculum */}
-        <div className="border-t border-slate-100 pt-4">
+        <div className="border-t border-slate-100 dark:border-slate-700 pt-4">
           <button
             onClick={() => setExpanded((prev) => !prev)}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-teal hover:text-brand-navy transition-colors duration-150"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-teal hover:text-brand-navy dark:hover:text-brand-gold transition-colors duration-150"
             aria-expanded={expanded}
           >
             {expanded ? (
@@ -261,7 +261,7 @@ function CourseCard({ course }) {
           {expanded && (
             <ul className="mt-3 space-y-2">
               {course.modules.map((module) => (
-                <li key={module} className="flex items-start gap-2 text-sm text-slate-700">
+                <li key={module} className="flex items-start gap-2 text-sm text-slate-700 dark:text-slate-300">
                   <CheckCircle className="h-4 w-4 text-brand-teal flex-shrink-0 mt-0.5" />
                   <span>{module}</span>
                 </li>
@@ -297,13 +297,13 @@ export default function ProgramsPage() {
       </section>
 
       {/* ── 2. Course Grid ──────────────────────────────────────────────────── */}
-      <section className="py-16 sm:py-20 bg-slate-50">
+      <section className="py-16 sm:py-20 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
               All SCAiL Courses
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-slate-600 dark:text-slate-400">
               Eight courses designed for every level, every audience, and every corner of South Carolina.
             </p>
           </div>
@@ -317,13 +317,13 @@ export default function ProgramsPage() {
       </section>
 
       {/* ── 3. How It Works ─────────────────────────────────────────────────── */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-16 sm:py-20 bg-white dark:bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
               How It Works
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-slate-600 dark:text-slate-400">
               We make it simple. You show up — we handle the rest.
             </p>
           </div>
@@ -332,17 +332,17 @@ export default function ProgramsPage() {
             {howItWorksSteps.map((step) => (
               <div
                 key={step.number}
-                className="flex flex-col items-center text-center p-8 rounded-2xl border border-slate-200 hover:border-brand-teal/40 hover:shadow-md transition-all duration-200"
+                className="flex flex-col items-center text-center p-8 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-brand-teal/40 hover:shadow-md transition-all duration-200"
               >
                 <div className="h-14 w-14 rounded-full bg-brand-navy flex items-center justify-center mb-5">
                   <span className="text-brand-gold font-extrabold text-sm tracking-wider">
                     {step.number}
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
                   {step.title}
                 </h3>
-                <p className="text-slate-600 text-sm leading-relaxed">
+                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
                   {step.description}
                 </p>
               </div>

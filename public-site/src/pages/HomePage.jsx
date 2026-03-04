@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import { Users, Briefcase, GraduationCap, ArrowRight, MapPin, BookOpen, Heart } from 'lucide-react'
+import PalmettoTree from '../components/PalmettoTree'
+import SCCrescent from '../components/SCCrescent'
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
 const stats = [
   {
     value: '78%',
-    label: 'of rural Americans say they have no access to AI training',
+    label: 'of Americans say they have no access to AI training',
   },
   {
     value: '3x',
@@ -14,7 +16,7 @@ const stats = [
   },
   {
     value: '0',
-    label: 'AI literacy programs currently serving rural SC communities',
+    label: 'AI literacy programs currently serving SC communities',
   },
 ]
 
@@ -68,7 +70,7 @@ const programs = [
 
 const impactGoals = [
   { value: '500+', label: 'Community members trained' },
-  { value: '12', label: 'Rural SC counties reached' },
+  { value: '46', label: 'SC counties targeted' },
   { value: '8', label: 'Free courses offered' },
   { value: '50+', label: 'Workshops delivered' },
 ]
@@ -85,14 +87,14 @@ function LevelBadge({ level }) {
 
 function ProgramCard({ program }) {
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-6 flex flex-col gap-3 hover:shadow-md hover:border-brand-teal/40 transition-all duration-200">
+    <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-3 hover:shadow-md hover:border-brand-teal/40 transition-all duration-200">
       <div className="flex items-start justify-between gap-2">
-        <h3 className="font-semibold text-slate-900 text-base leading-snug flex-1">
+        <h3 className="font-semibold text-slate-900 dark:text-white text-base leading-snug flex-1">
           {program.title}
         </h3>
         <LevelBadge level={program.level} />
       </div>
-      <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500 mt-auto pt-2 border-t border-slate-100">
+      <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500 dark:text-slate-400 mt-auto pt-2 border-t border-slate-100 dark:border-slate-700">
         <span className="flex items-center gap-1">
           <Users className="h-3.5 w-3.5" />
           {program.audience}
@@ -124,9 +126,18 @@ export default function HomePage() {
           aria-hidden="true"
         />
 
+        {/* SC Palmetto decorations */}
+        <div className="absolute bottom-0 left-4 sm:left-8 opacity-[0.07] text-white pointer-events-none" aria-hidden="true">
+          <PalmettoTree className="h-64 sm:h-80 w-auto" />
+        </div>
+        <div className="absolute bottom-0 right-4 sm:right-8 opacity-[0.07] text-white pointer-events-none" aria-hidden="true">
+          <PalmettoTree className="h-56 sm:h-72 w-auto" style={{ transform: 'scaleX(-1)' }} />
+        </div>
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 text-center">
           {/* Eyebrow */}
           <p className="inline-flex items-center gap-2 text-brand-teal text-sm font-semibold tracking-widest uppercase mb-6">
+            <SCCrescent className="h-4 w-4 text-brand-gold" />
             <MapPin className="h-4 w-4" />
             South Carolina AI Literacy
           </p>
@@ -137,7 +148,7 @@ export default function HomePage() {
           </h1>
 
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-300 leading-relaxed mb-10">
-            Equipping rural South Carolina communities with the AI skills they need
+            Equipping South Carolina communities with the AI skills they need
             to compete, earn, and thrive — no technical background required.
           </p>
 
@@ -160,14 +171,14 @@ export default function HomePage() {
       </section>
 
       {/* ── 2. The Problem ──────────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-slate-50">
+      <section className="py-20 sm:py-24 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-5">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-5">
               The AI Divide Is Real
             </h2>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              While coastal tech hubs race ahead with AI, rural communities across
+            <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+              While major tech hubs race ahead with AI, communities across
               South Carolina are being left behind — not because they lack talent,
               but because they lack access. SCAiL exists to close that gap.
             </p>
@@ -178,12 +189,12 @@ export default function HomePage() {
             {stats.map((stat) => (
               <div
                 key={stat.value}
-                className="bg-white rounded-xl border border-slate-200 p-8 text-center shadow-sm"
+                className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 text-center shadow-sm"
               >
-                <p className="text-5xl font-extrabold text-brand-navy mb-3">
+                <p className="text-5xl font-extrabold text-brand-navy dark:text-brand-teal mb-3">
                   {stat.value}
                 </p>
-                <p className="text-slate-600 text-sm leading-relaxed">
+                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
                   {stat.label}
                 </p>
               </div>
@@ -197,15 +208,15 @@ export default function HomePage() {
       </section>
 
       {/* ── 3. What We Do ───────────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-white">
+      <section className="py-20 sm:py-24 bg-white dark:bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
               What We Do
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-slate-600 dark:text-slate-400">
               We meet communities where they are — in churches, libraries, community
-              centers, and schools across rural South Carolina.
+              centers, and schools across South Carolina.
             </p>
           </div>
 
@@ -215,15 +226,15 @@ export default function HomePage() {
               return (
                 <div
                   key={service.title}
-                  className="flex flex-col items-start p-8 rounded-xl border border-slate-200 hover:border-brand-teal/50 hover:shadow-md transition-all duration-200"
+                  className="flex flex-col items-start p-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand-teal/50 hover:shadow-md transition-all duration-200"
                 >
                   <div className="h-12 w-12 rounded-xl bg-brand-navy flex items-center justify-center mb-5">
                     <Icon className="h-6 w-6 text-brand-teal" />
                   </div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">
+                  <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-slate-600 leading-relaxed text-sm">
+                  <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
                     {service.description}
                   </p>
                 </div>
@@ -296,7 +307,14 @@ export default function HomePage() {
       </section>
 
       {/* ── 6. Call to Action ───────────────────────────────────────────────── */}
-      <section className="bg-brand-navy py-20 sm:py-24">
+      <section className="relative bg-brand-navy py-20 sm:py-24">
+        {/* Palmetto decorations */}
+        <div className="absolute bottom-0 left-4 sm:left-12 opacity-[0.06] text-white pointer-events-none" aria-hidden="true">
+          <PalmettoTree className="h-48 sm:h-64 w-auto" />
+        </div>
+        <div className="absolute bottom-0 right-4 sm:right-12 opacity-[0.06] text-white pointer-events-none" aria-hidden="true">
+          <PalmettoTree className="h-40 sm:h-56 w-auto" style={{ transform: 'scaleX(-1)' }} />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-brand-teal/20 mb-6">

@@ -1,17 +1,20 @@
 import { useState } from 'react'
 import { Outlet, Link, NavLink } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Sun, Moon } from 'lucide-react'
+import { useTheme } from '../context/ThemeContext'
 
 const navLinks = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/programs', label: 'Programs' },
   { to: '/team', label: 'Team' },
+  { to: '/resources', label: 'Resources' },
   { to: '/contact', label: 'Get Involved' },
 ]
 
 export default function SiteLayout() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const { dark, toggle } = useTheme()
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -29,33 +32,44 @@ export default function SiteLayout() {
               </span>
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-1">
-              {navLinks.map((link) => (
-                <NavLink
-                  key={link.to}
-                  to={link.to}
-                  end={link.to === '/'}
-                  className={({ isActive }) =>
-                    `px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                      isActive
-                        ? 'bg-white/15 text-white'
-                        : 'text-slate-300 hover:text-white hover:bg-white/10'
-                    }`
-                  }
-                >
-                  {link.label}
-                </NavLink>
-              ))}
-            </nav>
+            {/* Desktop Nav + Theme Toggle */}
+            <div className="flex items-center gap-2">
+              <nav className="hidden md:flex items-center gap-1">
+                {navLinks.map((link) => (
+                  <NavLink
+                    key={link.to}
+                    to={link.to}
+                    end={link.to === '/'}
+                    className={({ isActive }) =>
+                      `px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                        isActive
+                          ? 'bg-white/15 text-white'
+                          : 'text-slate-300 hover:text-white hover:bg-white/10'
+                      }`
+                    }
+                  >
+                    {link.label}
+                  </NavLink>
+                ))}
+              </nav>
 
-            {/* Mobile toggle */}
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden p-2 text-slate-300 hover:text-white"
-            >
-              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
+              {/* Theme toggle */}
+              <button
+                onClick={toggle}
+                className="p-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
+                aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+              >
+                {dark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </button>
+
+              {/* Mobile toggle */}
+              <button
+                onClick={() => setMobileOpen(!mobileOpen)}
+                className="md:hidden p-2 text-slate-300 hover:text-white"
+              >
+                {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+            </div>
           </div>
         </div>
 
@@ -105,7 +119,7 @@ export default function SiteLayout() {
                 </span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed">
-                South Carolina AI Literacy. Teaching rural communities to use AI as a tool for growth.
+                South Carolina AI Literacy. Teaching communities across South Carolina to use AI as a tool for growth.
               </p>
             </div>
 
@@ -127,10 +141,10 @@ export default function SiteLayout() {
             <div>
               <h4 className="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-3">Programs</h4>
               <ul className="space-y-2 text-sm text-slate-300">
-                <li>AI 101 Workshop</li>
-                <li>AI for Your Job</li>
-                <li>Youth AI Lab</li>
-                <li>Train the Trainer</li>
+                <li><Link to="/programs" className="hover:text-brand-teal transition-colors">AI 101 Workshop</Link></li>
+                <li><Link to="/programs" className="hover:text-brand-teal transition-colors">AI for Your Job</Link></li>
+                <li><Link to="/programs" className="hover:text-brand-teal transition-colors">Youth AI Lab</Link></li>
+                <li><Link to="/programs" className="hover:text-brand-teal transition-colors">Train the Trainer</Link></li>
               </ul>
             </div>
 
@@ -138,8 +152,9 @@ export default function SiteLayout() {
             <div>
               <h4 className="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-3">Connect</h4>
               <ul className="space-y-2 text-sm text-slate-300">
-                <li>info@scail.org</li>
+                <li><a href="mailto:info@scail.org" className="hover:text-brand-teal transition-colors">info@scail.org</a></li>
                 <li>South Carolina, USA</li>
+                <li><a href="https://x.com/SCAiLorg" target="_blank" rel="noopener noreferrer" className="hover:text-brand-teal transition-colors">@SCAiLorg</a></li>
                 <li className="pt-2">
                   <span className="text-xs text-slate-500">A 501(c)(3) nonprofit (pending)</span>
                 </li>
