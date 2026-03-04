@@ -10,8 +10,8 @@
       "name": "Introduction Email",
       "icon": "Mail",
       "description": "A warm first introduction explaining who you are and what you're building. Best for first contact with a potential partner, supporter, or ally.",
-      "subject": "Connecting on AI Literacy in Rural SC — {{senderName}} from {{organizationName}}",
-      "body": "Hi {{contactName}},\n\nI hope this note finds you well. My name is {{senderName}}, and I'm the {{senderTitle}} of {{organizationName}} — a new nonprofit focused on increasing AI literacy in rural South Carolina communities.\n\n{{customParagraph}}\n\nI've been following the work {{contactOrganization}} is doing, and I think there's a genuine connection between what you're building and what we're trying to do. {{goalStatement}}\n\nI know your time is valuable, so I'll keep this brief — I'd love to find 20 minutes to introduce myself and share what we're working on. Would you be open to a quick conversation sometime in the next few weeks?\n\nThank you for your time.\n\nWarm regards,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "subject": "Connecting on AI Literacy in SC — {{senderName}} from {{organizationName}}",
+      "body": "Hi {{contactName}},\n\nI hope this note finds you well. My name is {{senderName}}, and I'm the {{senderTitle}} of {{organizationName}} — a new nonprofit focused on increasing AI literacy in South Carolina communities.\n\n{{customParagraph}}\n\nI've been following the work {{contactOrganization}} is doing, and I think there's a genuine connection between what you're building and what we're trying to do. {{goalStatement}}\n\nI know your time is valuable, so I'll keep this brief — I'd love to find 20 minutes to introduce myself and share what we're working on. Would you be open to a quick conversation sometime in the next few weeks?\n\nThank you for your time.\n\nWarm regards,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
       "fields": [
         {
           "id": "contactName",
@@ -26,7 +26,7 @@
           "label": "Their Organization",
           "type": "text",
           "autoFillFromContact": "organization",
-          "placeholder": "e.g. SC Rural Innovation Network",
+          "placeholder": "e.g. SC Innovation Network",
           "required": true
         },
         {
@@ -60,7 +60,7 @@
           "label": "Why you're reaching out (1-2 sentences)",
           "type": "textarea",
           "default": "",
-          "placeholder": "e.g. I've been thinking about the gap between how fast AI is changing the job market and how little access most rural SC communities have to even basic AI education. That gap is what pushed me to start this organization.",
+          "placeholder": "e.g. I've been thinking about the gap between how fast AI is changing the job market and how little access most SC communities have to even basic AI education. That gap is what pushed me to start this organization.",
           "required": false
         },
         {
@@ -194,7 +194,7 @@
           "label": "Their Organization",
           "type": "text",
           "autoFillFromContact": "organization",
-          "placeholder": "e.g. SC Rural Innovation Network",
+          "placeholder": "e.g. SC Innovation Network",
           "required": true
         },
         {
@@ -226,7 +226,7 @@
           "label": "Subject line of your original message",
           "type": "text",
           "default": "",
-          "placeholder": "e.g. Connecting on AI Literacy in Rural SC",
+          "placeholder": "e.g. Connecting on AI Literacy in SC",
           "required": true
         },
         {
@@ -234,7 +234,7 @@
           "label": "What your original message was about",
           "type": "text",
           "default": "our work in AI literacy and a potential conversation",
-          "placeholder": "e.g. exploring a partnership to bring AI education to rural SC communities",
+          "placeholder": "e.g. exploring a partnership to bring AI education to SC communities",
           "required": true
         },
         {
@@ -265,7 +265,7 @@
       "icon": "Handshake",
       "description": "A more formal proposal for collaboration. Use this after you've had an initial conversation and there's mutual interest. Lays out specifically what you're proposing and what you're asking for.",
       "subject": "Partnership Proposal — {{organizationName}} x {{contactOrganization}}",
-      "body": "Hi {{contactName}},\n\nThank you for taking the time to connect — I've been thinking about our conversation, and I wanted to put something more concrete on paper.\n\n{{organizationName}} is building AI literacy programs for rural South Carolina communities — people who are already feeling the effects of an AI-driven economy but have had very little access to education, training, or tools to navigate it. Our approach is grounded in where people actually are: practical, jargon-free, and built around real work and real lives.\n\nI believe a partnership with {{contactOrganization}} could be genuinely powerful for both of us. Here's why:\n\n{{partnershipBenefits}}\n\nWhat I'm specifically hoping to explore:\n\n{{specificAsk}}\n\nI want to be direct: I'm not asking for money. I'm asking for a relationship. The organizations I most want to partner with are the ones already doing good work in these communities — like {{contactOrganization}}. A formal partnership could mean something as simple as co-hosting an event, sharing each other's networks, or building a program together. Whatever makes sense for where you are.\n\nI've attached a one-page overview of {{organizationName}} for context. I'd welcome any questions, pushback, or ideas you have — and I'm happy to revise this based on what would actually be useful to {{contactOrganization}}.\n\nThank you for considering this.\n\nWith appreciation,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
+      "body": "Hi {{contactName}},\n\nThank you for taking the time to connect — I've been thinking about our conversation, and I wanted to put something more concrete on paper.\n\n{{organizationName}} is building AI literacy programs for South Carolina communities — people who are already feeling the effects of an AI-driven economy but have had very little access to education, training, or tools to navigate it. Our approach is grounded in where people actually are: practical, jargon-free, and built around real work and real lives.\n\nI believe a partnership with {{contactOrganization}} could be genuinely powerful for both of us. Here's why:\n\n{{partnershipBenefits}}\n\nWhat I'm specifically hoping to explore:\n\n{{specificAsk}}\n\nI want to be direct: I'm not asking for money. I'm asking for a relationship. The organizations I most want to partner with are the ones already doing good work in these communities — like {{contactOrganization}}. A formal partnership could mean something as simple as co-hosting an event, sharing each other's networks, or building a program together. Whatever makes sense for where you are.\n\nI've attached a one-page overview of {{organizationName}} for context. I'd welcome any questions, pushback, or ideas you have — and I'm happy to revise this based on what would actually be useful to {{contactOrganization}}.\n\nThank you for considering this.\n\nWith appreciation,\n{{senderName}}\n{{senderTitle}}, {{organizationName}}",
       "fields": [
         {
           "id": "contactName",
@@ -280,7 +280,7 @@
           "label": "Their Organization",
           "type": "text",
           "autoFillFromContact": "organization",
-          "placeholder": "e.g. SC Rural Innovation Network",
+          "placeholder": "e.g. SC Innovation Network",
           "required": true
         },
         {

@@ -109,15 +109,15 @@
     },
     {
       "id": "r7",
-      "title": "Center on Rural Innovation (CORI)",
+      "title": "Center on Innovation (CORI)",
       "category": "ai-education",
       "url": "https://ruralinnovation.us",
-      "description": "A nonprofit focused on building rural tech ecosystems and digital opportunity across rural America. Runs the Rural Innovation Initiative, produces research on rural tech gaps, and connects rural entrepreneurs with resources.",
-      "simpleExplanation": "CORI is doing nationally what you want to do in South Carolina. They focus specifically on rural areas being left behind in the tech economy. They have data, relationships, and a playbook that's directly relevant — and they're always looking for strong regional partners.",
+      "description": "A nonprofit focused on building tech ecosystems and digital opportunity in underserved communities across America. Runs the Innovation Initiative, produces research on tech access gaps, and connects entrepreneurs with resources.",
+      "simpleExplanation": "CORI is doing nationally what you want to do in South Carolina. They focus specifically on areas being left behind in the tech economy. They have data, relationships, and a playbook that's directly relevant — and they're always looking for strong regional partners.",
       "type": "partner",
       "phase": "phase-1",
       "isFree": true,
-      "tags": ["rural", "partnership", "research", "national-network"]
+      "tags": ["partnership", "research", "national-network"]
     },
     {
       "id": "r8",
@@ -174,13 +174,13 @@
       "title": "USDA Rural Business Development Grant (RBDG)",
       "category": "funding",
       "url": "https://www.rd.usda.gov/programs-services/business-programs/rural-business-development-grants",
-      "description": "USDA grant program funding technical assistance and training for rural small businesses and communities. Grants range from $10,000 to $500,000. Targeted at projects that strengthen rural economies and business capacity.",
-      "simpleExplanation": "AI literacy training for rural entrepreneurs and workers fits this grant perfectly. The USDA has money specifically for teaching rural communities skills that help their businesses and economy. The range is wide — even a small $25K grant from here funds a solid pilot program.",
+      "description": "USDA grant program funding technical assistance and training for small businesses and communities. Grants range from $10,000 to $500,000. Targeted at projects that strengthen economies and business capacity.",
+      "simpleExplanation": "AI literacy training for entrepreneurs and workers fits this grant perfectly. The USDA has money specifically for teaching communities skills that help their businesses and economy. The range is wide — even a small $25K grant from here funds a solid pilot program.",
       "type": "grant",
       "phase": "phase-1",
       "isFree": true,
       "estimatedAmount": "$10,000 – $500,000",
-      "tags": ["grant", "usda", "rural", "government", "workforce"]
+      "tags": ["grant", "usda", "community", "government", "workforce"]
     },
     {
       "id": "r13",
@@ -201,7 +201,7 @@
       "category": "funding",
       "url": "https://www.eda.gov/grants",
       "description": "Federal grants through the Department of Commerce's Economic Development Administration. Funds workforce development, innovation ecosystems, and technology adoption in economically distressed communities.",
-      "simpleExplanation": "EDA funds projects that create jobs and build economic capacity in communities that need it most. Your AI incubator (Phase 2) is a natural fit for EDA funding — you're building the economic infrastructure for rural SC to compete in the AI economy.",
+      "simpleExplanation": "EDA funds projects that create jobs and build economic capacity in communities that need it most. Your AI incubator (Phase 2) is a natural fit for EDA funding — you're building the economic infrastructure for SC to compete in the AI economy.",
       "type": "grant",
       "phase": "phase-2",
       "isFree": true,
@@ -258,16 +258,16 @@
     },
     {
       "id": "r19",
-      "title": "SC Rural Innovation Network (SCRIN)",
+      "title": "SC Innovation Network (SCRIN)",
       "category": "sc-ecosystem",
       "url": "https://www.scruralhealth.org",
-      "description": "SCRIN (through the SC Office of Rural Health) works to improve economic and health outcomes in rural South Carolina. Has deep community trust, established relationships with rural organizations across the state, and experience running programs in underserved areas.",
-      "simpleExplanation": "SCRIN is your most important early partner in SC. They already have the trust of rural communities you want to reach — trust that takes years to build. A relationship here means you can run your first workshops in communities that already know and trust your partner, rather than showing up cold.",
+      "description": "SCRIN (through the SC Office of Health) works to improve economic and health outcomes in South Carolina. Has deep community trust, established relationships with organizations across the state, and experience running programs in underserved areas.",
+      "simpleExplanation": "SCRIN is your most important early partner in SC. They already have the trust of South Carolina communities you want to reach — trust that takes years to build. A relationship here means you can run your first workshops in communities that already know and trust your partner, rather than showing up cold.",
       "type": "partner",
       "phase": "phase-1",
       "isFree": true,
       "contactName": "Kim Bowman",
-      "tags": ["rural", "partnership", "sc", "community-trust", "priority-contact"]
+      "tags": ["partnership", "sc", "community-trust", "priority-contact"]
     },
     {
       "id": "r20",
@@ -335,11 +335,11 @@
       "category": "sc-ecosystem",
       "url": "https://www.scepscor.org",
       "description": "SC EPSCoR (Established Program to Stimulate Competitive Research) and the ADAPT program support research and innovation in South Carolina, particularly in underserved areas. Funded by NSF to build SC's research capacity.",
-      "simpleExplanation": "SC EPSCoR exists specifically because SC has historically been underrepresented in federal research funding. They have NSF dollars to help build SC's capacity in science and technology — which aligns with building AI literacy in rural communities. They can also be a bridge to larger NSF grants down the road.",
+      "simpleExplanation": "SC EPSCoR exists specifically because SC has historically been underrepresented in federal research funding. They have NSF dollars to help build SC's capacity in science and technology — which aligns with building AI literacy in communities. They can also be a bridge to larger NSF grants down the road.",
       "type": "partner",
       "phase": "phase-2",
       "isFree": true,
-      "tags": ["nsf", "sc", "research", "rural", "federal"]
+      "tags": ["nsf", "sc", "research", "community", "federal"]
     }
   ]
 }

@@ -16,7 +16,7 @@ Teach communities about AI. Build trust. Generate grant revenue. This is the cur
 - Choosing a nonprofit name (SCAiL) and reserving it with SC Secretary of State
 - Identifying 3 unrelated board members (nonprofit governance, tech/AI, community ties)
 - Choosing a registered agent (completed — Registered Agents Inc., 6650 Rivers Ave, STE 100, Charleston, SC 29406)
-- Drafting a mission statement focused on AI literacy in underserved rural communities
+- Drafting a mission statement focused on AI literacy in underserved South Carolina communities
 - Filing Articles of Incorporation with SC (Form NP, $32.50 — completed 3/3/2026, Transaction ID: 2155274)
 - Getting an EIN from the IRS (free, instant online)
 - Filing Initial Report with SC Secretary of State
@@ -31,9 +31,9 @@ Teach communities about AI. Build trust. Generate grant revenue. This is the cur
 - Beginning grant applications (OpenAI People-First AI Fund is priority #1)
 
 **Phase 2 — AI Startup Incubator**
-Turn educated community members into founders. Run hackathons, cohorts, and demo days. 8-12 week program for 5-10 rural founders building AI-native businesses.
+Turn educated community members into founders. Run hackathons, cohorts, and demo days. 8-12 week program for 5-10 South Carolina founders building AI-native businesses.
 
-**Phase 3 — Rural AI Investment Fund**
+**Phase 3 — AI Investment Fund**
 Fund the strongest companies from the incubator. Angel syndicate or registered fund targeting SC AI startups. Study the VentureSouth model.
 
 ## South Carolina Specifics
@@ -93,14 +93,14 @@ This phase turns AI-literate community members into founders through an 8-12 wee
 - Plan Demo Day pitch events for investors
 - Establish legal support pipeline (pro bono partnerships)
 - Define revenue model (grants + equity stakes + sponsorships)
-- Launch first cohort of 5-10 rural founders
+- Launch first cohort of 5-10 South Carolina founders
 
 **Target launch:** September 2027
 **Estimated cost:** $5,000-$50,000`
   },
   {
     keywords: ['phase 3', 'phase three', 'fund', 'investment', 'angel', 'venture'],
-    response: `**Phase 3: Rural AI Investment Fund**
+    response: `**Phase 3: AI Investment Fund**
 
 The final phase creates an investment vehicle to fund promising AI startups from the incubator.
 
@@ -214,7 +214,7 @@ This is the single best match for SCAiL's mission -- they are looking for exactl
 **Timeline:** 3-6 months for full 501(c)(3) approval`
   },
   {
-    keywords: ['south carolina', 'sc', 'rural', 'community', 'state'],
+    keywords: ['south carolina', 'sc', 'community', 'state'],
     response: `**South Carolina Specifics for SCAiL**
 
 **Key state resources:**
@@ -240,11 +240,11 @@ This is the single best match for SCAiL's mission -- they are looking for exactl
     response: `**SCAiL Mission Statement**
 
 **Suggested mission statement:**
-"To increase AI literacy, foster innovation, and build economic opportunity in underserved and rural communities across the American South."
+"To increase AI literacy, foster innovation, and build economic opportunity in underserved communities across South Carolina."
 
 **Tips for finalizing:**
 - Keep it to 1-3 sentences maximum
-- Include the geographic area (South Carolina / the rural South)
+- Include the geographic area (South Carolina)
 - Use active verbs: advance, empower, bridge, equip, transform
 - Make it clear enough that someone unfamiliar immediately understands what you do
 - The IRS reviews this -- ensure it describes charitable/educational purposes

@@ -14,7 +14,7 @@
       "startDate": "2027-01-01",
       "endDate": "2028-12-31",
       "color": "phase-2",
-      "description": "Launch the incubator program supporting rural entrepreneurs building AI-powered businesses. Run cohorts, host demo days, and expand partnerships with universities and economic development organizations."
+      "description": "Launch the incubator program supporting entrepreneurs building AI-powered businesses. Run cohorts, host demo days, and expand partnerships with universities and economic development organizations."
     },
     {
       "id": "phase-3",
@@ -22,7 +22,7 @@
       "startDate": "2028-06-01",
       "endDate": "2030-12-31",
       "color": "phase-3",
-      "description": "Establish a community investment fund to provide capital to rural AI startups. Leverage relationships built in Phases 1 and 2 to attract institutional investors and government backing."
+      "description": "Establish a community investment fund to provide capital to AI startups. Leverage relationships built in Phases 1 and 2 to attract institutional investors and government backing."
     }
   ],
   "milestones": [
@@ -31,7 +31,7 @@
       "title": "Initiative Conceived",
       "date": "2026-02-20",
       "phase": "phase-1",
-      "description": "The idea takes shape — AI literacy for rural South Carolina. Vision crystallized for a three-phase initiative: nonprofit, incubator, and investment fund.",
+      "description": "The idea takes shape — AI literacy for South Carolina. Vision crystallized for a three-phase initiative: nonprofit, incubator, and investment fund.",
       "icon": "Lightbulb",
       "completed": true
     },
@@ -103,7 +103,7 @@
       "title": "First AI Literacy Workshop Pilot",
       "date": "2026-06-30",
       "phase": "phase-1",
-      "description": "Host the first AI literacy workshop in a rural South Carolina community. This pilot validates the program model, generates impact data for grant applications, and begins building the community reputation.",
+      "description": "Host the first AI literacy workshop in a South Carolina community. This pilot validates the program model, generates impact data for grant applications, and begins building the community reputation.",
       "icon": "BookOpen",
       "completed": false
     },
@@ -130,7 +130,7 @@
       "title": "First Incubator Cohort Launch",
       "date": "2027-01-15",
       "phase": "phase-2",
-      "description": "Launch the inaugural cohort of the rural AI innovation incubator. Target 8-12 entrepreneurs from rural South Carolina communities. Provide mentorship, AI tools training, business development support, and connections to the broader innovation ecosystem.",
+      "description": "Launch the inaugural cohort of the AI innovation incubator. Target 8-12 entrepreneurs from South Carolina communities. Provide mentorship, AI tools training, business development support, and connections to the broader innovation ecosystem.",
       "icon": "Rocket",
       "completed": false
     },
@@ -139,7 +139,7 @@
       "title": "First Demo Day",
       "date": "2027-04-30",
       "phase": "phase-2",
-      "description": "Host the first incubator Demo Day — a public showcase where cohort companies present to investors, press, partners, and community members. Modeled after Y Combinator Demo Day but rooted in rural South Carolina.",
+      "description": "Host the first incubator Demo Day — a public showcase where cohort companies present to investors, press, partners, and community members. Modeled after Y Combinator Demo Day but rooted in South Carolina.",
       "icon": "Star",
       "completed": false
     },
@@ -157,7 +157,7 @@
       "title": "First Investment Made",
       "date": "2028-12-31",
       "phase": "phase-3",
-      "description": "Deploy the first capital investment into a rural South Carolina AI startup — ideally an alumnus of the incubator program. This completes the flywheel: literacy → incubation → investment → impact.",
+      "description": "Deploy the first capital investment into a South Carolina AI startup — ideally an alumnus of the incubator program. This completes the flywheel: literacy → incubation → investment → impact.",
       "icon": "TrendingUp",
       "completed": false
     }
@@ -196,7 +196,7 @@
       "startDate": "2026-05-01",
       "endDate": "2026-07-31",
       "phase": "phase-1",
-      "description": "Submit Tier 1 grant applications: OpenAI People-First AI Fund, Google.org/aiEDU Rural Catalyst, and Microsoft/OpenAI Societal Resilience Fund. Each requires a tailored narrative, budget, and supporting documents.",
+      "description": "Submit Tier 1 grant applications: OpenAI People-First AI Fund, Google.org/aiEDU Catalyst, and Microsoft/OpenAI Societal Resilience Fund. Each requires a tailored narrative, budget, and supporting documents.",
       "milestones": ["m8"]
     },
     {
@@ -205,7 +205,7 @@
       "startDate": "2026-06-01",
       "endDate": "2026-09-30",
       "phase": "phase-1",
-      "description": "Design and deliver the first series of AI literacy workshops in rural South Carolina communities. Start with 2-3 pilot workshops, gather participant feedback, refine curriculum, and document impact metrics for grant applications.",
+      "description": "Design and deliver the first series of AI literacy workshops in South Carolina communities. Start with 2-3 pilot workshops, gather participant feedback, refine curriculum, and document impact metrics for grant applications.",
       "milestones": ["m9"]
     },
     {
@@ -223,7 +223,7 @@
       "startDate": "2026-10-01",
       "endDate": "2027-01-31",
       "phase": "phase-1",
-      "description": "Design the innovation incubator program structure: cohort size, curriculum, mentor network, application process, graduation criteria, and funding model. Research best practices from successful rural incubators.",
+      "description": "Design the innovation incubator program structure: cohort size, curriculum, mentor network, application process, graduation criteria, and funding model. Research best practices from successful incubators.",
       "milestones": ["m12"]
     },
     {
@@ -232,7 +232,7 @@
       "startDate": "2027-01-15",
       "endDate": "2027-04-30",
       "phase": "phase-2",
-      "description": "Run the inaugural incubator cohort from launch through Demo Day. Weekly programming, mentor sessions, pitch practice, and culminating public showcase. Target: 8-12 rural SC entrepreneurs.",
+      "description": "Run the inaugural incubator cohort from launch through Demo Day. Weekly programming, mentor sessions, pitch practice, and culminating public showcase. Target: 8-12 SC entrepreneurs.",
       "milestones": ["m12", "m13"]
     },
     {
@@ -250,7 +250,7 @@
       "startDate": "2027-06-01",
       "endDate": "2028-06-30",
       "phase": "phase-2",
-      "description": "Research legal structures for the investment fund, engage financial and legal advisors, study successful rural investment fund models (e.g., Runway, Opportunity Alabama), and develop the fund thesis and investor pitch.",
+      "description": "Research legal structures for the investment fund, engage financial and legal advisors, study successful investment fund models (e.g., Runway, Opportunity Alabama), and develop the fund thesis and investor pitch.",
       "milestones": ["m14"]
     },
     {
@@ -259,7 +259,7 @@
       "startDate": "2028-06-01",
       "endDate": "2028-12-31",
       "phase": "phase-3",
-      "description": "Establish the legal structure, raise initial capital commitments, develop deal flow pipeline from incubator alumni, and make the first investment into a rural SC AI startup.",
+      "description": "Establish the legal structure, raise initial capital commitments, develop deal flow pipeline from incubator alumni, and make the first investment into a SC AI startup.",
       "milestones": ["m14", "m15"]
     }
   ]

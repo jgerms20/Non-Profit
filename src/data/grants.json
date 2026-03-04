@@ -3,7 +3,7 @@
     {
       "id": "tier-1",
       "label": "Apply Immediately",
-      "simpleExplanation": "These are the grants you should go after right now. They're specifically looking for organizations like yours — rural communities, AI education, small nonprofits. Don't wait!",
+      "simpleExplanation": "These are the grants you should go after right now. They're specifically looking for organizations like yours — communities, AI education, small nonprofits. Don't wait!",
       "color": "green"
     },
     {
@@ -33,18 +33,18 @@
         "Must be a registered nonprofit",
         "Annual budget under $10 million",
         "Focus on AI literacy or AI education",
-        "Serving underserved or rural communities"
+        "Serving underserved or communities"
       ],
-      "description": "$50M total fund. First wave distributed $40.5M to 208 nonprofits in December 2025. Explicitly prioritizes rural communities, AI literacy, and small organizations. Grants are unrestricted — meaning you can spend the money on anything your nonprofit needs. Second wave of $9.5M expected early 2026.",
-      "simpleExplanation": "OpenAI — the company that made ChatGPT — created a $50 million piggy bank to help groups that teach people about AI. They already gave money to 208 nonprofits, and they LOVE funding groups in rural places like South Carolina. The best part? They let you spend the money on WHATEVER your nonprofit needs — new computers, paying staff, hosting workshops. You're exactly who they want to help. This should be your very first application!",
+      "description": "$50M total fund. First wave distributed $40.5M to 208 nonprofits in December 2025. Explicitly prioritizes underserved communities, AI literacy, and small organizations. Grants are unrestricted — meaning you can spend the money on anything your nonprofit needs. Second wave of $9.5M expected early 2026.",
+      "simpleExplanation": "OpenAI — the company that made ChatGPT — created a $50 million piggy bank to help groups that teach people about AI. They already gave money to 208 nonprofits, and they LOVE funding AI literacy groups in South Carolina. The best part? They let you spend the money on WHATEVER your nonprofit needs — new computers, paying staff, hosting workshops. You're exactly who they want to help. This should be your very first application!",
       "phase": "phase-1",
       "difficulty": "medium",
       "estimatedPrepTime": "2-4 weeks",
-      "notes": "You are exactly their target profile. Rural + AI literacy + small nonprofit = perfect match. Priority #1 application."
+      "notes": "You are exactly their target profile. Underserved communities + AI literacy + small nonprofit = perfect match. Priority #1 application."
     },
     {
-      "id": "google-aiedu-rural",
-      "name": "Google.org / aiEDU — Rural & Indigenous Community Catalyst Program",
+      "id": "google-aiedu-underserved",
+      "name": "Google.org / aiEDU — Underserved Rural & Indigenous Community Indigenous Community Catalyst Program",
       "tier": "tier-1",
       "organization": "Google.org and aiEDU",
       "amount": { "min": 50000, "max": 1000000 },
@@ -53,13 +53,13 @@
       "status": "not-started",
       "requirements": [
         "Must be a registered nonprofit",
-        "Serving rural or Indigenous communities",
+        "Serving underserved or Indigenous communities",
         "Operating in one of 14 target states (SC is included)",
         "Focus on AI education or workforce development",
-        "Preferred: partnership with 4-H or similar rural youth organization"
+        "Preferred: partnership with 4-H or similar youth organization"
       ],
-      "description": "Joint program between Google.org and aiEDU targeting rural and Indigenous communities across 14 states. South Carolina is one of the target states. Partnership with 4-H is specifically mentioned as preferred. Grants of $1M+ for regional programs. Focus on building lasting AI education infrastructure in rural areas.",
-      "simpleExplanation": "Google (yes, the search engine company) teamed up with an organization called aiEDU to give out BIG grants — up to $1 million — to help people in rural areas learn about AI. South Carolina is one of the special states they're focused on. They extra-love it when groups work with 4-H clubs (the farming and youth organization). If you can partner with a local 4-H chapter, your application gets even stronger. This is like Google saying, 'Hey rural South Carolina, we want to invest in YOU!'",
+      "description": "Joint program between Google.org and aiEDU targeting Indigenous communities and underserved areas across 14 states. South Carolina is one of the target states. Partnership with 4-H is specifically mentioned as preferred. Grants of $1M+ for regional programs. Focus on building lasting AI education infrastructure in underserved areas.",
+      "simpleExplanation": "Google (yes, the search engine company) teamed up with an organization called aiEDU to give out BIG grants — up to $1 million — to help people in South Carolina learn about AI. South Carolina is one of the special states they're focused on. They extra-love it when groups work with 4-H clubs (the farming and youth organization). If you can partner with a local 4-H chapter, your application gets even stronger. This is like Google saying, 'Hey South Carolina, we want to invest in YOU!'",
       "phase": "phase-1",
       "difficulty": "medium",
       "estimatedPrepTime": "3-5 weeks",
@@ -80,16 +80,16 @@
         "Demonstrated community need",
         "Plan for measurable impact"
       ],
-      "description": "$2M fund jointly operated by Microsoft and OpenAI specifically for AI education programs serving vulnerable communities. Includes displaced workers, rural populations, and communities historically excluded from technology opportunities. Focus on building societal resilience as AI transforms the economy.",
-      "simpleExplanation": "Microsoft and OpenAI joined forces to create a $2 million fund to make sure AI doesn't leave vulnerable people behind. 'Vulnerable' means people who might struggle as AI changes jobs and the economy — like folks in rural areas who might not have access to technology training. That's exactly the people you're trying to help! Think of it like two big tech companies saying, 'We're building powerful AI — now let's make sure everyone can keep up.'",
+      "description": "$2M fund jointly operated by Microsoft and OpenAI specifically for AI education programs serving vulnerable communities. Includes displaced workers, underserved populations, and communities historically excluded from technology opportunities. Focus on building societal resilience as AI transforms the economy.",
+      "simpleExplanation": "Microsoft and OpenAI joined forces to create a $2 million fund to make sure AI doesn't leave vulnerable people behind. 'Vulnerable' means people who might struggle as AI changes jobs and the economy — like folks in underserved areas who might not have access to technology training. That's exactly the people you're trying to help! Think of it like two big tech companies saying, 'We're building powerful AI — now let's make sure everyone can keep up.'",
       "phase": "phase-1",
       "difficulty": "medium",
       "estimatedPrepTime": "3-4 weeks",
       "notes": "Strong alignment with mission. Two tech giants pooling resources means serious funding. Apply concurrently with OpenAI People-First."
     },
     {
-      "id": "usda-rural-business",
-      "name": "USDA Rural Business Development Grants (RBDG)",
+      "id": "usda-rural-business-underserved",
+      "name": "USDA Rural Business Development Grants (RBDG) - Underserved Communities",
       "tier": "tier-2",
       "organization": "U.S. Department of Agriculture",
       "amount": { "min": 10000, "max": 500000 },
@@ -97,14 +97,14 @@
       "applicationUrl": "https://www.rd.usda.gov/programs-services/business-programs/rural-business-development-grants",
       "status": "not-started",
       "requirements": [
-        "Must serve rural communities (towns under 50,000 population)",
+        "Must serve communities (towns under 50,000 population)",
         "Must be a nonprofit or public body",
         "Focus on business development or workforce training",
         "Match funding preferred but not always required",
-        "Competitive application process through state USDA Rural Development office"
+        "Competitive application process through state USDA Economic Development office"
       ],
-      "description": "USDA grant program supporting economic development in rural areas. Already funding SCRIN (South Carolina Rural Infrastructure Network) — a key partner organization. Grants range from $10K to $500K and can support workforce training, technical assistance, and capacity building. Applications reviewed by state USDA office in Columbia, SC.",
-      "simpleExplanation": "The United States Department of Agriculture — the same government branch that helps farmers — also gives money to rural communities to help them grow economically. Here's the really cool part: SCRIN, one of your key partners in South Carolina, is ALREADY getting this grant money! That means the USDA already knows and trusts the network you're plugging into. It's like applying to join a club where your friends are already members — that helps a LOT.",
+      "description": "USDA grant program supporting economic development in underserved areas. Already funding SCRIN (South Carolina Rural Infrastructure Network) — a key partner organization. Grants range from $10K to $500K and can support workforce training, technical assistance, and capacity building. Applications reviewed by state USDA office in Columbia, SC.",
+      "simpleExplanation": "The United States Department of Agriculture — the same government branch that helps farmers — also gives money to communities in underserved areas to help them grow economically. Here's the really cool part: SCRIN, one of your key partners in South Carolina, is ALREADY getting this grant money! That means the USDA already knows and trusts the network you're plugging into. It's like applying to join a club where your friends are already members — that helps a LOT.",
       "phase": "phase-1",
       "difficulty": "medium",
       "estimatedPrepTime": "6-8 weeks",
@@ -126,8 +126,8 @@
         "Evaluation plan required",
         "Partnership with academic institution strongly preferred"
       ],
-      "description": "NSF program to increase participation of underrepresented groups — including rural communities, women, people of color, and people with disabilities — in computing and technology fields. Funds research, programs, and alliances. Strong alignment with AI literacy mission and rural SC demographics. Academic partner (USC) would strengthen application significantly.",
-      "simpleExplanation": "The National Science Foundation is like the government's science department — they give money to make sure EVERYONE gets a chance to learn about computers and technology, not just people in big cities or from wealthy backgrounds. They specifically want to help groups that don't usually get technology opportunities — like rural communities in South Carolina. If you partner with the University of South Carolina for this one, your chances get way better because NSF loves university partnerships.",
+      "description": "NSF program to increase participation of underrepresented groups — including underserved communities, women, people of color, and people with disabilities — in computing and technology fields. Funds research, programs, and alliances. Strong alignment with AI literacy mission and South Carolina demographics. Academic partner (USC) would strengthen application significantly.",
+      "simpleExplanation": "The National Science Foundation is like the government's science department — they give money to make sure EVERYONE gets a chance to learn about computers and technology, not just people in big cities or from wealthy backgrounds. They specifically want to help groups that don't usually get technology opportunities — like underserved communities in South Carolina. If you partner with the University of South Carolina for this one, your chances get way better because NSF loves university partnerships.",
       "phase": "phase-1",
       "difficulty": "hard",
       "estimatedPrepTime": "8-12 weeks",
@@ -148,8 +148,8 @@
         "Alignment with SC Nexus Tech Hub strategy",
         "Partnership with SC Nexus or member organizations strongly preferred"
       ],
-      "description": "SC Nexus is a federally designated EDA Tech Hub for South Carolina. As a Tech Hub designee, SC Nexus receives federal funding and can sub-grant to aligned organizations in the region. AI literacy training for rural communities is a direct fit with the Tech Hub's workforce development mandate. This is an inside track — being connected to the right people at SC Nexus is key.",
-      "simpleExplanation": "The federal government picked South Carolina to be a special 'Tech Hub' — like being selected as a top technology region in the country. The organization called SC Nexus runs this program, and they have money to give out to groups doing technology work in SC. Because you're teaching AI skills to rural South Carolinians, you fit PERFECTLY into what they're trying to accomplish. It's like having a golden ticket that says 'SC Nexus wants groups EXACTLY like us.'",
+      "description": "SC Nexus is a federally designated EDA Tech Hub for South Carolina. As a Tech Hub designee, SC Nexus receives federal funding and can sub-grant to aligned organizations in the region. AI literacy training for communities is a direct fit with the Tech Hub's workforce development mandate. This is an inside track — being connected to the right people at SC Nexus is key.",
+      "simpleExplanation": "The federal government picked South Carolina to be a special 'Tech Hub' — like being selected as a top technology region in the country. The organization called SC Nexus runs this program, and they have money to give out to groups doing technology work in SC. Because you're teaching AI skills to South Carolina communities, you fit PERFECTLY into what they're trying to accomplish. It's like having a golden ticket that says 'SC Nexus wants groups EXACTLY like us.'",
       "phase": "phase-1",
       "difficulty": "medium",
       "estimatedPrepTime": "4-6 weeks",
@@ -192,8 +192,8 @@
         "Partnerships with HBCUs (Historically Black Colleges and Universities) preferred",
         "Focus on economic development or educational advancement"
       ],
-      "description": "South Carolina Commission for Minority Affairs administers state funds to support minority community development, including programs connected to SC's HBCUs (such as South Carolina State, Benedict College, Claflin University, and Allen University). Rural AI literacy programs serving Black communities in the Corridor of Shame and other underserved areas are a strong fit.",
-      "simpleExplanation": "South Carolina has a special state commission that gives money specifically to help communities of color — especially programs connected to HBCUs, which are historically Black colleges and universities. SC has several amazing HBCUs like SC State and Benedict College. If your AI literacy program partners with one of those schools or specifically serves Black rural communities, this commission wants to help fund your work. It's state money specifically set aside to make sure minority communities have opportunities.",
+      "description": "South Carolina Commission for Minority Affairs administers state funds to support minority community development, including programs connected to SC's HBCUs (such as South Carolina State, Benedict College, Claflin University, and Allen University). AI literacy programs serving Black communities in the Corridor of Shame and other underserved areas are a strong fit.",
+      "simpleExplanation": "South Carolina has a special state commission that gives money specifically to help communities of color — especially programs connected to HBCUs, which are historically Black colleges and universities. SC has several amazing HBCUs like SC State and Benedict College. If your AI literacy program partners with one of those schools or specifically serves Black communities in South Carolina, this commission wants to help fund your work. It's state money specifically set aside to make sure minority communities have opportunities.",
       "phase": "phase-1",
       "difficulty": "low",
       "estimatedPrepTime": "3-4 weeks",
@@ -215,7 +215,7 @@
         "Professional pitch deck and nonprofit credentials"
       ],
       "description": "Major tech companies have corporate social responsibility (CSR) budgets specifically for AI education and digital equity. Google.org gives unrestricted grants. Microsoft TEALS places tech volunteers in schools. AWS offers nonprofits free cloud credits ($1K+/year) plus cash grants through the AWS Imagine Grant. Meta has a community fund. These can be approached as sponsors — with logo placement, speaking opportunities at workshops, and impact reports — after achieving 501(c)(3) status.",
-      "simpleExplanation": "Big tech companies like Google, Microsoft, Amazon, and Facebook have special budgets where they give money and help to nonprofits — it's part of how they show they're good citizens. Here's the key: they want something back, but not money. They want to be able to say 'We helped teach rural South Carolina about AI!' It makes their companies look good. So you give them your logo on your website, invite them to speak at your events, and tell them how many people you've helped. In return, they give you money or free technology. Win-win!",
+      "simpleExplanation": "Big tech companies like Google, Microsoft, Amazon, and Facebook have special budgets where they give money and help to nonprofits — it's part of how they show they're good citizens. Here's the key: they want something back, but not money. They want to be able to say 'We helped teach South Carolina about AI!' It makes their companies look good. So you give them your logo on your website, invite them to speak at your events, and tell them how many people you've helped. In return, they give you money or free technology. Win-win!",
       "phase": "phase-2",
       "difficulty": "medium",
       "estimatedPrepTime": "4-6 weeks per sponsor",
@@ -237,7 +237,7 @@
         "Instructor capacity to deliver programs"
       ],
       "description": "Sell AI literacy curriculum and workshop facilitation to school districts, public libraries, community colleges, and local businesses. Fee-for-service revenue is unrestricted and builds financial sustainability. School districts can purchase curriculum with Title I funds (for low-income student populations). Libraries often have programming budgets. Local businesses (especially those affected by AI automation) will pay for employee training.",
-      "simpleExplanation": "Here's how nonprofits make money WITHOUT asking for donations: they charge for services! After you've run some free pilot workshops and proven your program works, you can SELL your curriculum and teaching services to schools, libraries, and local businesses. School districts actually have special government money (called Title I funds) they MUST spend on programs for students from low-income families — that's you! Businesses scared about AI changing their industry will PAY you to help their employees understand and adapt. Think of it like: first you prove it works for free, then you sell it.",
+      "simpleExplanation": "Here's how nonprofits make money WITHOUT asking for donations: they charge for services! After you've run some free pilot workshops and proven your program works, you can SELL your curriculum and teaching services to schools, libraries, and local businesses. School districts actually have special government money (called Title I funds) they MUST spend on programs for students from low-income families — that's you! Businesses concerned about AI changing their industry will PAY you to help their employees understand and adapt. Think of it like: first you prove it works for free, then you sell it.",
       "phase": "phase-2",
       "difficulty": "low",
       "estimatedPrepTime": "2-3 months to develop curriculum",
@@ -259,12 +259,12 @@
         "Legislative champion willing to include in appropriations",
         "Demonstrated community impact"
       ],
-      "description": "South Carolina Representative and potential ally serves on committees with access to state appropriations for technology and workforce development. State budget line items and earmarks are a long-term funding strategy. Cultivating the political relationship now positions the organization to receive state appropriations in Year 2-3. SC's rural broadband and technology workforce investments create favorable political environment.",
-      "simpleExplanation": "South Carolina's government gives money to programs that help South Carolinians — and you have a potential ally in the General Assembly who sits on the right committees. Think of it like this: every year, SC legislators decide how to spend the state's budget, kind of like a family deciding where to spend their paycheck. If a legislator believes in your work and supports you, they can try to include money for your program in that budget. This takes time — you need to build the relationship and prove your program works — but state funding can be HUGE and can last for years.",
+      "description": "South Carolina Representative and potential ally serves on committees with access to state appropriations for technology and workforce development. State budget line items and earmarks are a long-term funding strategy. Cultivating the political relationship now positions the organization to receive state appropriations in Year 2-3. SC's broadband and technology workforce investments create favorable political environment.",
+      "simpleExplanation": "South Carolina's government gives money to programs that help South Carolinians — and you have a potential ally in the General Assembly who sits on the right committees. Think of it like this: every year, SC legislators decide how to spend the state's budget, kind of like a family deciding where to spend their paycheck. If a legislator believes in your work and supports you, they can try to include money for your program in that budget. This takes time — you need to build the relationship and prove your program works — but state funding can be significant and can last for years.",
       "phase": "phase-2",
       "difficulty": "hard",
       "estimatedPrepTime": "12-18 months of relationship building",
-      "notes": "Use SC trip to make initial contact with Rep. Bradley's office. Bring impact data and a compelling story. State appropriations typically take 1-2 legislative cycles. Focus on relationship now; funding application later. SC's rural tech investment climate is favorable."
+      "notes": "Use SC trip to make initial contact with Rep. Bradley's office. Bring impact data and a compelling story. State appropriations typically take 1-2 legislative cycles. Focus on relationship now; funding application later. SC's tech investment climate is favorable."
     }
   ]
 }

@@ -90,7 +90,7 @@ const pillars = [
 // ─── Impact Numbers ──────────────────────────────────────────────────────────
 const impactStats = [
   { value: '500+', label: 'Community Members Trained', Icon: Users },
-  { value: '12', label: 'Rural Counties Reached', Icon: MapPin },
+  { value: '46', label: 'South Carolina Counties', Icon: MapPin },
   { value: '8', label: 'Original Courses', Icon: GraduationCap },
   { value: '$2M+', label: 'Grant Funding Targeted', Icon: DollarSign },
 ]

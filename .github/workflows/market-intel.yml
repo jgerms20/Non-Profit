@@ -83,10 +83,10 @@ jobs:
             ${competitors}
 
             - [ ] Check aiEDU blog and social media for new program announcements
-            - [ ] Check CORI for new rural tech reports or partnerships
+            - [ ] Check CORI for new tech reports or partnerships in South Carolina
             - [ ] Check AI4ALL for new university partnerships or curriculum releases
             - [ ] Check Code.org for AI curriculum updates
-            - [ ] Search Google News for "AI literacy nonprofit" and "rural AI education"
+            - [ ] Search Google News for "AI literacy nonprofit" and "AI education South Carolina"
             - [ ] Search Google News for "South Carolina AI" and "SC tech workforce"
 
             **Updates found:**
@@ -94,11 +94,11 @@ jobs:
             _No updates reviewed yet — fill in above checklist items._
 
             ## Industry News
-            **Relevant AI education, rural tech, and digital equity news:**
+            **Relevant AI education, technology equity, and digital inclusion news:**
 
             - [ ] Search for new federal/state funding announcements for AI education
             - [ ] Check for new AI literacy frameworks or standards
-            - [ ] Monitor rural broadband expansion news in SC
+            - [ ] Monitor broadband and technology expansion news in SC
             - [ ] Check for AI workforce displacement reports (validates SCAiL's mission)
 
             **Key articles/announcements:**

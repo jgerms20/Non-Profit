@@ -290,7 +290,7 @@ export default function ProgramsPage() {
               SCAiL Original Courses
             </h2>
             <p className="text-slate-500 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              Eight purpose-built courses designed specifically for rural South Carolina
+              Eight purpose-built courses designed specifically for South Carolina
               communities. No jargon, no prerequisites, just practical AI skills you can
               use right away.
             </p>

@@ -2,7 +2,7 @@
 
 ## What Is This?
 
-This is the command center for building SCAiL, a nonprofit that teaches AI literacy in rural South Carolina, eventually growing into an incubator and investment fund. Three pillars, one mission: build wealth and knowledge in communities that get overlooked.
+This is the command center for building SCAiL, a nonprofit that teaches AI literacy in South Carolina, eventually growing into an incubator and investment fund. Three pillars, one mission: build wealth and knowledge in communities that get overlooked.
 
 ## The Three Pillars
 

@@ -33,7 +33,7 @@ const articles = [
           'Proposed legislation to expand computer science education in SC schools — a step toward broader AI literacy.',
       },
       {
-        title: 'Palmetto Connect: Fostering Digital Inclusion in Rural South Carolina',
+        title: 'Palmetto Connect: Fostering Digital Inclusion in South Carolina',
         source: 'National Network of Libraries of Medicine',
         url: 'https://www.nnlm.gov/training/class/palmetto-connect-fostering-digital-inclusion-rural-south-carolina',
         description:
@@ -66,7 +66,7 @@ const articles = [
           'Major investment in youth AI literacy next door in North Carolina shows the momentum building across the Southeast.',
       },
       {
-        title: 'aiEDU Program to Improve AI Literacy for Rural, Indigenous Students',
+        title: 'aiEDU Program: AI Literacy for Underserved & Indigenous Students',
         source: 'GovTech',
         url: 'https://www.govtech.com/education/k-12/aiedu-program-to-improve-ai-literacy-for-rural-indigenous-students',
         description:
@@ -78,7 +78,7 @@ const articles = [
     category: 'National & Global',
     items: [
       {
-        title: 'The AI Divide: Why Rural Communities Are Being Left Behind',
+        title: 'The AI Divide: Why Communities Are Being Left Behind',
         source: 'The Builder Bureau',
         url: 'https://thebuilderbureau.com/the-ai-divide-why-rural-communities-are-being-left-behind/',
         description:

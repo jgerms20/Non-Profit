@@ -84,7 +84,7 @@
       "date": "2026-04-01",
       "endDate": "2026-06-30",
       "type": "grant-window",
-      "description": "Priority Tier 1 grant. OpenAI Foundation's $9.5M second wave of the People-First AI Fund. Specifically prioritizes rural communities, AI literacy, and small nonprofits with budgets under $10M. Grants are unrestricted. This is the single highest-priority grant application — plan to submit by May 30.",
+      "description": "Priority Tier 1 grant. OpenAI Foundation's $9.5M second wave of the People-First AI Fund. Specifically prioritizes communities, AI literacy, and small nonprofits with budgets under $10M. Grants are unrestricted. This is the single highest-priority grant application — plan to submit by May 30.",
       "phase": "phase-1",
       "relatedGrants": ["openai-people-first"],
       "completed": false
@@ -121,13 +121,13 @@
     },
     {
       "id": "e12",
-      "title": "USDA Rural Development Grant Window Opens",
+      "title": "USDA Economic Development Grant Window Opens",
       "date": "2026-05-15",
       "endDate": "2026-06-15",
       "type": "grant-window",
-      "description": "USDA Rural Business Development Grant (RBDG) application window. Grants of $10K-$500K for rural workforce and economic development. Key advantage: SCRIN is an existing USDA grantee — ask Kim Bowman for a letter of support and guidance on the SC USDA state office relationship before applying. Contact SC USDA Rural Development office in Columbia.",
+      "description": "USDA Rural Business Development Grant (RBDG) application window. Grants of $10K-$500K for workforce and economic development. Key advantage: SCRIN is an existing USDA grantee — ask Kim Bowman for a letter of support and guidance on the SC USDA state office relationship before applying. Contact SC USDA Economic Development office in Columbia.",
       "phase": "phase-1",
-      "relatedGrants": ["usda-rural-business"],
+      "relatedGrants": ["usda-rural-business-underserved"],
       "completed": false
     },
     {
@@ -156,7 +156,7 @@
       "title": "First AI Literacy Workshop — Pilot",
       "date": "2026-06-30",
       "type": "milestone",
-      "description": "Host the inaugural AI literacy workshop in a rural South Carolina community. This pilot validates the program model, generates real impact data for grant applications (participant count, demographics, pre/post knowledge assessments, testimonials), and begins building credibility in the community. Photograph everything. Collect feedback forms from every participant.",
+      "description": "Host the inaugural AI literacy workshop in a South Carolina community. This pilot validates the program model, generates real impact data for grant applications (participant count, demographics, pre/post knowledge assessments, testimonials), and begins building credibility in the community. Photograph everything. Collect feedback forms from every participant.",
       "phase": "phase-1",
       "relatedSteps": ["ls-16"],
       "completed": false
@@ -167,7 +167,7 @@
       "date": "2026-07-01",
       "endDate": "2026-08-31",
       "type": "reminder",
-      "description": "Run the summer workshop series — target 3-5 additional workshops across different rural SC communities during July and August. Vary locations to demonstrate regional reach. Document all workshops with photos, attendance numbers, and feedback. This data will be essential for fall grant applications. Partner with local libraries and community centers as hosts.",
+      "description": "Run the summer workshop series — target 3-5 additional workshops across different South Carolina communities during July and August. Vary locations to demonstrate regional reach. Document all workshops with photos, attendance numbers, and feedback. This data will be essential for fall grant applications. Partner with local libraries and community centers as hosts.",
       "phase": "phase-1",
       "completed": false
     },
@@ -196,7 +196,7 @@
       "title": "Start Incubator Curriculum Design",
       "date": "2026-10-01",
       "type": "reminder",
-      "description": "Begin designing the innovation incubator program structure: curriculum outline, mentor network recruitment, application process design, cohort selection criteria, graduation requirements, and budget. Research best practices from rural incubators (Appalachian Funders Network, Runway, Opportunity Alabama). Target: incubator design finalized by January 2027.",
+      "description": "Begin designing the innovation incubator program structure: curriculum outline, mentor network recruitment, application process design, cohort selection criteria, graduation requirements, and budget. Research best practices from incubators (Appalachian Funders Network, Runway, Opportunity Alabama). Target: incubator design finalized by January 2027.",
       "phase": "phase-1",
       "completed": false
     },
@@ -215,9 +215,9 @@
       "title": "USDA Rural Business Development Grant — Application Deadline",
       "date": "2026-11-30",
       "type": "deadline",
-      "description": "USDA Rural Business Development Grant final application deadline. By now you have workshop impact data and 501(c)(3) status. Get a letter of support from Kim Bowman at SCRIN before submitting — their existing USDA relationship is a major advantage. Contact the SC USDA Rural Development state office in Columbia to introduce yourself before the final submission.",
+      "description": "USDA Rural Business Development Grant final application deadline. By now you have workshop impact data and 501(c)(3) status. Get a letter of support from Kim Bowman at SCRIN before submitting — their existing USDA relationship is a major advantage. Contact the SC USDA Economic Development state office in Columbia to introduce yourself before the final submission.",
       "phase": "phase-1",
-      "relatedGrants": ["usda-rural-business"],
+      "relatedGrants": ["usda-rural-business-underserved"],
       "completed": false
     },
     {
@@ -244,7 +244,7 @@
       "title": "First Incubator Cohort Launch",
       "date": "2027-01-15",
       "type": "milestone",
-      "description": "Launch the inaugural cohort of the Rural AI Innovation Incubator. Target: 8-12 rural South Carolina entrepreneurs building AI-powered businesses. Provide weekly programming, mentor sessions, access to AI tools, business development workshops, and connections to the SC innovation ecosystem (VentureSouth, Nexus SC, SCRA). Cohort runs January through April.",
+      "description": "Launch the inaugural cohort of the AI Innovation Incubator. Target: 8-12 South Carolina entrepreneurs building AI-powered businesses. Provide weekly programming, mentor sessions, access to AI tools, business development workshops, and connections to the SC innovation ecosystem (VentureSouth, SC Nexus, SCRA). Cohort runs January through April.",
       "phase": "phase-2",
       "completed": false
     },
@@ -254,7 +254,7 @@
       "date": "2027-03-01",
       "endDate": "2027-09-30",
       "type": "grant-window",
-      "description": "EDA Tech Hub sub-grant opportunity through SC Nexus. South Carolina is a federally designated Tech Hub — SC Nexus distributes sub-grants to aligned organizations for workforce development and technology adoption. AI literacy for rural communities is a direct fit. Build the SC Nexus relationship during the SC trip and throughout 2026 before submitting.",
+      "description": "EDA Tech Hub sub-grant opportunity through SC Nexus. South Carolina is a federally designated Tech Hub — SC Nexus distributes sub-grants to aligned organizations for workforce development and technology adoption. AI literacy for communities is a direct fit. Build the SC Nexus relationship during the SC trip and throughout 2026 before submitting.",
       "phase": "phase-2",
       "relatedGrants": ["eda-tech-hub"],
       "completed": false
@@ -264,7 +264,7 @@
       "title": "First Incubator Demo Day",
       "date": "2027-04-30",
       "type": "milestone",
-      "description": "Host the inaugural incubator Demo Day — a public showcase where cohort founders present their AI startups to investors, press, partners, and community members. Invite VentureSouth, UCAN, Palmetto Angel Fund, and corporate sponsors. This event generates earned media, builds funder relationships, and demonstrates the full pipeline from literacy to entrepreneurship.",
+      "description": "Host the inaugural incubator Demo Day — a public showcase where cohort founders present their AI startups to investors, press, partners, and community members. Invite VentureSouth, Upstate Carolina Angel Network, Palmetto Angel Fund, and corporate sponsors. This event generates earned media, builds funder relationships, and demonstrates the full pipeline from literacy to entrepreneurship.",
       "phase": "phase-2",
       "completed": false
     },
@@ -276,7 +276,7 @@
       "type": "grant-window",
       "description": "Submit Tier 2 grant applications with the enhanced credibility of completed workshops, 501(c)(3) status, and the incubator launch: NSF BPC renewal, EDA Tech Hub via SC Nexus, and SC Commission for Minority Affairs. Also approach Google.org/aiEDU if not yet funded. Each application should leverage the growing body of impact evidence from Phase 1.",
       "phase": "phase-2",
-      "relatedGrants": ["nsf-bpc", "eda-tech-hub", "sc-minority-affairs", "google-aiedu-rural"],
+      "relatedGrants": ["nsf-bpc", "eda-tech-hub", "sc-minority-affairs", "google-aiedu-underserved"],
       "completed": false
     },
     {
@@ -304,7 +304,7 @@
       "title": "Investment Fund Research Begins",
       "date": "2027-06-01",
       "type": "reminder",
-      "description": "Begin researching legal structures and models for a rural AI investment fund. Engage a financial attorney and CPA to explore options: CDFI (Community Development Financial Institution), donor-advised fund, LLC/LP structure, or a program-related investment (PRI) vehicle. Study successful models: Runway, Opportunity Alabama, and rural CDFI funds. Target: fund structure decided by June 2028.",
+      "description": "Begin researching legal structures and models for a AI investment fund. Engage a financial attorney and CPA to explore options: CDFI (Community Development Financial Institution), donor-advised fund, LLC/LP structure, or a program-related investment (PRI) vehicle. Study successful models: Runway, Opportunity Alabama, and CDFI funds. Target: fund structure decided by June 2028.",
       "phase": "phase-2",
       "completed": false
     },
@@ -322,7 +322,7 @@
       "title": "First Investment Made",
       "date": "2028-12-31",
       "type": "milestone",
-      "description": "Deploy the first capital investment into a rural South Carolina AI startup — ideally an alumnus of the incubator program. This completes the full flywheel: AI literacy education → business incubation → capital investment → economic impact. A landmark moment for SCAiL and for rural South Carolina.",
+      "description": "Deploy the first capital investment into a South Carolina AI startup — ideally an alumnus of the incubator program. This completes the full flywheel: AI literacy education → business incubation → capital investment → economic impact. A landmark moment for SCAiL and for South Carolina.",
       "phase": "phase-3",
       "completed": false
     }

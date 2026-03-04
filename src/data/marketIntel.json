@@ -2,10 +2,10 @@
   "lastUpdated": "2026-03-03",
   "weeklyBrief": {
     "date": "2026-03-03",
-    "summary": "Initial market intelligence baseline established. Key landscape: aiEDU expanding rural programs with Google.org backing, CORI active in rural tech ecosystems, AI4ALL growing university partnerships. No direct competitor occupies SCAiL's exact niche — AI literacy specifically for rural South Carolina communities with a flywheel to incubator and fund. Biggest opportunity: first-mover advantage in SC's rural AI literacy space.",
+    "summary": "Initial market intelligence baseline established. Key landscape: aiEDU expanding programs in South Carolina with Google.org backing, CORI active in South Carolina tech ecosystems, AI4ALL growing university partnerships. No direct competitor occupies SCAiL's exact niche — AI literacy specifically for South Carolina communities with a flywheel to incubator and fund. Biggest opportunity: first-mover advantage in SC's AI literacy space.",
     "keyInsights": [
-      "aiEDU's Google.org partnership signals massive funding flowing into rural AI education — position SCAiL as a local delivery partner, not a competitor",
-      "CORI's rural innovation model validates the nonprofit-to-incubator pipeline SCAiL envisions",
+      "aiEDU's Google.org partnership signals massive funding flowing into AI education — position SCAiL as a local delivery partner, not a competitor",
+      "CORI's innovation model validates the nonprofit-to-incubator pipeline SCAiL envisions",
       "No SC-specific AI literacy nonprofit exists yet — the lane is wide open",
       "Code.org and AI4ALL focus on K-12 and university students; SCAiL's community-wide approach is differentiated"
     ]
@@ -21,28 +21,28 @@
       "id": "aiedu",
       "name": "aiEDU",
       "url": "https://aiedu.org",
-      "description": "National AI education nonprofit creating free AI literacy curriculum for K-12 schools. Recently partnered with Google.org on a $75M initiative targeting rural and Indigenous communities across 14 states including South Carolina.",
+      "description": "National AI education nonprofit creating free AI literacy curriculum for K-12 schools. Recently partnered with Google.org on a $75M initiative targeting Indigenous communities and underserved areas across 14 states including South Carolina.",
       "category": "direct",
       "location": "San Francisco, CA (national reach)",
-      "whatTheyDo": "Develops AI literacy curriculum, trains teachers, runs student programs. Their 'AI Explorations' curriculum is free and widely adopted. Now expanding into rural communities through Google.org partnership.",
+      "whatTheyDo": "Develops AI literacy curriculum, trains teachers, runs student programs. Their 'AI Explorations' curriculum is free and widely adopted. Now expanding into South Carolina communities through Google.org partnership.",
       "threatLevel": "high",
       "lastChecked": "2026-03-03",
-      "notes": "More partner than competitor. They have curriculum but need local delivery organizations in rural SC. SCAiL could be their on-the-ground partner. Their Google.org grant specifically funds rural partners — apply through them. Key risk: if they build their own SC presence, they could absorb SCAiL's niche.",
+      "notes": "More partner than competitor. They have curriculum but need local delivery organizations in SC. SCAiL could be their on-the-ground partner. Their Google.org grant specifically funds underserved area partners — apply through them. Key risk: if they build their own SC presence, they could absorb SCAiL's niche.",
       "strengths": ["Massive funding (Google.org backing)", "Established curriculum", "National brand recognition", "Free resources"],
-      "weaknesses": ["No local SC presence", "K-12 focused (not community-wide)", "Silicon Valley HQ — lacks rural authenticity"]
+      "weaknesses": ["No local SC presence", "K-12 focused (not community-wide)", "Silicon Valley HQ — lacks authenticity"]
     },
     {
       "id": "cori",
-      "name": "Center on Rural Innovation (CORI)",
+      "name": "Center on Innovation (CORI)",
       "url": "https://ruralinnovation.us",
-      "description": "Builds inclusive rural tech ecosystems through data, research, and community partnerships. Runs the Rural Innovation Network connecting 100+ rural communities to tech economy opportunities.",
+      "description": "Builds inclusive tech ecosystems in underserved areas through data, research, and community partnerships. Runs the Innovation Network connecting 100+ communities to tech economy opportunities.",
       "category": "direct",
       "location": "Hartland, VT (national reach)",
-      "whatTheyDo": "Maps rural tech ecosystems, provides technical assistance to rural communities building tech economies, runs Rural Innovation Initiative and Rural Innovation Network. Publishes research on rural digital divide.",
+      "whatTheyDo": "Maps tech ecosystems in underserved areas, provides technical assistance to South Carolina communities building tech economies, runs Innovation Initiative and Innovation Network. Publishes research on digital access divide.",
       "threatLevel": "medium",
       "lastChecked": "2026-03-03",
-      "notes": "Validates SCAiL's thesis that rural communities need tech ecosystem building. CORI focuses on ecosystem mapping and research; SCAiL focuses on hands-on AI literacy delivery. Complementary rather than competitive. Could be a strong research partner or data source.",
-      "strengths": ["Deep rural expertise", "Strong research capability", "Federal funding relationships", "Network of 100+ rural communities"],
+      "notes": "Validates SCAiL's thesis that South Carolina communities need tech ecosystem building. CORI focuses on ecosystem mapping and research; SCAiL focuses on hands-on AI literacy delivery. Complementary rather than competitive. Could be a strong research partner or data source.",
+      "strengths": ["Deep tech ecosystem expertise", "Strong research capability", "Federal funding relationships", "Network of 100+ communities"],
       "weaknesses": ["Research-heavy, less hands-on programming", "Not AI-specific", "No SC-specific operations"]
     },
     {
@@ -55,7 +55,7 @@
       "whatTheyDo": "Free coding curriculum for K-12, teacher training, policy advocacy for CS education in schools. AI curriculum modules launched in 2024-2025. Works with school districts nationally.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Too big to be a direct threat — they operate at massive scale and won't focus specifically on rural SC. Their AI modules are supplementary, not deep AI literacy. SCAiL can use Code.org resources as building blocks. Different audience: Code.org targets students in schools; SCAiL targets whole communities.",
+      "notes": "Too big to be a direct threat — they operate at massive scale and won't focus specifically on SC. Their AI modules are supplementary, not deep AI literacy. SCAiL can use Code.org resources as building blocks. Different audience: Code.org targets students in schools; SCAiL targets whole communities.",
       "strengths": ["Enormous scale and brand", "Free curriculum", "Political influence on CS education policy", "Strong school district relationships"],
       "weaknesses": ["Generic, not locally adapted", "CS-focused, AI is add-on", "No community programming outside schools", "One-size-fits-all approach"]
     },
@@ -71,7 +71,7 @@
       "lastChecked": "2026-03-03",
       "notes": "Strong brand in AI education equity space. Their focus on university partnerships and high-achieving students differs from SCAiL's community-wide approach. Could compete for some grants but targeting different populations. Their Open Learning curriculum could be a resource for SCAiL.",
       "strengths": ["Stanford/academic credibility", "Strong diversity mission", "University partnerships nationwide", "Well-funded"],
-      "weaknesses": ["Elite-track focus (talented students, not whole communities)", "University-centered model doesn't reach rural adults", "No presence in SC", "Limited rural programming"]
+      "weaknesses": ["Elite-track focus (talented students, not whole communities)", "University-centered model doesn't reach adults", "No presence in SC", "Limited programming"]
     },
     {
       "id": "nsbe",
@@ -97,50 +97,50 @@
       "whatTheyDo": "Technology workshops, hackathons, summer camps, and after-school programs specifically for Black girls. Recently expanded into AI and machine learning curriculum.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Complementary mission — they focus on Black girls in tech, SCAiL focuses on rural communities broadly. Potential co-programming partner for workshops targeting young women in rural SC. They had leadership challenges in 2022-2023 but have stabilized. Their model of city-based chapters could inform SCAiL's expansion strategy.",
+      "notes": "Complementary mission — they focus on Black girls in tech, SCAiL focuses on communities broadly. Potential co-programming partner for workshops targeting young women in SC. They had leadership challenges in 2022-2023 but have stabilized. Their model of city-based chapters could inform SCAiL's expansion strategy.",
       "strengths": ["Strong brand and mission clarity", "Passionate community", "Corporate sponsor relationships", "Proven workshop model"],
-      "weaknesses": ["Urban-focused — limited rural reach", "Girls-only (SCAiL is community-wide)", "Had organizational challenges recently", "No SC chapter currently"]
+      "weaknesses": ["Urban-focused — limited reach", "Girls-only (SCAiL is community-wide)", "Had organizational challenges recently", "No SC chapter currently"]
     },
     {
       "id": "rural-lisc",
       "name": "Rural LISC",
       "url": "https://www.lisc.org/rural",
-      "description": "Rural arm of Local Initiatives Support Corporation — the largest community development organization in the U.S. Provides funding, technical assistance, and capacity building to rural communities.",
+      "description": "Rural arm of Local Initiatives Support Corporation — the largest community development organization in the U.S. Provides funding, technical assistance, and capacity building to communities.",
       "category": "partner",
-      "location": "New York, NY (rural offices nationwide)",
-      "whatTheyDo": "Community development lending, grants, technical assistance, policy advocacy for rural communities. Focuses on housing, economic development, health, and education in rural areas.",
+      "location": "New York, NY (underserved offices nationwide)",
+      "whatTheyDo": "Community development lending, grants, technical assistance, policy advocacy for underserved communities. Focuses on housing, economic development, health, and education in South Carolina.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Not a competitor at all — a potential funder and capacity-building partner. Rural LISC provides grants and technical assistance to rural nonprofits. They could fund SCAiL's operations and provide organizational development support. Their network includes other rural nonprofits SCAiL could partner with.",
-      "strengths": ["Massive funding capacity", "Deep rural expertise", "National infrastructure and credibility", "Provides both funding AND technical assistance"],
+      "notes": "Not a competitor at all — a potential funder and capacity-building partner. Rural LISC provides grants and technical assistance to nonprofits in underserved areas. They could fund SCAiL's operations and provide organizational development support. Their network includes other nonprofits SCAiL could partner with.",
+      "strengths": ["Massive funding capacity", "Deep community expertise", "National infrastructure and credibility", "Provides both funding AND technical assistance"],
       "weaknesses": ["Not tech/AI focused", "Bureaucratic — slow-moving", "May not understand AI literacy specifically"]
     },
     {
       "id": "arc",
       "name": "Appalachian Regional Commission (ARC)",
       "url": "https://www.arc.gov",
-      "description": "Federal-state partnership providing economic development funding to the Appalachian region. While SC's Appalachian counties are in the upstate, ARC's model of rural tech investment is instructive.",
+      "description": "Federal-state partnership providing economic development funding to the Appalachian region. While SC's Appalachian counties are in the upstate, ARC's model of tech investment is instructive.",
       "category": "inspiration",
       "location": "Washington, DC (covers 13 states)",
       "whatTheyDo": "Funds broadband deployment, workforce training, entrepreneurship, and community development across Appalachia. POWER Initiative specifically targets communities affected by economic transitions.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Only SC's upstate counties qualify for ARC funding (Oconee, Pickens, Greenville, Spartanburg, Cherokee, Anderson). SCAiL's rural Lowcountry/Midlands focus is outside ARC territory. But ARC's model of combining workforce training with entrepreneurship mirrors SCAiL's flywheel. Study their POWER Initiative as a template for SCAiL's grant applications.",
-      "strengths": ["Billions in federal funding", "Proven rural development model", "Combines workforce + entrepreneurship", "Long track record"],
+      "notes": "Only SC's upstate counties qualify for ARC funding (Oconee, Pickens, Greenville, Spartanburg, Cherokee, Anderson). SCAiL's Lowcountry/Midlands focus is outside ARC territory. But ARC's model of combining workforce training with entrepreneurship mirrors SCAiL's flywheel. Study their POWER Initiative as a template for SCAiL's grant applications.",
+      "strengths": ["Billions in federal funding", "Proven economic development model", "Combines workforce + entrepreneurship", "Long track record"],
       "weaknesses": ["SC coverage limited to upstate only", "Not AI-focused", "Government bureaucracy", "Slow funding cycles"]
     },
     {
       "id": "scrin",
       "name": "South Carolina Rural Infrastructure Network (SCRIN)",
       "url": "https://scrin.org",
-      "description": "SC-based network focused on rural community development, broadband access, and economic opportunity in underserved South Carolina communities.",
+      "description": "SC-based network focused on community development, broadband access, and economic opportunity in underserved South Carolina communities.",
       "category": "partner",
       "location": "South Carolina",
-      "whatTheyDo": "Broadband infrastructure advocacy, rural community organizing, connecting rural SC communities to resources and funding. Led by Kim Bowman. Already receiving USDA funding.",
+      "whatTheyDo": "Broadband infrastructure advocacy, community organizing, connecting South Carolina communities to resources and funding. Led by Kim Bowman. Already receiving USDA funding.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Critical partner — not a competitor. SCRIN provides the infrastructure (broadband) that SCAiL needs to deliver AI literacy programs. Kim Bowman is a key contact. Their USDA relationship can support SCAiL's USDA grant applications. SCRIN validates that rural SC communities want and need technology resources.",
-      "strengths": ["SC-specific focus", "USDA funding relationship", "Kim Bowman's leadership and network", "Already doing rural community organizing"],
+      "notes": "Critical partner — not a competitor. SCRIN provides the infrastructure (broadband) that SCAiL needs to deliver AI literacy programs. Kim Bowman is a key contact. Their USDA relationship can support SCAiL's USDA grant applications. SCRIN validates that South Carolina communities want and need technology resources.",
+      "strengths": ["SC-specific focus", "USDA funding relationship", "Kim Bowman's leadership and network", "Already doing community organizing"],
       "weaknesses": ["Infrastructure-focused, not education", "Small organization", "Limited tech education programming"]
     },
     {
@@ -167,7 +167,7 @@
       "whatTheyDo": "After-school STEM programs, role model engagement, family engagement programming, professional development for educators. Evidence-based model with published evaluation results.",
       "threatLevel": "low",
       "lastChecked": "2026-03-03",
-      "notes": "Study their model — particularly their family engagement approach and their evidence-based evaluation framework. SCAiL can adapt their approach of engaging families (not just students) for rural AI literacy. Their evaluation methodology could strengthen SCAiL's grant applications by demonstrating rigorous impact measurement.",
+      "notes": "Study their model — particularly their family engagement approach and their evidence-based evaluation framework. SCAiL can adapt their approach of engaging families (not just students) for AI literacy. Their evaluation methodology could strengthen SCAiL's grant applications by demonstrating rigorous impact measurement.",
       "strengths": ["Evidence-based model with published results", "Family engagement approach", "Strong evaluation framework", "Proven at scale"],
       "weaknesses": ["Girls-only focus", "Urban-centered", "STEM-broad, not AI-specific", "No SC presence"]
     },

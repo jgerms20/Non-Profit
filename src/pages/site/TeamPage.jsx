@@ -27,7 +27,7 @@ const founder = {
   name: 'Joshua Germain',
   initials: 'JG',
   title: 'Founder & Executive Director',
-  bio: "Joshua Germain founded SCAiL in 2026 after seeing firsthand how rural South Carolina communities were being left behind in the AI revolution. With a background in technology and a deep connection to South Carolina, Joshua is building SCAiL to ensure that AI doesn't just benefit coastal tech hubs — it transforms the communities that need it most.",
+  bio: "Joshua Germain founded SCAiL in 2026 after seeing firsthand how South Carolina communities were being left behind in the AI revolution. With a background in technology and a deep connection to South Carolina, Joshua is building SCAiL to ensure that AI doesn't just benefit coastal tech hubs — it transforms the communities that need it most.",
   social: {
     linkedin: '#',
     twitter: '#',
@@ -56,14 +56,14 @@ const boardPositions = [
     role: 'Education / Community',
     Icon: GraduationCap,
     description:
-      'Educator or community leader with deep roots in rural South Carolina. Ensures programs meet real community needs and builds trust on the ground.',
+      'Educator or community leader with deep roots in South Carolina. Ensures programs meet real community needs and builds trust on the ground.',
   },
 ]
 
 // ─── Advisory Areas ──────────────────────────────────────────────────────────
 const advisoryAreas = [
   { label: 'AI / Technology', Icon: Cpu, color: 'text-[#2EC4B6]', bg: 'bg-[#2EC4B6]/10' },
-  { label: 'Rural Development', Icon: TreePine, color: 'text-green-500', bg: 'bg-green-500/10' },
+  { label: 'Economic Development', Icon: TreePine, color: 'text-green-500', bg: 'bg-green-500/10' },
   { label: 'Nonprofit Management', Icon: Heart, color: 'text-rose-500', bg: 'bg-rose-500/10' },
   { label: 'Education', Icon: BookOpen, color: 'text-[#D4A843]', bg: 'bg-[#D4A843]/10' },
 ]
@@ -86,7 +86,7 @@ const ctaRoles = [
   },
   {
     title: 'Advisor',
-    description: 'Share your expertise in AI, education, rural development, or nonprofit management on a flexible basis.',
+    description: 'Share your expertise in AI, education, economic development, or nonprofit management on a flexible basis.',
     Icon: Lightbulb,
     color: 'text-[#D4A843]',
     bg: 'bg-[#D4A843]/10',

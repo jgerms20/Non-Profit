@@ -74,7 +74,7 @@
       "level": "beginner",
       "format": "in-person",
       "duration": "half-day",
-      "audience": "Farmers, agricultural workers, rural land owners",
+      "audience": "Farmers, agricultural workers, South Carolina land owners",
       "modules": [
         "Module 1: AI in precision agriculture",
         "Module 2: Weather prediction tools",
@@ -487,7 +487,7 @@
       "id": "p-6",
       "organization": "IBM SkillsBuild",
       "type": "certification-partner",
-      "description": "IBM SkillsBuild offers free AI credentials for adult learners and job seekers, making it an ideal partner for SCAiL's workforce development programs targeting underemployed community members in rural South Carolina.",
+      "description": "IBM SkillsBuild offers free AI credentials for adult learners and job seekers, making it an ideal partner for SCAiL's workforce development programs targeting underemployed community members in South Carolina.",
       "url": "https://skillsbuild.org",
       "status": "prospect",
       "notes": "Free AI credentials for adult learners and job seekers"

@@ -4,7 +4,7 @@
     "number": 1,
     "title": "AI Literacy Nonprofit",
     "subtitle": "501(c)(3) Formation & Launch",
-    "description": "Build a nonprofit that teaches people in rural South Carolina about AI — what it is, how to use it, and why it matters for their communities.",
+    "description": "Build a nonprofit that teaches people in South Carolina about AI — what it is, how to use it, and why it matters for their communities.",
     "color": "phase-1",
     "icon": "BookOpen",
     "status": "in-progress",
@@ -44,7 +44,7 @@
         "substeps": [
           "Identify candidate with nonprofit governance experience",
           "Identify candidate with tech/AI background",
-          "Identify candidate with deep community ties in rural SC",
+          "Identify candidate with deep community ties in South Carolina",
           "Have informal conversations with each candidate",
           "Confirm commitment from all 3 board members"
         ]
@@ -69,7 +69,7 @@
       {
         "id": "p1-s4",
         "title": "Draft Your Mission Statement",
-        "description": "Write the mission statement required for Articles of Incorporation. Suggested: 'To increase AI literacy, foster innovation, and build economic opportunity in underserved and rural communities across the American South.'",
+        "description": "Write the mission statement required for Articles of Incorporation. Suggested: 'To increase AI literacy, foster innovation, and build economic opportunity in underserved communities across the American South.'",
         "simpleExplanation": "A mission statement is one or two sentences that explain why your organization exists and what you're trying to do. Think of it like telling someone 'here's what we're all about' in just a few words. You'll need this when you officially sign up your nonprofit with the state.",
         "status": "not-started",
         "estimatedCost": { "min": 0, "max": 0 },
@@ -283,7 +283,7 @@
       {
         "id": "p1-s16",
         "title": "Begin Grant Applications",
-        "description": "Start pursuing grant funding. Target the OpenAI People-First AI Fund as the first priority, followed by other AI education and rural development funders.",
+        "description": "Start pursuing grant funding. Target the OpenAI People-First AI Fund as the first priority, followed by other AI education and economic development funders.",
         "simpleExplanation": "Grants are like free money that organizations give you to do good work — you don't have to pay it back! You write an application explaining what you want to do and why it matters, and if they like it, they send you the money. Start with the OpenAI People-First AI Fund because it's a perfect match for what you're doing.",
         "status": "not-started",
         "estimatedCost": { "min": 0, "max": 0 },
@@ -295,7 +295,7 @@
         "substeps": [
           "Research OpenAI People-First AI Fund requirements and deadlines",
           "Draft compelling narrative: problem, solution, community impact",
-          "Identify 5-10 additional funders aligned with AI education and rural development",
+          "Identify 5-10 additional funders aligned with AI education and economic development",
           "Create a grant calendar tracking deadlines and requirements",
           "Submit OpenAI fund application",
           "Begin applications to SC Humanities Council and other state funders"
@@ -307,8 +307,8 @@
     "id": "phase-2",
     "number": 2,
     "title": "AI Startup Incubator",
-    "subtitle": "Rural Founder Acceleration Program",
-    "description": "Launch an AI-native startup incubator that helps rural South Carolina entrepreneurs build businesses using AI tools — from idea to investor-ready pitch.",
+    "subtitle": "Founder Acceleration Program",
+    "description": "Launch an AI-native startup incubator that helps South Carolina entrepreneurs build businesses using AI tools — from idea to investor-ready pitch.",
     "color": "phase-2",
     "icon": "Rocket",
     "status": "not-started",
@@ -329,12 +329,12 @@
         "estimatedCost": { "min": 1000, "max": 10000 },
         "resources": [
           { "title": "YCombinator Startup School", "url": "https://www.startupschool.org", "type": "tool" },
-          { "title": "CORI Rural Tech Playbook", "url": "https://www.cori.org", "type": "document" }
+          { "title": "CORI Tech Playbook", "url": "https://www.cori.org", "type": "document" }
         ],
         "substeps": [
           "Research existing incubator curricula (YC, SBDC, SCORE models)",
           "Define learning outcomes for each week of the program",
-          "Identify AI tools appropriate for rural business contexts (no-code, low-code)",
+          "Identify AI tools appropriate for business contexts (no-code, low-code)",
           "Develop modules: problem identification, market research, AI prototyping, financial modeling, pitching",
           "Create application and selection criteria for cohort participants",
           "Build assessment and mentor feedback framework"
@@ -355,7 +355,7 @@
           "Contact USC Columbia Tech Incubator about partnership or residency",
           "Contact SOCO Columbia about co-working and programming space",
           "Contact Beaufort Digital Corridor for Lowcountry presence",
-          "Evaluate virtual-first model for reaching rural participants without driving",
+          "Evaluate virtual-first model for reaching participants without driving",
           "Negotiate space agreement (in-kind partnership or cost-sharing)",
           "Set up hybrid model: virtual weekly sessions + in-person monthly cohort days"
         ]
@@ -438,7 +438,7 @@
         ],
         "substeps": [
           "Model out annual operating costs for running the incubator",
-          "Research SBA and EDA grant programs for rural innovation/entrepreneurship",
+          "Research SBA and EDA grant programs for innovation/entrepreneurship",
           "Draft equity agreement template (2-5% stake for incubator participation)",
           "Identify potential corporate sponsors (tech companies, banks, utilities with CRA obligations)",
           "Create tiered sponsorship packages with benefits",
@@ -449,13 +449,13 @@
       {
         "id": "p2-s7",
         "title": "Launch First Cohort",
-        "description": "Run your first 8–12 week cohort of 5–10 rural founders building AI-native businesses. Document everything to improve future cohorts.",
+        "description": "Run your first 8–12 week cohort of 5–10 founders building AI-native businesses. Document everything to improve future cohorts.",
         "simpleExplanation": "This is the moment everything has been building toward — you actually run your first group of founders through the program! You'll probably start with around 5-10 people, teach them for a couple of months, support them along the way, and then watch them pitch their ideas at Demo Day. Make sure to write down everything that went well and what you'd do differently next time.",
         "status": "not-started",
         "estimatedCost": { "min": 2000, "max": 15000 },
         "resources": [],
         "substeps": [
-          "Open applications and market to rural SC communities",
+          "Open applications and market to SC communities",
           "Review applications and select 5-10 founding cohort participants",
           "Kick off program with orientation week",
           "Run weekly sessions over 8-12 weeks",
@@ -471,9 +471,9 @@
   {
     "id": "phase-3",
     "number": 3,
-    "title": "Rural AI Investment Fund",
+    "title": "AI Investment Fund",
     "subtitle": "Angel Syndicate or Registered Fund",
-    "description": "Build an investment vehicle to fund the most promising AI startups emerging from the incubator and broader rural South Carolina ecosystem.",
+    "description": "Build an investment vehicle to fund the most promising AI startups emerging from the incubator and broader South Carolina ecosystem.",
     "color": "phase-3",
     "icon": "TrendingUp",
     "status": "not-started",
@@ -503,7 +503,7 @@
           "Understand how they structure investments (instruments, terms, equity amounts)",
           "Learn how they manage investor relations and LP communications",
           "Research Upstate Carolina Angel Network and Palmetto Angel Fund as comparisons",
-          "Identify what gaps a rural-focused fund would fill that existing groups don't cover"
+          "Identify what gaps a community-focused fund would fill that existing groups don't cover"
         ]
       },
       {
@@ -550,8 +550,8 @@
       {
         "id": "p3-s4",
         "title": "Build Investor Network",
-        "description": "Cultivate relationships with accredited investors focused on the Southeast and rural markets. Primary targets: VentureSouth members, Upstate Carolina Angel Network, and mission-aligned impact investors.",
-        "simpleExplanation": "To run an investment fund, you need investors — people with money who believe in what you're doing and want to invest in rural startups with you. This step is about building real relationships with those people over time. You're not asking for money right away; you're getting to know them, sharing your vision, and earning their trust so that when the fund is ready to launch, they're excited to join.",
+        "description": "Cultivate relationships with accredited investors focused on the Southeast and Southern markets. Primary targets: VentureSouth members, Upstate Carolina Angel Network, and mission-aligned impact investors.",
+        "simpleExplanation": "To run an investment fund, you need investors — people with money who believe in what you're doing and want to invest in startups with you. This step is about building real relationships with those people over time. You're not asking for money right away; you're getting to know them, sharing your vision, and earning their trust so that when the fund is ready to launch, they're excited to join.",
         "status": "not-started",
         "estimatedCost": { "min": 1000, "max": 5000 },
         "resources": [

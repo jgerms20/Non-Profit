@@ -80,7 +80,7 @@
     {
       "id": "t4",
       "title": "Reach Out to Kim Bowman (SCRIN)",
-      "description": "Kim Bowman at the SC Rural Innovation Network is the most important early connection you can make. SCRIN already has trust in rural communities across SC — a relationship here opens doors to pilot sites, credibility, and rural-specific funding. Find her on LinkedIn or through the SC Office of Rural Health.",
+      "description": "Kim Bowman at the SC Innovation Network is the most important early connection you can make. SCRIN already has trust in South Carolina communities across SC — a relationship here opens doors to pilot sites, credibility, and funding opportunities. Find her on LinkedIn or through the SC Office of Health.",
       "timeframe": "this-week",
       "priority": "high",
       "phase": "phase-1",
@@ -233,7 +233,7 @@
     {
       "id": "t13",
       "title": "Begin Drafting First Grant Application",
-      "description": "Target the OpenAI People-First AI Fund as your first major grant attempt. Start drafting even before you have your 501(c)(3) determination — the writing process will sharpen your mission and make every future application faster. Focus on your story, the problem in rural SC, and your specific approach.",
+      "description": "Target the OpenAI People-First AI Fund as your first major grant attempt. Start drafting even before you have your 501(c)(3) determination — the writing process will sharpen your mission and make every future application faster. Focus on your story, the problem in South Carolina communities, and your specific approach.",
       "timeframe": "this-month",
       "priority": "medium",
       "phase": "phase-1",
@@ -269,7 +269,7 @@
     {
       "id": "t15",
       "title": "Apply for USDA Rural Business Development Grant",
-      "description": "The USDA Rural Business Development Grant (RBDG) funds technical assistance and training projects that benefit rural small businesses and communities. Grants range from $10K to $500K. This is a natural fit for an AI literacy and workforce development program in rural SC.",
+      "description": "The USDA Rural Business Development Grant (RBDG) funds technical assistance and training projects that benefit small businesses and communities in underserved areas. Grants range from $10K to $500K. This is a natural fit for an AI literacy and workforce development program in South Carolina.",
       "timeframe": "next-3-months",
       "priority": "medium",
       "phase": "phase-1",
@@ -278,7 +278,7 @@
       "dueDate": "2026-05-30",
       "subtasks": [
         { "id": "t15-s1", "title": "Research current USDA RBDG application window at rd.usda.gov", "completed": false },
-        { "id": "t15-s2", "title": "Contact local USDA Rural Development office in SC", "completed": false },
+        { "id": "t15-s2", "title": "Contact local USDA Economic Development office in SC", "completed": false },
         { "id": "t15-s3", "title": "Prepare application with program narrative and budget", "completed": false },
         { "id": "t15-s4", "title": "Submit application before deadline", "completed": false }
       ]
@@ -304,7 +304,7 @@
     {
       "id": "t17",
       "title": "Build Relationships with aiEDU, CORI, and 4-H",
-      "description": "These three organizations are natural curriculum and partnership allies. aiEDU builds AI literacy curriculum you can use or adapt. CORI (Center on Rural Innovation) focuses on rural tech ecosystems. 4-H has deep rural community trust and infrastructure across SC. Start with warm intro messages to each.",
+      "description": "These three organizations are natural curriculum and partnership allies. aiEDU builds AI literacy curriculum you can use or adapt. CORI (Center on Innovation) focuses on tech ecosystems in underserved areas. 4-H has deep community trust and infrastructure across SC. Start with warm intro messages to each.",
       "timeframe": "next-3-months",
       "priority": "medium",
       "phase": "phase-1",
@@ -356,7 +356,7 @@
     {
       "id": "t20",
       "title": "Establish Corporate Sponsorships",
-      "description": "Tech companies increasingly need ESG (Environmental, Social, Governance) and CSR (Corporate Social Responsibility) visibility. An AI literacy nonprofit in a rural Southern state is a compelling, differentiated story for a tech company's impact report. Target Salesforce, Microsoft, IBM, and regional tech employers in SC.",
+      "description": "Tech companies increasingly need ESG (Environmental, Social, Governance) and CSR (Corporate Social Responsibility) visibility. An AI literacy nonprofit in a Southern state is a compelling, differentiated story for a tech company's impact report. Target Salesforce, Microsoft, IBM, and regional tech employers in SC.",
       "timeframe": "six-plus-months",
       "priority": "medium",
       "phase": "phase-2",
@@ -373,7 +373,7 @@
     {
       "id": "t21",
       "title": "Design Incubator Curriculum",
-      "description": "Phase 2 is the AI-native business incubator for rural SC entrepreneurs. Start designing the curriculum: what does someone need to know to build a business using AI tools in 2026? Focus on practical tools (not theory), real business use cases, and the specific challenges of rural markets.",
+      "description": "Phase 2 is the AI-native business incubator for SC entrepreneurs. Start designing the curriculum: what does someone need to know to build a business using AI tools in 2026? Focus on practical tools (not theory), real business use cases, and the specific challenges of Southern markets.",
       "timeframe": "six-plus-months",
       "priority": "medium",
       "phase": "phase-2",
@@ -382,7 +382,7 @@
       "dueDate": "2026-10-31",
       "subtasks": [
         { "id": "t21-s1", "title": "Research existing business incubator curriculum models", "completed": false },
-        { "id": "t21-s2", "title": "Interview 5-10 rural entrepreneurs about their AI knowledge gaps", "completed": false },
+        { "id": "t21-s2", "title": "Interview 5-10 entrepreneurs about their AI knowledge gaps", "completed": false },
         { "id": "t21-s3", "title": "Draft 6-week curriculum outline", "completed": false },
         { "id": "t21-s4", "title": "Test key modules in Phase 1 workshops", "completed": false }
       ]
@@ -390,7 +390,7 @@
     {
       "id": "t22",
       "title": "Plan First Hackathon Event",
-      "description": "A community hackathon is a high-visibility event that attracts press, sponsors, and talent. Themed around 'AI solutions for rural SC problems' — farming, healthcare access, economic development. Plan for 50-100 participants, a day-long format, and small cash prizes funded by sponsors.",
+      "description": "A community hackathon is a high-visibility event that attracts press, sponsors, and talent. Themed around 'AI solutions for South Carolina problems' — farming, healthcare access, economic development. Plan for 50-100 participants, a day-long format, and small cash prizes funded by sponsors.",
       "timeframe": "six-plus-months",
       "priority": "low",
       "phase": "phase-2",
@@ -407,7 +407,7 @@
     {
       "id": "t23",
       "title": "Research SEC Requirements for Phase 3",
-      "description": "Phase 3 involves a community angel fund and potentially a hedge fund structure for AI-driven rural investment. Before you get there, you need to understand SEC regulations for investment vehicles, accredited investor rules, and how a nonprofit can legally operate alongside or spin off a for-profit investment entity. Get an attorney involved.",
+      "description": "Phase 3 involves a community angel fund and potentially a hedge fund structure for AI-driven investment. Before you get there, you need to understand SEC regulations for investment vehicles, accredited investor rules, and how a nonprofit can legally operate alongside or spin off a for-profit investment entity. Get an attorney involved.",
       "timeframe": "six-plus-months",
       "priority": "low",
       "phase": "phase-3",

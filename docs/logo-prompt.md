@@ -1,6 +1,6 @@
 # SCAiL Logo Generation Prompts
 
-**Purpose:** Use these prompts with AI image generation tools to produce logo concepts for SCAiL (South Carolina AI Literacy). Each prompt targets a different design direction. Run all three, then select the strongest concept to refine with a designer or through additional iterations.
+**Purpose:** Use these prompts with AI image generation tools to produce logo concepts for SCAiL (South Carolina AI Literacy). Each prompt targets a different design direction. Run all three, then select the strongest concept to refine with a designer or through additional iterations. Note: SCAiL focuses on all South Carolina communities, not just rural areas.
 
 **The one rule that applies to every prompt:** The name must read as **SCAiL** with the lowercase "i" visually distinct. If a result spells it SCAIL, SCAL, or anything else — regenerate immediately.
 
@@ -102,12 +102,12 @@ Refinement tip: If the icon concept is right but too detailed, add: "Simplify th
 
 ## Prompt 3: SC State Pride
 
-**Design Direction:** A logo that earns trust specifically in South Carolina by incorporating a recognizable state symbol — the palmetto, the state outline, or the crescent — into the mark. This version is strongest for community outreach materials, local partnerships, and anything shown to an audience that cares about "is this actually from here."
+**Design Direction:** A logo that earns trust specifically in South Carolina by incorporating a recognizable state symbol — the palmetto, the state outline, or the crescent — into the mark. This version is strongest for community outreach materials, local partnerships, and anything shown to an audience that cares about "is this actually from South Carolina."
 
 ### Prompt Text
 
 ```
-Professional logo for "SCAiL" (South Carolina AI Literacy), a nonprofit based in South Carolina. The logo incorporates the state of South Carolina's outline — or a stylized palmetto tree silhouette — as part of the mark. Option A: The letter "A" in "SCAiL" is drawn in the rough shape of the South Carolina state outline, with the Upstate as the peak of the A and the coast as the base. Option B: A small palmetto tree silhouette sits as the dot above the lowercase "i" in "SCAiL", replacing the standard circular dot. The palmetto should be extremely simplified — 5 to 7 fronds maximum, flat and geometric. Colors: deep navy blue (#1B365D) for the primary wordmark, warm gold (#D4A843) for the palmetto or state shape element, bright teal (#2EC4B6) for the lowercase "i" stem and any secondary details. White background. Clean flat vector style, no gradients, no textures. The SC reference should feel like an earned, natural part of the design — not a clip art palmetto pasted onto a tech logo. Works as a website header and a 400x400 social media avatar.
+Professional logo for "SCAiL" (South Carolina AI Literacy), a nonprofit teaching AI literacy across all of South Carolina. The logo incorporates the state of South Carolina's outline — or a stylized palmetto tree silhouette — as part of the mark. Option A: The letter "A" in "SCAiL" is drawn in the rough shape of the South Carolina state outline, with the Upstate as the peak of the A and the coast as the base. Option B: A small palmetto tree silhouette sits as the dot above the lowercase "i" in "SCAiL", replacing the standard circular dot. The palmetto should be extremely simplified — 5 to 7 fronds maximum, flat and geometric. Colors: deep navy blue (#1B365D) for the primary wordmark, warm gold (#D4A843) for the palmetto or state shape element, bright teal (#2EC4B6) for the lowercase "i" stem and any secondary details. White background. Clean flat vector style, no gradients, no textures. The SC reference should feel like an earned, natural part of the design — not a clip art palmetto pasted onto a tech logo. Works as a website header and a 400x400 social media avatar.
 ```
 
 ### Platform Recommendation
