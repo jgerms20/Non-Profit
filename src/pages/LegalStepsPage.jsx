@@ -119,6 +119,17 @@ function StepCard({ step, stepNumber, status, onStatusChange }) {
           </button>
         </div>
 
+        {/* Completion notes — shown when step is completed with notes */}
+        {isCompleted && step.completionNotes && (
+          <div className="mt-3 flex gap-3 rounded-lg bg-green-500/10 border border-green-500/20 p-4">
+            <CheckCircle2 className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="text-xs font-semibold text-green-400 uppercase tracking-wide mb-1">Completed {step.completedDate || ''}</p>
+              <p className="text-sm text-green-200 leading-relaxed">{step.completionNotes}</p>
+            </div>
+          </div>
+        )}
+
         {/* Simple explanation always visible */}
         <div className="mt-3">
           <SimpleExplanationCallout text={step.simpleExplanation} />
@@ -205,7 +216,7 @@ function StepCard({ step, stepNumber, status, onStatusChange }) {
 
 function SectionBlock({ section, steps, statuses, onStatusChange }) {
   const sectionSteps = steps.filter((s) => s.section === section.id)
-  const completedCount = sectionSteps.filter((s) => statuses[s.id] === 'completed').length
+  const completedCount = sectionSteps.filter((s) => (statuses[s.id] || s.status) === 'completed').length
   const progress = sectionSteps.length > 0 ? Math.round((completedCount / sectionSteps.length) * 100) : 0
 
   return (
@@ -239,7 +250,7 @@ function SectionBlock({ section, steps, statuses, onStatusChange }) {
             key={step.id}
             step={step}
             stepNumber={idx + 1}
-            status={statuses[step.id] || 'not-started'}
+            status={statuses[step.id] || step.status || 'not-started'}
             onStatusChange={onStatusChange}
           />
         ))}
@@ -256,8 +267,8 @@ export default function LegalStepsPage() {
   const sortedSections = [...sections].sort((a, b) => a.order - b.order)
 
   const totalSteps = steps.length
-  const completedSteps = steps.filter((s) => statuses[s.id] === 'completed').length
-  const inProgressSteps = steps.filter((s) => statuses[s.id] === 'in-progress').length
+  const completedSteps = steps.filter((s) => (statuses[s.id] || s.status) === 'completed').length
+  const inProgressSteps = steps.filter((s) => (statuses[s.id] || s.status) === 'in-progress').length
   const overallProgress = totalSteps > 0 ? Math.round((completedSteps / totalSteps) * 100) : 0
 
   // Calculate total cost range

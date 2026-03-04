@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import { useState } from 'react'
 import Sidebar from './Sidebar'
 import TopBar from './TopBar'
+import AiChatbot from '../ui/AiChatbot'
 
 export default function AppLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
@@ -42,6 +43,9 @@ export default function AppLayout() {
           <Outlet />
         </main>
       </div>
+
+      {/* AI Chatbot — floating on every page */}
+      <AiChatbot />
     </div>
   )
 }

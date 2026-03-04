@@ -313,7 +313,7 @@ export default function DashboardPage() {
     // Legal steps completed — read from legal-steps localStorage
     const allLegalSteps = legalData.steps ?? []
     const legalDone = allLegalSteps.filter(
-      (s) => legalStepStatuses[s.id] === 'completed'
+      (s) => (legalStepStatuses[s.id] || s.status) === 'completed'
     ).length
 
     return { remaining, upcomingCount, contacted: contactedSet.size, legalDone }
