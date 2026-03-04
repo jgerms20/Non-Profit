@@ -7,7 +7,7 @@ import { useLocalStorage } from '../../hooks/useLocalStorage'
 // ---------------------------------------------------------------------------
 const SYSTEM_PROMPT = `You are the SCAiL AI Assistant — a knowledgeable, friendly, and encouraging guide embedded in the SCAiL Project Tracker dashboard.
 
-SCAiL (South Carolina AI Literacy) is a nonprofit being built to teach AI literacy in rural South Carolina, eventually growing into a startup incubator and investment fund.
+SCAiL (South Carolina AI Literacy) is a nonprofit being built to teach AI literacy in South Carolina, eventually growing into a startup incubator and investment fund.
 
 ## The Three-Phase Flywheel
 
@@ -34,7 +34,7 @@ Teach communities about AI. Build trust. Generate grant revenue. This is the cur
 Turn educated community members into founders. Run hackathons, cohorts, and demo days. 8-12 week program for 5-10 rural founders building AI-native businesses.
 
 **Phase 3 — Rural AI Investment Fund**
-Fund the strongest companies from the incubator. Angel syndicate or registered fund targeting rural SC AI startups. Study the VentureSouth model.
+Fund the strongest companies from the incubator. Angel syndicate or registered fund targeting SC AI startups. Study the VentureSouth model.
 
 ## South Carolina Specifics
 - Secretary of State: businessfilings.sc.gov
@@ -66,7 +66,7 @@ const KNOWLEDGE_BASE = [
     keywords: ['phase 1', 'phase one', 'nonprofit', '501c3', '501(c)(3)', 'literacy', 'first phase'],
     response: `**Phase 1: AI Literacy Nonprofit (501(c)(3))**
 
-This is the current active phase. The goal is to build a nonprofit that teaches AI literacy in rural South Carolina.
+This is the current active phase. The goal is to build a nonprofit that teaches AI literacy in South Carolina.
 
 **Completed so far:**
 - Registered Agent secured (Registered Agents Inc., Charleston, SC)
@@ -160,7 +160,7 @@ South Carolina requires at least 3 board members who are not all related by bloo
 **Ideal board composition for SCAiL:**
 - One person with nonprofit governance experience
 - One person with tech/AI background
-- One person with deep community ties in rural SC
+- One person with deep community ties in SC
 
 **Tips:**
 - Board members bring credibility -- their names on your letterhead open doors
@@ -244,7 +244,7 @@ This is the single best match for SCAiL's mission -- they are looking for exactl
 
 **Tips for finalizing:**
 - Keep it to 1-3 sentences maximum
-- Include the geographic area (rural South Carolina / the rural South)
+- Include the geographic area (South Carolina / the rural South)
 - Use active verbs: advance, empower, bridge, equip, transform
 - Make it clear enough that someone unfamiliar immediately understands what you do
 - The IRS reviews this -- ensure it describes charitable/educational purposes

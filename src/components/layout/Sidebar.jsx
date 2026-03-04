@@ -58,8 +58,13 @@ const navSections = [
       { to: '/market', icon: Radar, label: 'Market Intel' },
       { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
-      { to: '/naming', icon: Sparkles, label: 'Naming Workshop' },
       { to: '/docs', icon: BookOpen, label: 'Docs' },
+    ],
+  },
+  {
+    title: 'Archive',
+    items: [
+      { to: '/naming', icon: Sparkles, label: 'Naming Workshop' },
     ],
   },
   {

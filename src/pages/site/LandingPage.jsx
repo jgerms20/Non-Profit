@@ -142,7 +142,7 @@ export default function LandingPage() {
           </h1>
 
           <p className="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-slate-300 leading-relaxed">
-            Closing the AI divide in rural South Carolina &mdash; transforming
+            Closing the AI divide in South Carolina &mdash; transforming
             overlooked communities into hubs of innovation, entrepreneurship,
             and lasting generational wealth.
           </p>
@@ -257,7 +257,7 @@ export default function LandingPage() {
                 Featured Programs
               </h2>
               <p className="mt-2 text-slate-500 dark:text-slate-400">
-                Original SCAiL courses built for rural South Carolina
+                Original SCAiL Initiative courses built for South Carolina
               </p>
             </div>
             <Link

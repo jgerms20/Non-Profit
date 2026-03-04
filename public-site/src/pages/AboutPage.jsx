@@ -43,7 +43,7 @@ export default function AboutPage() {
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
             About <span className="text-brand-gold">SCAiL</span>
           </h1>
-          <p className="text-xl text-slate-300 font-light">South Carolina AI Literacy</p>
+          <p className="text-xl text-slate-300 font-light">The SCAiL Initiative — South Carolina AI Literacy</p>
         </div>
       </section>
 
@@ -69,9 +69,9 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8">Why SCAiL Exists</h2>
           <div className="space-y-6 text-slate-700 dark:text-slate-300 leading-relaxed text-base">
             <p>
-              SCAiL was born from a simple observation: South Carolina communities are being
-              left behind in the AI revolution — not because they lack talent, but because they lack
-              access.
+              The SCAiL Initiative was born from a simple observation: South Carolina
+              communities are being left behind in the AI revolution — not because they
+              lack talent, but because they lack access.
             </p>
             <p>
               Founded in 2026 by Joshua German — born and raised in Irmo, SC, a Dutch Fork

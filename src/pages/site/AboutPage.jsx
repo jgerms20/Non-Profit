@@ -18,31 +18,19 @@ const missionStatements = [
     version: 1,
     label: 'Practical',
     usage: 'Grants, formal applications',
-    text: 'SCAiL teaches artificial intelligence skills to rural South Carolina communities, equipping residents with practical knowledge to improve their careers, businesses, and daily lives — while building a pipeline from education to entrepreneurship to investment.',
+    text: 'The SCAiL Initiative teaches artificial intelligence skills to South Carolina communities, equipping residents with practical knowledge to improve their careers, businesses, and daily lives — while building a pipeline from education to entrepreneurship to investment.',
   },
   {
     version: 2,
-    label: 'Aspirational',
-    usage: 'Keynotes, donor pitches',
-    text: 'SCAiL is building the bridge between rural South Carolina and the AI economy — starting with education, growing into incubation, and ultimately creating an investment ecosystem that keeps wealth in the communities that generate it.',
+    label: 'Bold',
+    usage: 'Press, media, social media bios',
+    text: 'Closing the AI divide in South Carolina — transforming overlooked communities into hubs of innovation, entrepreneurship, and lasting generational wealth.',
   },
   {
     version: 3,
-    label: 'Community-Centered',
-    usage: 'Local outreach, church/community events',
-    text: 'SCAiL exists to make sure rural South Carolina doesn\'t get left behind. We teach AI skills, support local entrepreneurs, and invest in our own communities — because the people closest to the problems are the ones best equipped to solve them.',
-  },
-  {
-    version: 4,
-    label: 'Bold',
-    usage: 'Press, media, social media bios',
-    text: 'Closing the AI divide in rural South Carolina — transforming overlooked communities into hubs of innovation, entrepreneurship, and lasting generational wealth.',
-  },
-  {
-    version: 5,
     label: 'One-Liner',
     usage: 'Elevator pitch, intro line',
-    text: 'We teach AI in rural South Carolina and turn that knowledge into businesses, jobs, and generational wealth.',
+    text: 'We teach AI in South Carolina and turn that knowledge into businesses, jobs, and generational wealth.',
   },
 ]
 
@@ -59,7 +47,7 @@ const phases = [
     dotColor: 'bg-[#2EC4B6]',
     details: [
       'Establish 501(c)(3) status in South Carolina',
-      'Launch workshops across rural counties',
+      'Launch workshops across South Carolina counties',
       'Deliver 8 original courses to 500+ community members',
       'Build partnerships with schools, libraries, and churches',
       'Secure $2M+ in grant funding',
@@ -137,7 +125,7 @@ const milestones = [
   { year: '2026 Q2', text: 'First community workshops launched in Williamsburg County.' },
   { year: '2026 Q3', text: 'Youth AI Lab and Small Business courses go live.' },
   { year: '2026 Q4', text: 'Train the Trainer certification program begins.' },
-  { year: '2027', text: 'Expand to 12 rural counties. $2M grant milestone.' },
+  { year: '2027', text: 'Expand to 12 counties across South Carolina. $2M grant milestone.' },
   { year: '2028', text: 'Innovation Incubator launches first cohort.' },
   { year: '2029', text: 'Investment fund established. First portfolio companies funded.' },
   { year: '2030', text: 'Full flywheel operational. Returns reinvested into Phase 1.' },
@@ -173,7 +161,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="mt-4 text-lg text-slate-300/80">
-            South Carolina AI Literacy
+            The SCAiL Initiative &mdash; South Carolina AI Literacy
           </p>
         </div>
       </section>
@@ -183,10 +171,10 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">
-              Our Mission &mdash; Five Perspectives
+              Our Mission &mdash; Three Perspectives
             </h2>
             <p className="mt-3 text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">
-              One mission. Five ways to say it, each suited to a different
+              One mission. Three ways to say it, each suited to a different
               audience and context.
             </p>
           </div>
@@ -195,11 +183,7 @@ export default function AboutPage() {
             {missionStatements.map((m) => (
               <div
                 key={m.version}
-                className={`flex flex-col rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-[#1e293b] p-6 hover:shadow-md transition-shadow duration-200 ${
-                  m.version === 4
-                    ? 'sm:col-span-2 lg:col-span-1 ring-2 ring-[#D4A843]/30'
-                    : ''
-                }`}
+                className="flex flex-col rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-[#1e293b] p-6 hover:shadow-md transition-shadow duration-200"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <span className="flex items-center justify-center w-7 h-7 rounded-lg bg-[#1B365D] text-white text-xs font-bold">
@@ -237,16 +221,16 @@ export default function AboutPage() {
 
               <div className="space-y-5 text-slate-600 dark:text-slate-300 leading-relaxed">
                 <p>
-                  SCAiL was born from a simple observation: rural South Carolina
+                  The SCAiL Initiative was born from a simple observation: South Carolina
                   communities are being left behind in the AI revolution &mdash;
                   not because they lack talent, but because they lack access.
                 </p>
                 <p>
                   Founded in 2026 by{' '}
                   <span className="font-semibold text-slate-900 dark:text-white">
-                    Joshua Germain
+                    Joshua German
                   </span>
-                  , SCAiL exists to close that gap.
+                  , The SCAiL Initiative exists to close that gap.
                 </p>
                 <p>
                   We started with one question:{' '}
