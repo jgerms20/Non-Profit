@@ -7,7 +7,7 @@ This is the command center for building SCAiL, a nonprofit that teaches AI liter
 ## The Three Pillars
 
 ### 1. The Site (React Dashboard)
-- **Location:** GitHub Pages at `jgerms20.github.io/Non-Profit`
+- **Location:** GitHub Pages at `jgerms20.github.io/SCAiL-Initiative`
 - **Stack:** Vite + React + Tailwind CSS v4
 - **Purpose:** Visual tracker for every step — phases, contacts, legal, grants, timeline, calendar, todos
 - **Data:** localStorage for live edits, JSON defaults in `src/data/`
