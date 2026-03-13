@@ -17,7 +17,7 @@ Teach communities about AI. Build trust. Generate grant revenue. This is the cur
 - Identifying 3 unrelated board members (nonprofit governance, tech/AI, community ties)
 - Choosing a registered agent (completed — Registered Agents Inc., 6650 Rivers Ave, STE 100, Charleston, SC 29406)
 - Drafting a mission statement focused on AI literacy in underserved South Carolina communities
-- Filing Articles of Incorporation with SC (Form NP, $32.50 — completed 3/3/2026, Transaction ID: 2155274)
+- Filing Articles of Incorporation with SC (Form NP, $32.50 — filed 3/3/2026 but DECLINED. Reason: all incorporators must provide their own signatures. Needs to be refiled with proper signatures.)
 - Getting an EIN from the IRS (free, instant online)
 - Filing Initial Report with SC Secretary of State
 - Drafting Bylaws and Conflict of Interest Policy
@@ -45,9 +45,9 @@ Fund the strongest companies from the incubator. Angel syndicate or registered f
 
 ## Current Status
 - Phase 1 is in progress
-- Articles of Incorporation: FILED (3/3/2026)
+- Articles of Incorporation: DECLINED (filed 3/3/2026, Transaction ID: 2155274 — rejected because all incorporators must sign individually; needs to be refiled with proper signatures from all board members)
 - Registered Agent: SECURED (Registered Agents Inc.)
-- Next priorities: Get EIN, draft bylaws, identify board members, draft mission statement
+- Next priorities: Collect individual signatures from all board members, refile Articles of Incorporation, then get EIN, draft bylaws, identify board members, draft mission statement
 
 ## Your Role
 - Answer questions about nonprofit formation, legal steps, grants, and the SCAiL project
@@ -70,9 +70,12 @@ This is the current active phase. The goal is to build a nonprofit that teaches 
 
 **Completed so far:**
 - Registered Agent secured (Registered Agents Inc., Charleston, SC)
-- Articles of Incorporation filed (3/3/2026, Transaction ID: 2155274)
+
+**Needs attention:**
+- Articles of Incorporation filed 3/3/2026 (Transaction ID: 2155274) but DECLINED — all incorporators must sign individually. Joshua signed on behalf of others, which is not permitted. Must collect actual signatures from all board members and refile.
 
 **Next steps:**
+- Collect individual signatures from all board members and refile Articles of Incorporation
 - Get an EIN from the IRS (free, instant online at irs.gov)
 - Identify 3 board members (nonprofit governance, tech/AI, community ties)
 - Draft mission statement and bylaws
@@ -199,16 +202,19 @@ This is the single best match for SCAiL's mission -- they are looking for exactl
 
 **Completed:**
 - Registered Agent: Registered Agents Inc. (Charleston, SC)
-- Articles of Incorporation: Filed 3/3/2026 ($32.50)
+
+**Needs attention:**
+- Articles of Incorporation: Filed 3/3/2026 ($32.50) — DECLINED. Reason: all incorporators must sign individually. Must refile with proper signatures from all board members.
 
 **Next legal steps:**
-1. Get EIN from IRS (free, instant)
-2. File Initial Report with SC Secretary of State (free)
-3. Draft Bylaws (organizational rules) and Conflict of Interest Policy
-4. Hold Organizational Board Meeting (vote on bylaws, elect officers)
-5. Apply for 501(c)(3) status ($275 for 1023-EZ or $600 for full 1023)
-6. File for SC state tax exemptions (Form ST-387, free)
-7. Register for Charitable Solicitation ($50/year)
+1. Refile Articles of Incorporation with individual signatures from all board members
+2. Get EIN from IRS (free, instant)
+3. File Initial Report with SC Secretary of State (free)
+4. Draft Bylaws (organizational rules) and Conflict of Interest Policy
+5. Hold Organizational Board Meeting (vote on bylaws, elect officers)
+6. Apply for 501(c)(3) status ($275 for 1023-EZ or $600 for full 1023)
+7. File for SC state tax exemptions (Form ST-387, free)
+8. Register for Charitable Solicitation ($50/year)
 
 **Total estimated legal costs:** $325-$883
 **Timeline:** 3-6 months for full 501(c)(3) approval`

@@ -163,9 +163,9 @@
       "estimatedCost": { "min": 32, "max": 33 },
       "actualCost": 32.50,
       "estimatedTime": "1-2 business days (processing)",
-      "status": "completed",
+      "status": "needs-resubmission",
       "completedDate": "2026-03-03",
-      "completionNotes": "Articles of Incorporation filed with SC Secretary of State on 3/3/2026. Transaction ID: 2155274. Filing fee: $32.50. Includes 501(c)(3) attachment with required IRS language (charitable/educational purpose clause and dissolution clause). Registered Agent: Registered Agents Inc., 6650 Rivers Ave, STE 100, Charleston, SC 29406.",
+      "completionNotes": "Articles of Incorporation filed with SC Secretary of State on 3/3/2026. Transaction ID: 2155274. Filing fee: $32.50. Includes 501(c)(3) attachment with required IRS language (charitable/educational purpose clause and dissolution clause). Registered Agent: Registered Agents Inc., 6650 Rivers Ave, STE 100, Charleston, SC 29406. — DECLINED: Application was rejected by the SC Secretary of State. Reason: all incorporators must sign individually. Joshua signed on behalf of the other incorporators/board members, which is not permitted. Need to collect actual signatures from all board members and refile.",
       "resources": [
         { "title": "SC Secretary of State — Nonprofit Formation", "url": "https://sos.sc.gov/business/nonprofit-organizations", "type": "tool" },
         { "title": "SC Business Filing Portal", "url": "https://businessfilings.sc.gov", "type": "tool" }
