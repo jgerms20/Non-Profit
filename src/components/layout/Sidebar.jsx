@@ -22,6 +22,7 @@ import {
   Globe,
   Info,
   UsersRound,
+  Paintbrush,
 } from 'lucide-react'
 
 const navSections = [
@@ -59,6 +60,7 @@ const navSections = [
       { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/docs', icon: BookOpen, label: 'Docs' },
+      { to: '/brand', icon: Paintbrush, label: 'Brand Guide' },
     ],
   },
   {

@@ -19,6 +19,7 @@ import TeamPage from './pages/site/TeamPage'
 import ProgramsPage from './pages/site/ProgramsPage'
 import LandingPage from './pages/site/LandingPage'
 import AboutPage from './pages/site/AboutPage'
+import BrandGuidePage from './pages/BrandGuidePage'
 
 export const router = createHashRouter([
   {
@@ -40,6 +41,7 @@ export const router = createHashRouter([
       { path: 'market', element: <MarketIntelPage /> },
       { path: 'curriculum', element: <CurriculumPage /> },
       { path: 'docs', element: <DocsPage /> },
+      { path: 'brand', element: <BrandGuidePage /> },
       { path: 'team', element: <TeamPage /> },
       { path: 'programs', element: <ProgramsPage /> },
       { path: 'landing', element: <LandingPage /> },
