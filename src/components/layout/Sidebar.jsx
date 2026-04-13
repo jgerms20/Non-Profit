@@ -23,6 +23,8 @@ import {
   Info,
   UsersRound,
   Paintbrush,
+  BarChart3,
+  Presentation,
 } from 'lucide-react'
 
 const navSections = [
@@ -31,6 +33,7 @@ const navSections = [
     items: [
       { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
       { to: '/hub', icon: Layers, label: 'Hub' },
+      { to: '/briefings', icon: BarChart3, label: 'Briefings' },
     ],
   },
   {
@@ -58,6 +61,7 @@ const navSections = [
       { to: '/grants', icon: DollarSign, label: 'Grants & Funding' },
       { to: '/market', icon: Radar, label: 'Market Intel' },
       { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
+      { to: '/curriculum-downloads', icon: Presentation, label: 'Slide Decks' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/docs', icon: BookOpen, label: 'Docs' },
       { to: '/brand', icon: Paintbrush, label: 'Brand Guide' },

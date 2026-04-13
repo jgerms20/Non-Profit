@@ -20,6 +20,8 @@ import ProgramsPage from './pages/site/ProgramsPage'
 import LandingPage from './pages/site/LandingPage'
 import AboutPage from './pages/site/AboutPage'
 import BrandGuidePage from './pages/BrandGuidePage'
+import BriefingsPage from './pages/BriefingsPage'
+import CurriculumDownloadsPage from './pages/CurriculumDownloadsPage'
 
 export const router = createHashRouter([
   {
@@ -42,6 +44,8 @@ export const router = createHashRouter([
       { path: 'curriculum', element: <CurriculumPage /> },
       { path: 'docs', element: <DocsPage /> },
       { path: 'brand', element: <BrandGuidePage /> },
+      { path: 'briefings', element: <BriefingsPage /> },
+      { path: 'curriculum-downloads', element: <CurriculumDownloadsPage /> },
       { path: 'team', element: <TeamPage /> },
       { path: 'programs', element: <ProgramsPage /> },
       { path: 'landing', element: <LandingPage /> },
