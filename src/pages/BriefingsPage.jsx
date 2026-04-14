@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { Calendar, BarChart3, MessagesSquare, Download, FileText } from 'lucide-react'
+import { Calendar, BarChart3, MessagesSquare, Mail, Download, FileText } from 'lucide-react'
 
 const BRIEFS = [
   {
@@ -27,6 +27,14 @@ const BRIEFS = [
     icon: MessagesSquare,
     file: '/docs/community-interview-questions.md',
     accent: 'from-amber-500 to-amber-600',
+  },
+  {
+    id: 'outreach',
+    title: 'Outreach Drafts',
+    subtitle: 'Copy-paste emails, board pitch, venue pitch',
+    icon: Mail,
+    file: '/docs/outreach-drafts.md',
+    accent: 'from-purple-500 to-purple-600',
   },
 ]
 
@@ -62,7 +70,7 @@ export default function BriefingsPage() {
       </div>
 
       {/* Tab Cards */}
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {BRIEFS.map((brief) => {
           const Icon = brief.icon
           const isActive = brief.id === activeId
