@@ -4,7 +4,6 @@ import {
   Mail,
   ArrowRight,
   Users,
-  Scale,
   DollarSign,
   BookOpen,
   Cpu,
@@ -13,43 +12,59 @@ import {
   Heart,
   Star,
   Megaphone,
+  Award,
+  Briefcase,
 } from 'lucide-react'
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
-const boardPositions = [
+const boardMembers = [
   {
-    icon: Scale,
-    title: 'Legal Counsel',
-    description:
-      'Nonprofit law expertise to guide our 501(c)(3) formation and compliance',
-    responsibilities: [
-      'Advise on 501(c)(3) application and ongoing compliance',
-      'Review contracts, bylaws, and governance documents',
-      'Guide legal strategy as the organization scales',
+    initials: 'JM',
+    name: 'Janel Moore',
+    title: 'Board Member, Treasurer',
+    role: 'Finance & Treasury',
+    organization: 'JP Morgan',
+    gradient: 'linear-gradient(135deg, #D4A843 0%, #b8860b 100%)',
+    background:
+      "Finance professional at JP Morgan. USC class of 2021, studied International Affairs. Active in Alpha Kappa Psi (AK PSI). Brings strategic finance expertise and an international perspective to SCAiL's board.",
+    education: [
+      'Bachelor of Arts, International Affairs, University of South Carolina (2021)',
     ],
+    organizations: ['Alpha Kappa Psi (AK PSI) — co-ed business fraternity'],
+    responsibilities: [
+      'Oversee nonprofit budget and financial planning',
+      'Manage grant reporting and compliance',
+      'Oversee banking relationships and cash management',
+      'Review and approve financial controls',
+    ],
+    linkedin: 'https://www.linkedin.com/in/janel-moore/',
   },
   {
-    icon: DollarSign,
-    title: 'Treasurer / Finance',
-    description:
-      'Financial oversight, budgeting, and grant management experience',
-    responsibilities: [
-      'Oversee financial reporting and budgeting',
-      'Ensure responsible stewardship of grant funding',
-      'Support audit preparation and financial controls',
+    initials: 'KM',
+    name: 'Kinsey Meggett',
+    title: 'Board Member, Secretary',
+    role: 'Community Engagement & Education',
+    organization: 'Furman University (Postdoc)',
+    gradient: 'linear-gradient(135deg, #2EC4B6 0%, #0e9488 100%)',
+    background:
+      "Public health researcher with PhD in health equity. Clemson University graduate (BS 2020, PhD 2025). Childhood friend of Joshua. Deep community leadership experience. Dissertation focused on health equity in underserved communities — core to SCAiL's mission.",
+    education: [
+      'PhD, Public Health Science, Clemson University (2025)',
+      'M.S., University of South Carolina School of Medicine',
+      'B.S., Clemson University (2020)',
     ],
-  },
-  {
-    icon: BookOpen,
-    title: 'Education / Community',
-    description:
-      'Background in education, community development, or social services',
-    responsibilities: [
-      'Advise on curriculum design and learning outcomes',
-      'Connect SCAiL with community organizations and schools',
-      'Champion community-first program delivery',
+    awards: [
+      'MLK Excellence in Service Award, Clemson University',
+      'Dr. Karen Kemper Award, Public Health Sciences (2025)',
     ],
+    responsibilities: [
+      'Help refine and validate curriculum design',
+      'Ensure programs serve communities authentically',
+      'Measure and report on learning outcomes',
+      'Build partnerships with community organizations',
+    ],
+    linkedin: 'https://www.linkedin.com/in/kinsey-meggett-265a2b9b/',
   },
 ]
 
@@ -191,53 +206,159 @@ export default function TeamPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-3">
-              Board of Directors
+              Founding Board of Directors
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400">
-              Currently recruiting founding board members
+              Three leaders, one mission: AI literacy for every community in South Carolina.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            {boardPositions.map((position) => {
-              const Icon = position.icon
-              return (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 max-w-5xl mx-auto">
+            {boardMembers.map((member) => (
+              <div
+                key={member.name}
+                className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm overflow-hidden flex flex-col"
+              >
                 <div
-                  key={position.title}
-                  className="bg-white dark:bg-slate-800 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-600 p-6 flex flex-col gap-4 hover:border-brand-teal/50 transition-colors duration-200"
-                >
-                  <div className="h-12 w-12 rounded-xl bg-slate-100 dark:bg-slate-700 flex items-center justify-center">
-                    <Icon className="h-5 w-5 text-brand-navy dark:text-brand-teal" />
+                  className="h-1.5"
+                  style={{ background: member.gradient }}
+                />
+                <div className="p-6 sm:p-7 flex flex-col gap-5 flex-1">
+                  {/* Header */}
+                  <div className="flex items-start gap-4">
+                    <div
+                      className="h-16 w-16 rounded-full flex items-center justify-center text-white text-lg font-extrabold tracking-tight shadow-md flex-shrink-0"
+                      style={{ background: member.gradient }}
+                    >
+                      {member.initials}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-xl font-bold text-brand-navy dark:text-white leading-tight">
+                        {member.name}
+                      </h3>
+                      <p className="text-sm text-brand-gold font-semibold mt-0.5">
+                        {member.title}
+                      </p>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                        {member.organization}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <span className="text-xs font-semibold text-slate-400 dark:text-slate-500 tracking-widest uppercase">
-                      Open Position
-                    </span>
-                    <h3 className="text-xl font-bold text-brand-navy dark:text-white mt-1 mb-2">
-                      {position.title}
-                    </h3>
-                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-                      {position.description}
-                    </p>
-                  </div>
-                  <ul className="space-y-2 mt-auto">
-                    {position.responsibilities.map((resp) => (
-                      <li key={resp} className="flex items-start gap-2 text-xs text-slate-500 dark:text-slate-400">
-                        <span className="h-1.5 w-1.5 rounded-full bg-brand-teal flex-shrink-0 mt-1.5" />
-                        {resp}
-                      </li>
-                    ))}
-                  </ul>
+
+                  {/* Background */}
+                  <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+                    {member.background}
+                  </p>
+
+                  {/* Education */}
+                  {member.education && (
+                    <div>
+                      <h4 className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
+                        <BookOpen className="h-3.5 w-3.5" />
+                        Education
+                      </h4>
+                      <ul className="space-y-1">
+                        {member.education.map((edu) => (
+                          <li
+                            key={edu}
+                            className="flex items-start gap-2 text-xs text-slate-600 dark:text-slate-400 leading-snug"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-brand-teal flex-shrink-0 mt-1.5" />
+                            {edu}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Awards */}
+                  {member.awards && (
+                    <div>
+                      <h4 className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
+                        <Award className="h-3.5 w-3.5" />
+                        Awards
+                      </h4>
+                      <ul className="space-y-1">
+                        {member.awards.map((award) => (
+                          <li
+                            key={award}
+                            className="flex items-start gap-2 text-xs text-slate-600 dark:text-slate-400 leading-snug"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-brand-gold flex-shrink-0 mt-1.5" />
+                            {award}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Organizations */}
+                  {member.organizations && (
+                    <div>
+                      <h4 className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
+                        <Users className="h-3.5 w-3.5" />
+                        Memberships
+                      </h4>
+                      <ul className="space-y-1">
+                        {member.organizations.map((org) => (
+                          <li
+                            key={org}
+                            className="flex items-start gap-2 text-xs text-slate-600 dark:text-slate-400 leading-snug"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-brand-teal flex-shrink-0 mt-1.5" />
+                            {org}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Responsibilities */}
+                  {member.responsibilities && (
+                    <div>
+                      <h4 className="text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2 flex items-center gap-1.5">
+                        <Briefcase className="h-3.5 w-3.5" />
+                        Board Responsibilities
+                      </h4>
+                      <ul className="space-y-1">
+                        {member.responsibilities.map((resp) => (
+                          <li
+                            key={resp}
+                            className="flex items-start gap-2 text-xs text-slate-600 dark:text-slate-400 leading-snug"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-brand-navy dark:bg-brand-teal flex-shrink-0 mt-1.5" />
+                            {resp}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* LinkedIn */}
+                  {member.linkedin && (
+                    <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700">
+                      <a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-teal hover:text-brand-navy dark:hover:text-white transition-colors"
+                      >
+                        <Linkedin className="h-3.5 w-3.5" />
+                        LinkedIn Profile
+                      </a>
+                    </div>
+                  )}
                 </div>
-              )
-            })}
+              </div>
+            ))}
           </div>
 
           {/* Board CTA */}
           <div className="max-w-2xl mx-auto text-center bg-brand-navy rounded-2xl p-8">
             <Users className="h-8 w-8 text-brand-teal mx-auto mb-4" />
             <p className="text-white text-base leading-relaxed">
-              Interested in joining our founding board? Reach out at{' '}
+              Our founding board was formed April 2026. Meetings are held quarterly.
+              Questions for the board? Reach out at{' '}
               <a
                 href="mailto:board@scail.org"
                 className="text-brand-gold font-semibold hover:opacity-80 transition-opacity"
