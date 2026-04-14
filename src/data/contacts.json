@@ -327,18 +327,24 @@
       }
     },
     {
-      "id": "janelle-moore",
-      "name": "Janelle Moore",
+      "id": "janel-moore",
+      "name": "Janel Moore",
       "category": "key-people",
       "organization": "JP Morgan",
       "role": "Board Member — Finance & Treasury",
       "email": "",
       "phone": "",
-      "website": "https://www.linkedin.com/in/janelle-moore/",
-      "whyTheyMatter": "Janelle brings deep finance expertise from JP Morgan and USC business education. She's filling the critical Finance & Treasurer role on the founding board, overseeing budget, grant reporting, banking, and financial controls. Her finance background is essential for building credibility with funders and managing nonprofit finances.",
+      "website": "https://www.linkedin.com/in/janel-moore/",
+      "whyTheyMatter": "Janel brings strategic finance and international affairs expertise from JP Morgan and her USC education. She's filling the critical Finance & Treasurer role on the founding board, overseeing budget, grant reporting, banking, and financial controls. Her international perspective and finance background are essential for building credibility with funders and managing nonprofit finances.",
       "status": "warm-contact",
-      "notes": "Founder contact. Janelle is Kinsey's connection. USC alum, currently at JP Morgan in finance role. Discussed SCAiL mission and three-phase model. Warm to the idea. Ready for formal board conversation.",
+      "notes": "Founder contact. USC graduate 2021, studied International Affairs. Active in Alpha Kappa Psi (AK PSI) business fraternity. Currently at JP Morgan in finance role. Discussed SCAiL mission and three-phase model. Warm to the idea. Ready for formal board conversation.",
       "priority": "high",
+      "education": [
+        "Bachelor of Arts, International Affairs, University of South Carolina (2021)"
+      ],
+      "organizations": [
+        "Alpha Kappa Psi (AK PSI) — co-ed business fraternity"
+      ],
       "boardRole": "Finance & Treasury",
       "boardStatus": "committed"
     },
@@ -353,14 +359,15 @@
       "website": "https://www.linkedin.com/in/kinsey-meggett-265a2b9b/",
       "whyTheyMatter": "Kinsey brings deep community engagement experience, academic credentials (PhD in public health science from Clemson, 2025), and a proven track record in service-oriented leadership. Her dissertation on 'Place is Health: The Role of Residential Segregation in Cancer Diagnosis and Survival' directly addresses health equity in underserved communities — the core of SCAiL's mission. She's filling the critical Community Engagement & Education board role, helping shape curriculum and ensure programs serve communities authentically.",
       "status": "warm-contact",
-      "notes": "Childhood friend of Joshua. Recently completed PhD in public health science at Clemson (2025). Dissertation focused on health equity in residential segregation — deeply aligned with SCAiL's community-first approach. Currently postdoc at Furman University. Emphasized importance of 'being in communities before building for them' — this shaped SCAiL's interview-first strategy. Ready for formal board conversation.",
+      "notes": "Childhood friend of Joshua. High school graduate 2016. Bachelor's degree 2020. Recently completed PhD in public health science at Clemson (2025). Dissertation focused on health equity in residential segregation — deeply aligned with SCAiL's community-first approach. Currently postdoctoral researcher at Furman University. Emphasized importance of 'being in communities before building for them' — this shaped SCAiL's interview-first strategy. Ready for formal board conversation.",
       "priority": "high",
       "boardRole": "Community Engagement & Education",
       "boardStatus": "committed",
       "education": [
         "PhD, Public Health Science, Clemson University (2025)",
         "M.S., University of South Carolina School of Medicine",
-        "B.S., Clemson University"
+        "B.S., Clemson University (2020)",
+        "High School Graduate (2016)"
       ],
       "awards": [
         "MLK Excellence in Service Award, Clemson University",
