@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sc-1",
+    "title": "AI 101: What Is AI and Why Should I Care?",
+    "filename": "SCAiL-AI-101.pptx",
+    "slides": 16,
+    "sizeKB": 50.4
+  },
+  {
+    "id": "sc-2",
+    "title": "AI for Your Job: Practical Skills Workshop",
+    "filename": "SCAiL-AI-for-Your-Job.pptx",
+    "slides": 17,
+    "sizeKB": 52.0
+  },
+  {
+    "id": "sc-3",
+    "title": "AI for Small Business Owners",
+    "filename": "SCAiL-AI-for-Small-Business.pptx",
+    "slides": 16,
+    "sizeKB": 50.5
+  },
+  {
+    "id": "sc-4",
+    "title": "AI for Farmers and Agriculture",
+    "filename": "SCAiL-AI-for-Farmers.pptx",
+    "slides": 18,
+    "sizeKB": 52.9
+  },
+  {
+    "id": "sc-5",
+    "title": "AI Safety and Digital Literacy",
+    "filename": "SCAiL-AI-Safety.pptx",
+    "slides": 17,
+    "sizeKB": 51.9
+  },
+  {
+    "id": "sc-6",
+    "title": "Youth AI Lab: Build Your First AI Project",
+    "filename": "SCAiL-Youth-AI-Lab.pptx",
+    "slides": 20,
+    "sizeKB": 56.0
+  },
+  {
+    "id": "sc-7",
+    "title": "AI Leadership Academy",
+    "filename": "SCAiL-AI-Leadership-Academy.pptx",
+    "slides": 19,
+    "sizeKB": 54.4
+  },
+  {
+    "id": "sc-8",
+    "title": "Train the Trainer: AI Education Certification",
+    "filename": "SCAiL-Train-the-Trainer.pptx",
+    "slides": 21,
+    "sizeKB": 57.4
+  }
+]

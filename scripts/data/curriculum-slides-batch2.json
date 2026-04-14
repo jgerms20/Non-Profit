@@ -1,0 +1,669 @@
+{
+  "sc-5": {
+    "title": "AI Safety and Digital Literacy",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI Safety",
+        "subtitle": "Digital Literacy for Every Community",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "What We'll Cover Today",
+        "items": [
+          "Recognizing AI-generated scams",
+          "Deepfakes and misinformation",
+          "Protecting your personal data",
+          "Safe AI tool usage",
+          "When NOT to trust AI"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The same technology that helps a kid finish a homework assignment is being used to clone a grandmother's voice. We have to teach both sides.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 1: AI-Generated Scams"
+      },
+      {
+        "type": "content",
+        "title": "What's New About AI Scams",
+        "bullets": [
+          "Fake voices that sound like your real family members",
+          "Texts and emails written in perfect, polite English",
+          "Fake websites that look exactly like real banks",
+          "AI calls that pass for a real customer service rep",
+          "Scammers use AI to scale faster than ever before"
+        ],
+        "note": "Many seniors think 'I would notice.' Show real examples to make the threat concrete."
+      },
+      {
+        "type": "content",
+        "title": "Red Flags to Watch For",
+        "bullets": [
+          "Urgency: 'You need to act right now or else'",
+          "Unusual payment methods: gift cards, wire, crypto",
+          "Strange greetings: 'Dear customer' from your own bank",
+          "A familiar voice asking for money or passwords",
+          "Anything you'd be embarrassed to ask family about"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 2: Deepfakes & Misinformation"
+      },
+      {
+        "type": "content",
+        "title": "Seeing Isn't Believing Anymore",
+        "bullets": [
+          "Photos and videos can be faked with one click",
+          "AI can clone a voice from 3 seconds of audio",
+          "Fake news articles look like real ones",
+          "Even live video calls can be manipulated",
+          "Always verify shocking content from a second source"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Spot the Fake",
+        "steps": [
+          "Look at the four photos on the screen",
+          "Two are real, two are AI-generated",
+          "Discuss with your neighbor which is which",
+          "We'll reveal the answers together",
+          "Notice what gave the fakes away — and what didn't"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 3: Protecting Your Data"
+      },
+      {
+        "type": "content",
+        "title": "Your Data Is the Product",
+        "bullets": [
+          "Most free apps make money from your information",
+          "Don't paste sensitive details into any AI tool",
+          "Never share Social Security or banking info with AI",
+          "Use strong, unique passwords for every account",
+          "Turn on two-factor authentication everywhere you can"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: Safe AI Tool Use"
+      },
+      {
+        "type": "content",
+        "title": "Use AI Without Getting Burned",
+        "bullets": [
+          "Read what data the tool collects before you sign up",
+          "Don't share private health, legal, or financial info",
+          "Verify any factual claim from a second source",
+          "Treat AI like a smart but unreliable assistant",
+          "When in doubt, ask a real person you trust"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: When NOT to Trust AI"
+      },
+      {
+        "type": "content",
+        "title": "Hard Lines",
+        "bullets": [
+          "Medical decisions — always confirm with a doctor",
+          "Legal decisions — always confirm with a lawyer",
+          "Anything involving money or passwords",
+          "Voting and election information — go to the source",
+          "Anything that sounds emotionally urgent"
+        ],
+        "note": "Plant the flag here: AI helps with information, humans make decisions."
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: The Grandparent Scam Drill",
+        "steps": [
+          "We'll play a 30-second AI-cloned voice clip",
+          "Pretend it's a panicked call from a grandchild",
+          "Write down: what would you do first?",
+          "We'll discuss the safe answer (verify by calling them)",
+          "Practice this with your real family this week"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "Knowing the top scam patterns to watch for",
+          "A safety checklist to take home",
+          "A family verification phrase to use when calls feel off",
+          "Confidence to ask 'is this real?' without embarrassment",
+          "A SCAiL contact for follow-up questions"
+        ]
+      }
+    ]
+  },
+
+  "sc-6": {
+    "title": "Youth AI Lab: Build Your First AI Project",
+    "slides": [
+      {
+        "type": "title",
+        "title": "Youth AI Lab",
+        "subtitle": "Build Your First AI Project — In 6 Weeks",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "Six Weeks, One Project",
+        "items": [
+          "Week 1: AI basics and ethics",
+          "Week 2: Prompt engineering",
+          "Week 3: No-code AI tools",
+          "Week 4: Building a chatbot",
+          "Week 5: Creative AI projects",
+          "Week 6: Demo Day — show what you built"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "You're already smarter than the AI in some ways. The trick is figuring out which ways — and using AI for the rest.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Week 1: Basics & Ethics"
+      },
+      {
+        "type": "content",
+        "title": "What AI Actually Is",
+        "bullets": [
+          "AI learns from millions of examples",
+          "It guesses the most likely next word, image, or answer",
+          "It is built by people who chose what to feed it",
+          "Those choices shape what it can and can't do",
+          "Understanding this is your superpower"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "The Ethics Conversation",
+        "bullets": [
+          "Whose work was AI trained on? Did they get paid?",
+          "Who is harmed when AI is wrong about people?",
+          "Is using AI for school work cheating? When? Why?",
+          "What jobs might disappear? What jobs might appear?",
+          "These are YOUR questions — the answers aren't decided yet"
+        ],
+        "note": "Don't lecture. Open it up. The students will surprise you."
+      },
+      {
+        "type": "section",
+        "title": "Week 2: Prompt Engineering"
+      },
+      {
+        "type": "content",
+        "title": "Better Prompts, Better Results",
+        "bullets": [
+          "Be specific about what you want",
+          "Tell AI who it should be (a tutor, a coach, a friend)",
+          "Show examples of the kind of answer you want",
+          "Ask follow-up questions instead of starting over",
+          "If the answer is bad, the prompt is usually the problem"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Prompt Race",
+        "steps": [
+          "Pair up with a partner",
+          "Goal: Get ChatGPT to write a 4-line poem about Columbia, SC",
+          "Round 1: Use a one-line prompt",
+          "Round 2: Use a 5-line, specific prompt",
+          "Compare and discuss what changed"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 3: No-Code AI Tools"
+      },
+      {
+        "type": "content",
+        "title": "Build Without Coding",
+        "bullets": [
+          "Bolt.new — turn an idea into a website by talking",
+          "Replit — build apps with AI as your co-pilot",
+          "Glide — turn a Google Sheet into a real app",
+          "Canva AI — design like a pro in minutes",
+          "All free or have free tiers for students"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 4: Build a Chatbot"
+      },
+      {
+        "type": "content",
+        "title": "Your First Real AI Build",
+        "bullets": [
+          "Pick a problem in your school or community",
+          "Design a chatbot that helps with that problem",
+          "Use a no-code tool to actually build it",
+          "Test it with a real person",
+          "Iterate based on what they tell you"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Build the First Version",
+        "steps": [
+          "Open Bolt.new on your laptop",
+          "Tell it what your chatbot should do, in plain English",
+          "Watch it build the first version in front of you",
+          "Click through it. Find what's broken.",
+          "Tell Bolt what to fix — and watch it fix it"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 5: Creative AI Projects"
+      },
+      {
+        "type": "content",
+        "title": "Make Things You Couldn't Make Before",
+        "bullets": [
+          "Generate art, music, and video clips",
+          "Write a short story with AI as your editor",
+          "Build a game level using AI tools",
+          "Make a real video for your social media",
+          "Use AI to amplify your creativity, not replace it"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 6: Demo Day"
+      },
+      {
+        "type": "content",
+        "title": "Show Your Work",
+        "bullets": [
+          "3-minute demo of what you built",
+          "Share what worked and what broke",
+          "Explain the problem you solved",
+          "Take questions from the room",
+          "Trade tips with the other builders"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "What This Means for Your Future",
+        "bullets": [
+          "A real project for college applications",
+          "A portfolio piece that didn't exist 3 years ago",
+          "Skills employers actively hire for in 2026",
+          "Confidence to keep building on your own",
+          "A network of fellow young SCAiL builders"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "An AI project you built and demoed",
+          "Real prompt engineering skills",
+          "Working knowledge of 4+ no-code AI tools",
+          "A portfolio piece for college and jobs",
+          "A SCAiL Youth Lab credential — first cohort in SC"
+        ]
+      }
+    ]
+  },
+
+  "sc-7": {
+    "title": "AI Leadership Academy",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI Leadership Academy",
+        "subtitle": "Lead AI Adoption in Your Organization",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "Eight Weeks of Strategic AI",
+        "items": [
+          "Module 1: AI strategy and planning",
+          "Module 2: Leading AI transformation",
+          "Module 3: Building AI-powered organizations",
+          "Module 4: Fundraising with AI",
+          "Module 5: AI ethics and governance",
+          "Module 6: Capstone project and pitch"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The organizations that win the next decade won't be the ones with the most AI. They'll be the ones whose people understand it best.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 1: AI Strategy"
+      },
+      {
+        "type": "content",
+        "title": "Strategy Before Tools",
+        "bullets": [
+          "Don't start with 'which AI tool should we buy?'",
+          "Start with 'what are we actually trying to do better?'",
+          "Map your top 5 organizational pain points",
+          "Match AI capabilities to those pain points",
+          "Pick ONE pilot — small, measurable, reversible"
+        ],
+        "note": "This is the most common mistake leaders make. Repeat it twice."
+      },
+      {
+        "type": "content",
+        "title": "The 3-Question Framework",
+        "bullets": [
+          "Where are we losing the most time today?",
+          "Where are we making the most preventable errors?",
+          "Where could AI help us reach more people for less money?",
+          "Pick the answer that overlaps all three",
+          "That's where your AI pilot starts"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 2: Leading Transformation"
+      },
+      {
+        "type": "content",
+        "title": "Leading Through Change",
+        "bullets": [
+          "Most people fear AI because they fear losing their jobs",
+          "Acknowledge that fear directly — never dismiss it",
+          "Frame AI as a tool that elevates people, not replaces them",
+          "Train your team early — anxiety drops with familiarity",
+          "Celebrate early wins publicly"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 3: AI-Powered Organizations"
+      },
+      {
+        "type": "content",
+        "title": "What 'AI-Powered' Actually Looks Like",
+        "bullets": [
+          "AI integrated into your weekly workflow, not bolted on",
+          "Every staff member has at least one AI use case",
+          "Decisions are still made by humans, faster",
+          "Routine tasks are automated, freeing time for relationships",
+          "Your impact per dollar goes up — measurably"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: Fundraising with AI"
+      },
+      {
+        "type": "content",
+        "title": "AI for Grant Writing",
+        "bullets": [
+          "Use AI to research funders that match your mission",
+          "Draft first versions of LOIs and proposals 10x faster",
+          "Use AI to summarize past funder reports",
+          "Personalize outreach emails to major donors",
+          "Always edit and verify — AI is a draft engine, not a sender"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Grant Research Sprint",
+        "steps": [
+          "Open ChatGPT on your laptop",
+          "Describe your organization's mission in 3 sentences",
+          "Ask: 'List 10 funders that match this mission'",
+          "Verify each one online — at least 3 should be real",
+          "Save the verified list — that's your prospect pipeline"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: Ethics & Governance"
+      },
+      {
+        "type": "content",
+        "title": "AI Governance for Your Organization",
+        "bullets": [
+          "Write a one-page AI use policy for your staff",
+          "Define what data can and cannot be put into AI tools",
+          "Be transparent with stakeholders about your AI use",
+          "Audit AI outputs regularly for bias and errors",
+          "Treat AI ethics as a competitive advantage, not a constraint"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "Hard Questions to Sit With",
+        "bullets": [
+          "Whose voice could be flattened by AI in your work?",
+          "What relationships could AI accidentally damage?",
+          "What's your plan when AI is confidently wrong?",
+          "How do you train your team to recognize bias?",
+          "How will you tell your community about your AI use?"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 6: Capstone"
+      },
+      {
+        "type": "content",
+        "title": "Your Capstone Project",
+        "bullets": [
+          "A written AI implementation plan for your organization",
+          "A pitch deck for your board or funders",
+          "A 90-day roadmap with measurable milestones",
+          "An AI use policy draft",
+          "A presentation to the SCAiL cohort"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "An AI implementation plan ready for your board",
+          "A pitch deck for an AI-enabled venture or program",
+          "A grant prospect list and draft LOI",
+          "A network of SC AI-literate leaders",
+          "A SCAiL Leadership Academy credential"
+        ]
+      }
+    ]
+  },
+
+  "sc-8": {
+    "title": "Train the Trainer: AI Education Certification",
+    "slides": [
+      {
+        "type": "title",
+        "title": "Train the Trainer",
+        "subtitle": "AI Education Certification — 12 Weeks",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "Twelve Weeks to Certified",
+        "items": [
+          "Module 1: AI fundamentals deep dive",
+          "Module 2: Teaching AI to non-technical audiences",
+          "Module 3: Curriculum design",
+          "Module 4: Facilitation techniques",
+          "Module 5: Assessment methods",
+          "Module 6: Practicum — teach a real workshop",
+          "Module 7: Certification exam"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Every community in South Carolina deserves a SCAiL-certified educator within 30 minutes of home. That's the goal. You're how we get there.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 1: AI Fundamentals Deep Dive"
+      },
+      {
+        "type": "content",
+        "title": "What Every Educator Must Know",
+        "bullets": [
+          "How large language models actually work, in plain English",
+          "What 'training data' is and why it matters",
+          "Why AI hallucinates — and how to spot it",
+          "The difference between generative and predictive AI",
+          "Where AI is heading in the next 2 years"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 2: Teaching Non-Technical Audiences"
+      },
+      {
+        "type": "content",
+        "title": "Translate, Don't Lecture",
+        "bullets": [
+          "Replace every jargon word with a plain-English version",
+          "Use stories before stats",
+          "Use familiar examples — not Silicon Valley ones",
+          "Anchor every concept in something the learner already knows",
+          "If they look confused, you went too fast"
+        ],
+        "note": "This is the most important skill in this entire program. Spend extra time."
+      },
+      {
+        "type": "content",
+        "title": "The Three-Layer Explanation",
+        "bullets": [
+          "Layer 1: A 10-second explanation a child could repeat",
+          "Layer 2: A 1-minute explanation a curious adult would enjoy",
+          "Layer 3: A 5-minute explanation for someone who wants depth",
+          "Always start at Layer 1",
+          "Only go deeper when asked"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 3: Curriculum Design"
+      },
+      {
+        "type": "content",
+        "title": "Building a Workshop From Scratch",
+        "bullets": [
+          "Start with the outcome — what should learners be able to DO?",
+          "Work backwards from outcomes to activities",
+          "Build in hands-on practice every 15 minutes",
+          "Plan for technology failures — always have an offline backup",
+          "End with a clear next step for every learner"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: Facilitation"
+      },
+      {
+        "type": "content",
+        "title": "Holding the Room",
+        "bullets": [
+          "Read the room every 5 minutes — adjust as needed",
+          "Use silence — wait at least 7 seconds for answers",
+          "Repeat questions back so the whole room can hear",
+          "Welcome 'wrong' answers — they teach the room more than right ones",
+          "Always end with energy, not exhaustion"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Teach a 3-Minute Concept",
+        "steps": [
+          "Pair up with another educator-in-training",
+          "Each of you picks one AI concept to teach",
+          "Take turns teaching it in 3 minutes, no more",
+          "Give each other one piece of specific feedback",
+          "Note what worked — that's what you'll use in your practicum"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: Assessment"
+      },
+      {
+        "type": "content",
+        "title": "Did They Actually Learn?",
+        "bullets": [
+          "Use 'show me' over 'tell me' — learners demonstrate, not recite",
+          "Pre and post surveys to measure confidence shifts",
+          "One-month follow-up: did they actually use AI?",
+          "Story collection — testimonials are gold for funders",
+          "Refine your curriculum based on real outcomes"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 6: Practicum"
+      },
+      {
+        "type": "content",
+        "title": "Teach a Real Workshop",
+        "bullets": [
+          "Pick one SCAiL course to deliver in your community",
+          "Co-teach with a SCAiL mentor your first time",
+          "Lead solo your second time",
+          "Collect feedback from at least 5 participants",
+          "Reflect on what you'd change — and do it"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 7: Certification"
+      },
+      {
+        "type": "content",
+        "title": "What Certification Means",
+        "bullets": [
+          "You can deliver any SCAiL workshop independently",
+          "You can co-design new curriculum with the SCAiL team",
+          "You earn the SCAiL-Certified AI Educator credential",
+          "You join a statewide network of certified educators",
+          "You can earn stipends for delivering workshops"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "Your Educator Toolkit",
+        "bullets": [
+          "Full facilitator guides for every SCAiL course",
+          "Editable slide decks (these — the ones you're holding now)",
+          "Handout templates and assessment rubrics",
+          "Access to the SCAiL trainer Slack",
+          "Ongoing professional development sessions"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "SCAiL-Certified AI Educator credential",
+          "A complete teaching toolkit for 8 SCAiL courses",
+          "Real practicum experience teaching in your community",
+          "A statewide network of fellow certified educators",
+          "The ability to bring AI literacy to anyone, anywhere in SC"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "sc-1": {
+    "title": "AI 101: What Is AI and Why Should I Care?",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI 101",
+        "subtitle": "What Is AI and Why Should I Care?",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "What We'll Cover Today",
+        "items": [
+          "What AI actually is, in plain language",
+          "AI you already use every day",
+          "A live ChatGPT demo, hands-on",
+          "What AI can't do (and shouldn't)",
+          "Your questions, our answers"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 1: What AI Actually Is"
+      },
+      {
+        "type": "content",
+        "title": "AI Is Not What You Think",
+        "bullets": [
+          "AI is software that learns from examples",
+          "It is not a robot, not a brain, not magic",
+          "It guesses the next best word, image, or answer",
+          "Like autocomplete, but a million times bigger",
+          "Built by people. Owned by companies. Used by you."
+        ],
+        "note": "Frame this as removing mystery, not adding fear. The goal is comfort with the term."
+      },
+      {
+        "type": "content",
+        "title": "Three Words to Know",
+        "bullets": [
+          "Algorithm — a recipe a computer follows",
+          "Model — the trained system that makes the guesses",
+          "Prompt — what you type to ask the AI for help",
+          "That's it. That's the whole vocabulary for today."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 2: AI You Already Use"
+      },
+      {
+        "type": "content",
+        "title": "You're Already an AI User",
+        "bullets": [
+          "Siri, Alexa, and Google Assistant — speech AI",
+          "Netflix recommendations — pattern AI",
+          "Google Maps traffic predictions — prediction AI",
+          "Spam filters in your email — sorting AI",
+          "Photo tagging on your phone — image AI"
+        ],
+        "note": "Pause here and ask the room which ones surprise them. Most people don't realize how many they already use."
+      },
+      {
+        "type": "quote",
+        "text": "Most South Carolinians have used AI a hundred times this week. They just didn't know what to call it.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 3: Hands-On with ChatGPT"
+      },
+      {
+        "type": "activity",
+        "title": "Try It Yourself: First Prompt",
+        "steps": [
+          "Open chat.openai.com on your phone or laptop",
+          "Type: 'Explain how a thunderstorm works to a 10-year-old in Columbia, SC'",
+          "Read the answer out loud with your neighbor",
+          "Now try: 'Write a thank-you note to my grandmother for the peach cobbler'",
+          "Notice how it changes when you change the question"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "What Just Happened",
+        "bullets": [
+          "You asked a question in plain English",
+          "The AI gave a real, useful answer in seconds",
+          "You did not need to know any code",
+          "You did not need a computer science degree",
+          "You can do this every day, for free, starting now"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: What AI Can't Do"
+      },
+      {
+        "type": "content",
+        "title": "AI Has Real Limits",
+        "bullets": [
+          "It can be confidently wrong — always double-check facts",
+          "It does not know about events after its training cutoff",
+          "It does not understand you the way a friend does",
+          "It cannot replace your judgment, your values, or your relationships",
+          "It is a tool. You are still the boss."
+        ],
+        "note": "This slide is the most important. Plant the flag: AI helps; humans decide."
+      },
+      {
+        "type": "content",
+        "title": "When NOT to Trust AI",
+        "bullets": [
+          "Medical decisions — talk to a doctor",
+          "Legal questions with real stakes — talk to a lawyer",
+          "Anything that asks for your bank info or password",
+          "Anything that sounds 'too good to be true'",
+          "Anything where being wrong would really hurt you"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: Your Questions"
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "A plain-language definition of what AI is",
+          "Three vocabulary words that unlock the rest",
+          "Hands-on experience using ChatGPT for a real task",
+          "A clear sense of what AI is good and bad at",
+          "An invitation back: every SCAiL workshop is free"
+        ]
+      }
+    ]
+  },
+
+  "sc-2": {
+    "title": "AI for Your Job: Practical Skills Workshop",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI for Your Job",
+        "subtitle": "Practical Skills for the Workday",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "What We'll Cover Today",
+        "items": [
+          "AI tools that fit your specific job",
+          "Building a stronger resume with AI",
+          "Writing better emails in less time",
+          "Finding job opportunities you'd miss otherwise",
+          "Hands-on practice with real workplace tasks"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 1: AI for Your Specific Job"
+      },
+      {
+        "type": "content",
+        "title": "There's an AI for That",
+        "bullets": [
+          "Admin and office work — drafting, scheduling, summarizing",
+          "Healthcare — note-taking, patient communication, scheduling",
+          "Agriculture — weather, crop monitoring, equipment alerts",
+          "Retail and service — inventory, customer messages, training",
+          "Skilled trades — quotes, scheduling, supplier research"
+        ],
+        "note": "Ask the room what they do for work and pick 2-3 to demo live."
+      },
+      {
+        "type": "quote",
+        "text": "The biggest AI gap in South Carolina isn't between people and machines. It's between people who use AI for an hour a week and people who never opened it.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 2: Resume Building with AI"
+      },
+      {
+        "type": "content",
+        "title": "Your Resume, Sharper",
+        "bullets": [
+          "Paste your current resume into ChatGPT",
+          "Ask: 'How would you improve this for a [job title] role?'",
+          "Ask: 'Rewrite my work history using stronger action verbs'",
+          "Ask: 'Tailor this to a job description I'll paste below'",
+          "You stay in charge — accept what helps, reject what doesn't"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Resume Tune-Up",
+        "steps": [
+          "Open ChatGPT or Google Gemini on the laptop in front of you",
+          "Type or paste 3-5 lines of your work history",
+          "Ask the AI to rewrite them with stronger action verbs",
+          "Compare the original and the new version side by side",
+          "Pick the changes you actually like — keep your voice"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 3: Email Writing with AI"
+      },
+      {
+        "type": "content",
+        "title": "Faster, Clearer, Less Stressful",
+        "bullets": [
+          "Ask AI to draft a first version, then edit by hand",
+          "Use it to soften a frustrated email before you send it",
+          "Use it to translate a confusing email into plain English",
+          "Use it to write a follow-up when you're stuck on what to say",
+          "Always read it before you send. Always."
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Email Rewrite",
+        "steps": [
+          "Think of an email you've been putting off",
+          "Type the situation in plain English to ChatGPT",
+          "Ask: 'Help me write a polite, professional email about this'",
+          "Read what it gives you out loud",
+          "Edit until it sounds like you, then save it as a draft"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: Job Searching with AI"
+      },
+      {
+        "type": "content",
+        "title": "Hidden Doors",
+        "bullets": [
+          "Ask AI: 'What jobs in [your county] match my background?'",
+          "Use AI to write a strong LinkedIn About section",
+          "Use AI to prepare for interview questions",
+          "Use AI to research a company before you apply",
+          "Use AI to draft thank-you notes after interviews"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: Hands-On Practice"
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Pick One Real Task",
+        "steps": [
+          "Pick one workplace task you do every week",
+          "Open ChatGPT and describe the task in your own words",
+          "Ask the AI to help you do it faster or better",
+          "Try the result, then refine your prompt",
+          "Save the prompt. You'll use it again."
+        ]
+      },
+      {
+        "type": "content",
+        "title": "What to Do Tomorrow",
+        "bullets": [
+          "Bookmark ChatGPT or Gemini on your phone",
+          "Pick one daily task to try AI on this week",
+          "Tell a coworker what you learned today",
+          "Come back to SCAiL for the next workshop",
+          "Ask us anything by email — we read every message"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "A working AI tool you can use Monday morning",
+          "A sharper resume built in front of you today",
+          "A draft email that used to take you an hour",
+          "A clearer job search strategy",
+          "Confidence that AI is a tool you can use, not fear"
+        ]
+      }
+    ]
+  },
+
+  "sc-3": {
+    "title": "AI for Small Business Owners",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI for Small Business",
+        "subtitle": "A Four-Week Practical Course",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "Four Weeks, Four Wins",
+        "items": [
+          "Week 1: AI for marketing — social, ads, content",
+          "Week 2: AI for operations — inventory, scheduling, admin",
+          "Week 3: AI for customer service — chatbots, email, reviews",
+          "Week 4: Building your own AI strategy"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "If you can describe your business in plain English to another person, you can use AI in your business today. That's the whole bar.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Week 1: AI for Marketing"
+      },
+      {
+        "type": "content",
+        "title": "Marketing on a Tight Budget",
+        "bullets": [
+          "Generate a week of social posts in 20 minutes",
+          "Write product descriptions that actually sound human",
+          "Draft Facebook and Instagram ads that convert",
+          "Translate your marketing into Spanish or other languages",
+          "Create images for your menu, store, or service list"
+        ],
+        "note": "This is usually the moment a small business owner sees the value. Spend extra time here."
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Your First AI Social Post",
+        "steps": [
+          "Tell ChatGPT what your business does in 2 sentences",
+          "Ask: 'Write 5 Instagram captions for my business this week'",
+          "Pick the one that sounds most like you",
+          "Ask: 'Make this one shorter and punchier'",
+          "Save it for next week's posting schedule"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 2: AI for Operations"
+      },
+      {
+        "type": "content",
+        "title": "The Boring Stuff, Faster",
+        "bullets": [
+          "Inventory tracking with AI photo recognition",
+          "Schedule planning with conflict detection",
+          "Receipt and expense sorting with AI scanning",
+          "Vendor and supplier research in minutes, not hours",
+          "Meeting notes auto-summarized and emailed to your team"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "Tools to Try This Week",
+        "bullets": [
+          "ChatGPT and Gemini — general assistants",
+          "Notion AI — notes, plans, and project tracking",
+          "Otter.ai — meeting transcripts and summaries",
+          "Canva — AI-assisted design for free",
+          "Google Workspace + Gemini — built into your existing tools"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 3: AI for Customer Service"
+      },
+      {
+        "type": "content",
+        "title": "Better Service, Less Burnout",
+        "bullets": [
+          "Auto-respond to common questions with a chatbot",
+          "Draft replies to negative reviews calmly and professionally",
+          "Send personalized thank-you notes at scale",
+          "Translate customer messages in real time",
+          "Spot patterns in customer feedback you'd otherwise miss"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Hard Customer Email",
+        "steps": [
+          "Think of a hard customer interaction you had recently",
+          "Describe it neutrally to ChatGPT",
+          "Ask: 'Help me write a calm, professional response'",
+          "Edit it to sound like you",
+          "Use this approach next time you're frustrated"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Week 4: Build Your Strategy"
+      },
+      {
+        "type": "content",
+        "title": "Pick Your Wins",
+        "bullets": [
+          "Where do you waste the most time each week?",
+          "Where do you lose the most money to inefficiency?",
+          "What part of your business do you dread the most?",
+          "Pick ONE — that's your first AI project",
+          "Master one tool before adding a second"
+        ]
+      },
+      {
+        "type": "content",
+        "title": "Your AI Adoption Plan",
+        "bullets": [
+          "Pick 2 tools to use weekly for the next 30 days",
+          "Track time saved — write it down",
+          "Tell one other business owner what worked",
+          "Reassess at day 30 — keep what works, drop what doesn't",
+          "Come back to SCAiL for advanced workshops"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "Two AI tools you'll use this month",
+          "A 4-week implementation plan that fits your business",
+          "Real time saved on marketing, ops, and service",
+          "A clearer view of where AI fits — and where it doesn't",
+          "A SCAiL community that has your back"
+        ]
+      }
+    ]
+  },
+
+  "sc-4": {
+    "title": "AI for Farmers and Agriculture",
+    "slides": [
+      {
+        "type": "title",
+        "title": "AI for Farmers",
+        "subtitle": "Practical Tools for South Carolina Agriculture",
+        "footer": "SCAiL — South Carolina AI Literacy"
+      },
+      {
+        "type": "agenda",
+        "title": "What We'll Cover Today",
+        "items": [
+          "AI in precision agriculture",
+          "Weather prediction tools",
+          "Crop monitoring with AI",
+          "Livestock management tools",
+          "Finding grants and subsidies with AI",
+          "Hands-on demos you can take home"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "South Carolina farmers have always used the best tools they could get their hands on. AI is the next tool. Same job, sharper edge.",
+        "attribution": "SCAiL Field Notes"
+      },
+      {
+        "type": "section",
+        "title": "Module 1: Precision Agriculture"
+      },
+      {
+        "type": "content",
+        "title": "What Precision Ag Actually Means",
+        "bullets": [
+          "Knowing exactly what your land needs, where, and when",
+          "Less wasted seed, fertilizer, water, and time",
+          "Sensors and satellites doing the watching for you",
+          "Decisions based on real data, not just gut",
+          "Already in use across SC peach and row crop operations"
+        ],
+        "note": "Many farmers think this is for big corporate farms only. It is not."
+      },
+      {
+        "type": "content",
+        "title": "Tools That Pay for Themselves",
+        "bullets": [
+          "Climate FieldView — field-by-field crop tracking",
+          "Granular — farm management with AI insights",
+          "John Deere Operations Center — equipment + AI integration",
+          "FarmLogs — free for small operations",
+          "Most have free trials and SC dealer support"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 2: Weather Prediction"
+      },
+      {
+        "type": "content",
+        "title": "Smarter Than the Local Forecast",
+        "bullets": [
+          "Hyperlocal weather AI down to the field level",
+          "Frost warnings 48-72 hours out for sensitive crops",
+          "Storm tracking that helps you plan irrigation and harvest",
+          "Drought outlooks that help you plan for the season",
+          "Free tools: Windy.com, ClimaCell, NOAA AI feeds"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 3: Crop Monitoring AI"
+      },
+      {
+        "type": "content",
+        "title": "Eyes in the Sky",
+        "bullets": [
+          "Drones with AI imaging spot disease before you can",
+          "Satellite AI flags moisture stress across acres",
+          "Pest detection from photos on your phone",
+          "Yield predictions weeks before harvest",
+          "Many tools are free or USDA-subsidized"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 4: Livestock Management"
+      },
+      {
+        "type": "content",
+        "title": "AI for Animals",
+        "bullets": [
+          "Smart collars and ear tags track health and location",
+          "AI alerts you when an animal is sick or in distress",
+          "Feed optimization based on individual animal data",
+          "Calving and lambing alerts straight to your phone",
+          "Less time chasing problems, more time fixing them"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 5: Grants and Subsidies"
+      },
+      {
+        "type": "content",
+        "title": "AI as Your Grant Researcher",
+        "bullets": [
+          "Ask ChatGPT: 'What USDA grants apply to a small SC peach farm?'",
+          "Use AI to draft your first grant application",
+          "Find SC-specific cost-share programs you didn't know existed",
+          "Research crop insurance options in plain English",
+          "Save hours on paperwork you used to dread"
+        ]
+      },
+      {
+        "type": "activity",
+        "title": "Hands-On: Find a Grant",
+        "steps": [
+          "Open ChatGPT on the laptop or tablet provided",
+          "Type your county and main crop or livestock",
+          "Ask: 'What federal and state ag grants apply to me?'",
+          "Read the list out loud — circle the 2 most relevant",
+          "Take the list home and call your county extension office"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Module 6: Live Demos"
+      },
+      {
+        "type": "content",
+        "title": "What You Saw Today",
+        "bullets": [
+          "Real AI tools running on real SC farm data",
+          "Free and low-cost options for every farm size",
+          "USDA and Clemson Extension partnerships available",
+          "Local dealers who can help you set things up",
+          "A SCAiL contact who'll answer questions later"
+        ]
+      },
+      {
+        "type": "closing",
+        "title": "What You Walk Away With",
+        "bullets": [
+          "At least one AI tool you'll try on your operation",
+          "A grant or subsidy lead worth pursuing",
+          "Plain-English understanding of precision ag",
+          "Names of SC ag extension contacts who can help",
+          "An invitation to the next SCAiL ag workshop"
+        ]
+      }
+    ]
+  }
+}
