@@ -25,6 +25,7 @@ import {
   Paintbrush,
   BarChart3,
   Presentation,
+  Users,
 } from 'lucide-react'
 
 const navSections = [
@@ -33,6 +34,7 @@ const navSections = [
     items: [
       { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
       { to: '/hub', icon: Layers, label: 'Hub' },
+      { to: '/board', icon: Users, label: 'Board of Directors' },
       { to: '/briefings', icon: BarChart3, label: 'Briefings' },
     ],
   },

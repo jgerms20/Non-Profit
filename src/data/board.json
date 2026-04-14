@@ -1,0 +1,90 @@
+{
+  "foundingBoard": [
+    {
+      "id": "joshua-german",
+      "name": "Joshua German",
+      "title": "Founder & President",
+      "role": "Executive Leadership",
+      "organization": "The SCAiL Initiative",
+      "background": "Founder. Journalist, advertising professional, Lowcountry roots. Building SCAiL to bring AI literacy to South Carolina communities.",
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/joshua-german/",
+      "joinDate": "2026-03-01",
+      "status": "active"
+    },
+    {
+      "id": "janel-moore",
+      "name": "Janel Moore",
+      "title": "Board Member, Treasurer",
+      "role": "Finance & Treasury",
+      "organization": "JP Morgan",
+      "background": "Finance professional at JP Morgan. USC 2021, studied International Affairs. Active in Alpha Kappa Psi (AK PSI). Brings strategic finance expertise and international perspective to board.",
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/janel-moore/",
+      "joinDate": "2026-04-13",
+      "status": "active",
+      "responsibilities": [
+        "Oversee nonprofit budget and financial planning",
+        "Manage grant reporting and compliance",
+        "Oversee banking relationships and cash management",
+        "Review and approve financial controls"
+      ],
+      "education": [
+        "Bachelor of Arts, International Affairs, University of South Carolina (2021)"
+      ],
+      "organizations": [
+        "Alpha Kappa Psi (AK PSI) — co-ed business fraternity"
+      ]
+    },
+    {
+      "id": "kinsey-meggett",
+      "name": "Kinsey Meggett",
+      "title": "Board Member, Secretary",
+      "role": "Community Engagement & Education",
+      "organization": "Furman University (Postdoc)",
+      "background": "Public health researcher with PhD in health equity. Clemson University graduate (BS 2020, PhD 2025). Childhood friend of Joshua. Deep community leadership experience. Dissertation focused on health equity in underserved communities — core to SCAiL's mission.",
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/kinsey-meggett-265a2b9b/",
+      "joinDate": "2026-04-13",
+      "status": "active",
+      "responsibilities": [
+        "Help refine and validate curriculum design",
+        "Ensure programs serve communities authentically",
+        "Measure and report on learning outcomes",
+        "Build partnerships with community organizations"
+      ],
+      "education": [
+        "PhD, Public Health Science, Clemson University (2025)",
+        "M.S., University of South Carolina School of Medicine",
+        "B.S., Clemson University (2020)",
+        "High School Graduate (2016)"
+      ],
+      "awards": [
+        "MLK Excellence in Service Award, Clemson University",
+        "Dr. Karen Kemper Award, Public Health Sciences (2025)"
+      ]
+    }
+  ],
+  "boardStructure": {
+    "president": {
+      "name": "Joshua German",
+      "responsibilities": "Executive leadership, strategic direction, day-to-day operations"
+    },
+    "treasurer": {
+      "name": "Janel Moore",
+      "responsibilities": "Financial oversight, grant reporting, banking relationships"
+    },
+    "secretary": {
+      "name": "Kinsey Meggett",
+      "responsibilities": "Curriculum and community engagement, outcome measurement"
+    }
+  },
+  "meetingSchedule": {
+    "frequency": "Quarterly",
+    "nextMeeting": "TBD",
+    "notes": "Board meetings scheduled for Q2, Q3, Q4 2026"
+  }
+}
