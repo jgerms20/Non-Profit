@@ -25,7 +25,6 @@ import {
   Paintbrush,
   BarChart3,
   Presentation,
-  Users,
 } from 'lucide-react'
 
 const navSections = [
