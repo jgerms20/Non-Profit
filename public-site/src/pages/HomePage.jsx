@@ -1,343 +1,315 @@
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Users, Briefcase, GraduationCap, ArrowRight, MapPin, BookOpen, Heart } from 'lucide-react'
-import PalmettoTree from '../components/PalmettoTree'
-import SCCrescent from '../components/SCCrescent'
+import { Mail, Linkedin, ArrowRight, MapPin } from 'lucide-react'
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
-const stats = [
+const phases = [
   {
-    value: '78%',
-    label: 'of Americans say they have no access to AI training',
+    num: '01',
+    title: 'AI Literacy\nNonprofit',
+    description: 'Teach communities about AI. Build trust, generate grant revenue, create proof of impact.',
+    color: '#1B365D',
   },
   {
-    value: '3x',
-    label: 'the economic gap between AI-literate and non-AI-literate workers',
+    num: '02',
+    title: 'Community\nIncubator',
+    description: 'Turn educated members into founders. Run hackathons, cohorts, demo days.',
+    color: '#D4A843',
   },
   {
-    value: '0',
-    label: 'AI literacy programs currently serving SC communities',
-  },
-]
-
-const services = [
-  {
-    icon: Users,
-    title: 'Community Workshops',
-    description:
-      'Free, in-person AI workshops brought directly to your community. No experience needed, all equipment provided.',
-  },
-  {
-    icon: Briefcase,
-    title: 'Skills Training',
-    description:
-      'Practical AI skills for your job, your farm, or your business. Learn tools you can use immediately.',
-  },
-  {
-    icon: GraduationCap,
-    title: 'Youth Programs',
-    description:
-      'Hands-on AI education for ages 14–22. Build real projects, earn portfolio pieces for college.',
+    num: '03',
+    title: 'Investment\nFund',
+    description: 'Fund the strongest companies. Generate returns, reinvest in Phase 1.',
+    color: '#2EC4B6',
   },
 ]
 
-const programs = [
+const boardMembers = [
   {
-    title: 'AI 101: What Is AI and Why Should I Care?',
-    audience: 'All ages',
-    duration: '90 min',
-    level: 'Beginner',
+    name: 'Joshua German',
+    title: 'Founder & President',
+    color: '#1B365D',
+    initials: 'JG',
+    linkedin: 'https://www.linkedin.com/in/joshua-german/',
   },
   {
-    title: 'AI for Your Job: Practical Skills Workshop',
-    audience: 'Working adults',
-    duration: 'Half-day',
-    level: 'Beginner',
+    name: 'Janel Moore',
+    title: 'Board Member, Treasurer',
+    color: '#D4A843',
+    initials: 'JM',
+    linkedin: 'https://www.linkedin.com/in/janel-moore/',
   },
   {
-    title: 'Youth AI Lab: Build Your First AI Project',
-    audience: 'Ages 14–22',
-    duration: '6 weeks',
-    level: 'Beginner',
-  },
-  {
-    title: 'AI for Small Business Owners',
-    audience: 'Business owners',
-    duration: '4 weeks',
-    level: 'Beginner',
+    name: 'Kinsey Meggett',
+    title: 'Board Member, Secretary',
+    color: '#2EC4B6',
+    initials: 'KM',
+    linkedin: 'https://www.linkedin.com/in/kinsey-meggett-265a2b9b/',
   },
 ]
 
-const impactGoals = [
-  { value: '500+', label: 'Community members trained' },
-  { value: '46', label: 'SC counties targeted' },
-  { value: '8', label: 'Free courses offered' },
-  { value: '50+', label: 'Workshops delivered' },
+const audiences = [
+  {
+    num: '01',
+    title: 'Communities',
+    description: 'Rural and underserved communities across South Carolina',
+  },
+  {
+    num: '02',
+    title: 'Educators',
+    description: 'Teachers and curriculum leaders in K-12 and higher ed',
+  },
+  {
+    num: '03',
+    title: 'Founders',
+    description: 'First-time founders and entrepreneurs who need AI skills',
+  },
+  {
+    num: '04',
+    title: 'Youth',
+    description: 'Ages 14–22 looking to build AI skills for their future',
+  },
 ]
-
-// ─── Sub-components ────────────────────────────────────────────────────────────
-
-function LevelBadge({ level }) {
-  return (
-    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-brand-teal/15 text-brand-teal border border-brand-teal/30">
-      {level}
-    </span>
-  )
-}
-
-function ProgramCard({ program }) {
-  return (
-    <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-3 hover:shadow-md hover:border-brand-teal/40 transition-all duration-200">
-      <div className="flex items-start justify-between gap-2">
-        <h3 className="font-semibold text-slate-900 dark:text-white text-base leading-snug flex-1">
-          {program.title}
-        </h3>
-        <LevelBadge level={program.level} />
-      </div>
-      <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500 dark:text-slate-400 mt-auto pt-2 border-t border-slate-100 dark:border-slate-700">
-        <span className="flex items-center gap-1">
-          <Users className="h-3.5 w-3.5" />
-          {program.audience}
-        </span>
-        <span className="flex items-center gap-1">
-          <BookOpen className="h-3.5 w-3.5" />
-          {program.duration}
-        </span>
-      </div>
-    </div>
-  )
-}
 
 // ─── Page ──────────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
+  const [email, setEmail] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setSubmitted(true)
+    setEmail('')
+    setTimeout(() => setSubmitted(false), 3000)
+  }
+
   return (
-    <div className="flex flex-col">
-
-      {/* ── 1. Hero ─────────────────────────────────────────────────────────── */}
-      <section className="relative bg-brand-navy overflow-hidden">
-        {/* Subtle gradient overlay */}
-        <div
-          className="absolute inset-0 opacity-30"
-          style={{
-            background:
-              'radial-gradient(ellipse 80% 60% at 50% 0%, #2EC4B6 0%, transparent 70%)',
-          }}
-          aria-hidden="true"
-        />
-
-        {/* SC Palmetto decorations */}
-        <div className="absolute bottom-0 left-4 sm:left-8 opacity-[0.07] text-white pointer-events-none" aria-hidden="true">
-          <PalmettoTree className="h-64 sm:h-80 w-auto" />
-        </div>
-        <div className="absolute bottom-0 right-4 sm:right-8 opacity-[0.07] text-white pointer-events-none" aria-hidden="true">
-          <PalmettoTree className="h-56 sm:h-72 w-auto" style={{ transform: 'scaleX(-1)' }} />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 text-center">
-          {/* Eyebrow */}
-          <p className="inline-flex items-center gap-2 text-brand-teal text-sm font-semibold tracking-widest uppercase mb-6">
-            <SCCrescent className="h-4 w-4 text-brand-gold" />
-            <MapPin className="h-4 w-4" />
-            South Carolina AI Literacy
-          </p>
-
-          {/* Wordmark heading */}
-          <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight text-white mb-6 leading-none">
-            SC<span className="text-brand-gold">Ai</span>L
-          </h1>
-
-          <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-300 leading-relaxed mb-10">
-            Equipping South Carolina communities with the AI skills they need
-            to compete, earn, and thrive — no technical background required.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/programs"
-              className="inline-flex items-center gap-2 bg-brand-teal text-white font-semibold px-7 py-3.5 rounded-lg hover:bg-brand-teal-light transition-colors duration-200 text-base shadow-lg"
-            >
-              View Our Programs
-              <ArrowRight className="h-4 w-4" />
+    <div className="antialiased">
+      {/* Fixed Header */}
+      <header className="fixed top-0 w-full h-24 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
+          <h1>
+            <Link to="/" className="text-2xl font-bold text-brand-navy">
+              SCA<span className="text-brand-gold">i</span>L
             </Link>
+          </h1>
+          <nav className="hidden md:flex items-center gap-8">
+            <a href="#mission" className="text-sm hover:text-brand-teal transition-colors">
+              Mission
+            </a>
+            <a href="#team" className="text-sm hover:text-brand-teal transition-colors">
+              Team
+            </a>
+            <Link to="/contact" className="text-sm hover:text-brand-teal transition-colors">
+              Get Involved
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section className="relative pt-32 pb-20 min-h-screen flex flex-col items-center justify-center bg-white">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <h1 className="text-7xl md:text-8xl lg:text-8xl font-normal mb-8 leading-tight text-brand-navy">
+            Build wealth<br />and knowledge
+          </h1>
+          <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+            The SCAiL Initiative teaches AI literacy across South Carolina, then incubates founders, then funds the best companies. Three phases. One mission: opportunity for every community.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 border-2 border-white/60 text-white font-semibold px-7 py-3.5 rounded-lg hover:bg-white/10 hover:border-white transition-colors duration-200 text-base"
+              className="px-8 py-4 bg-black text-white rounded-lg hover:bg-slate-900 transition-colors font-medium"
             >
               Get Involved
             </Link>
+            <a
+              href="#mission"
+              className="px-8 py-4 border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 transition-colors font-medium"
+            >
+              Learn More
+            </a>
           </div>
         </div>
       </section>
 
-      {/* ── 2. The Problem ──────────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-slate-50 dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-5">
-              The AI Divide Is Real
+      {/* The Three Phases */}
+      <section id="mission" className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-normal text-slate-900 mb-6">
+              The flywheel
             </h2>
-            <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              While major tech hubs race ahead with AI, communities across
-              South Carolina are being left behind — not because they lack talent,
-              but because they lack access. SCAiL exists to close that gap.
+            <p className="text-lg text-slate-500 max-w-2xl mx-auto">
+              Three interconnected phases that build on each other
             </p>
           </div>
 
-          {/* Stat cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
-            {stats.map((stat) => (
+          <div className="grid md:grid-cols-3 gap-8">
+            {phases.map((phase, idx) => (
               <div
-                key={stat.value}
-                className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 text-center shadow-sm"
+                key={phase.num}
+                className="border border-slate-200 rounded-xl p-8 hover:shadow-lg transition-shadow"
               >
-                <p className="text-5xl font-extrabold text-brand-navy dark:text-brand-teal mb-3">
-                  {stat.value}
-                </p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center text-xs text-slate-400">
-            Sources: Pew Research, McKinsey Global Institute, SCAiL market analysis
-          </p>
-        </div>
-      </section>
-
-      {/* ── 3. What We Do ───────────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-white dark:bg-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              What We Do
-            </h2>
-            <p className="text-lg text-slate-600 dark:text-slate-400">
-              We meet communities where they are — in churches, libraries, community
-              centers, and schools across South Carolina.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {services.map((service) => {
-              const Icon = service.icon
-              return (
                 <div
-                  key={service.title}
-                  className="flex flex-col items-start p-8 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand-teal/50 hover:shadow-md transition-all duration-200"
+                  className="text-xs font-bold mb-4 tracking-widest"
+                  style={{ color: phase.color }}
                 >
-                  <div className="h-12 w-12 rounded-xl bg-brand-navy flex items-center justify-center mb-5">
-                    <Icon className="h-6 w-6 text-brand-teal" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
-                    {service.title}
-                  </h3>
-                  <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
-                    {service.description}
-                  </p>
+                  • PHASE {phase.num}
                 </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ── 4. Featured Programs ────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
-            <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">
-                Our Programs
-              </h2>
-              <p className="text-slate-600 text-lg">
-                Practical, accessible, and completely free.
-              </p>
-            </div>
-            <Link
-              to="/programs"
-              className="inline-flex items-center gap-1.5 text-brand-teal font-semibold text-sm hover:text-brand-teal-light transition-colors shrink-0"
-            >
-              See All Programs
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {programs.map((program) => (
-              <ProgramCard key={program.title} program={program} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── 5. Community Impact ─────────────────────────────────────────────── */}
-      <section className="py-20 sm:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Our Goals for 2026–2027
-            </h2>
-            <p className="text-slate-600 text-lg">
-              We're building something lasting. Here's what we're working toward in
-              our first phase.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
-            {impactGoals.map((goal) => (
-              <div
-                key={goal.label}
-                className="text-center p-6 rounded-xl bg-brand-navy"
-              >
-                <p className="text-4xl sm:text-5xl font-extrabold text-brand-gold mb-2">
-                  {goal.value}
-                </p>
-                <p className="text-slate-300 text-sm leading-snug">{goal.label}</p>
+                <h3 className="text-2xl font-normal mb-4 leading-tight whitespace-pre-line text-slate-900">
+                  {phase.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">{phase.description}</p>
               </div>
             ))}
           </div>
-
-          <p className="text-center text-xs text-slate-400">
-            Phase 1 targets. We're just getting started.
-          </p>
         </div>
       </section>
 
-      {/* ── 6. Call to Action ───────────────────────────────────────────────── */}
-      <section className="relative bg-brand-navy py-20 sm:py-24">
-        {/* Palmetto decorations */}
-        <div className="absolute bottom-0 left-4 sm:left-12 opacity-[0.06] text-white pointer-events-none" aria-hidden="true">
-          <PalmettoTree className="h-48 sm:h-64 w-auto" />
-        </div>
-        <div className="absolute bottom-0 right-4 sm:right-12 opacity-[0.06] text-white pointer-events-none" aria-hidden="true">
-          <PalmettoTree className="h-40 sm:h-56 w-auto" style={{ transform: 'scaleX(-1)' }} />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-brand-teal/20 mb-6">
-              <Heart className="h-7 w-7 text-brand-teal" />
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-5">
-              Bring SCAiL to Your Community
+      {/* Founding Team */}
+      <section id="team" className="py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-normal text-slate-900 mb-6">
+              Built by founders
             </h2>
-            <p className="text-lg text-slate-300 leading-relaxed mb-10">
-              We bring our workshops directly to communities across South Carolina.
-              No cost to attendees. All equipment provided.
+            <p className="text-lg text-slate-500 max-w-2xl mx-auto">
+              Three leaders bringing decades of experience in business, finance, and community development.
             </p>
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-2 bg-brand-gold text-brand-navy font-bold px-8 py-4 rounded-lg hover:bg-brand-gold-light transition-colors duration-200 text-base shadow-lg"
-            >
-              Request a Workshop
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {boardMembers.map((member) => (
+              <div key={member.name} className="text-center">
+                <div
+                  className="h-32 w-32 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl font-bold shadow-md"
+                  style={{ backgroundColor: member.color }}
+                >
+                  {member.initials}
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900 mb-1">{member.name}</h3>
+                <p className="text-sm text-slate-600 mb-4">{member.title}</p>
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sm text-brand-teal hover:text-brand-navy transition-colors"
+                >
+                  <Linkedin className="h-4 w-4" />
+                  LinkedIn
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
+      {/* Who This Is For */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-normal text-slate-900 mb-6">
+              For everyone
+            </h2>
+            <p className="text-lg text-slate-500 max-w-2xl mx-auto">
+              SCAiL serves all types of people across South Carolina
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {audiences.map((audience) => (
+              <div key={audience.num} className="bg-black text-white p-8 rounded-xl">
+                <p className="text-xs font-bold mb-3 tracking-widest opacity-60">• USER GROUP {audience.num}</p>
+                <h3 className="text-2xl font-normal mb-3">{audience.title}</h3>
+                <p className="text-white/80">{audience.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <p className="text-sm font-medium text-slate-600 mb-4">Get Involved</p>
+              <h2 className="text-4xl md:text-5xl font-light leading-tight text-slate-900">
+                Join the movement
+              </h2>
+            </div>
+            <div>
+              {submitted ? (
+                <div className="flex items-center justify-center h-full bg-white border border-slate-200 rounded-lg p-8 text-center">
+                  <div>
+                    <p className="text-lg font-semibold text-brand-teal mb-2">✓ Thanks for signing up!</p>
+                    <p className="text-sm text-slate-600">We'll be in touch soon.</p>
+                  </div>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="your@email.com"
+                      required
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full px-4 py-3 bg-black text-white rounded-lg hover:bg-slate-900 transition-colors font-medium"
+                  >
+                    Stay Updated
+                  </button>
+                </form>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-slate-200 py-8">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-4 text-sm text-slate-600">
+              <span className="font-medium">SCAiL Initiative</span>
+              <span>–</span>
+              <a href="mailto:hello@scail.org" className="hover:text-slate-900">
+                hello@scail.org
+              </a>
+              <span>–</span>
+              <span>South Carolina</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.linkedin.com/company/scail-initiative/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-600 hover:text-slate-900 transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <a
+                href="mailto:hello@scail.org"
+                className="text-slate-600 hover:text-slate-900 transition-colors"
+              >
+                <Mail className="h-5 w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
