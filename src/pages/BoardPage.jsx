@@ -1,19 +1,8 @@
-import { useEffect, useState } from 'react'
 import { Users, Mail, Linkedin, Award, BookOpen, DollarSign, FileText } from 'lucide-react'
+import boardData from '../data/board.json'
 
 export default function BoardPage() {
-  const [board, setBoard] = useState(null)
-
-  useEffect(() => {
-    fetch('/src/data/board.json')
-      .then((r) => r.json())
-      .then((data) => setBoard(data))
-      .catch(() => {})
-  }, [])
-
-  if (!board) return <div className="text-center py-12">Loading board...</div>
-
-  const { foundingBoard, boardStructure } = board
+  const { foundingBoard, boardStructure } = boardData
 
   return (
     <div className="max-w-5xl mx-auto space-y-8">
