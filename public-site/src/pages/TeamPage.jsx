@@ -47,6 +47,26 @@ const founders = [
     linkedin: 'https://www.linkedin.com/in/kinsey-meggett-phd-265a2b9b/',
     position: 'left',
   },
+  {
+    initials: 'TJ',
+    name: 'Tre',
+    lastName: 'Jenkins',
+    title: 'Board Member, Technology & Data',
+    color: '#4A6FA5',
+    bio: 'Data Technology Analyst at Bank of America in Charlotte. Winthrop University graduate. Brings hands-on experience in data systems, analytics, and financial technology. Childhood best friend of Joshua from Dutch Fork High School. His tech and data background anchors SCAiL\'s digital infrastructure, impact measurement, and technology strategy.',
+    linkedin: 'https://www.linkedin.com/in/tre-jenkins/',
+    position: 'right',
+  },
+  {
+    initials: 'DB',
+    name: 'Darren',
+    lastName: 'Burton',
+    title: 'Board Member, Education Policy & Operations',
+    color: '#5C4033',
+    bio: 'USC Darla Moore School of Business graduate with leadership distinction and SC Honors College alumnus. Accounting background with a deep focus on South Carolina education equity — his undergraduate thesis "The Corridor of Shame" examined funding disparities across rural and urban SC school districts. Grew up in Irmo alongside Joshua. Brings financial acumen and education policy perspective that directly aligns with SCAiL\'s community-first mission.',
+    linkedin: 'https://www.linkedin.com/in/darren-burton/',
+    position: 'left',
+  },
 ]
 
 const advisorAreas = [

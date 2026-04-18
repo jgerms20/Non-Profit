@@ -66,6 +66,54 @@
         "MLK Excellence in Service Award, Clemson University",
         "Dr. Karen Kemper Award, Public Health Sciences (2025)"
       ]
+    },
+    {
+      "id": "tre-jenkins",
+      "name": "Tre Jenkins",
+      "title": "Board Member, Technology & Data",
+      "role": "Technology Strategy & Data",
+      "organization": "Bank of America",
+      "background": "Data Technology Analyst at Bank of America in Charlotte. Winthrop University graduate. Brings hands-on experience in data systems, analytics, and financial technology to SCAiL's board. Childhood best friend of Joshua from Dutch Fork. His tech background anchors SCAiL's digital infrastructure and data strategy.",
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/tre-jenkins/",
+      "joinDate": "2026-04-18",
+      "status": "active",
+      "responsibilities": [
+        "Oversee SCAiL's technology infrastructure and data systems",
+        "Guide data collection, measurement, and impact reporting",
+        "Advise on AI tools and platforms for program delivery",
+        "Support digital strategy and technical partnerships"
+      ],
+      "education": [
+        "Bachelor's Degree, Winthrop University"
+      ]
+    },
+    {
+      "id": "darren-burton",
+      "name": "Darren Burton",
+      "title": "Board Member, Education Policy & Operations",
+      "role": "Education Policy & Organizational Operations",
+      "organization": "University of South Carolina (Alumni)",
+      "background": "USC Darla Moore School of Business graduate with leadership distinction, SC Honors College. Accounting and finance background with deep roots in SC education equity — his undergraduate thesis 'The Corridor of Shame: An Immersed Analysis of South Carolina Schools' examined funding disparities across rural and urban SC districts. Grew up in Irmo alongside Joshua. Brings financial acumen and education policy perspective that directly aligns with SCAiL's mission.",
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/darren-burton/",
+      "joinDate": "2026-04-18",
+      "status": "active",
+      "responsibilities": [
+        "Advise on education policy and program structure",
+        "Support organizational operations and compliance",
+        "Bridge SCAiL's work with South Carolina's school funding landscape",
+        "Assist with nonprofit governance and board development"
+      ],
+      "education": [
+        "Bachelor of Science, Accounting, Darla Moore School of Business, University of South Carolina (with Leadership Distinction)",
+        "South Carolina Honors College"
+      ],
+      "awards": [
+        "Graduated with Leadership Distinction, USC Darla Moore School of Business"
+      ]
     }
   ],
   "boardStructure": {
@@ -80,6 +128,14 @@
     "secretary": {
       "name": "Kinsey Meggett",
       "responsibilities": "Curriculum and community engagement, outcome measurement"
+    },
+    "technology": {
+      "name": "Tre Jenkins",
+      "responsibilities": "Technology infrastructure, data systems, digital strategy"
+    },
+    "educationPolicy": {
+      "name": "Darren Burton",
+      "responsibilities": "Education policy, organizational operations, nonprofit governance"
     }
   },
   "meetingSchedule": {
