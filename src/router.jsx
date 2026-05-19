@@ -23,6 +23,9 @@ import BrandGuidePage from './pages/BrandGuidePage'
 import BriefingsPage from './pages/BriefingsPage'
 import CurriculumDownloadsPage from './pages/CurriculumDownloadsPage'
 import BoardPage from './pages/BoardPage'
+import BylawsPage from './pages/BylawsPage'
+import ConflictOfInterestPage from './pages/ConflictOfInterestPage'
+import SurveyOptionsPage from './pages/SurveyOptionsPage'
 
 export const router = createHashRouter([
   {
@@ -48,6 +51,9 @@ export const router = createHashRouter([
       { path: 'briefings', element: <BriefingsPage /> },
       { path: 'curriculum-downloads', element: <CurriculumDownloadsPage /> },
       { path: 'board', element: <BoardPage /> },
+      { path: 'bylaws', element: <BylawsPage /> },
+      { path: 'conflict-of-interest', element: <ConflictOfInterestPage /> },
+      { path: 'survey-options', element: <SurveyOptionsPage /> },
       { path: 'team', element: <TeamPage /> },
       { path: 'programs', element: <ProgramsPage /> },
       { path: 'landing', element: <LandingPage /> },

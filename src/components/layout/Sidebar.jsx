@@ -25,6 +25,9 @@ import {
   Paintbrush,
   BarChart3,
   Presentation,
+  ClipboardList,
+  ScrollText,
+  ShieldCheck,
 } from 'lucide-react'
 
 const navSections = [
@@ -63,9 +66,17 @@ const navSections = [
       { to: '/market', icon: Radar, label: 'Market Intel' },
       { to: '/curriculum', icon: GraduationCap, label: 'Curriculum' },
       { to: '/curriculum-downloads', icon: Presentation, label: 'Slide Decks' },
+      { to: '/survey-options', icon: ClipboardList, label: 'Survey Options' },
       { to: '/resources', icon: FolderOpen, label: 'Resources' },
       { to: '/docs', icon: BookOpen, label: 'Docs' },
       { to: '/brand', icon: Paintbrush, label: 'Brand Guide' },
+    ],
+  },
+  {
+    title: 'Governance',
+    items: [
+      { to: '/bylaws', icon: ScrollText, label: 'Bylaws' },
+      { to: '/conflict-of-interest', icon: ShieldCheck, label: 'Conflict of Interest' },
     ],
   },
   {
