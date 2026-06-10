@@ -1,7 +1,9 @@
-import { useState } from 'react'
-import { Outlet, Link, NavLink } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Outlet, Link, NavLink, useLocation } from 'react-router-dom'
 import { Menu, X, Sun, Moon } from 'lucide-react'
 import { useTheme } from '../context/ThemeContext'
+import PalmettoTree from './PalmettoTree'
+import SCCrescent from './SCCrescent'
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -12,25 +14,38 @@ const navLinks = [
   { to: '/contact', label: 'Get Involved' },
 ]
 
+function Logo() {
+  return (
+    <Link to="/" className="flex items-center gap-2.5 group">
+      <div className="relative h-9 w-9 rounded-xl bg-gradient-to-br from-brand-navy-light to-brand-navy border border-white/20 flex items-center justify-center overflow-hidden group-hover:border-brand-gold/50 transition-colors">
+        <SCCrescent className="absolute top-1 left-1.5 h-2 w-2 text-brand-gold" />
+        <PalmettoTree className="h-6 w-auto text-brand-teal mt-1" />
+      </div>
+      <span className="text-white font-bold text-xl tracking-tight">
+        SC<span className="text-brand-gold">Ai</span>L
+      </span>
+    </Link>
+  )
+}
+
 export default function SiteLayout() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const { dark, toggle } = useTheme()
+  const { pathname } = useLocation()
+
+  // Scroll to top on route change (hash router keeps scroll otherwise)
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+    setMobileOpen(false)
+  }, [pathname])
 
   return (
     <div className="min-h-screen flex flex-col">
       {/* Navigation */}
-      <header className="bg-brand-navy sticky top-0 z-50">
+      <header className="bg-brand-navy/90 backdrop-blur-xl border-b border-white/10 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <Link to="/" className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-brand-teal to-brand-gold flex items-center justify-center text-white font-bold text-xs">
-                Ai
-              </div>
-              <span className="text-white font-bold text-xl tracking-tight">
-                SC<span className="text-brand-gold">Ai</span>L
-              </span>
-            </Link>
+            <Logo />
 
             {/* Desktop Nav + Theme Toggle */}
             <div className="flex items-center gap-2">
@@ -66,6 +81,7 @@ export default function SiteLayout() {
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
                 className="md:hidden p-2 text-slate-300 hover:text-white"
+                aria-label="Toggle navigation menu"
               >
                 {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
@@ -105,21 +121,22 @@ export default function SiteLayout() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-brand-navy text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <footer className="relative bg-brand-navy-deep text-white overflow-hidden">
+        {/* Subtle palmetto watermark */}
+        <div className="absolute -bottom-8 -right-4 text-white/[0.04] pointer-events-none" aria-hidden="true">
+          <PalmettoTree className="h-72 w-auto" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div className="md:col-span-1">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-brand-teal to-brand-gold flex items-center justify-center text-white font-bold text-xs">
-                  Ai
-                </div>
-                <span className="font-bold text-xl">
-                  SC<span className="text-brand-gold">Ai</span>L
-                </span>
+              <div className="mb-4">
+                <Logo />
               </div>
               <p className="text-slate-400 text-sm leading-relaxed">
-                South Carolina AI Literacy. Teaching communities across South Carolina to use AI as a tool for growth.
+                The SCAiL Initiative — South Carolina AI Literacy. Free, hands-on AI
+                education for every community in the Palmetto State.
               </p>
             </div>
 
@@ -153,10 +170,12 @@ export default function SiteLayout() {
               <h4 className="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-3">Connect</h4>
               <ul className="space-y-2 text-sm text-slate-300">
                 <li><a href="mailto:info@scail.org" className="hover:text-brand-teal transition-colors">info@scail.org</a></li>
-                <li>South Carolina, USA</li>
+                <li>Columbia, South Carolina</li>
                 <li><a href="https://x.com/SCAiLorg" target="_blank" rel="noopener noreferrer" className="hover:text-brand-teal transition-colors">@SCAiLorg</a></li>
                 <li className="pt-2">
-                  <span className="text-xs text-slate-500">A 501(c)(3) nonprofit (pending)</span>
+                  <span className="text-xs text-slate-500">
+                    SC nonprofit corporation · 501(c)(3) application in progress
+                  </span>
                 </li>
               </ul>
             </div>
@@ -164,10 +183,11 @@ export default function SiteLayout() {
 
           <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-slate-500">
-              &copy; {new Date().getFullYear()} SCAiL — South Carolina AI Literacy. All rights reserved.
+              &copy; {new Date().getFullYear()} The SCAiL Initiative — South Carolina AI Literacy. All rights reserved.
             </p>
-            <p className="text-xs text-slate-500">
-              Built with purpose in South Carolina.
+            <p className="text-xs text-slate-500 flex items-center gap-1.5">
+              Built with purpose in South Carolina
+              <SCCrescent className="h-3 w-3 text-brand-gold/60" />
             </p>
           </div>
         </div>

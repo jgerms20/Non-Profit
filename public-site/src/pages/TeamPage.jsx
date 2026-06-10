@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import PageHero from '../components/PageHero'
 import {
   Linkedin,
   Mail,
@@ -186,16 +187,7 @@ export default function TeamPage() {
     <div className="flex flex-col">
 
       {/* ── 1. Hero ─────────────────────────────────────────────────────────── */}
-      <section className="bg-brand-navy text-white py-20 sm:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            Our <span className="text-brand-gold">Team</span>
-          </h1>
-          <p className="text-xl text-slate-300 font-light">
-            The people behind SCAiL
-          </p>
-        </div>
-      </section>
+      <PageHero title="Our" accent="Team" subtitle="The people behind SCAiL" />
 
       {/* ── 2. Founding Board — Othelia-inspired ────────────────────────────── */}
       <section className="py-20 sm:py-28 bg-white dark:bg-slate-900">
@@ -205,7 +197,8 @@ export default function TeamPage() {
               Built by founders
             </h2>
             <p className="text-lg text-neutral-500 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              Three leaders bringing experience in communications, finance, and community health research to build something South Carolina has never had.
+              Five South Carolinians bringing communications, finance, public health research,
+              technology, and education policy together to build something this state has never had.
             </p>
           </div>
 

@@ -1,4 +1,5 @@
 import { ExternalLink, Newspaper, BookOpen, MapPin, Globe } from 'lucide-react'
+import PageHero from '../components/PageHero'
 
 const articles = [
   {
@@ -112,16 +113,11 @@ export default function ResourcesPage() {
   return (
     <div className="flex flex-col">
       {/* Hero */}
-      <section className="bg-brand-navy text-white py-20 sm:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            News &amp; <span className="text-brand-gold">Resources</span>
-          </h1>
-          <p className="text-xl text-slate-300 font-light">
-            The latest on AI literacy, South Carolina communities, and the digital divide
-          </p>
-        </div>
-      </section>
+      <PageHero
+        title="News &"
+        accent="Resources"
+        subtitle="The latest on AI literacy, South Carolina communities, and the digital divide"
+      />
 
       {/* Articles */}
       <section className="py-16 sm:py-20 bg-slate-50 dark:bg-slate-900">

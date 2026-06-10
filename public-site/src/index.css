@@ -3,12 +3,18 @@
 @theme {
   --color-brand-navy: #1B365D;
   --color-brand-navy-light: #234577;
+  --color-brand-navy-deep: #0F2240;
   --color-brand-gold: #D4A843;
   --color-brand-gold-light: #E8C36A;
   --color-brand-teal: #2EC4B6;
   --color-brand-teal-light: #5DD4C8;
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-float-slower: float 13s ease-in-out infinite reverse;
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-pulse-soft: pulse-soft 4s ease-in-out infinite;
 }
 
 @layer base {
@@ -20,4 +26,65 @@
     margin: 0;
     @apply bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100;
   }
+}
+
+/* ── Keyframes ─────────────────────────────────────────────── */
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(30px, -24px) scale(1.06); }
+  66%      { transform: translate(-20px, 16px) scale(0.97); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.55; }
+  50%      { opacity: 1; }
+}
+
+/* ── Scroll reveal ─────────────────────────────────────────── */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  [class*="animate-"] {
+    animation: none !important;
+  }
+}
+
+/* ── Texture / atmosphere helpers ──────────────────────────── */
+
+.bg-grid-faint {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(110deg, #E8C36A 10%, #D4A843 45%, #F5DFA0 70%, #D4A843 95%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

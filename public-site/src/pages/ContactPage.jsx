@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { MapPin, Users, Handshake } from 'lucide-react'
+import { MapPin, Users, Handshake, CheckCircle } from 'lucide-react'
+import PageHero from '../components/PageHero'
 
 // lucide-react does not export HandHeart — use a heart-with-hands substitute
 function HandHeartIcon({ className }) {
@@ -33,9 +34,9 @@ const involvementCards = [
   },
   {
     icon: Users,
-    title: 'Join Our Board',
+    title: 'Join Our Advisory Network',
     description:
-      "We're recruiting founding board members with experience in law, finance, education, or community development.",
+      'Our founding board is in place — now we\'re building an advisory network of experts in AI, education, law, and community development.',
     email: 'board@scail.org',
     emailLabel: 'Email',
   },
@@ -59,20 +60,16 @@ const involvementCards = [
 
 export default function ContactPage() {
   const [email, setEmail] = useState('')
+  const [subscribed, setSubscribed] = useState(false)
 
   return (
     <div>
       {/* Hero Header */}
-      <section className="bg-brand-navy text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            Get <span className="text-brand-gold">Involved</span>
-          </h1>
-          <p className="text-xl text-slate-300 font-light">
-            There are many ways to support SCAiL
-          </p>
-        </div>
-      </section>
+      <PageHero
+        title="Get"
+        accent="Involved"
+        subtitle="There are many ways to support SCAiL"
+      />
 
       {/* Ways to Get Involved */}
       <section className="py-16 dark:bg-slate-900">
@@ -163,27 +160,40 @@ export default function ContactPage() {
           <p className="text-slate-300 dark:text-slate-400 mb-8">
             Get monthly updates on SCAiL workshops, programs, and community impact.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-gold"
-            />
-            <button
-              type="button"
-              onClick={() => {
+          {subscribed ? (
+            <div className="flex items-center justify-center gap-3 rounded-xl border border-brand-teal/40 bg-brand-teal/10 px-6 py-4 text-brand-teal">
+              <CheckCircle className="h-5 w-5 shrink-0" />
+              <p className="text-sm font-medium text-left">
+                You&apos;re on the list! We&apos;ll keep you posted on workshops, programs, and community impact.
+              </p>
+            </div>
+          ) : (
+            <form
+              className="flex flex-col sm:flex-row gap-3"
+              onSubmit={(e) => {
+                e.preventDefault()
                 if (email) {
                   setEmail('')
-                  alert('Thanks for subscribing! We\'ll keep you updated on SCAiL workshops and programs.')
+                  setSubscribed(true)
                 }
               }}
-              className="px-6 py-3 bg-brand-gold text-brand-navy font-semibold rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap"
             >
-              Subscribe
-            </button>
-          </div>
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email address"
+                className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-gold"
+              />
+              <button
+                type="submit"
+                className="px-6 py-3 bg-brand-gold text-brand-navy font-semibold rounded-xl hover:bg-brand-gold-light transition-colors whitespace-nowrap"
+              >
+                Subscribe
+              </button>
+            </form>
+          )}
           <p className="mt-4 text-xs text-slate-500 dark:text-slate-400">
             We respect your privacy. Unsubscribe anytime.
           </p>

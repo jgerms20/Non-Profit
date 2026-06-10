@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
-import { Unlock, MapPin, Wrench, Heart } from 'lucide-react'
+import { Unlock, MapPin, Wrench, Heart, CheckCircle } from 'lucide-react'
+import PageHero from '../components/PageHero'
+import Reveal from '../components/Reveal'
 
 const values = [
   {
@@ -38,14 +40,11 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero Header */}
-      <section className="bg-brand-navy text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            About <span className="text-brand-gold">SCAiL</span>
-          </h1>
-          <p className="text-xl text-slate-300 font-light">The SCAiL Initiative — South Carolina AI Literacy</p>
-        </div>
-      </section>
+      <PageHero
+        title="About"
+        accent="SCAiL"
+        subtitle="The SCAiL Initiative — South Carolina AI Literacy"
+      />
 
       {/* Our Mission */}
       <section className="py-16">
@@ -91,6 +90,28 @@ export default function AboutPage() {
               hours to learn about AI, you're not going to learn about AI.
             </p>
           </div>
+
+          {/* Milestones */}
+          <Reveal>
+            <div className="mt-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-8">
+              <h3 className="font-bold text-slate-900 dark:text-white mb-5 text-lg">
+                Where we are today
+              </h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {[
+                  'Incorporated as a South Carolina nonprofit (March 2026)',
+                  'Five-member founding board seated (April 2026)',
+                  'Federal EIN secured — 501(c)(3) application in progress',
+                  'First community pilot sessions launching across three cohorts',
+                ].map((milestone) => (
+                  <li key={milestone} className="flex items-start gap-2.5 text-sm text-slate-700 dark:text-slate-300">
+                    <CheckCircle className="h-4 w-4 text-brand-teal shrink-0 mt-0.5" />
+                    {milestone}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
         </div>
       </section>
 

@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Gift,
 } from 'lucide-react'
+import PageHero from '../components/PageHero'
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
@@ -281,20 +282,16 @@ export default function ProgramsPage() {
     <div className="flex flex-col">
 
       {/* ── 1. Hero ─────────────────────────────────────────────────────────── */}
-      <section className="bg-brand-navy text-white py-20 sm:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            Our <span className="text-brand-gold">Programs</span>
-          </h1>
-          <p className="text-xl text-slate-300 font-light mb-6">
-            Free AI education designed for real people in real communities
-          </p>
-          <span className="inline-flex items-center gap-2 bg-brand-teal/20 border border-brand-teal/40 text-brand-teal text-sm font-semibold px-4 py-2 rounded-full">
-            <Gift className="h-4 w-4" />
-            All programs are free for community members
-          </span>
-        </div>
-      </section>
+      <PageHero
+        title="Our"
+        accent="Programs"
+        subtitle="Free AI education designed for real people in real communities"
+      >
+        <span className="mt-6 inline-flex items-center gap-2 bg-brand-teal/20 border border-brand-teal/40 text-brand-teal text-sm font-semibold px-4 py-2 rounded-full">
+          <Gift className="h-4 w-4" />
+          All programs are free for community members
+        </span>
+      </PageHero>
 
       {/* ── 2. Course Grid ──────────────────────────────────────────────────── */}
       <section className="py-16 sm:py-20 bg-slate-50 dark:bg-slate-900">
