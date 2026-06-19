@@ -209,7 +209,7 @@ export default function HomePage() {
 
           <Reveal delay={100}>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.05] text-balance">
-              AI for every corner of
+              <span className="text-brand-gold">AI</span> for every corner of
               <br />
               the <span className="text-gradient-gold">Palmetto State</span>
             </h1>
@@ -268,7 +268,7 @@ export default function HomePage() {
           <Reveal>
             <div className="max-w-3xl mx-auto text-center mb-14">
               <h2 className="text-3xl sm:text-5xl font-bold text-slate-900 dark:text-white mb-5 tracking-tight">
-                The AI divide is real.
+                The <span className="text-brand-gold">AI</span> divide is real.
                 <br className="hidden sm:block" />
                 <span className="text-brand-teal"> So is the talent here.</span>
               </h2>
@@ -425,7 +425,7 @@ export default function HomePage() {
                 The bigger picture
               </p>
               <h2 className="text-3xl sm:text-5xl font-bold text-slate-900 dark:text-white mb-5 tracking-tight">
-                We&apos;re not just teaching AI.
+                We&apos;re not just teaching <span className="text-brand-gold">AI</span>.
                 <br />
                 We&apos;re building an <span className="text-gradient-gold">engine</span>.
               </h2>
@@ -532,7 +532,7 @@ export default function HomePage() {
           <Reveal>
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl sm:text-5xl font-bold text-white mb-5 tracking-tight text-balance">
-                Bring SCAiL to your community
+                Bring SC<span className="text-brand-gold">Ai</span>L to your community
               </h2>
               <p className="text-lg text-slate-300 leading-relaxed mb-10">
                 A church hall, a library room, a school gym — that&apos;s all it takes.

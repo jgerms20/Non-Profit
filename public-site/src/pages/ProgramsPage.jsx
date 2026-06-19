@@ -298,7 +298,7 @@ export default function ProgramsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-              All SCAiL Courses
+              All SC<span className="text-brand-gold">Ai</span>L Courses
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400">
               Eight courses designed for every level, every audience, and every corner of South Carolina.

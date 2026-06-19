@@ -65,7 +65,7 @@ export default function AboutPage() {
       {/* The Story */}
       <section className="py-16 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8">Why SCAiL Exists</h2>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8">Why SC<span className="text-brand-gold">Ai</span>L Exists</h2>
           <div className="space-y-6 text-slate-700 dark:text-slate-300 leading-relaxed text-base">
             <p>
               The SCAiL Initiative was born from a simple observation: South Carolina
@@ -101,7 +101,6 @@ export default function AboutPage() {
                 {[
                   'Incorporated as a South Carolina nonprofit (March 2026)',
                   'Five-member founding board seated (April 2026)',
-                  'Federal EIN secured — 501(c)(3) application in progress',
                   'First community pilot sessions launching across three cohorts',
                 ].map((milestone) => (
                   <li key={milestone} className="flex items-start gap-2.5 text-sm text-slate-700 dark:text-slate-300">
