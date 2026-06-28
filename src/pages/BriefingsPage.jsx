@@ -1,9 +1,18 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { Calendar, BarChart3, MessagesSquare, Mail, Download, FileText } from 'lucide-react'
+import { Calendar, BarChart3, MessagesSquare, Mail, Download, FileText, MapPin } from 'lucide-react'
 
 const BRIEFS = [
+  {
+    id: 'sc-trip',
+    title: 'SC Trip — July 6',
+    subtitle: 'Meeting agenda + outreach templates',
+    icon: MapPin,
+    file: '/docs/sc-trip-july-2026.md',
+    accent: 'from-green-500 to-emerald-600',
+    badge: 'NOW',
+  },
   {
     id: 'week',
     title: 'This Week',
@@ -39,7 +48,7 @@ const BRIEFS = [
 ]
 
 export default function BriefingsPage() {
-  const [activeId, setActiveId] = useState('week')
+  const [activeId, setActiveId] = useState('sc-trip')
   const [content, setContent] = useState('')
   const [loading, setLoading] = useState(true)
 
@@ -70,7 +79,7 @@ export default function BriefingsPage() {
       </div>
 
       {/* Tab Cards */}
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {BRIEFS.map((brief) => {
           const Icon = brief.icon
           const isActive = brief.id === activeId
@@ -89,9 +98,16 @@ export default function BriefingsPage() {
                 <div className="flex items-start gap-3">
                   <Icon className={`h-5 w-5 shrink-0 mt-0.5 ${isActive ? 'text-brand-teal' : 'text-slate-400'}`} />
                   <div className="min-w-0">
-                    <p className={`font-semibold text-sm ${isActive ? 'text-brand-navy dark:text-white' : 'text-slate-700 dark:text-slate-300'}`}>
-                      {brief.title}
-                    </p>
+                    <div className="flex items-center gap-1.5">
+                      <p className={`font-semibold text-sm ${isActive ? 'text-brand-navy dark:text-white' : 'text-slate-700 dark:text-slate-300'}`}>
+                        {brief.title}
+                      </p>
+                      {brief.badge && (
+                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-green-500 text-white leading-none">
+                          {brief.badge}
+                        </span>
+                      )}
+                    </div>
                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
                       {brief.subtitle}
                     </p>

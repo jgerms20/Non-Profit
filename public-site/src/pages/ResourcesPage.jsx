@@ -109,7 +109,8 @@ const videos = [
     title: 'The AI Daily Brief',
     creator: 'Nathaniel Whittemore',
     description:
-      "Daily AI news and analysis — a fast, trustworthy way to stay current on what’s moving in the AI world.",
+      "Daily AI news and analysis — a fast, trustworthy way to stay current on what's moving in the AI world.",
+    channelUrl: 'https://www.youtube.com/@TheAIDailyBrief',
   },
   {
     id: 'TRjq7t2Ms5Y',
@@ -117,6 +118,7 @@ const videos = [
     creator: 'Matt Wolfe',
     description:
       'Matt covers the newest AI tools and practical ways to use them. Great for beginners and builders alike.',
+    channelUrl: 'https://www.youtube.com/@mreflow',
   },
   {
     id: 'jvqFAi7vkBc',
@@ -124,6 +126,15 @@ const videos = [
     creator: 'AI Explained',
     description:
       'Deep, clear breakdowns of how AI models actually work — no hype, just solid understanding.',
+    channelUrl: 'https://www.youtube.com/@aiexplained-official',
+  },
+  {
+    id: 'L_Guz73e6fw',
+    title: 'Riley Brown on AI',
+    creator: 'Riley Brown',
+    description:
+      'Practical, down-to-earth AI content — tools, workflows, and honest takes on what actually works for real people.',
+    channelUrl: 'https://www.youtube.com/@rileybrown.ai',
   },
 ]
 
