@@ -26,6 +26,7 @@ import BoardPage from './pages/BoardPage'
 import BylawsPage from './pages/BylawsPage'
 import ConflictOfInterestPage from './pages/ConflictOfInterestPage'
 import SurveyOptionsPage from './pages/SurveyOptionsPage'
+import MissionControlPage from './pages/MissionControlPage'
 
 export const router = createHashRouter([
   {
@@ -33,6 +34,7 @@ export const router = createHashRouter([
     element: <AppLayout />,
     children: [
       { index: true, element: <DashboardPage /> },
+      { path: 'mission', element: <MissionControlPage /> },
       { path: 'phase/:phaseNumber', element: <PhasePage /> },
       { path: 'contacts', element: <ContactsPage /> },
       { path: 'messages', element: <MessageGeneratorPage /> },

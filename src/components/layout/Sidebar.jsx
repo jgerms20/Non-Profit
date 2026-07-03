@@ -28,12 +28,14 @@ import {
   ClipboardList,
   ScrollText,
   ShieldCheck,
+  Rocket,
 } from 'lucide-react'
 
 const navSections = [
   {
     title: 'Overview',
     items: [
+      { to: '/mission', icon: Rocket, label: 'Mission Control' },
       { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
       { to: '/hub', icon: Layers, label: 'Hub' },
       { to: '/board', icon: Users, label: 'Board of Directors' },
