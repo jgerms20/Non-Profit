@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "note": "Rotating visual content for the public site. Photos are placeholders rendered as branded gradient panels until real photography is added. The content loop rotates the 'featuredRotation' order and can swap 'src' fields when real images land in /public/media.",
+    "featuredRotation": ["mg-01", "mg-03", "mg-05", "mg-02", "mg-06", "mg-04"]
+  },
+  "images": [
+    {
+      "id": "mg-01",
+      "src": null,
+      "tone": "navy-teal",
+      "caption": "An Intro to AI class fills a community room in Irmo.",
+      "location": "Irmo, SC",
+      "category": "Classes"
+    },
+    {
+      "id": "mg-02",
+      "src": null,
+      "tone": "gold-navy",
+      "caption": "A youth team demos their first AI project on Demo Day.",
+      "location": "Columbia, SC",
+      "category": "Youth Lab"
+    },
+    {
+      "id": "mg-03",
+      "src": null,
+      "tone": "teal-gold",
+      "caption": "Small-business owners work through the AI-for-Work playbook.",
+      "location": "Greenville, SC",
+      "category": "Workshops"
+    },
+    {
+      "id": "mg-04",
+      "src": null,
+      "tone": "navy-gold",
+      "caption": "The Palmetto AI Show records on the road across the state.",
+      "location": "Statewide",
+      "category": "The Show"
+    },
+    {
+      "id": "mg-05",
+      "src": null,
+      "tone": "teal-navy",
+      "caption": "Partners and pastors gather to bring a class to their community.",
+      "location": "Midlands, SC",
+      "category": "Partnerships"
+    },
+    {
+      "id": "mg-06",
+      "src": null,
+      "tone": "gold-teal",
+      "caption": "Grandparents and grandkids learn to prompt in the same room.",
+      "location": "Upstate, SC",
+      "category": "Intergenerational"
+    }
+  ]
+}

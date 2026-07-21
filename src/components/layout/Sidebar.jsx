@@ -29,6 +29,11 @@ import {
   ScrollText,
   ShieldCheck,
   Rocket,
+  Cpu,
+  Radio,
+  FlaskConical,
+  Heart,
+  Mail,
 } from 'lucide-react'
 
 const navSections = [
@@ -37,6 +42,7 @@ const navSections = [
     items: [
       { to: '/mission', icon: Rocket, label: 'Mission Control' },
       { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+      { to: '/content-engine', icon: Cpu, label: 'Content Engine' },
       { to: '/hub', icon: Layers, label: 'Hub' },
       { to: '/board', icon: Users, label: 'Board of Directors' },
       { to: '/briefings', icon: BarChart3, label: 'Briefings' },
@@ -90,10 +96,23 @@ const navSections = [
   {
     title: 'Public Site',
     items: [
-      { to: '/landing', icon: Globe, label: 'Landing Page' },
-      { to: '/about', icon: Info, label: 'About' },
+      { to: '/site', icon: Globe, label: 'Home' },
+      { to: '/site/academy', icon: GraduationCap, label: 'Academy' },
+      { to: '/site/show', icon: Radio, label: 'The Palmetto AI Show' },
+      { to: '/site/institute', icon: FlaskConical, label: 'Institute' },
+      { to: '/site/events', icon: Calendar, label: 'Events' },
+      { to: '/site/newsletter', icon: Mail, label: 'Newsletter' },
+      { to: '/site/about', icon: Info, label: 'About' },
+      { to: '/site/get-involved', icon: Heart, label: 'Get Involved' },
+    ],
+  },
+  {
+    title: 'Legacy Pages',
+    items: [
+      { to: '/landing', icon: Globe, label: 'Old Landing' },
+      { to: '/about', icon: Info, label: 'Old About' },
       { to: '/team', icon: UsersRound, label: 'Team' },
-      { to: '/programs', icon: GraduationCap, label: 'Programs' },
+      { to: '/programs', icon: GraduationCap, label: 'Old Programs' },
     ],
   },
 ]

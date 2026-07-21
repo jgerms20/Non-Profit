@@ -27,6 +27,16 @@ import BylawsPage from './pages/BylawsPage'
 import ConflictOfInterestPage from './pages/ConflictOfInterestPage'
 import SurveyOptionsPage from './pages/SurveyOptionsPage'
 import MissionControlPage from './pages/MissionControlPage'
+import ContentEnginePage from './pages/ContentEnginePage'
+import PublicLayout from './components/site/PublicLayout'
+import SiteHomePage from './pages/site/SiteHomePage'
+import AcademyPage from './pages/site/AcademyPage'
+import ShowPage from './pages/site/ShowPage'
+import InstitutePage from './pages/site/InstitutePage'
+import EventsPage from './pages/site/EventsPage'
+import NewsletterPage from './pages/site/NewsletterPage'
+import GetInvolvedPage from './pages/site/GetInvolvedPage'
+import SiteAboutPage from './pages/site/SiteAboutPage'
 
 export const router = createHashRouter([
   {
@@ -35,6 +45,7 @@ export const router = createHashRouter([
     children: [
       { index: true, element: <DashboardPage /> },
       { path: 'mission', element: <MissionControlPage /> },
+      { path: 'content-engine', element: <ContentEnginePage /> },
       { path: 'phase/:phaseNumber', element: <PhasePage /> },
       { path: 'contacts', element: <ContactsPage /> },
       { path: 'messages', element: <MessageGeneratorPage /> },
@@ -60,6 +71,20 @@ export const router = createHashRouter([
       { path: 'programs', element: <ProgramsPage /> },
       { path: 'landing', element: <LandingPage /> },
       { path: 'about', element: <AboutPage /> },
+    ],
+  },
+  {
+    path: '/site',
+    element: <PublicLayout />,
+    children: [
+      { index: true, element: <SiteHomePage /> },
+      { path: 'academy', element: <AcademyPage /> },
+      { path: 'show', element: <ShowPage /> },
+      { path: 'institute', element: <InstitutePage /> },
+      { path: 'events', element: <EventsPage /> },
+      { path: 'newsletter', element: <NewsletterPage /> },
+      { path: 'get-involved', element: <GetInvolvedPage /> },
+      { path: 'about', element: <SiteAboutPage /> },
     ],
   },
 ])

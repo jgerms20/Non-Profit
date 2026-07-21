@@ -9,8 +9,31 @@ This is the command center for building SCAiL, a nonprofit that teaches AI liter
 ### 1. The Site (React Dashboard)
 - **Location:** GitHub Pages at `jgerms20.github.io/SCAiL-Initiative`
 - **Stack:** Vite + React + Tailwind CSS v4
-- **Purpose:** Visual tracker for every step — phases, contacts, legal, grants, timeline, calendar, todos
+- **Purpose:** Two apps in one repo:
+  - **The internal tracker** (routes under `/`) — visual tracker for every step: phases, contacts, legal, grants, timeline, calendar, todos, Mission Control, Content Engine.
+  - **The public Brand House** (routes under `/site`, dark-themed, own `PublicLayout`) — SCAiL's public-facing website, SmarterX-inspired but South-Carolina-focused.
 - **Data:** localStorage for live edits, JSON defaults in `src/data/`
+
+### The Brand House (public site, `/site`)
+Inspired by SmarterX's multi-brand model, adapted for South Carolina:
+| Brand | Route | What it is |
+|-------|-------|-----------|
+| **SCAiL Academy** | `/site/academy` | Free, hands-on AI courses (education pillar) |
+| **The Palmetto AI Show** | `/site/show` | Weekly SC AI podcast/show |
+| **SCAiL Institute** | `/site/institute` | Research + plain-language briefings |
+| **Events** | `/site/events` | Intro classes, workshops, demo days |
+| **The Palmetto AI Brief** | `/site/newsletter` | Weekly newsletter |
+| **Get Involved / About** | `/site/get-involved`, `/site/about` | Convert + tell the story |
+
+### The Content Engine (self-building loop)
+- **Dashboard:** `/content-engine` (internal). **Playbook:** `docs/content-engine-routine.md`.
+- **Idea:** On a schedule, delegated agents (Haiku/Sonnet) scan SC AI news, propose
+  courses/episodes from real community needs, rotate featured media, and draft
+  newsletter/show notes — then commit to the working branch for human review.
+- **Data files it maintains:** `showEpisodes.json`, `insights.json`, `publicEvents.json`,
+  `newsletter.json`, `mediaGallery.json`, `contentEngine.json`.
+- **Guardrail:** data-only, review-gated, accuracy-first. Trust is the product —
+  never publish an unverified claim (mark uncertain items as drafts).
 
 ### 2. Notion Workspace
 - **Purpose:** On-the-go action hub, especially for things only Joshua can do in person (meetings, calls, signatures)

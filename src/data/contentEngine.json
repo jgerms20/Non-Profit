@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "name": "SCAiL Content Engine",
+    "purpose": "The self-updating loop. On a schedule, a delegated agent scans for South Carolina AI news, proposes new course topics from real community needs, rotates featured media, drafts newsletter and show notes, and commits the updates — so the site and course materials keep building themselves while Joshua focuses on connecting with people, places, and things.",
+    "philosophy": "Joshua does the human work — the meetings, the trust, the handshakes. The engine does the building work — the content, the drafts, the updates."
+  },
+  "loops": [
+    {
+      "id": "loop-news",
+      "name": "SC AI News Scan",
+      "cadence": "Weekly",
+      "model": "Haiku",
+      "outputs": ["insights.json", "newsletter.json"],
+      "description": "Scans for AI news relevant to South Carolina — policy, workforce, education, local companies — and drafts Palmetto AI Brief items and Institute field notes.",
+      "status": "active"
+    },
+    {
+      "id": "loop-curriculum",
+      "name": "Course Needs Detector",
+      "cadence": "Weekly",
+      "model": "Sonnet",
+      "outputs": ["curriculum.json", "showEpisodes.json"],
+      "description": "Reviews contact notes, event feedback, and community signals to propose new course topics and show episodes based on what people actually need.",
+      "status": "active"
+    },
+    {
+      "id": "loop-media",
+      "name": "Featured Media Rotation",
+      "cadence": "Weekly",
+      "model": "Haiku",
+      "outputs": ["mediaGallery.json"],
+      "description": "Rotates the featured photo/gallery order across the site so it always feels fresh and current.",
+      "status": "active"
+    },
+    {
+      "id": "loop-events",
+      "name": "Event Pipeline Sync",
+      "cadence": "Weekly",
+      "model": "Haiku",
+      "outputs": ["publicEvents.json"],
+      "description": "Keeps upcoming events current — promotes planned classes, archives past ones, updates registration counts.",
+      "status": "active"
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-07-21",
+      "loop": "System",
+      "summary": "Content Engine initialized. Brand house site launched with Academy, The Palmetto AI Show, SCAiL Institute, Events, and The Palmetto AI Brief. Seeded initial content across all channels.",
+      "model": "Fable"
+    }
+  ]
+}

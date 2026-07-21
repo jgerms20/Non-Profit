@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "brand": "SCAiL Institute",
+    "tagline": "Research, field notes, and plain-language briefings on the state of AI in South Carolina.",
+    "mission": "The SCAiL Institute studies how artificial intelligence is landing in real South Carolina communities — who it helps, who it leaves behind, and what closes the gap — and publishes what we learn for free."
+  },
+  "reports": [
+    {
+      "id": "rpt-state-of-ai-sc-2026",
+      "type": "Flagship Report",
+      "title": "The State of AI in South Carolina 2026",
+      "status": "in-progress",
+      "publishTarget": "2026-Q4",
+      "summary": "Our inaugural annual report: a county-by-county look at AI readiness, workforce exposure, education access, and economic opportunity across all 46 counties.",
+      "tags": ["Annual report", "Statewide", "Workforce"]
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-006",
+      "title": "Three Things Every SC Small Business Should Do With AI This Quarter",
+      "category": "Playbook",
+      "publishDate": "2026-07-14",
+      "readTime": "6 min",
+      "excerpt": "You don't need a data team. You need one afternoon and these three moves — drafting, summarizing, and customer follow-up — to get real leverage from tools you already have access to.",
+      "author": "SCAiL Institute",
+      "featured": true
+    },
+    {
+      "id": "art-005",
+      "title": "The Quiet Workforce Shift Happening in the Upstate",
+      "category": "Field Notes",
+      "publishDate": "2026-07-07",
+      "readTime": "8 min",
+      "excerpt": "Manufacturing and logistics anchor the Upstate economy. Here's how AI-assisted tooling is changing what a good job looks like there — and what training has to catch up.",
+      "author": "SCAiL Institute",
+      "featured": false
+    },
+    {
+      "id": "art-004",
+      "title": "AI Literacy Is the New Financial Literacy",
+      "category": "Perspective",
+      "publishDate": "2026-06-30",
+      "readTime": "5 min",
+      "excerpt": "A generation ago, not understanding compound interest cost families their future. Today, not understanding AI does the same thing. Here's the parallel — and the fix.",
+      "author": "Joshua German",
+      "featured": false
+    },
+    {
+      "id": "art-003",
+      "title": "What Grant Funders Get Wrong About Rural AI Programs",
+      "category": "Perspective",
+      "publishDate": "2026-06-23",
+      "readTime": "7 min",
+      "excerpt": "Well-meaning funding often assumes urban infrastructure and urban problems. A note to funders on what actually moves the needle in South Carolina's rural counties.",
+      "author": "SCAiL Institute",
+      "featured": false
+    },
+    {
+      "id": "art-002",
+      "title": "A Glossary of AI Terms, Explained Like You're at the Kitchen Table",
+      "category": "Explainer",
+      "publishDate": "2026-06-16",
+      "readTime": "10 min",
+      "excerpt": "Model, token, hallucination, agent, prompt. Twenty AI terms defined without a single equation — the reference we hand out at every community class.",
+      "author": "SCAiL Institute",
+      "featured": false
+    },
+    {
+      "id": "art-001",
+      "title": "Why We Started with Literacy Instead of Jobs",
+      "category": "Perspective",
+      "publishDate": "2026-06-09",
+      "readTime": "4 min",
+      "excerpt": "Everyone wants to talk about AI jobs. We think that's step two. Here's the case for teaching a whole community to understand AI before we try to place anyone in it.",
+      "author": "Joshua German",
+      "featured": false
+    }
+  ]
+}

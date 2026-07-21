@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "brand": "SCAiL Events",
+    "tagline": "Free, hands-on AI learning in libraries, churches, and community centers across South Carolina.",
+    "recurring": "New Intro to AI classes are added every month."
+  },
+  "eventTypes": [
+    {
+      "id": "intro-to-ai",
+      "name": "Intro to AI Class",
+      "format": "In-person · 90 min",
+      "cost": "Free",
+      "description": "A plain-language, no-laptop-required introduction to AI for anyone curious. The front door to everything SCAiL does.",
+      "cadence": "Monthly"
+    },
+    {
+      "id": "ai-for-work",
+      "name": "AI for Your Work Workshop",
+      "format": "In-person · Half-day",
+      "cost": "Free",
+      "description": "Hands-on session for working adults applying AI to real job tasks — resumes, emails, scheduling, customer follow-up.",
+      "cadence": "Monthly"
+    },
+    {
+      "id": "youth-lab",
+      "name": "Youth AI Lab",
+      "format": "In-person · 6 weeks",
+      "cost": "Free",
+      "description": "A project-based program for ages 14–22, ending in a live demo day where teams present what they built.",
+      "cadence": "Cohorts"
+    },
+    {
+      "id": "demo-day",
+      "name": "Community Demo Day",
+      "format": "In-person · Evening",
+      "cost": "Free",
+      "description": "Graduates and youth teams present their projects to family, funders, and local leaders. The celebration at the end of every cohort.",
+      "cadence": "Quarterly"
+    }
+  ],
+  "upcoming": [
+    {
+      "id": "evt-001",
+      "title": "Intro to AI — Irmo Branch Library",
+      "type": "Intro to AI Class",
+      "date": "2026-08-05",
+      "time": "6:00 PM",
+      "city": "Irmo",
+      "venue": "Irmo Branch Library",
+      "status": "planning",
+      "capacity": 30,
+      "registered": 0,
+      "rsvpLink": "#"
+    },
+    {
+      "id": "evt-002",
+      "title": "AI for Your Work — Greenville Community Session",
+      "type": "AI for Your Work Workshop",
+      "date": "2026-08-12",
+      "time": "9:00 AM",
+      "city": "Greenville",
+      "venue": "TBD (Upstate partner venue)",
+      "status": "planning",
+      "capacity": 25,
+      "registered": 0,
+      "rsvpLink": "#"
+    },
+    {
+      "id": "evt-003",
+      "title": "Intro to AI — Columbia",
+      "type": "Intro to AI Class",
+      "date": "2026-08-19",
+      "time": "6:00 PM",
+      "city": "Columbia",
+      "venue": "TBD (Midlands partner venue)",
+      "status": "planning",
+      "capacity": 30,
+      "registered": 0,
+      "rsvpLink": "#"
+    }
+  ],
+  "flagship": {
+    "name": "AI Day South Carolina",
+    "tagline": "A statewide gathering on AI, opportunity, and the future of work in the Palmetto State.",
+    "targetDate": "2027",
+    "status": "Concept — targeted for Year 2",
+    "description": "Our vision for an annual flagship conference bringing together educators, founders, funders, and community leaders from all 46 counties — SCAiL's answer to a MAICON-scale event, built for South Carolina."
+  }
+}

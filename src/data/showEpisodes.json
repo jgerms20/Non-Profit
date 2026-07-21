@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "brand": "The Palmetto AI Show",
+    "tagline": "Weekly conversations on how AI is reshaping work, learning, and opportunity across South Carolina.",
+    "cadence": "Weekly · Thursdays",
+    "hosts": ["Joshua German"],
+    "subscribeLinks": {
+      "spotify": "#",
+      "apple": "#",
+      "youtube": "#",
+      "rss": "#"
+    }
+  },
+  "episodes": [
+    {
+      "id": "ep-006",
+      "number": 6,
+      "title": "From Dutch Fork to Deep Learning: Why AI Literacy Starts at Home",
+      "status": "upcoming",
+      "publishDate": "2026-07-30",
+      "duration": "—",
+      "summary": "A field-recording episode from the July SC trip: what Josh heard from librarians, pastors, and small-business owners in Irmo, Columbia, and Greenville about what AI actually means for their day-to-day.",
+      "topics": ["Community listening", "Rural access", "Trip recap"],
+      "featured": true
+    },
+    {
+      "id": "ep-005",
+      "number": 5,
+      "title": "The 46-County Problem: Broadband, Trust, and the AI Divide",
+      "status": "published",
+      "publishDate": "2026-07-16",
+      "duration": "38 min",
+      "summary": "Not every county starts from the same place. We map where South Carolina's connectivity and trust gaps line up with its AI-opportunity gaps — and what closes them.",
+      "topics": ["Digital divide", "Policy", "Infrastructure"],
+      "featured": false
+    },
+    {
+      "id": "ep-004",
+      "number": 4,
+      "title": "AI for the Job You Have Now",
+      "status": "published",
+      "publishDate": "2026-07-09",
+      "duration": "42 min",
+      "summary": "Forget replacing workers. We walk through concrete ways a warehouse lead, a nurse, and a church admin in the Upstate are already using AI to get an hour of their day back.",
+      "topics": ["Future of work", "Practical AI", "Upskilling"],
+      "featured": false
+    },
+    {
+      "id": "ep-003",
+      "number": 3,
+      "title": "Teaching Grandma to Prompt: AI Literacy for Every Generation",
+      "status": "published",
+      "publishDate": "2026-07-02",
+      "duration": "35 min",
+      "summary": "AI literacy isn't a youth program. We break down how to teach a 70-year-old and a 14-year-old in the same room — and why that mix is a feature, not a bug.",
+      "topics": ["Curriculum", "Accessibility", "Intergenerational"],
+      "featured": false
+    },
+    {
+      "id": "ep-002",
+      "number": 2,
+      "title": "What a Nonprofit Owes Its Community in the Age of AI",
+      "status": "published",
+      "publishDate": "2026-06-25",
+      "duration": "40 min",
+      "summary": "Trust is the whole game. A conversation on transparency, data dignity, and building an AI org that communities actually want in the room.",
+      "topics": ["Ethics", "Trust", "Nonprofit strategy"],
+      "featured": false
+    },
+    {
+      "id": "ep-001",
+      "number": 1,
+      "title": "Why South Carolina, Why Now",
+      "status": "published",
+      "publishDate": "2026-06-18",
+      "duration": "33 min",
+      "summary": "The origin story. Josh lays out the three-phase flywheel — literacy, incubator, fund — and why the AI revolution can either widen or close South Carolina's opportunity gap.",
+      "topics": ["Founding vision", "Flywheel", "Origin"],
+      "featured": false
+    }
+  ]
+}

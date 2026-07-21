@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "brand": "The Palmetto AI Brief",
+    "tagline": "The one email that keeps South Carolina current on AI — what changed, what it means for you, and one thing to try this week.",
+    "cadence": "Every Tuesday morning",
+    "sections": [
+      "The Headline — the one AI story that matters this week",
+      "Palmetto Watch — what it means for South Carolina specifically",
+      "Try This — a 5-minute AI move you can make today",
+      "From the Field — a note from a class, partner, or community member"
+    ]
+  },
+  "issues": [
+    {
+      "id": "iss-004",
+      "number": 4,
+      "title": "The Trip Issue: What South Carolina Told Us About AI",
+      "publishDate": "2026-07-14",
+      "status": "published",
+      "preview": "Five days, three cities, a dozen conversations. Here's what community leaders across the Midlands and Upstate actually said when we asked what AI means for them.",
+      "featured": true
+    },
+    {
+      "id": "iss-003",
+      "number": 3,
+      "title": "AI Won't Take Your Job. Someone Using AI Might.",
+      "publishDate": "2026-07-07",
+      "status": "published",
+      "preview": "The most-quoted line in AI is also the most misunderstood. This week: what it actually means for a South Carolina worker, and the 5-minute move that puts you on the right side of it.",
+      "featured": false
+    },
+    {
+      "id": "iss-002",
+      "number": 2,
+      "title": "The Free Tools Worth Your Time (and the Ones That Aren't)",
+      "publishDate": "2026-06-30",
+      "status": "published",
+      "preview": "A no-hype rundown of the free AI tools we actually recommend in our community classes — and a few popular ones we tell people to skip.",
+      "featured": false
+    },
+    {
+      "id": "iss-001",
+      "number": 1,
+      "title": "Welcome to The Palmetto AI Brief",
+      "publishDate": "2026-06-23",
+      "status": "published",
+      "preview": "Why we're sending this, who it's for, and the promise we're making: no hype, no jargon, no fear — just what AI means for South Carolina, every Tuesday.",
+      "featured": false
+    }
+  ],
+  "stats": {
+    "subscribers": "Growing",
+    "openRate": "—",
+    "goal": "1,000 South Carolina subscribers by end of 2026"
+  }
+}
